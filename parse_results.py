@@ -1,6 +1,7 @@
+from   matplotlib import pyplot as plt
 import numpy as np
 import pandas as pd
-from trueskill import TrueSkill
+from   trueskill import TrueSkill
 
 class RatingsInfo:
     elo = None
@@ -11,10 +12,14 @@ class RatingsInfo:
         self.wins, self.losses = 0, 0
 
 def get_elo(d, env, player):
+    ''' Get elo from dict d, if not present, create a new RatingsInfo object and return its elo '''
     if player not in d: d[player] = RatingsInfo(env)
     return d[player].elo
 
 def calc_elo(df):
+    ''' For a given input dataframe, calculates the running elo of each player in each team. Returns
+    a dictionary of players to latest elos, and also returns the running df '''
+
     env = TrueSkill(draw_probability=0)
     ratings = {}
     for idx, row in df.iterrows():
@@ -31,6 +36,7 @@ def calc_elo(df):
     return ratings, df
 
 def parse_results():
+    ''' Parses results.txt and runs calc_elo on the aggregate df as well as per-game dfs '''
     results = []
     with open('results.txt') as f:
         for line in f.readlines():
@@ -49,10 +55,10 @@ def parse_results():
     return calc_elo(res_df) + (elos,)  # Tuple concatenation
 
 def update_readme():
+    ''' Calls parse_results() and then updates README.md based on return value. '''
     all_ratings, all_df, per_game_ratings = parse_results()
 
-    markdown = '''
-## Game Night Rankings
+    markdown = '''## Game Night Rankings
 ## ![Image](https://media.architecturaldigest.com/photos/618036966ba9675f212cc805/16:9/w_2560%2Cc_limit/SquidGame_Season1_Episode1_00_44_44_16.jpg)'''
 
     markdown += '''
@@ -81,7 +87,8 @@ def update_readme():
         for player, rating in zip(players, ratings):
             chart_df.loc[row['date'], player] = rating
     chart_df.ffill(inplace=True)
-    chart_df.plot.line().legend(loc='lower center', ncol=10, bbox_to_anchor=(0.5, -0.3))
+    chart_df.plot.line().legend(loc='lower center', ncol=5, bbox_to_anchor=(0.5, -0.3))
+    plt.figure.subplots_adjust(bottom=0.25)
     plt.pyplot.savefig('rankings.png')
 
     markdown += '''
