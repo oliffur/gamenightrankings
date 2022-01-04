@@ -54,7 +54,7 @@ def parse_results():
         elos[game] = calc_elo(res_df.loc[res_df.game == game])[0]
     return calc_elo(res_df) + (elos,)  # Tuple concatenation
 
-def update_readme():
+def main():
     ''' Calls parse_results() and then updates README.md based on return value. '''
     all_ratings, all_df, per_game_ratings = parse_results()
 
@@ -66,7 +66,7 @@ def update_readme():
 ### Total Rankings
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
-| --- | --- | --- | --- | --- |'''
+| --- | --- | --- | --- | --- | --- |'''
 
     best_game = {}
     for game, ratings in per_game_ratings.items():
@@ -88,8 +88,8 @@ def update_readme():
             chart_df.loc[row['date'], player] = rating
     chart_df.ffill(inplace=True)
     chart_df.plot.line().legend(loc='lower center', ncol=5, bbox_to_anchor=(0.5, -0.3))
-    plt.figure.subplots_adjust(bottom=0.25)
-    plt.pyplot.savefig('rankings.png')
+    plt.subplots_adjust(bottom=0.25)
+    plt.savefig('rankings.png')
 
     markdown += '''
 
@@ -110,4 +110,6 @@ def update_readme():
 
     with open('README.md', 'w') as f:
         f.write(markdown)
- 
+
+if __name__ == "__main__":
+    main()

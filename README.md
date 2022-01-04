@@ -4,7 +4,7 @@
 ### Total Rankings
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | A | 30.86 | 3 | 1 | 0.75 | Avalon |
 | B | 26.47 | 2 | 1 | 0.67 | Secret Hitler |
 | Oliver | 26.45 | 3 | 1 | 0.75 | Secret Hitler |
