@@ -11,6 +11,9 @@ class RatingsInfo:
         self.elo = env.create_rating()
         self.wins, self.losses = 0, 0
 
+    def get_elo(self):
+        return self.elo.mu * 4.0  # scale to 100
+
 def get_elo(d, env, player):
     ''' Get elo from dict d, if not present, create a new RatingsInfo object and return its elo '''
     if player not in d: d[player] = RatingsInfo(env)
@@ -71,19 +74,19 @@ def main():
     best_game = {}
     for game, ratings in per_game_ratings.items():
         for player, rating in ratings.items():
-            if player not in best_game or rating.elo.mu > best_game[player][1]:
-                best_game[player] = (game, rating.elo.mu)
+            if player not in best_game or rating.get_elo() > best_game[player][1]:
+                best_game[player] = (game, rating.get_elo())
 
-    for player, rating in sorted(all_ratings.items(), key=lambda item: item[1].elo.mu, reverse=True):
+    for player, rating in sorted(all_ratings.items(), key=lambda item: item[1].get_elo(), reverse=True):
         markdown += '''
 | {} | {:.2f} | {} | {} | {:.2f} | {} |'''.format(
-        player, rating.elo.mu, rating.wins, rating.losses,
+        player, rating.get_elo(), rating.wins, rating.losses,
         rating.wins / (rating.wins + rating.losses), best_game[player][0])
 
     chart_df = pd.DataFrame()
     for _, row in all_df.iterrows():
         players = list(np.array(row['teams']).flat)
-        ratings = [elo.mu for elo in np.array(row['elos']).flat]
+        ratings = [elo.mu * 4 for elo in np.array(row['elos']).flat]
         for player, rating in zip(players, ratings):
             chart_df.loc[row['date'], player] = rating
     chart_df.ffill(inplace=True)
@@ -93,6 +96,7 @@ def main():
 
     markdown += '''
 
+### Rankings over Time
 ## ![Image](rankings.png)'''
     
     for game, ratings in per_game_ratings.items():
@@ -102,10 +106,10 @@ def main():
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |'''.format(game)
-        for player, rating in sorted(ratings.items(), key=lambda item: item[1].elo.mu, reverse=True):
+        for player, rating in sorted(ratings.items(), key=lambda item: item[1].get_elo(), reverse=True):
             markdown += '''
 | {} | {}  | {} | {} | {:.2f} |'''.format(
-            player, rating.elo.mu, rating.wins, rating.losses,
+            player, rating.get_elo(), rating.wins, rating.losses,
             rating.wins / (rating.wins + rating.losses))
 
     with open('README.md', 'w') as f:
