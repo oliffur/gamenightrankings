@@ -1,5 +1,5 @@
 ## Game Night Rankings
-## ![Image](https://media.architecturaldigest.com/photos/618036966ba9675f212cc805/16:9/w_2560%2Cc_limit/SquidGame_Season1_Episode1_00_44_44_16.jpg)
+![Image](https://media.architecturaldigest.com/photos/618036966ba9675f212cc805/16:9/w_2560%2Cc_limit/SquidGame_Season1_Episode1_00_44_44_16.jpg)
 
 ### Total Rankings
 
@@ -15,7 +15,7 @@
 | E | 79.75 | 0 | 2 | 0.00 | Secret Hitler |
 
 ### Rankings over Time
-## ![Image](rankings.png)
+![Image](rankings.png)
 
 ### Secret Hitler
 

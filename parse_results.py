@@ -62,7 +62,7 @@ def main():
     all_ratings, all_df, per_game_ratings = parse_results()
 
     markdown = '''## Game Night Rankings
-## ![Image](https://media.architecturaldigest.com/photos/618036966ba9675f212cc805/16:9/w_2560%2Cc_limit/SquidGame_Season1_Episode1_00_44_44_16.jpg)'''
+![Image](https://media.architecturaldigest.com/photos/618036966ba9675f212cc805/16:9/w_2560%2Cc_limit/SquidGame_Season1_Episode1_00_44_44_16.jpg)'''
 
     markdown += '''
 
@@ -97,7 +97,7 @@ def main():
     markdown += '''
 
 ### Rankings over Time
-## ![Image](rankings.png)'''
+![Image](rankings.png)'''
     
     for game, ratings in per_game_ratings.items():
         markdown += '''
