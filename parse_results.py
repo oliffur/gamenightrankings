@@ -107,7 +107,7 @@ def main():
 | --- | --- | --- | --- | --- |'''.format(game)
         for player, rating in sorted(ratings.items(), key=lambda item: item[1].get_elo(), reverse=True):
             markdown += '''
-| {} | {}  | {} | {} | {:.2f} |'''.format(
+| {} | {:.2f}  | {} | {} | {:.2f} |'''.format(
             player, rating.get_elo(), rating.wins, rating.losses,
             rating.wins / (rating.wins + rating.losses))
 
