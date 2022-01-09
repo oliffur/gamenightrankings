@@ -1,5 +1,6 @@
 DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;...;RANKM
-01/01/2021|Secret Hitler|Oliver,A;B,G|0;1
-01/05/2021|Avalon|Oliver;A;F;G|1;0;1;1
-01/10/2021|Secret Hitler|Oliver,A,B,C;D,E,F,G|0;1
-01/10/2021|Secret Hitler|Oliver,D,B,F;C,E,A,G|0;1
+01/09/2021|Coup|Oliver;Vivian;Simon;Harsha|0;1;1;1
+01/09/2021|Coup|Oliver;Vivian;Simon;Harsha;Kenny;Kyla;Nancy|1;1;1;0;1;1;1
+01/09/2021|Secret Hitler|Oliver;Vivian;Simon;Harsha;Kenny;Kyla;Nancy|0;1;1;1;1;0;0
+01/09/2021|Secret Hitler|Oliver;Vivian;Simon;Harsha;Kenny;Kyla;Nancy|0;1;0;0;1;1;0
+01/09/2021|Secret Hitler|Oliver;Vivian;Simon;Harsha;Kenny;Kyla;Nancy|1;0;0;0;1;0;1
