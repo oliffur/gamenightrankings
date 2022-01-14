@@ -10,5 +10,5 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 01/14/2021|Secret Hitler|Oliver,Kyla,Harsha,Simon,Dorine,Vivienne;Dan,Bella,Nicholas,Wing|0;1
 01/14/2021|Secret Hitler|Kyla,Dorine,Simon,Dan;Vivienne,Oliver,Bella,Wing,Harsha|0;1
 01/14/2021|Secret Hitler|Kyla,Oliver,Harsha,Vivienne,Kenny;Dan,Bella,Wing,Dorine|0;1
-01/14/2021|Wavelength|Kyla,Harsha,Vivienne,Kenny,Dan;Simon,Oliver,Wing,Dorine,Bella,Nicholas|0;1
 01/14/2021|Wavelength|Kyla,Harsha,Vivienne,Kenny,Dan;Simon,Oliver,Wing,Dorine,Bella,Nicholas|1;0
+01/14/2021|Wavelength|Kyla,Harsha,Vivienne,Kenny,Dan;Simon,Oliver,Wing,Dorine,Bella,Nicholas|0;1

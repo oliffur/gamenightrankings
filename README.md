@@ -5,18 +5,18 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Kyla | 124.55 | 8 | 3 | 0.73 | Secret Hitler |
-| Dorine | 123.38 | 4 | 2 | 0.67 | 7 Wonders |
-| Oliver | 105.87 | 8 | 5 | 0.62 | Codenames |
-| Dan | 99.48 | 2 | 4 | 0.33 | Secret Hitler |
-| Kenny | 98.29 | 4 | 5 | 0.44 | Codenames |
+| Kyla | 126.18 | 8 | 3 | 0.73 | Secret Hitler |
+| Dorine | 119.87 | 4 | 2 | 0.67 | 7 Wonders |
+| Oliver | 104.89 | 8 | 5 | 0.62 | Codenames |
+| Dan | 101.36 | 2 | 4 | 0.33 | Wavelength |
+| Kenny | 99.96 | 4 | 5 | 0.44 | Codenames |
+| Harsha | 90.18 | 6 | 7 | 0.46 | Wavelength |
 | Nancy | 89.39 | 2 | 5 | 0.29 | Secret Hitler |
-| Harsha | 89.14 | 6 | 7 | 0.46 | Coup |
-| Nicholas | 87.98 | 1 | 2 | 0.33 | Secret Hitler |
-| Simon | 85.30 | 5 | 7 | 0.42 | Secret Hitler |
-| Vivienne | 81.03 | 4 | 9 | 0.31 | Wavelength |
-| Bella | 68.64 | 1 | 4 | 0.20 | Wavelength |
-| Wing | 68.64 | 1 | 4 | 0.20 | Wavelength |
+| Simon | 84.38 | 5 | 7 | 0.42 | Secret Hitler |
+| Nicholas | 82.11 | 1 | 2 | 0.33 | Secret Hitler |
+| Vivienne | 81.94 | 4 | 9 | 0.31 | Wavelength |
+| Bella | 63.48 | 1 | 4 | 0.20 | Wavelength |
+| Wing | 63.48 | 1 | 4 | 0.20 | Wavelength |
 
 ### Rankings over Time
 ![Image](rankings.png)
@@ -77,14 +77,14 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Kyla | 103.71  | 1 | 1 | 0.50 |
-| Harsha | 103.71  | 1 | 1 | 0.50 |
-| Vivienne | 103.71  | 1 | 1 | 0.50 |
-| Kenny | 103.71  | 1 | 1 | 0.50 |
-| Dan | 103.71  | 1 | 1 | 0.50 |
-| Simon | 96.29  | 1 | 1 | 0.50 |
-| Oliver | 96.29  | 1 | 1 | 0.50 |
-| Wing | 96.29  | 1 | 1 | 0.50 |
-| Dorine | 96.29  | 1 | 1 | 0.50 |
-| Bella | 96.29  | 1 | 1 | 0.50 |
-| Nicholas | 96.29  | 1 | 1 | 0.50 |
+| Vivienne | 111.00  | 1 | 1 | 0.50 |
+| Kenny | 111.00  | 1 | 1 | 0.50 |
+| Dan | 111.00  | 1 | 1 | 0.50 |
+| Kyla | 111.00  | 1 | 1 | 0.50 |
+| Harsha | 111.00  | 1 | 1 | 0.50 |
+| Simon | 89.00  | 1 | 1 | 0.50 |
+| Oliver | 89.00  | 1 | 1 | 0.50 |
+| Wing | 89.00  | 1 | 1 | 0.50 |
+| Dorine | 89.00  | 1 | 1 | 0.50 |
+| Bella | 89.00  | 1 | 1 | 0.50 |
+| Nicholas | 89.00  | 1 | 1 | 0.50 |
