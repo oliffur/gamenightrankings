@@ -5,7 +5,6 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 01/09/2021|Secret Hitler|Nancy,Oliver,Simon,Harsha;Kenny,Kyla,Nancy,Vivienne|0;1
 01/09/2021|Secret Hitler|Kyla,Vivienne,Simon,Harsha;Kenny,Nancy,Oliver|0;1
 01/09/2021|Codenames|Nancy,Vivienne,Simon,Harsha;Kenny,Kyla,Oliver|1;0
-01/09/2021|Codenames|Nancy,Vivienne,Simon,Harsha;Kenny,Kyla,Oliver|1;0
 01/14/2021|7 Wonders|Oliver;Vivienne;Simon;Harsha;Dan;Dorine|1;1;1;1;1;0
 01/14/2021|Secret Hitler|Oliver,Kyla,Harsha,Simon,Dorine,Vivienne;Dan,Bella,Nicholas,Wing|0;1
 01/14/2021|Secret Hitler|Kyla,Dorine,Simon,Dan;Vivienne,Oliver,Bella,Wing,Harsha|0;1
