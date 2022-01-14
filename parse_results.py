@@ -1,3 +1,4 @@
+import itertools
 from   matplotlib import pyplot as plt
 import numpy as np
 import pandas as pd
@@ -25,6 +26,8 @@ def calc_elo(df):
 
     env = TrueSkill(draw_probability=0)
     ratings = {}
+    df['elos'] = None
+    df['elos'] = df['elos'].astype(object)  # avoid insertion errors later
     for idx, row in df.iterrows():
         teams = [[get_elo(ratings, env, player) for player in team] for team in row['teams']]
         elos = env.rate(teams, row['ranks'])
@@ -35,7 +38,8 @@ def calc_elo(df):
                 if has_winner:
                     if team_rank == 0: ratings[player].wins += 1
                     else: ratings[player].losses += 1
-        df.loc[idx, 'elos'] = [elos]
+        #df.at[idx, 'elos'] = [elos]
+        df.at[idx, 'elos'] = elos
     return ratings, df
 
 def parse_results():
@@ -85,9 +89,12 @@ def main():
     chart_df = pd.DataFrame()
     for _, row in all_df.iterrows():
         players = list(np.array(row['teams']).flat)
-        ratings = [elo.mu * 4 for elo in np.array(row['elos']).flat]
+        print("Hello: {}".format(list(itertools.chain.from_iterable(row['elos']))))
+        ratings = [elo.mu * 4 for elo in \
+                itertools.chain.from_iterable(row['elos'])]
+        #ratings = [elo.mu * 4 for elo in np.array(row['elos']).flat]
         for player, rating in zip(players, ratings):
-            chart_df.loc[row['date'], player] = rating
+            chart_df.at[row['date'], player] = rating
     chart_df.ffill(inplace=True)
     chart_df.plot.line().legend(loc='lower center', ncol=5, bbox_to_anchor=(0.5, -0.3))
     plt.subplots_adjust(bottom=0.25)
