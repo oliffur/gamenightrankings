@@ -5,13 +5,15 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Kyla | 101.33 | 4 | 2 | 0.67 | Codenames |
-| Harsha | 100.68 | 4 | 3 | 0.57 | Coup |
-| Oliver | 100.13 | 4 | 3 | 0.57 | Codenames |
-| Kenny | 97.38 | 2 | 4 | 0.33 | Codenames |
-| Nancy | 96.92 | 2 | 4 | 0.33 | Secret Hitler |
-| Simon | 96.70 | 2 | 5 | 0.29 | Secret Hitler |
-| Vivienne | 94.50 | 1 | 6 | 0.14 | Secret Hitler |
+| Oliver | 104.25 | 6 | 2 | 0.75 | 7 Wonders |
+| Kyla | 101.37 | 4 | 2 | 0.67 | Codenames |
+| Harsha | 97.66 | 3 | 5 | 0.38 | Coup |
+| Kenny | 97.42 | 2 | 4 | 0.33 | Codenames |
+| Nancy | 96.89 | 2 | 4 | 0.33 | Secret Hitler |
+| Simon | 96.22 | 2 | 6 | 0.25 | Secret Hitler |
+| Dan | 95.23 | 0 | 1 | 0.00 | 7 Wonders |
+| Dorine | 95.23 | 0 | 1 | 0.00 | 7 Wonders |
+| Vivienne | 94.40 | 1 | 7 | 0.12 | Secret Hitler |
 
 ### Rankings over Time
 ![Image](rankings.png)
@@ -44,10 +46,21 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Kenny | 110.57  | 2 | 0 | 1.00 |
-| Kyla | 110.57  | 2 | 0 | 1.00 |
-| Oliver | 102.94  | 1 | 1 | 0.50 |
-| Harsha | 99.29  | 1 | 1 | 0.50 |
-| Nancy | 91.97  | 0 | 2 | 0.00 |
-| Vivienne | 91.97  | 0 | 2 | 0.00 |
-| Simon | 91.97  | 0 | 2 | 0.00 |
+| Oliver | 112.59  | 2 | 0 | 1.00 |
+| Kenny | 112.59  | 2 | 0 | 1.00 |
+| Kyla | 112.59  | 2 | 0 | 1.00 |
+| Vivienne | 90.67  | 0 | 2 | 0.00 |
+| Harsha | 90.67  | 0 | 2 | 0.00 |
+| Simon | 90.67  | 0 | 2 | 0.00 |
+| Nancy | 90.67  | 0 | 2 | 0.00 |
+
+### 7 Wonders
+
+| Player | ELO | Wins | Losses | Win % |
+| --- | --- | --- | --- | --- |
+| Oliver | 121.72  | 1 | 0 | 1.00 |
+| Dan | 95.66  | 0 | 1 | 0.00 |
+| Harsha | 95.66  | 0 | 1 | 0.00 |
+| Dorine | 95.66  | 0 | 1 | 0.00 |
+| Simon | 95.66  | 0 | 1 | 0.00 |
+| Vivienne | 95.66  | 0 | 1 | 0.00 |
