@@ -5,18 +5,18 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Dorine | 124.11 | 4 | 2 | 0.67 | 7 Wonders |
-| Kyla | 120.33 | 7 | 3 | 0.70 | Secret Hitler |
-| Oliver | 103.75 | 7 | 5 | 0.58 | Codenames |
-| Dan | 100.98 | 2 | 4 | 0.33 | Secret Hitler |
-| Nancy | 94.26 | 2 | 4 | 0.33 | Secret Hitler |
-| Kenny | 93.73 | 3 | 5 | 0.38 | Codenames |
-| Harsha | 92.42 | 6 | 6 | 0.50 | Coup |
-| Simon | 88.38 | 5 | 6 | 0.45 | Secret Hitler |
-| Nicholas | 87.78 | 1 | 2 | 0.33 | Secret Hitler |
-| Vivienne | 84.07 | 4 | 8 | 0.33 | Wavelength |
-| Bella | 67.70 | 1 | 4 | 0.20 | Wavelength |
-| Wing | 67.70 | 1 | 4 | 0.20 | Wavelength |
+| Kyla | 100.93 | 7 | 3 | 0.70 | Codenames |
+| Dorine | 100.04 | 4 | 2 | 0.67 | 7 Wonders |
+| Oliver | 99.47 | 7 | 5 | 0.58 | Codenames |
+| Harsha | 99.00 | 6 | 6 | 0.50 | Coup |
+| Simon | 98.81 | 5 | 6 | 0.45 | Secret Hitler |
+| Kenny | 97.24 | 3 | 5 | 0.38 | Codenames |
+| Vivienne | 97.19 | 4 | 8 | 0.33 | Wavelength |
+| Dan | 96.52 | 2 | 4 | 0.33 | Wavelength |
+| Nancy | 95.21 | 2 | 4 | 0.33 | Secret Hitler |
+| Nicholas | 95.10 | 1 | 2 | 0.33 | Wavelength |
+| Wing | 94.09 | 1 | 4 | 0.20 | Wavelength |
+| Bella | 94.09 | 1 | 4 | 0.20 | Wavelength |
 
 ### Rankings over Time
 ![Image](rankings.png)
@@ -37,30 +37,30 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Kyla | 129.81  | 5 | 1 | 0.83 |
-| Oliver | 113.57  | 4 | 2 | 0.67 |
-| Dorine | 110.32  | 2 | 1 | 0.67 |
-| Dan | 108.74  | 1 | 2 | 0.33 |
-| Simon | 107.32  | 4 | 1 | 0.80 |
-| Nancy | 104.71  | 2 | 2 | 0.50 |
-| Nicholas | 99.21  | 0 | 1 | 0.00 |
-| Harsha | 88.28  | 4 | 2 | 0.67 |
-| Bella | 80.57  | 0 | 3 | 0.00 |
-| Wing | 80.57  | 0 | 3 | 0.00 |
-| Kenny | 74.10  | 1 | 3 | 0.25 |
-| Vivienne | 72.41  | 3 | 3 | 0.50 |
+| Simon | 104.40  | 4 | 1 | 0.80 |
+| Kyla | 103.95  | 5 | 1 | 0.83 |
+| Harsha | 101.71  | 4 | 2 | 0.67 |
+| Oliver | 101.28  | 4 | 2 | 0.67 |
+| Dorine | 100.28  | 2 | 1 | 0.67 |
+| Vivienne | 99.76  | 3 | 3 | 0.50 |
+| Nancy | 97.13  | 2 | 2 | 0.50 |
+| Kenny | 96.33  | 1 | 3 | 0.25 |
+| Dan | 96.17  | 1 | 2 | 0.33 |
+| Wing | 92.09  | 0 | 3 | 0.00 |
+| Bella | 92.09  | 0 | 3 | 0.00 |
+| Nicholas | 89.97  | 0 | 1 | 0.00 |
 
 ### Codenames
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Kenny | 117.32  | 1 | 0 | 1.00 |
-| Kyla | 117.32  | 1 | 0 | 1.00 |
-| Oliver | 117.32  | 1 | 0 | 1.00 |
-| Nancy | 82.68  | 0 | 1 | 0.00 |
-| Vivienne | 82.68  | 0 | 1 | 0.00 |
-| Simon | 82.68  | 0 | 1 | 0.00 |
-| Harsha | 82.68  | 0 | 1 | 0.00 |
+| Kyla | 110.38  | 1 | 0 | 1.00 |
+| Oliver | 110.38  | 1 | 0 | 1.00 |
+| Kenny | 110.38  | 1 | 0 | 1.00 |
+| Harsha | 92.21  | 0 | 1 | 0.00 |
+| Nancy | 92.21  | 0 | 1 | 0.00 |
+| Simon | 92.21  | 0 | 1 | 0.00 |
+| Vivienne | 92.21  | 0 | 1 | 0.00 |
 
 ### 7 Wonders
 
@@ -77,14 +77,14 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Kyla | 103.71  | 1 | 1 | 0.50 |
-| Harsha | 103.71  | 1 | 1 | 0.50 |
-| Vivienne | 103.71  | 1 | 1 | 0.50 |
-| Kenny | 103.71  | 1 | 1 | 0.50 |
-| Dan | 103.71  | 1 | 1 | 0.50 |
-| Simon | 96.29  | 1 | 1 | 0.50 |
-| Oliver | 96.29  | 1 | 1 | 0.50 |
-| Wing | 96.29  | 1 | 1 | 0.50 |
-| Dorine | 96.29  | 1 | 1 | 0.50 |
-| Bella | 96.29  | 1 | 1 | 0.50 |
-| Nicholas | 96.29  | 1 | 1 | 0.50 |
+| Vivienne | 101.10  | 1 | 1 | 0.50 |
+| Harsha | 101.10  | 1 | 1 | 0.50 |
+| Kenny | 101.10  | 1 | 1 | 0.50 |
+| Dan | 101.10  | 1 | 1 | 0.50 |
+| Kyla | 101.10  | 1 | 1 | 0.50 |
+| Nicholas | 98.90  | 1 | 1 | 0.50 |
+| Bella | 98.90  | 1 | 1 | 0.50 |
+| Oliver | 98.90  | 1 | 1 | 0.50 |
+| Simon | 98.90  | 1 | 1 | 0.50 |
+| Wing | 98.90  | 1 | 1 | 0.50 |
+| Dorine | 98.90  | 1 | 1 | 0.50 |

@@ -16,20 +16,27 @@ class RatingsInfo:
         return self.elo.mu * 4.0  # scale to 100
 
 def get_elo(d, env, player):
-    ''' Get elo from dict d, if not present, create a new RatingsInfo object and return its elo '''
+    '''
+    Get elo from dict d, if not present, create a new RatingsInfo
+    object and return its elo
+    '''
     if player not in d: d[player] = RatingsInfo(env)
     return d[player].elo
 
 def calc_elo(df):
-    ''' For a given input dataframe, calculates the running elo of each player in each team. Returns
-    a dictionary of players to latest elos, and also returns the running df '''
+    '''
+    For a given input dataframe, calculates the running elo of each player
+    in each team. Returns a dictionary of players to latest elos, and also
+    returns the running df
+    '''
 
     env = TrueSkill(draw_probability=0)
     ratings = {}
     df['elos'] = None
     df['elos'] = df['elos'].astype(object)  # avoid insertion errors later
     for idx, row in df.iterrows():
-        teams = [[get_elo(ratings, env, player) for player in team] for team in row['teams']]
+        teams = [[get_elo(ratings, env, player) for player in team]\
+                for team in row['teams']]
         elos = env.rate(teams, row['ranks'])
         has_winner = sum(row['ranks']) > 0
         for team, team_elos, team_rank in zip(row['teams'], elos, row['ranks']):
@@ -43,7 +50,10 @@ def calc_elo(df):
     return ratings, df
 
 def parse_results():
-    ''' Parses results.txt and runs calc_elo on the aggregate df as well as per-game dfs '''
+    '''
+    Parses results.txt and runs calc_elo on the aggregate df as well
+    as per-game dfs
+    '''
     results = []
     with open('results.txt') as f:
         for line in f.readlines():
@@ -58,11 +68,15 @@ def parse_results():
 
     elos = {}
     for game in res_df.game.unique():
-        elos[game] = calc_elo(res_df.loc[res_df.game == game])[0]
+        elos[game], _ = calc_elo(res_df.loc[res_df.game == game])
+        # (DEBUG) if game == "Secret Hitler": _.to_csv('./test.csv')
     return calc_elo(res_df) + (elos,)  # Tuple concatenation
 
 def main():
-    ''' Calls parse_results() and then updates README.md based on return value. '''
+    '''
+    Calls parse_results() and then updates README.md based on return value.
+    '''
+
     all_ratings, all_df, per_game_ratings = parse_results()
 
 
@@ -80,7 +94,10 @@ def main():
             if player not in best_game or rating.get_elo() > best_game[player][1]:
                 best_game[player] = (game, rating.get_elo())
 
-    for player, rating in sorted(all_ratings.items(), key=lambda item: item[1].get_elo(), reverse=True):
+    for player, rating in sorted(
+            all_ratings.items(),
+            key=lambda item: item[1].get_elo(),
+            reverse=True):
         markdown += '''
 | {} | {:.2f} | {} | {} | {:.2f} | {} |'''.format(
         player, rating.get_elo(), rating.wins, rating.losses,
@@ -89,14 +106,14 @@ def main():
     chart_df = pd.DataFrame()
     for _, row in all_df.iterrows():
         players = list(np.array(row['teams']).flat)
-        print("Hello: {}".format(list(itertools.chain.from_iterable(row['elos']))))
         ratings = [elo.mu * 4 for elo in \
                 itertools.chain.from_iterable(row['elos'])]
         #ratings = [elo.mu * 4 for elo in np.array(row['elos']).flat]
         for player, rating in zip(players, ratings):
             chart_df.at[row['date'], player] = rating
     chart_df.ffill(inplace=True)
-    chart_df.plot.line().legend(loc='lower center', ncol=5, bbox_to_anchor=(0.5, -0.3))
+    chart_df.plot.line().legend(
+            loc='lower center', ncol=5, bbox_to_anchor=(0.5, -0.5))
     plt.subplots_adjust(bottom=0.25)
     plt.savefig('rankings.png')
 

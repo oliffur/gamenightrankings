@@ -1,0 +1,13 @@
+DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;...;RANKM
+01/09/2021|Coup|Oliver;Vivienne;Simon;Harsha|0;1;1;1
+01/09/2021|Coup|Oliver;Vivienne;Simon;Harsha;Kenny;Kyla;Nancy|1;1;1;0;1;1;1
+01/09/2021|Secret Hitler|Vivienne,Simon,Harsha,Kenny;Kyla,Nancy,Oliver|1;0
+01/09/2021|Secret Hitler|Nancy,Oliver,Simon,Harsha;Kenny,Kyla,Nancy,Vivienne|0;1
+01/09/2021|Secret Hitler|Kyla,Vivienne,Simon,Harsha;Kenny,Nancy,Oliver|0;1
+01/09/2021|Codenames|Nancy,Vivienne,Simon,Harsha;Kenny,Kyla,Oliver|1;0
+01/14/2021|7 Wonders|Oliver;Vivienne;Simon;Harsha;Dan;Dorine|1;1;1;1;1;0
+01/14/2021|Secret Hitler|Oliver,Kyla,Harsha,Simon,Dorine,Vivienne;Dan,Bella,Nicholas,Wing|0;1
+01/14/2021|Secret Hitler|Kyla,Dorine,Simon,Dan;Vivienne,Oliver,Bella,Wing,Harsha|0;1
+01/14/2021|Secret Hitler|Kyla,Oliver,Harsha,Vivienne,Kenny;Dan,Bella,Wing,Dorine|0;1
+01/14/2021|Wavelength|Kyla,Harsha,Vivienne,Kenny,Dan;Simon,Oliver,Wing,Dorine,Bella,Nicholas|0;1
+01/14/2021|Wavelength|Kyla,Harsha,Vivienne,Kenny,Dan;Simon,Oliver,Wing,Dorine,Bella,Nicholas|1;0
