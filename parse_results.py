@@ -116,8 +116,8 @@ def main():
     chart_df.ffill(inplace=True)
     chart_df.drop(columns=infrequent_players,inplace=True)
     chart_df.plot.line().legend(
-            loc='lower center', ncol=5, bbox_to_anchor=(0.5, -0.5))
-    plt.subplots_adjust(bottom=0.1)
+            loc='lower center', ncol=5, bbox_to_anchor=(0.5, -0.3))
+    plt.subplots_adjust(bottom=0.25)
     plt.savefig('rankings.png')
 
     markdown += '''
