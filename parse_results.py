@@ -94,6 +94,7 @@ def main():
             if player not in best_game or rating.get_elo() > best_game[player][1]:
                 best_game[player] = (game, rating.get_elo())
 
+    infrequent_players = []  # players with <10 games
     for player, rating in sorted(
             all_ratings.items(),
             key=lambda item: item[1].get_elo(),
@@ -102,6 +103,7 @@ def main():
 | {} | {:.2f} | {} | {} | {:.2f} | {} |'''.format(
         player, rating.get_elo(), rating.wins, rating.losses,
         rating.wins / (rating.wins + rating.losses), best_game[player][0])
+        if rating.wins + rating.losses < 10: infrequent_players.append(player)
 
     chart_df = pd.DataFrame()
     for _, row in all_df.iterrows():
@@ -112,9 +114,10 @@ def main():
         for player, rating in zip(players, ratings):
             chart_df.at[row['date'], player] = rating
     chart_df.ffill(inplace=True)
+    chart_df.drop(columns=infrequent_players,inplace=True)
     chart_df.plot.line().legend(
             loc='lower center', ncol=5, bbox_to_anchor=(0.5, -0.5))
-    plt.subplots_adjust(bottom=0.25)
+    plt.subplots_adjust(bottom=0.1)
     plt.savefig('rankings.png')
 
     markdown += '''
