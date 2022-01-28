@@ -18,3 +18,9 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 01/21/2022|Bang|Harsha;Vivienne;Kenny;Oliver;Kyla;Simon;Dorine|0;0;0;1;1;1;1
 01/21/2022|Bang|Kenny;Vivienne;Oliver;Kyla;Simon;Harsha;Dorine|0;0;0;1;1;1;1
 01/21/2022|Bang|Dorine;Kenny;Oliver;Kyla;Simon;Harsha;Vivienne|0;0;0;1;1;1;1
+01/28/2022|Exploding Kittens|Harsha;Dorine;Kenny;Oliver;Kyla|0;1;1;1;1
+01/28/2022|Bang|Kyla;Oliver;Nat;Harsha;Dorine;Kenny;Simon;Lucy|0;0;0;1;1;1;1;1
+01/28/2022|Avalon|Kyla;Lucy;Dorine;Harsha;Kenny;Oliver;Simon;Nat|0;0;0;1;1;1;1;1
+01/28/2022|Secret Hitler|Oliver;Harsha;Kenny;Nat;Dorine;Kyla;Lucy;Simon|0;0;0;0;0;1;1;1
+01/28/2022|Codenames|Oliver;Harsha;Simon;Dorine;Nat;Lucy;Kenny;Kyla|0;0;0;0;1;1;1;1
+01/28/2022|Codenames|Kyla;Harsha;Dorine;Kenny;Nat;Lucy;Oliver;Simon|0;0;0;0;1;1;1;1
