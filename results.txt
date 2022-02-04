@@ -24,3 +24,9 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 01/28/2022|Secret Hitler|Oliver;Harsha;Kenny;Nat;Dorine;Kyla;Lucy;Simon|0;0;0;0;0;1;1;1
 01/28/2022|Codenames|Oliver;Harsha;Simon;Dorine;Nat;Lucy;Kenny;Kyla|0;0;0;0;1;1;1;1
 01/28/2022|Codenames|Kyla;Harsha;Dorine;Kenny;Nat;Lucy;Oliver;Simon|0;0;0;0;1;1;1;1
+02/05/2022|Exploding Kittens|Vivienne;Oliver|0;1
+02/05/2022|Bang|Oliver;Dorine;Jane;Simon;Kyla;Vivienne|0;0;0;1;1;1
+02/05/2022|Bang|Kyla;Dorine;Jane;Vivienne;Oliver;Simon|0;0;0;1;1;1
+02/05/2022|Bang|Kyla;Simon;Vivienne;Oliver;Dorine;Jane|0;0;0;1;1;1
+02/05/2022|Coup|Oliver;Kyla;Dorine;Simon;Jane;Vivienne|0;1;1;1;1;1
+02/05/2022|Coup|Oliver;Kyla;Dorine;Simon;Jane;Vivienne|0;1;1;1;1;1

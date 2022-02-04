@@ -5,15 +5,16 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Oliver | 100.25 | 15 | 10 | 0.60 | Bang |
-| Kyla | 100.18 | 14 | 9 | 0.61 | Avalon |
-| Dorine | 99.63 | 10 | 8 | 0.56 | 7 Wonders |
+| Oliver | 100.61 | 18 | 13 | 0.58 | Coup |
+| Kyla | 100.04 | 16 | 12 | 0.57 | Avalon |
+| Dorine | 99.71 | 12 | 11 | 0.52 | 7 Wonders |
 | Kenny | 99.56 | 11 | 10 | 0.52 | Codenames |
+| Jane | 99.35 | 2 | 3 | 0.40 | Bang |
 | Harsha | 99.08 | 12 | 13 | 0.48 | Exploding Kittens |
-| Vivienne | 98.39 | 8 | 11 | 0.42 | Wavelength |
+| Vivienne | 98.55 | 10 | 15 | 0.40 | Exploding Kittens |
 | Nat | 98.09 | 2 | 3 | 0.40 | Bang |
+| Simon | 96.40 | 7 | 21 | 0.25 | Secret Hitler |
 | Dan | 96.38 | 2 | 4 | 0.33 | Wavelength |
-| Simon | 96.19 | 6 | 17 | 0.26 | Secret Hitler |
 | Lucy | 96.02 | 1 | 4 | 0.20 | Avalon |
 | Nicholas | 94.90 | 1 | 2 | 0.33 | Wavelength |
 | Nancy | 94.72 | 2 | 5 | 0.29 | Secret Hitler |
@@ -27,13 +28,15 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
+| Oliver | 113.03  | 3 | 1 | 0.75 |
 | Harsha | 108.04  | 1 | 1 | 0.50 |
-| Oliver | 102.46  | 1 | 1 | 0.50 |
 | Kenny | 96.10  | 0 | 1 | 0.00 |
-| Kyla | 96.10  | 0 | 1 | 0.00 |
 | Nancy | 96.10  | 0 | 1 | 0.00 |
-| Vivienne | 94.39  | 0 | 2 | 0.00 |
-| Simon | 94.39  | 0 | 2 | 0.00 |
+| Kyla | 93.30  | 0 | 3 | 0.00 |
+| Simon | 92.97  | 0 | 4 | 0.00 |
+| Vivienne | 92.97  | 0 | 4 | 0.00 |
+| Dorine | 92.94  | 0 | 2 | 0.00 |
+| Jane | 92.94  | 0 | 2 | 0.00 |
 
 ### Secret Hitler
 
@@ -101,24 +104,26 @@
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Nat | 106.70  | 1 | 0 | 1.00 |
-| Oliver | 105.99  | 4 | 1 | 0.80 |
+| Jane | 102.81  | 2 | 1 | 0.67 |
+| Oliver | 102.61  | 5 | 3 | 0.62 |
 | Kenny | 102.24  | 3 | 2 | 0.60 |
-| Vivienne | 100.35  | 2 | 2 | 0.50 |
-| Kyla | 99.68  | 2 | 3 | 0.40 |
-| Dorine | 99.47  | 2 | 3 | 0.40 |
+| Dorine | 101.42  | 4 | 4 | 0.50 |
+| Kyla | 100.98  | 4 | 4 | 0.50 |
+| Vivienne | 99.07  | 3 | 4 | 0.43 |
 | Harsha | 96.03  | 1 | 4 | 0.20 |
 | Lucy | 96.01  | 0 | 1 | 0.00 |
-| Simon | 94.06  | 0 | 5 | 0.00 |
+| Simon | 95.89  | 1 | 7 | 0.12 |
 
 ### Exploding Kittens
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Harsha | 121.28  | 1 | 0 | 1.00 |
-| Oliver | 94.68  | 0 | 1 | 0.00 |
+| Vivienne | 117.66  | 1 | 0 | 1.00 |
 | Kyla | 94.68  | 0 | 1 | 0.00 |
 | Kenny | 94.68  | 0 | 1 | 0.00 |
 | Dorine | 94.68  | 0 | 1 | 0.00 |
+| Oliver | 88.07  | 0 | 2 | 0.00 |
 
 ### Avalon
 
