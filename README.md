@@ -5,21 +5,21 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Oliver | 100.61 | 18 | 13 | 0.58 | Coup |
-| Kyla | 100.04 | 16 | 12 | 0.57 | Avalon |
-| Dorine | 99.71 | 12 | 11 | 0.52 | 7 Wonders |
-| Kenny | 99.56 | 11 | 10 | 0.52 | Codenames |
+| Oliver | 100.40 | 20 | 15 | 0.57 | Coup |
+| Kenny | 100.25 | 14 | 11 | 0.56 | Between Two Cities |
+| Dorine | 99.81 | 14 | 12 | 0.54 | 7 Wonders |
+| Kyla | 99.45 | 17 | 15 | 0.53 | Avalon |
 | Jane | 99.35 | 2 | 3 | 0.40 | Bang |
-| Harsha | 99.08 | 12 | 13 | 0.48 | Exploding Kittens |
-| Vivienne | 98.55 | 10 | 15 | 0.40 | Exploding Kittens |
+| Harsha | 99.13 | 14 | 15 | 0.48 | Exploding Kittens |
+| Vivienne | 98.14 | 11 | 18 | 0.38 | Exploding Kittens |
 | Nat | 98.09 | 2 | 3 | 0.40 | Bang |
-| Simon | 96.40 | 7 | 21 | 0.25 | Secret Hitler |
+| Simon | 96.85 | 9 | 23 | 0.28 | Secret Hitler |
 | Dan | 96.38 | 2 | 4 | 0.33 | Wavelength |
 | Lucy | 96.02 | 1 | 4 | 0.20 | Avalon |
 | Nicholas | 94.90 | 1 | 2 | 0.33 | Wavelength |
 | Nancy | 94.72 | 2 | 5 | 0.29 | Secret Hitler |
+| Bella | 94.06 | 1 | 7 | 0.12 | Wavelength |
 | Wing | 93.90 | 1 | 4 | 0.20 | Wavelength |
-| Bella | 93.90 | 1 | 4 | 0.20 | Wavelength |
 
 ### Rankings over Time
 ![Image](rankings.png)
@@ -43,18 +43,18 @@
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Nat | 104.16  | 1 | 0 | 1.00 |
-| Harsha | 102.35  | 5 | 2 | 0.71 |
-| Simon | 102.17  | 4 | 2 | 0.67 |
-| Kyla | 102.12  | 5 | 2 | 0.71 |
-| Oliver | 102.01  | 5 | 2 | 0.71 |
-| Dorine | 101.66  | 3 | 1 | 0.75 |
-| Vivienne | 99.76  | 3 | 3 | 0.50 |
-| Kenny | 98.62  | 2 | 3 | 0.40 |
+| Harsha | 102.36  | 7 | 3 | 0.70 |
+| Oliver | 102.14  | 7 | 3 | 0.70 |
+| Simon | 102.13  | 6 | 3 | 0.67 |
+| Dorine | 102.00  | 5 | 2 | 0.71 |
+| Kyla | 100.81  | 6 | 4 | 0.60 |
+| Kenny | 100.05  | 4 | 4 | 0.50 |
+| Vivienne | 99.00  | 4 | 5 | 0.44 |
 | Nancy | 97.13  | 2 | 2 | 0.50 |
 | Dan | 96.17  | 1 | 2 | 0.33 |
 | Lucy | 95.30  | 0 | 1 | 0.00 |
+| Bella | 93.08  | 0 | 5 | 0.00 |
 | Wing | 92.09  | 0 | 3 | 0.00 |
-| Bella | 92.09  | 0 | 3 | 0.00 |
 | Nicholas | 89.97  | 0 | 1 | 0.00 |
 
 ### Codenames
@@ -137,3 +137,15 @@
 | Harsha | 93.48  | 0 | 1 | 0.00 |
 | Oliver | 93.48  | 0 | 1 | 0.00 |
 | Kenny | 93.48  | 0 | 1 | 0.00 |
+
+### Between Two Cities
+
+| Player | ELO | Wins | Losses | Win % |
+| --- | --- | --- | --- | --- |
+| Kenny | 122.03  | 1 | 0 | 1.00 |
+| Simon | 96.33  | 0 | 1 | 0.00 |
+| Kyla | 96.33  | 0 | 1 | 0.00 |
+| Oliver | 96.33  | 0 | 1 | 0.00 |
+| Bella | 96.33  | 0 | 1 | 0.00 |
+| Vivienne | 96.33  | 0 | 1 | 0.00 |
+| Harsha | 96.33  | 0 | 1 | 0.00 |

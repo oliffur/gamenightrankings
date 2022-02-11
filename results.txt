@@ -30,3 +30,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 02/05/2022|Bang|Kyla;Simon;Vivienne;Oliver;Dorine;Jane|0;0;0;1;1;1
 02/05/2022|Coup|Oliver;Kyla;Dorine;Simon;Jane;Vivienne|0;1;1;1;1;1
 02/05/2022|Coup|Oliver;Kyla;Dorine;Simon;Jane;Vivienne|0;1;1;1;1;1
+02/12/2022|Between Two Cities|Kenny;Harsha;Vivienne;Oliver;Simon;Kyla;Bella|0;1;1;1;1;1;1
+02/12/2022|Secret Hitler|Kyla;Dorine;Oliver;Harsha;Simon;Bella;Kenny;Vivienne|0;0;0;0;0;1;1;1
+02/12/2022|Secret Hitler|Simon;Kenny;Vivienne;Dorine;Oliver;Kyla;Harsha;Bella|0;0;0;1;1;1;1;1
+02/12/2022|Secret Hitler|Oliver;Harsha;Dorine;Kenny;Kyla;Vivienne;Simon|0;0;0;0;1;1;1
