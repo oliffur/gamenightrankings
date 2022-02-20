@@ -5,19 +5,20 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Oliver | 100.40 | 20 | 15 | 0.57 | Coup |
-| Kenny | 100.25 | 14 | 11 | 0.56 | Between Two Cities |
-| Dorine | 99.81 | 14 | 12 | 0.54 | 7 Wonders |
-| Kyla | 99.45 | 17 | 15 | 0.53 | Avalon |
+| Oliver | 100.52 | 22 | 16 | 0.58 | Camel Up |
+| Kenny | 99.50 | 13 | 13 | 0.50 | Between Two Cities |
 | Jane | 99.35 | 2 | 3 | 0.40 | Bang |
-| Harsha | 99.13 | 14 | 15 | 0.48 | Exploding Kittens |
-| Vivienne | 98.14 | 11 | 18 | 0.38 | Exploding Kittens |
+| Sincere | 99.31 | 2 | 2 | 0.50 | Secret Hitler |
+| Kyla | 99.23 | 18 | 17 | 0.51 | Avalon |
+| Vivienne | 99.06 | 14 | 18 | 0.44 | Exploding Kittens |
+| Harsha | 98.89 | 13 | 15 | 0.46 | Exploding Kittens |
+| Dorine | 98.58 | 13 | 16 | 0.45 | 7 Wonders |
 | Nat | 98.09 | 2 | 3 | 0.40 | Bang |
-| Simon | 96.85 | 9 | 23 | 0.28 | Secret Hitler |
+| Simon | 97.34 | 11 | 24 | 0.31 | Secret Hitler |
+| Nancy | 96.82 | 4 | 7 | 0.36 | Wavelength |
 | Dan | 96.38 | 2 | 4 | 0.33 | Wavelength |
 | Lucy | 96.02 | 1 | 4 | 0.20 | Avalon |
 | Nicholas | 94.90 | 1 | 2 | 0.33 | Wavelength |
-| Nancy | 94.72 | 2 | 5 | 0.29 | Secret Hitler |
 | Bella | 94.06 | 1 | 7 | 0.12 | Wavelength |
 | Wing | 93.90 | 1 | 4 | 0.20 | Wavelength |
 
@@ -42,15 +43,16 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
+| Sincere | 106.82  | 2 | 0 | 1.00 |
 | Nat | 104.16  | 1 | 0 | 1.00 |
-| Harsha | 102.36  | 7 | 3 | 0.70 |
-| Oliver | 102.14  | 7 | 3 | 0.70 |
-| Simon | 102.13  | 6 | 3 | 0.67 |
-| Dorine | 102.00  | 5 | 2 | 0.71 |
-| Kyla | 100.81  | 6 | 4 | 0.60 |
-| Kenny | 100.05  | 4 | 4 | 0.50 |
-| Vivienne | 99.00  | 4 | 5 | 0.44 |
-| Nancy | 97.13  | 2 | 2 | 0.50 |
+| Simon | 103.03  | 7 | 3 | 0.70 |
+| Harsha | 101.85  | 6 | 3 | 0.67 |
+| Vivienne | 101.67  | 6 | 4 | 0.60 |
+| Oliver | 101.59  | 7 | 4 | 0.64 |
+| Kyla | 100.40  | 6 | 5 | 0.55 |
+| Dorine | 99.77  | 4 | 4 | 0.50 |
+| Nancy | 99.33  | 3 | 3 | 0.50 |
+| Kenny | 98.62  | 3 | 5 | 0.38 |
 | Dan | 96.17  | 1 | 2 | 0.33 |
 | Lucy | 95.30  | 0 | 1 | 0.00 |
 | Bella | 93.08  | 0 | 5 | 0.00 |
@@ -87,17 +89,19 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Kenny | 103.95  | 3 | 1 | 0.75 |
-| Vivienne | 103.95  | 3 | 1 | 0.75 |
-| Kyla | 103.95  | 3 | 1 | 0.75 |
-| Oliver | 102.96  | 3 | 1 | 0.75 |
+| Nancy | 105.38  | 1 | 0 | 1.00 |
+| Kyla | 104.63  | 4 | 1 | 0.80 |
+| Oliver | 103.87  | 4 | 1 | 0.80 |
+| Kenny | 101.72  | 3 | 2 | 0.60 |
+| Vivienne | 101.72  | 3 | 2 | 0.60 |
 | Dan | 101.10  | 1 | 1 | 0.50 |
 | Nicholas | 98.90  | 1 | 1 | 0.50 |
 | Bella | 98.90  | 1 | 1 | 0.50 |
 | Wing | 98.90  | 1 | 1 | 0.50 |
+| Simon | 98.01  | 2 | 3 | 0.40 |
 | Harsha | 96.03  | 1 | 3 | 0.25 |
-| Dorine | 95.13  | 1 | 3 | 0.25 |
-| Simon | 95.13  | 1 | 3 | 0.25 |
+| Sincere | 95.88  | 0 | 1 | 0.00 |
+| Dorine | 95.06  | 1 | 4 | 0.20 |
 
 ### Bang
 
@@ -149,3 +153,15 @@
 | Bella | 96.33  | 0 | 1 | 0.00 |
 | Vivienne | 96.33  | 0 | 1 | 0.00 |
 | Harsha | 96.33  | 0 | 1 | 0.00 |
+
+### Camel Up
+
+| Player | ELO | Wins | Losses | Win % |
+| --- | --- | --- | --- | --- |
+| Oliver | 114.22  | 1 | 0 | 1.00 |
+| Vivienne | 114.22  | 1 | 0 | 1.00 |
+| Simon | 94.31  | 0 | 1 | 0.00 |
+| Sincere | 94.31  | 0 | 1 | 0.00 |
+| Nancy | 94.31  | 0 | 1 | 0.00 |
+| Kyla | 94.31  | 0 | 1 | 0.00 |
+| Dorine | 94.31  | 0 | 1 | 0.00 |
