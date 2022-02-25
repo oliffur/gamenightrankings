@@ -5,16 +5,16 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Oliver | 100.52 | 22 | 16 | 0.58 | Camel Up |
+| Oliver | 101.09 | 25 | 19 | 0.57 | Camel Up |
 | Kenny | 99.50 | 13 | 13 | 0.50 | Between Two Cities |
+| Kyla | 99.44 | 20 | 21 | 0.49 | Avalon |
 | Jane | 99.35 | 2 | 3 | 0.40 | Bang |
 | Sincere | 99.31 | 2 | 2 | 0.50 | Secret Hitler |
-| Kyla | 99.23 | 18 | 17 | 0.51 | Avalon |
-| Vivienne | 99.06 | 14 | 18 | 0.44 | Exploding Kittens |
 | Harsha | 98.89 | 13 | 15 | 0.46 | Exploding Kittens |
 | Dorine | 98.58 | 13 | 16 | 0.45 | 7 Wonders |
+| Vivienne | 98.16 | 14 | 24 | 0.37 | Camel Up |
 | Nat | 98.09 | 2 | 3 | 0.40 | Bang |
-| Simon | 97.34 | 11 | 24 | 0.31 | Secret Hitler |
+| Simon | 97.37 | 12 | 29 | 0.29 | Secret Hitler |
 | Nancy | 96.82 | 4 | 7 | 0.36 | Wavelength |
 | Dan | 96.38 | 2 | 4 | 0.33 | Wavelength |
 | Lucy | 96.02 | 1 | 4 | 0.20 | Avalon |
@@ -109,25 +109,26 @@
 | --- | --- | --- | --- | --- |
 | Nat | 106.70  | 1 | 0 | 1.00 |
 | Jane | 102.81  | 2 | 1 | 0.67 |
-| Oliver | 102.61  | 5 | 3 | 0.62 |
+| Kyla | 102.75  | 5 | 4 | 0.56 |
 | Kenny | 102.24  | 3 | 2 | 0.60 |
+| Oliver | 101.48  | 5 | 4 | 0.56 |
 | Dorine | 101.42  | 4 | 4 | 0.50 |
-| Kyla | 100.98  | 4 | 4 | 0.50 |
-| Vivienne | 99.07  | 3 | 4 | 0.43 |
+| Vivienne | 98.43  | 3 | 5 | 0.38 |
 | Harsha | 96.03  | 1 | 4 | 0.20 |
 | Lucy | 96.01  | 0 | 1 | 0.00 |
-| Simon | 95.89  | 1 | 7 | 0.12 |
+| Simon | 95.80  | 1 | 8 | 0.11 |
 
 ### Exploding Kittens
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Harsha | 121.28  | 1 | 0 | 1.00 |
-| Vivienne | 117.66  | 1 | 0 | 1.00 |
-| Kyla | 94.68  | 0 | 1 | 0.00 |
+| Oliver | 101.80  | 2 | 4 | 0.33 |
+| Kyla | 97.64  | 1 | 4 | 0.20 |
+| Simon | 95.59  | 1 | 3 | 0.25 |
 | Kenny | 94.68  | 0 | 1 | 0.00 |
 | Dorine | 94.68  | 0 | 1 | 0.00 |
-| Oliver | 88.07  | 0 | 2 | 0.00 |
+| Vivienne | 94.19  | 1 | 4 | 0.20 |
 
 ### Avalon
 
@@ -158,10 +159,10 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 114.22  | 1 | 0 | 1.00 |
-| Vivienne | 114.22  | 1 | 0 | 1.00 |
-| Simon | 94.31  | 0 | 1 | 0.00 |
+| Oliver | 122.24  | 2 | 0 | 1.00 |
+| Vivienne | 103.10  | 1 | 1 | 0.50 |
+| Simon | 95.54  | 0 | 2 | 0.00 |
+| Kyla | 95.54  | 0 | 2 | 0.00 |
 | Sincere | 94.31  | 0 | 1 | 0.00 |
 | Nancy | 94.31  | 0 | 1 | 0.00 |
-| Kyla | 94.31  | 0 | 1 | 0.00 |
 | Dorine | 94.31  | 0 | 1 | 0.00 |

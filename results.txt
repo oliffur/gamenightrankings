@@ -37,3 +37,9 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 02/20/2022|Secret Hitler|Vivienne;Oliver;Sincere;Nancy;Simon;Dorine;Kyla|0;0;0;0;1;1;1
 02/20/2022|Secret Hitler|Vivienne;Simon;Sincere;Oliver;Kenny;Nancy;Dorine;Kyla|0;0;0;1;1;1;1;1
 02/20/2022|Wavelength|Simon;Kyla;Nancy;Oliver;Sincere;Dorine;Vivienne;Kenny|0;0;0;0;1;1;1;1
+02/26/2022|Camel Up|Oliver;Simon;Vivienne;Kyla|0;1;1;1
+02/26/2022|Bang|Kyla;Oliver;Simon;Vivienne|0;1;1;1
+02/26/2022|Exploding Kittens|Simon;Oliver;Kyla;Vivienne|0;1;1;1
+02/26/2022|Exploding Kittens|Oliver;Simon;Kyla;Vivienne|0;1;1;1
+02/26/2022|Exploding Kittens|Kyla;Simon;Oliver;Vivienne|0;1;1;1
+02/26/2022|Exploding Kittens|Oliver;Simon;Kyla;Vivienne|0;1;1;1
