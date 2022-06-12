@@ -43,3 +43,8 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 02/26/2022|Exploding Kittens|Oliver;Simon;Kyla;Vivienne|0;1;1;1
 02/26/2022|Exploding Kittens|Kyla;Simon;Oliver;Vivienne|0;1;1;1
 02/26/2022|Exploding Kittens|Oliver;Simon;Kyla;Vivienne|0;1;1;1
+06/12/2022|Bang|Dorine;Harsha;Dan;Vivienne;Abhi;Kyla;Kenny;Oliver|0;0;0;1;1;1;1;1
+06/12/2022|Secret Hitler|Dan;Harsha;Kyla;Abhi;Kenny;Vivienne;Oliver;Dorine|0;0;0;0;0;1;1;1
+06/12/2022|Secret Hitler|Nancy;Oliver;Harsha;Dorine;Abhi;Kyla;Vivienne;Dan;Kenny|0;0;0;0;0;1;1;1;1
+06/12/2022|Shifty Eyed Spies|Vivienne;Oliver;Nancy;Kenny;Abhi;Dorine;Harsha;Kyla|0;0;1;1;1;1;1;1
+06/12/2022|Wavelength|Kyla;Dorine;Oliver;Vivienne;Nancy;Dan;Harsha;Abhi;Kenny|0;0;0;0;0;1;1;1;1
