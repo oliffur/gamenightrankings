@@ -5,14 +5,15 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Oliver | 100.98 | 28 | 21 | 0.57 | Camel Up |
+| Robert | 105.76 | 3 | 1 | 0.75 | Coup |
+| Oliver | 100.45 | 29 | 26 | 0.53 | Camel Up |
+| Dorine | 99.49 | 19 | 21 | 0.47 | 7 Wonders |
 | Jane | 99.35 | 2 | 3 | 0.40 | Bang |
 | Sincere | 99.31 | 2 | 2 | 0.50 | Secret Hitler |
-| Kyla | 99.24 | 22 | 24 | 0.48 | Avalon |
-| Harsha | 99.13 | 16 | 17 | 0.48 | Exploding Kittens |
-| Dorine | 98.86 | 16 | 18 | 0.47 | 7 Wonders |
-| Kenny | 98.80 | 14 | 17 | 0.45 | Between Two Cities |
-| Vivienne | 98.22 | 16 | 27 | 0.37 | Shifty Eyed Spies |
+| Kyla | 99.29 | 23 | 26 | 0.47 | Codenames |
+| Kenny | 98.96 | 15 | 18 | 0.45 | Between Two Cities |
+| Harsha | 98.80 | 17 | 22 | 0.44 | Exploding Kittens |
+| Vivienne | 98.70 | 18 | 31 | 0.37 | Shifty Eyed Spies |
 | Abhi | 98.17 | 2 | 3 | 0.40 | Secret Hitler |
 | Nat | 98.09 | 2 | 3 | 0.40 | Bang |
 | Nancy | 97.94 | 6 | 8 | 0.43 | Wavelength |
@@ -30,14 +31,15 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 113.03  | 3 | 1 | 0.75 |
-| Harsha | 108.04  | 1 | 1 | 0.50 |
+| Robert | 122.94  | 1 | 0 | 1.00 |
+| Oliver | 101.79  | 3 | 4 | 0.43 |
+| Vivienne | 100.99  | 2 | 5 | 0.29 |
+| Harsha | 98.96  | 1 | 4 | 0.20 |
 | Kenny | 96.10  | 0 | 1 | 0.00 |
 | Nancy | 96.10  | 0 | 1 | 0.00 |
+| Dorine | 95.50  | 0 | 5 | 0.00 |
 | Kyla | 93.30  | 0 | 3 | 0.00 |
 | Simon | 92.97  | 0 | 4 | 0.00 |
-| Vivienne | 92.97  | 0 | 4 | 0.00 |
-| Dorine | 92.94  | 0 | 2 | 0.00 |
 | Jane | 92.94  | 0 | 2 | 0.00 |
 
 ### Secret Hitler
@@ -140,13 +142,15 @@
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Lucy | 110.86  | 1 | 0 | 1.00 |
-| Dorine | 110.86  | 1 | 0 | 1.00 |
-| Kyla | 110.86  | 1 | 0 | 1.00 |
+| Dorine | 110.12  | 4 | 0 | 1.00 |
+| Robert | 104.42  | 2 | 1 | 0.67 |
+| Kyla | 100.87  | 2 | 2 | 0.50 |
+| Kenny | 99.04  | 1 | 2 | 0.33 |
+| Oliver | 98.20  | 1 | 3 | 0.25 |
+| Harsha | 97.33  | 1 | 3 | 0.25 |
+| Vivienne | 93.70  | 0 | 3 | 0.00 |
 | Simon | 93.48  | 0 | 1 | 0.00 |
 | Nat | 93.48  | 0 | 1 | 0.00 |
-| Harsha | 93.48  | 0 | 1 | 0.00 |
-| Oliver | 93.48  | 0 | 1 | 0.00 |
-| Kenny | 93.48  | 0 | 1 | 0.00 |
 
 ### Between Two Cities
 

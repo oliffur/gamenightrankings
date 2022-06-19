@@ -48,3 +48,9 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 06/12/2022|Secret Hitler|Nancy;Oliver;Harsha;Dorine;Abhi;Kyla;Vivienne;Dan;Kenny|0;0;0;0;0;1;1;1;1
 06/12/2022|Shifty Eyed Spies|Vivienne;Oliver;Nancy;Kenny;Abhi;Dorine;Harsha;Kyla|0;0;1;1;1;1;1;1
 06/12/2022|Wavelength|Kyla;Dorine;Oliver;Vivienne;Nancy;Dan;Harsha;Abhi;Kenny|0;0;0;0;0;1;1;1;1
+06/20/2022|Coup|Vivienne;Harsha;Dorine;Oliver|0;1;1;1
+06/20/2022|Coup|Vivienne;Harsha;Dorine;Oliver|0;1;1;1
+06/20/2022|Coup|Robert;Vivienne;Harsha;Dorine;Oliver|0;1;1;1;1
+06/20/2022|Avalon|Robert;Kyla;Dorine;Harsha;Vivienne;Oliver|0;0;0;1;1;1
+06/20/2022|Avalon|Oliver;Robert;Dorine;Harsha;Vivienne;Kyla;Kenny|0;0;0;1;1;1;1
+06/20/2022|Avalon|Harsha;Kenny;Dorine;Robert;Kyla;Oliver;Vivienne|0;0;0;1;1;1;1
