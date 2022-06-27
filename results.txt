@@ -54,3 +54,6 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 06/20/2022|Avalon|Robert;Kyla;Dorine;Harsha;Vivienne;Oliver|0;0;0;1;1;1
 06/20/2022|Avalon|Oliver;Robert;Dorine;Harsha;Vivienne;Kyla;Kenny|0;0;0;1;1;1;1
 06/20/2022|Avalon|Harsha;Kenny;Dorine;Robert;Kyla;Oliver;Vivienne|0;0;0;1;1;1;1
+06/26/2022|Mascarade|Harsha;Vivienne;Connie;Kyla;Dorine;Oliver|0;1;1;1;1;1
+06/26/2022|Codenames|Harsha;Connie;Kyla;Dorine;Oliver;Vivienne|0;0;0;1;1;1
+06/26/2022|Avalon|Harsha;Vivienne;Connie;Dorine;Kyla;Oliver;Kenny|0;0;0;0;1;1;1

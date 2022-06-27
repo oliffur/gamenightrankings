@@ -6,14 +6,15 @@
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
 | Robert | 105.76 | 3 | 1 | 0.75 | Coup |
-| Oliver | 100.45 | 29 | 26 | 0.53 | Camel Up |
-| Dorine | 99.49 | 19 | 21 | 0.47 | 7 Wonders |
+| Connie | 102.21 | 2 | 1 | 0.67 | Codenames |
+| Oliver | 99.93 | 29 | 29 | 0.50 | Camel Up |
+| Harsha | 99.66 | 20 | 22 | 0.48 | Mascarade |
+| Dorine | 99.37 | 20 | 23 | 0.47 | 7 Wonders |
 | Jane | 99.35 | 2 | 3 | 0.40 | Bang |
 | Sincere | 99.31 | 2 | 2 | 0.50 | Secret Hitler |
-| Kyla | 99.29 | 23 | 26 | 0.47 | Codenames |
-| Kenny | 98.96 | 15 | 18 | 0.45 | Between Two Cities |
-| Harsha | 98.80 | 17 | 22 | 0.44 | Exploding Kittens |
-| Vivienne | 98.70 | 18 | 31 | 0.37 | Shifty Eyed Spies |
+| Kyla | 99.22 | 24 | 28 | 0.46 | Codenames |
+| Kenny | 98.74 | 15 | 19 | 0.44 | Between Two Cities |
+| Vivienne | 98.66 | 19 | 33 | 0.37 | Shifty Eyed Spies |
 | Abhi | 98.17 | 2 | 3 | 0.40 | Secret Hitler |
 | Nat | 98.09 | 2 | 3 | 0.40 | Bang |
 | Nancy | 97.94 | 6 | 8 | 0.43 | Wavelength |
@@ -67,16 +68,17 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Dorine | 107.40  | 2 | 0 | 1.00 |
-| Kyla | 105.71  | 3 | 1 | 0.75 |
+| Connie | 108.71  | 1 | 0 | 1.00 |
+| Kyla | 107.12  | 4 | 1 | 0.80 |
+| Harsha | 106.44  | 4 | 1 | 0.80 |
 | Kenny | 105.71  | 3 | 1 | 0.75 |
-| Harsha | 104.82  | 3 | 1 | 0.75 |
-| Oliver | 101.55  | 2 | 2 | 0.50 |
+| Dorine | 102.93  | 2 | 1 | 0.67 |
+| Oliver | 99.85  | 2 | 3 | 0.40 |
 | Simon | 97.33  | 1 | 3 | 0.25 |
 | Nat | 95.79  | 0 | 2 | 0.00 |
 | Lucy | 95.79  | 0 | 2 | 0.00 |
+| Vivienne | 93.37  | 0 | 3 | 0.00 |
 | Nancy | 91.97  | 0 | 2 | 0.00 |
-| Vivienne | 91.97  | 0 | 2 | 0.00 |
 
 ### 7 Wonders
 
@@ -142,13 +144,14 @@
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Lucy | 110.86  | 1 | 0 | 1.00 |
-| Dorine | 110.12  | 4 | 0 | 1.00 |
+| Dorine | 108.98  | 5 | 0 | 1.00 |
+| Connie | 104.90  | 1 | 0 | 1.00 |
 | Robert | 104.42  | 2 | 1 | 0.67 |
-| Kyla | 100.87  | 2 | 2 | 0.50 |
-| Kenny | 99.04  | 1 | 2 | 0.33 |
-| Oliver | 98.20  | 1 | 3 | 0.25 |
-| Harsha | 97.33  | 1 | 3 | 0.25 |
-| Vivienne | 93.70  | 0 | 3 | 0.00 |
+| Harsha | 99.74  | 2 | 3 | 0.40 |
+| Kyla | 98.71  | 2 | 3 | 0.40 |
+| Vivienne | 97.56  | 1 | 3 | 0.25 |
+| Kenny | 97.18  | 1 | 3 | 0.25 |
+| Oliver | 96.81  | 1 | 4 | 0.20 |
 | Simon | 93.48  | 0 | 1 | 0.00 |
 | Nat | 93.48  | 0 | 1 | 0.00 |
 
@@ -188,3 +191,14 @@
 | Nancy | 95.14  | 0 | 1 | 0.00 |
 | Abhi | 95.14  | 0 | 1 | 0.00 |
 | Kenny | 95.14  | 0 | 1 | 0.00 |
+
+### Mascarade
+
+| Player | ELO | Wins | Losses | Win % |
+| --- | --- | --- | --- | --- |
+| Harsha | 121.72  | 1 | 0 | 1.00 |
+| Dorine | 95.66  | 0 | 1 | 0.00 |
+| Kyla | 95.66  | 0 | 1 | 0.00 |
+| Oliver | 95.66  | 0 | 1 | 0.00 |
+| Connie | 95.66  | 0 | 1 | 0.00 |
+| Vivienne | 95.66  | 0 | 1 | 0.00 |
