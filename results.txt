@@ -57,3 +57,6 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 06/26/2022|Mascarade|Harsha;Vivienne;Connie;Kyla;Dorine;Oliver|0;1;1;1;1;1
 06/26/2022|Codenames|Harsha;Connie;Kyla;Dorine;Oliver;Vivienne|0;0;0;1;1;1
 06/26/2022|Avalon|Harsha;Vivienne;Connie;Dorine;Kyla;Oliver;Kenny|0;0;0;0;1;1;1
+07/03/2022|Incan Gold|Dorine;Harsha;Kyla;Oliver;Abhi|0;1;1;1;1
+07/03/2022|Secret Hitler|Kyla;Kenny;Pearl;Oliver;Abhi;Harsha;Dorine|0;0;0;1;1;1;1
+07/03/2022|Secret Hitler|Kyla;Kenny;Oliver;Harsha;Dorine;Pearl;Abhi|0;0;0;1;1;1;1

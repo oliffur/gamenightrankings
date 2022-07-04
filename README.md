@@ -7,19 +7,20 @@
 | --- | --- | --- | --- | --- | --- |
 | Robert | 105.76 | 3 | 1 | 0.75 | Coup |
 | Connie | 102.21 | 2 | 1 | 0.67 | Codenames |
-| Oliver | 99.93 | 29 | 29 | 0.50 | Camel Up |
-| Harsha | 99.66 | 20 | 22 | 0.48 | Mascarade |
-| Dorine | 99.37 | 20 | 23 | 0.47 | 7 Wonders |
+| Pearl | 99.95 | 1 | 1 | 0.50 | Secret Hitler |
+| Oliver | 99.84 | 30 | 31 | 0.49 | Camel Up |
+| Kyla | 99.52 | 26 | 29 | 0.47 | Codenames |
+| Dorine | 99.45 | 21 | 25 | 0.46 | 7 Wonders |
 | Jane | 99.35 | 2 | 3 | 0.40 | Bang |
 | Sincere | 99.31 | 2 | 2 | 0.50 | Secret Hitler |
-| Kyla | 99.22 | 24 | 28 | 0.46 | Codenames |
-| Kenny | 98.74 | 15 | 19 | 0.44 | Between Two Cities |
+| Kenny | 99.29 | 17 | 19 | 0.47 | Between Two Cities |
+| Harsha | 99.21 | 20 | 25 | 0.44 | Mascarade |
 | Vivienne | 98.66 | 19 | 33 | 0.37 | Shifty Eyed Spies |
-| Abhi | 98.17 | 2 | 3 | 0.40 | Secret Hitler |
 | Nat | 98.09 | 2 | 3 | 0.40 | Bang |
 | Nancy | 97.94 | 6 | 8 | 0.43 | Wavelength |
 | Dan | 97.41 | 4 | 6 | 0.40 | Bang |
 | Simon | 97.37 | 12 | 29 | 0.29 | Secret Hitler |
+| Abhi | 96.98 | 2 | 6 | 0.25 | Secret Hitler |
 | Lucy | 96.02 | 1 | 4 | 0.20 | Avalon |
 | Nicholas | 94.90 | 1 | 2 | 0.33 | Wavelength |
 | Bella | 94.06 | 1 | 7 | 0.12 | Wavelength |
@@ -48,16 +49,17 @@
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Sincere | 106.82  | 2 | 0 | 1.00 |
-| Abhi | 104.34  | 2 | 0 | 1.00 |
 | Nat | 104.16  | 1 | 0 | 1.00 |
 | Simon | 103.03  | 7 | 3 | 0.70 |
-| Harsha | 102.53  | 8 | 3 | 0.73 |
-| Oliver | 101.23  | 8 | 5 | 0.62 |
+| Kyla | 101.50  | 9 | 6 | 0.60 |
+| Harsha | 101.37  | 8 | 5 | 0.62 |
+| Oliver | 101.35  | 9 | 6 | 0.60 |
+| Pearl | 101.35  | 1 | 1 | 0.50 |
+| Kenny | 100.71  | 6 | 6 | 0.50 |
 | Nancy | 100.58  | 4 | 3 | 0.57 |
-| Kyla | 100.26  | 7 | 6 | 0.54 |
+| Abhi | 100.27  | 2 | 2 | 0.50 |
 | Vivienne | 100.15  | 6 | 6 | 0.50 |
-| Dorine | 99.77  | 5 | 5 | 0.50 |
-| Kenny | 98.89  | 4 | 6 | 0.40 |
+| Dorine | 99.12  | 5 | 7 | 0.42 |
 | Dan | 97.78  | 2 | 3 | 0.40 |
 | Lucy | 95.30  | 0 | 1 | 0.00 |
 | Bella | 93.08  | 0 | 5 | 0.00 |
@@ -202,3 +204,13 @@
 | Oliver | 95.66  | 0 | 1 | 0.00 |
 | Connie | 95.66  | 0 | 1 | 0.00 |
 | Vivienne | 95.66  | 0 | 1 | 0.00 |
+
+### Incan Gold
+
+| Player | ELO | Wins | Losses | Win % |
+| --- | --- | --- | --- | --- |
+| Dorine | 121.28  | 1 | 0 | 1.00 |
+| Oliver | 94.68  | 0 | 1 | 0.00 |
+| Abhi | 94.68  | 0 | 1 | 0.00 |
+| Kyla | 94.68  | 0 | 1 | 0.00 |
+| Harsha | 94.68  | 0 | 1 | 0.00 |
