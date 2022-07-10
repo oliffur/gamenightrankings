@@ -1,0 +1,287 @@
+Gryffindor|Slytherin
+Harmless|Harmful
+Unhygienic|Hygienic
+Poorly made|Well made
+Rough|Smooth
+Useless invention|Useful invention
+Dry food|Wet food
+Flavorless|Flavorful
+Job|Career
+Has a bad reputation|Has a good reputation
+Inessential|Essential
+Hot|Cold
+Least powerful god|Most powerful god
+Thrilling|Terrifying
+Normal greeting|Weird greeting
+Unsexy Pokémon|Sexy Pokémon
+Unethical|Ethical
+Uncool|Cool
+Worthless|Priceless
+Ugly word|Beautiful word
+Mature person|Immature person
+Private|Public
+Religious|Sacrilegious
+Bad music|Good music
+Smelly in a bad way|Smelly in a good way
+Hairless|Hairy
+Boring topic|Fascinating topic
+Not enough|Too much
+Non-partisan|Partisan
+Bad habit|Good habit
+Hard to do|Easy to do
+Soft|Hard
+Underrated musician|Overrated musician
+Mental activity|Physical activity
+Bad for you|Good for you
+Unsexy |Sexy 
+Won't live to 100|Will live to 100
+Inflexible|Flexible
+Temporary|Permanent
+Tired|Wired
+Genuine person|Phony person
+Book was better|Movie was better
+Tick|Tock
+Unhealthy|Healthy
+Unforgiveable|Forgiveable
+Mild|Spicy
+Bad advice|Good advice
+Bad investment|Good investment
+Unpopular|Popular
+Benefits you|Benefits everyone
+Unscented|Scented
+Ordinary|Extraordinary
+Heterogeneous|Homogeneous
+Fat|Thin
+Fantasy|Sci-Fi
+Never on time|Always on time
+Underrated weapon|Overrated weapon
+Useless major|Useful major
+Friend|Enemy
+Dystopia|Utopia
+Conventional wisdom|Fringe belief
+Derivative|Original
+Bad actor|Good actor
+Bad mouthfeel|Good mouthfeel
+Proof that God exists|Proof that God doesn’t exist
+Lowbrow|Highbrow
+Traditional|Radical
+Blunt|Sharp
+var cards=[["Forgivable|Unforgivable
+Bad Disney character|Good Disney character
+Requires luck|Requires skill
+Invisible|Visible
+Failure|Masterpiece
+Mean person|Nice person
+Boring|Exciting
+Unbelievable|Believable
+Mainstream|Niche
+Worst living person|Greatest living person
+Guilty pleasure|Actually just bad
+Quiet place|Loud place
+Unsexy animal|Sexy animal
+Out of control|In control
+Illegal|Legal
+Quiet|Loud
+Underrated thing to do|Overrated thing to do
+Round animal|Pointy animal
+Bad president|Good president
+Useless|Useful
+Fragile|Durable
+Underrated movie|Overrated movie
+Sad song|Happy song
+Smells bad|Smells good
+Underrated game|Overrated game
+Worst athlete of all time|Greatest athlete of all time
+Replaceable|Irreplaceable
+Disgusting cereal|Delicious cereal
+Nobody does it|Everybody does it
+Boring hobby|Interesting hobby
+Gossip|News
+Wise|Intelligent
+Underrated|Overrated
+Hard to pronounce|Easy to pronounce
+Traditionally masculine|Traditionally feminine
+Easy subject|Hard subject
+Weird|Strange
+Bad pizza topping|Good pizza topping
+Mildly addictive|Highly addictive
+Underrated actor|Overrated actor
+Blue|Green
+Forbidden|Encouraged
+Culturally significant|Culturally insignificant
+Bad person|Good person
+Trashy|Classy
+Ugly Man|Beautiful Man
+Unreasonable phobia|Reasonable phobia
+Dog name|Cat name
+Need|Want
+Small number|Large number
+Funny topic|Serious topic
+Unstable|Stable
+Villain|Hero
+Better hot|Better cold
+Deep|High
+Cat person|Dog person
+Freedom fighter|Terrorist
+Worst chore|Best chore
+One hit wonder|Pop icon
+Unnatural|Natural
+Rare|Common
+Complicated|Simple
+Deep thought|Shallow thought
+Sad movie|Happy movie
+Traditional|Modern
+Too small|Too big
+Illegal|Prohibited
+Sustenance|Haute cuisine
+Uncontroversial topic|Controversial topic
+Ugly|Beautiful
+Underrated book|Overrated book
+Dirty|Clean
+Secret|Public knowledge
+Sport|Game
+Scary animal|Nice animal
+Colorless|Colorful
+Weak|Strong
+Hard to remember|Easy to remember
+Unimportant|Important
+Loved|Hated
+Worst era to time travel|Best era to time travel
+Round|Pointy
+Science|Pseudoscience
+Not a sandwich|A sandwich
+Nature|Nurture
+Role model|Bad influence
+Secret|Public Knowledge
+Doesn't vape|Vapes
+Feels bad|Feels good
+Normal|Weird
+Unsexy PokÃ©mon|Sexy PokÃ©mon
+Vice|Virtue
+Stupid|Brilliant
+Dry|Wet
+Bad dog (breed)|Good dog (breed)"]
+Compulsory|Voluntary
+Proof that God exists|Proof that God doesn't exist
+Low quality|High quality
+Talent|Skill
+Boring person|Fun person
+Vapes|Doesn't Vape
+Not huggable|Huggable
+Hard to sit on|Easy to sit on
+Worst day of the year|Best day of the year
+The worst|The best
+Bad candy|Good candy
+Bad gift|Good gift
+Tragedy|Comedy
+Underrated Movie|Overrated movie
+Inclusive|Exclusive
+Liberal|Conservative
+Bad school|Good school
+Dictatorship|Democracy
+Casual|Formal
+Short|Long
+Huggable|Not huggable
+Stationary|Mobile
+Short lived|Long lived
+Bad superpower|Good superpower
+Powerless|Powerful
+Person you could beat up|Person who'd beat you up
+Comedy|Drama
+Ethical to eat|Unethical to eat
+Looks like a person|Doesn't look like a person
+Untalented|Talented
+Etiquette|Manners
+Optional|Mandatory
+Limited|Infinite
+Least evil company|Most evil company
+Dangerous job|Safe job
+Normal pet|Exotic pet
+Little known fact|Well known fact
+Small|Tiny
+Bitter|Sweet
+Horizontal|Vertical
+Famous|Infamous
+Role model|Bad Influence
+Happens slowly|Happens suddenly
+Messy food|Clean food
+Old fashioned|Avant garde
+Square|Round
+Hard to find|Easy to find
+Small talk|Heavy topic
+For kids|For adults
+Not art|Art
+Dark|Light
+Useless in an emergency|Useful in an emergency
+The Light Side of the Force|The Dark Side of the Force
+Introvert|Extrovert
+Ugly man|Beautiful man
+Unreliable|Reliable
+Bad TV show|Good TV show
+Artisanal|Mass Produced
+Divided|Whole
+Easy to spell|Hard to spell
+Heterogeneous|Homogenous
+Dangerous|Safe
+Geek|Dork
+Artificial|Natural
+Cheap|Expensive
+Unforgivable|Forgivable
+True|False
+Art|Commerce
+Worst year in history|Best year in history
+Unpopular activity|Popular activity
+Action movie|Adventure movie
+Underrated letter of the alphabet|Overrated letter of the alphabet
+Waste of time|Good use of time
+Past|Future
+Movie|Film
+Close|Distant
+Bad man|Good man
+Ameteur|Professional
+Fad|Classic
+Difficult to use|Easy to use
+Local issue|Global issue
+Plain|Fancy
+Liquid|Solid
+Flat|Hilly
+Basic|Hipster
+Similar|Identical
+Snack|Meal
+Bad movie|Good movie
+Bad dog breed|Good dog breed
+Guilty pleasure|Openly love
+Good|Evil
+Useless body part|Useful body part
+Easy to do|Hard to do
+Tastes bad|Tastes good
+Underpaid|Overpaid
+Unknown|Famous
+Underrated skill|Overrated skill
+Fruit|Vegetable
+East|West
+Popular|Elitist
+Doesn’t vape|Vapes
+Endangered species|Overpopulated species
+Socialist|Capitalist
+Peaceful|Warlike
+Straight|Curvy
+Unsexy emoji|Sexy emoji
+Normal thing to own|Weird thing to own
+80s|90s
+Movie that Godzilla would ruin|Movie that Godzilla would improve
+Artisanal|Mass produced
+Low calorie|High calorie
+Unfashionable|Fashionable
+Ineffective|Effective
+Nerd|Jock
+Person you could beat up|Person who’d beat you up
+Limp|Firm
+Underrated thing to own|Overrated thing to own
+Easy to kill|Hard to kill
+Expected|Unexpected
+Star Wars|Star Trek
+Bad|Good
+Unsexy color|Sexy color
+Casual event|Formal event
+Historically important|Historically irrelevant
