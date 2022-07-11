@@ -6,18 +6,20 @@
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
 | Robert | 105.76 | 3 | 1 | 0.75 | Coup |
-| Connie | 102.21 | 2 | 1 | 0.67 | Codenames |
+| Connie | 101.52 | 3 | 3 | 0.50 | Incan Gold |
 | Pearl | 99.95 | 1 | 1 | 0.50 | Secret Hitler |
-| Oliver | 99.84 | 30 | 31 | 0.49 | Camel Up |
-| Kyla | 99.52 | 26 | 29 | 0.47 | Codenames |
-| Dorine | 99.45 | 21 | 25 | 0.46 | 7 Wonders |
+| Oliver | 99.78 | 31 | 33 | 0.48 | Camel Up |
+| Justin | 99.74 | 1 | 1 | 0.50 | Secret Hitler |
+| Harsha | 99.52 | 22 | 26 | 0.46 | Mascarade |
+| Kyla | 99.48 | 27 | 31 | 0.47 | Codenames |
 | Jane | 99.35 | 2 | 3 | 0.40 | Bang |
+| Kenny | 99.34 | 18 | 20 | 0.47 | Between Two Cities |
 | Sincere | 99.31 | 2 | 2 | 0.50 | Secret Hitler |
-| Kenny | 99.29 | 17 | 19 | 0.47 | Between Two Cities |
-| Harsha | 99.21 | 20 | 25 | 0.44 | Mascarade |
-| Vivienne | 98.66 | 19 | 33 | 0.37 | Shifty Eyed Spies |
+| Dorine | 99.11 | 21 | 28 | 0.43 | 7 Wonders |
+| Vivienne | 99.04 | 21 | 33 | 0.39 | Shifty Eyed Spies |
 | Nat | 98.09 | 2 | 3 | 0.40 | Bang |
 | Nancy | 97.94 | 6 | 8 | 0.43 | Wavelength |
+| Jesamine | 97.78 | 0 | 1 | 0.00 | Incan Gold |
 | Dan | 97.41 | 4 | 6 | 0.40 | Bang |
 | Simon | 97.37 | 12 | 29 | 0.29 | Secret Hitler |
 | Abhi | 96.98 | 2 | 6 | 0.25 | Secret Hitler |
@@ -51,17 +53,19 @@
 | Sincere | 106.82  | 2 | 0 | 1.00 |
 | Nat | 104.16  | 1 | 0 | 1.00 |
 | Simon | 103.03  | 7 | 3 | 0.70 |
-| Kyla | 101.50  | 9 | 6 | 0.60 |
-| Harsha | 101.37  | 8 | 5 | 0.62 |
-| Oliver | 101.35  | 9 | 6 | 0.60 |
+| Harsha | 102.11  | 10 | 5 | 0.67 |
 | Pearl | 101.35  | 1 | 1 | 0.50 |
-| Kenny | 100.71  | 6 | 6 | 0.50 |
+| Kyla | 101.31  | 10 | 7 | 0.59 |
+| Vivienne | 101.19  | 8 | 6 | 0.57 |
+| Oliver | 101.14  | 10 | 7 | 0.59 |
+| Kenny | 100.63  | 7 | 7 | 0.50 |
 | Nancy | 100.58  | 4 | 3 | 0.57 |
 | Abhi | 100.27  | 2 | 2 | 0.50 |
-| Vivienne | 100.15  | 6 | 6 | 0.50 |
-| Dorine | 99.12  | 5 | 7 | 0.42 |
+| Justin | 99.98  | 1 | 1 | 0.50 |
+| Dorine | 98.30  | 5 | 9 | 0.36 |
 | Dan | 97.78  | 2 | 3 | 0.40 |
 | Lucy | 95.30  | 0 | 1 | 0.00 |
+| Connie | 95.12  | 0 | 2 | 0.00 |
 | Bella | 93.08  | 0 | 5 | 0.00 |
 | Wing | 92.09  | 0 | 3 | 0.00 |
 | Nicholas | 89.97  | 0 | 1 | 0.00 |
@@ -209,8 +213,10 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Dorine | 121.28  | 1 | 0 | 1.00 |
-| Oliver | 94.68  | 0 | 1 | 0.00 |
+| Connie | 122.48  | 1 | 0 | 1.00 |
+| Dorine | 103.95  | 1 | 1 | 0.50 |
+| Jesamine | 97.32  | 0 | 1 | 0.00 |
+| Oliver | 95.86  | 0 | 2 | 0.00 |
+| Kyla | 95.86  | 0 | 2 | 0.00 |
+| Harsha | 95.86  | 0 | 2 | 0.00 |
 | Abhi | 94.68  | 0 | 1 | 0.00 |
-| Kyla | 94.68  | 0 | 1 | 0.00 |
-| Harsha | 94.68  | 0 | 1 | 0.00 |
