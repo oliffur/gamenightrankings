@@ -60,6 +60,6 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 07/03/2022|Incan Gold|Dorine;Harsha;Kyla;Oliver;Abhi|0;1;1;1;1
 07/03/2022|Secret Hitler|Kyla;Kenny;Pearl;Oliver;Abhi;Harsha;Dorine|0;0;0;1;1;1;1
 07/03/2022|Secret Hitler|Kyla;Kenny;Oliver;Harsha;Dorine;Pearl;Abhi|0;0;0;1;1;1;1
-07/03/2022|Incan Gold|Connie;Oliver;Kyla;Harsha;Jesamine;Dorine|0;1;1;1;1;1
-07/03/2022|Secret Hitler|Kyla;Kenny;Justin;Harsha;Vivienne;Dorine;Oliver;Connie|0;0;0;0;0;1;1;1
-07/03/2022|Secret Hitler|Harsha;Vivienne;Oliver;Kenny;Dorine;Connie;Kyla;Justin|0;0;0;1;1;1;1;1
+07/10/2022|Incan Gold|Connie;Oliver;Kyla;Harsha;Jesamine;Dorine|0;1;1;1;1;1
+07/10/2022|Secret Hitler|Kyla;Kenny;Justin;Harsha;Vivienne;Dorine;Oliver;Connie|0;0;0;0;0;1;1;1
+07/10/2022|Secret Hitler|Harsha;Vivienne;Oliver;Kenny;Dorine;Connie;Kyla;Justin|0;0;0;1;1;1;1;1
