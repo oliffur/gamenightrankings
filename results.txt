@@ -63,3 +63,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 07/10/2022|Incan Gold|Connie;Oliver;Kyla;Harsha;Jesamine;Dorine|0;1;1;1;1;1
 07/10/2022|Secret Hitler|Kyla;Kenny;Justin;Harsha;Vivienne;Dorine;Oliver;Connie|0;0;0;0;0;1;1;1
 07/10/2022|Secret Hitler|Harsha;Vivienne;Oliver;Kenny;Dorine;Connie;Kyla;Justin|0;0;0;1;1;1;1;1
+07/25/2022|Bang|Oliver;Ellabelle;Kyla;Harsha;Ryan|0;0;1;1;1
+07/25/2022|Camel Up|Vivienne;Ryan;Justin;Harsha;Oliver;Ellabelle;Kyla;Dorine|0;1;1;1;1;1;1;1
+07/25/2022|Secret Hitler|Oliver;Kyla;Ellabelle;Justin;Kenny;Harsha;Ryan;Vivienne;Dorine;Robert|0;0;0;0;1;1;1;1;1;1
+07/25/2022|Secret Hitler|Oliver;Kyla;Kenny;Vivienne;Harsha;Robert;Justin;Ellabelle;Ryan;Dorine|0;0;0;0;0;0;1;1;1;1

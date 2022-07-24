@@ -5,18 +5,19 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Robert | 105.76 | 3 | 1 | 0.75 | Coup |
+| Robert | 103.29 | 4 | 2 | 0.67 | Coup |
 | Connie | 101.52 | 3 | 3 | 0.50 | Incan Gold |
+| Ellabelle | 100.86 | 2 | 2 | 0.50 | Bang |
+| Oliver | 100.24 | 34 | 34 | 0.50 | Shifty Eyed Spies |
 | Pearl | 99.95 | 1 | 1 | 0.50 | Secret Hitler |
-| Oliver | 99.78 | 31 | 33 | 0.48 | Camel Up |
-| Justin | 99.74 | 1 | 1 | 0.50 | Secret Hitler |
-| Harsha | 99.52 | 22 | 26 | 0.46 | Mascarade |
-| Kyla | 99.48 | 27 | 31 | 0.47 | Codenames |
+| Kyla | 99.57 | 29 | 33 | 0.47 | Codenames |
+| Vivienne | 99.46 | 23 | 34 | 0.40 | Shifty Eyed Spies |
+| Kenny | 99.38 | 19 | 21 | 0.47 | Between Two Cities |
 | Jane | 99.35 | 2 | 3 | 0.40 | Bang |
-| Kenny | 99.34 | 18 | 20 | 0.47 | Between Two Cities |
+| Harsha | 99.32 | 23 | 29 | 0.44 | Mascarade |
 | Sincere | 99.31 | 2 | 2 | 0.50 | Secret Hitler |
-| Dorine | 99.11 | 21 | 28 | 0.43 | 7 Wonders |
-| Vivienne | 99.04 | 21 | 33 | 0.39 | Shifty Eyed Spies |
+| Justin | 99.29 | 2 | 3 | 0.40 | Secret Hitler |
+| Dorine | 98.82 | 21 | 31 | 0.40 | 7 Wonders |
 | Nat | 98.09 | 2 | 3 | 0.40 | Bang |
 | Nancy | 97.94 | 6 | 8 | 0.43 | Wavelength |
 | Jesamine | 97.78 | 0 | 1 | 0.00 | Incan Gold |
@@ -24,6 +25,7 @@
 | Simon | 97.37 | 12 | 29 | 0.29 | Secret Hitler |
 | Abhi | 96.98 | 2 | 6 | 0.25 | Secret Hitler |
 | Lucy | 96.02 | 1 | 4 | 0.20 | Avalon |
+| Ryan | 95.74 | 0 | 4 | 0.00 | Camel Up |
 | Nicholas | 94.90 | 1 | 2 | 0.33 | Wavelength |
 | Bella | 94.06 | 1 | 7 | 0.12 | Wavelength |
 | Wing | 93.90 | 1 | 4 | 0.20 | Wavelength |
@@ -53,17 +55,20 @@
 | Sincere | 106.82  | 2 | 0 | 1.00 |
 | Nat | 104.16  | 1 | 0 | 1.00 |
 | Simon | 103.03  | 7 | 3 | 0.70 |
-| Harsha | 102.11  | 10 | 5 | 0.67 |
+| Kyla | 101.90  | 12 | 7 | 0.63 |
+| Harsha | 101.84  | 11 | 6 | 0.65 |
+| Oliver | 101.75  | 12 | 7 | 0.63 |
 | Pearl | 101.35  | 1 | 1 | 0.50 |
-| Kyla | 101.31  | 10 | 7 | 0.59 |
-| Vivienne | 101.19  | 8 | 6 | 0.57 |
-| Oliver | 101.14  | 10 | 7 | 0.59 |
-| Kenny | 100.63  | 7 | 7 | 0.50 |
+| Vivienne | 101.05  | 9 | 7 | 0.56 |
 | Nancy | 100.58  | 4 | 3 | 0.57 |
+| Kenny | 100.58  | 8 | 8 | 0.50 |
+| Robert | 100.50  | 1 | 1 | 0.50 |
 | Abhi | 100.27  | 2 | 2 | 0.50 |
-| Justin | 99.98  | 1 | 1 | 0.50 |
-| Dorine | 98.30  | 5 | 9 | 0.36 |
+| Justin | 100.13  | 2 | 2 | 0.50 |
+| Ellabelle | 99.97  | 1 | 1 | 0.50 |
+| Dorine | 97.82  | 5 | 11 | 0.31 |
 | Dan | 97.78  | 2 | 3 | 0.40 |
+| Ryan | 95.66  | 0 | 2 | 0.00 |
 | Lucy | 95.30  | 0 | 1 | 0.00 |
 | Connie | 95.12  | 0 | 2 | 0.00 |
 | Bella | 93.08  | 0 | 5 | 0.00 |
@@ -120,18 +125,20 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
+| Ellabelle | 108.58  | 1 | 0 | 1.00 |
 | Nat | 106.70  | 1 | 0 | 1.00 |
 | Dan | 106.31  | 1 | 0 | 1.00 |
 | Jane | 102.81  | 2 | 1 | 0.67 |
 | Dorine | 102.40  | 5 | 4 | 0.56 |
-| Kyla | 101.86  | 5 | 5 | 0.50 |
+| Oliver | 102.04  | 6 | 5 | 0.55 |
 | Kenny | 100.97  | 3 | 3 | 0.50 |
-| Oliver | 100.78  | 5 | 5 | 0.50 |
-| Harsha | 98.62  | 2 | 4 | 0.33 |
+| Kyla | 100.92  | 5 | 6 | 0.45 |
 | Vivienne | 98.15  | 3 | 6 | 0.33 |
+| Harsha | 97.84  | 2 | 5 | 0.29 |
 | Abhi | 97.23  | 0 | 1 | 0.00 |
 | Lucy | 96.01  | 0 | 1 | 0.00 |
 | Simon | 95.80  | 1 | 8 | 0.11 |
+| Ryan | 95.61  | 0 | 1 | 0.00 |
 
 ### Exploding Kittens
 
@@ -177,13 +184,17 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 122.24  | 2 | 0 | 1.00 |
-| Vivienne | 103.10  | 1 | 1 | 0.50 |
+| Vivienne | 110.73  | 2 | 1 | 0.67 |
+| Oliver | 109.03  | 2 | 1 | 0.67 |
+| Ryan | 98.76  | 0 | 1 | 0.00 |
+| Justin | 98.76  | 0 | 1 | 0.00 |
+| Harsha | 98.76  | 0 | 1 | 0.00 |
+| Ellabelle | 98.76  | 0 | 1 | 0.00 |
+| Kyla | 96.83  | 0 | 3 | 0.00 |
+| Dorine | 96.67  | 0 | 2 | 0.00 |
 | Simon | 95.54  | 0 | 2 | 0.00 |
-| Kyla | 95.54  | 0 | 2 | 0.00 |
 | Sincere | 94.31  | 0 | 1 | 0.00 |
 | Nancy | 94.31  | 0 | 1 | 0.00 |
-| Dorine | 94.31  | 0 | 1 | 0.00 |
 
 ### Shifty Eyed Spies
 
