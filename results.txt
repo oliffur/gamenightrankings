@@ -70,5 +70,5 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 07/31/2022|Incan Gold|Vivienne;Kenny;Dorine;Harsha;Oliver|0;1;1;1;1
 07/31/2022|Cash N Guns|Harsha;Kenny;Dorine;Vivienne;Oliver|0;1;1;1;1
 08/07/2022|Incan Gold|Tiff;Kenny;Dorine;Kyla;Oliver;Vivienne;Harsha;Dan|0;1;1;1;1;1;1;1
-08/07/2022|Incan Gold|Kyla;Kenny;Dorine;Tiff;Oliver;Vivienne;Harsha;Dan|0;1;1;1;1;1;1;1
-08/07/2022|Nosferatu|Oliver;Kenny;Tiff;Vivienne;Harsha;Dan;Kyla;Dorine|0;0;0;0;0;0;1;1
+08/07/2022|Incan Gold|Kyla;Ellabelle;Dorine;Tiff;Oliver;Vivienne;Harsha;Dan|0;1;1;1;1;1;1;1
+08/07/2022|Nosferatu|Oliver;Ellabelle;Tiff;Vivienne;Harsha;Dan;Kyla;Dorine|0;0;0;0;0;0;1;1
