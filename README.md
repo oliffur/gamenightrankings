@@ -5,23 +5,24 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
+| Tiff | 104.91 | 2 | 1 | 0.67 | Incan Gold |
 | Robert | 103.29 | 4 | 2 | 0.67 | Coup |
 | Connie | 101.52 | 3 | 3 | 0.50 | Incan Gold |
 | Ellabelle | 100.86 | 2 | 2 | 0.50 | Bang |
-| Oliver | 100.03 | 34 | 36 | 0.49 | Shifty Eyed Spies |
+| Oliver | 100.02 | 35 | 38 | 0.48 | Shifty Eyed Spies |
 | Pearl | 99.95 | 1 | 1 | 0.50 | Secret Hitler |
-| Vivienne | 99.72 | 24 | 35 | 0.41 | Incan Gold |
-| Harsha | 99.60 | 24 | 30 | 0.44 | Mascarade |
-| Kyla | 99.57 | 29 | 33 | 0.47 | Codenames |
+| Vivienne | 99.73 | 25 | 37 | 0.40 | Shifty Eyed Spies |
+| Kyla | 99.66 | 30 | 35 | 0.46 | Codenames |
+| Harsha | 99.62 | 25 | 32 | 0.44 | Mascarade |
 | Jane | 99.35 | 2 | 3 | 0.40 | Bang |
 | Sincere | 99.31 | 2 | 2 | 0.50 | Secret Hitler |
 | Justin | 99.29 | 2 | 3 | 0.40 | Secret Hitler |
-| Kenny | 99.17 | 19 | 23 | 0.45 | Between Two Cities |
-| Dorine | 98.68 | 21 | 33 | 0.39 | 7 Wonders |
+| Kenny | 99.24 | 20 | 25 | 0.44 | Between Two Cities |
+| Dorine | 98.45 | 21 | 36 | 0.37 | 7 Wonders |
 | Nat | 98.09 | 2 | 3 | 0.40 | Bang |
+| Dan | 98.08 | 5 | 8 | 0.38 | Bang |
 | Nancy | 97.94 | 6 | 8 | 0.43 | Wavelength |
 | Jesamine | 97.78 | 0 | 1 | 0.00 | Incan Gold |
-| Dan | 97.41 | 4 | 6 | 0.40 | Bang |
 | Simon | 97.37 | 12 | 29 | 0.29 | Secret Hitler |
 | Abhi | 96.98 | 2 | 6 | 0.25 | Secret Hitler |
 | Lucy | 96.02 | 1 | 4 | 0.20 | Avalon |
@@ -225,13 +226,15 @@
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Connie | 122.48  | 1 | 0 | 1.00 |
-| Vivienne | 121.93  | 1 | 0 | 1.00 |
-| Dorine | 99.80  | 1 | 2 | 0.33 |
+| Tiff | 105.72  | 1 | 1 | 0.50 |
+| Kyla | 102.34  | 1 | 3 | 0.25 |
+| Vivienne | 101.77  | 1 | 2 | 0.33 |
+| Dorine | 98.53  | 1 | 4 | 0.20 |
+| Dan | 97.81  | 0 | 2 | 0.00 |
 | Jesamine | 97.32  | 0 | 1 | 0.00 |
-| Kenny | 96.44  | 0 | 1 | 0.00 |
-| Kyla | 95.86  | 0 | 2 | 0.00 |
-| Oliver | 95.72  | 0 | 3 | 0.00 |
-| Harsha | 95.72  | 0 | 3 | 0.00 |
+| Kenny | 97.24  | 0 | 3 | 0.00 |
+| Oliver | 96.71  | 0 | 5 | 0.00 |
+| Harsha | 96.71  | 0 | 5 | 0.00 |
 | Abhi | 94.68  | 0 | 1 | 0.00 |
 
 ### Cash N Guns
@@ -243,3 +246,16 @@
 | Oliver | 94.68  | 0 | 1 | 0.00 |
 | Dorine | 94.68  | 0 | 1 | 0.00 |
 | Kenny | 94.68  | 0 | 1 | 0.00 |
+
+### Nosferatu
+
+| Player | ELO | Wins | Losses | Win % |
+| --- | --- | --- | --- | --- |
+| Harsha | 104.86  | 1 | 0 | 1.00 |
+| Vivienne | 104.86  | 1 | 0 | 1.00 |
+| Dan | 104.86  | 1 | 0 | 1.00 |
+| Oliver | 104.86  | 1 | 0 | 1.00 |
+| Tiff | 104.86  | 1 | 0 | 1.00 |
+| Kenny | 104.86  | 1 | 0 | 1.00 |
+| Kyla | 85.43  | 0 | 1 | 0.00 |
+| Dorine | 85.43  | 0 | 1 | 0.00 |
