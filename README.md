@@ -5,10 +5,10 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Tiff | 105.09 | 2 | 1 | 0.67 | Incan Gold |
+| Tiff | 105.08 | 2 | 1 | 0.67 | Incan Gold |
 | Robert | 103.29 | 4 | 2 | 0.67 | Coup |
 | Connie | 101.52 | 3 | 3 | 0.50 | Incan Gold |
-| Ellabelle | 100.85 | 3 | 3 | 0.50 | Bang |
+| Ellabelle | 100.47 | 3 | 4 | 0.43 | Bang |
 | Oliver | 100.03 | 35 | 38 | 0.48 | Shifty Eyed Spies |
 | Pearl | 99.95 | 1 | 1 | 0.50 | Secret Hitler |
 | Vivienne | 99.74 | 25 | 37 | 0.40 | Shifty Eyed Spies |
@@ -17,9 +17,9 @@
 | Jane | 99.35 | 2 | 3 | 0.40 | Bang |
 | Sincere | 99.31 | 2 | 2 | 0.50 | Secret Hitler |
 | Justin | 99.29 | 2 | 3 | 0.40 | Secret Hitler |
-| Kenny | 99.14 | 19 | 24 | 0.44 | Between Two Cities |
+| Kenny | 99.17 | 19 | 23 | 0.45 | Between Two Cities |
 | Dorine | 98.46 | 21 | 36 | 0.37 | 7 Wonders |
-| Dan | 98.12 | 5 | 8 | 0.38 | Bang |
+| Dan | 98.13 | 5 | 8 | 0.38 | Bang |
 | Nat | 98.09 | 2 | 3 | 0.40 | Bang |
 | Nancy | 97.94 | 6 | 8 | 0.43 | Wavelength |
 | Jesamine | 97.78 | 0 | 1 | 0.00 | Incan Gold |
@@ -226,16 +226,16 @@
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Connie | 122.48  | 1 | 0 | 1.00 |
-| Tiff | 105.85  | 1 | 1 | 0.50 |
-| Kyla | 102.40  | 1 | 3 | 0.25 |
-| Vivienne | 101.85  | 1 | 2 | 0.33 |
-| Dorine | 98.59  | 1 | 4 | 0.20 |
-| Ellabelle | 98.21  | 0 | 1 | 0.00 |
-| Dan | 97.91  | 0 | 2 | 0.00 |
+| Tiff | 105.97  | 1 | 1 | 0.50 |
+| Kyla | 102.56  | 1 | 3 | 0.25 |
+| Vivienne | 101.98  | 1 | 2 | 0.33 |
+| Dorine | 98.70  | 1 | 4 | 0.20 |
+| Ellabelle | 98.07  | 0 | 2 | 0.00 |
+| Dan | 98.07  | 0 | 2 | 0.00 |
 | Jesamine | 97.32  | 0 | 1 | 0.00 |
-| Kenny | 97.03  | 0 | 2 | 0.00 |
-| Oliver | 96.76  | 0 | 5 | 0.00 |
-| Harsha | 96.76  | 0 | 5 | 0.00 |
+| Oliver | 96.87  | 0 | 5 | 0.00 |
+| Harsha | 96.87  | 0 | 5 | 0.00 |
+| Kenny | 96.44  | 0 | 1 | 0.00 |
 | Abhi | 94.68  | 0 | 1 | 0.00 |
 
 ### Cash N Guns
