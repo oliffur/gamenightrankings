@@ -40,9 +40,9 @@ def calc_elo(df):
         teams = [[get_elo(ratings, env, player) for player in team]\
                 for team in row['teams']]
         if row['game'] in RANKED_GAMES:
-            env.tau = env.tau * 5
-            elos = env.rate(teams, row['ranks'])
             env.tau = env.tau / 5
+            elos = env.rate(teams, row['ranks'])
+            env.tau = env.tau * 5
         else:
             elos = env.rate(teams, row['ranks'])
         has_winner = sum(row['ranks']) > 0
