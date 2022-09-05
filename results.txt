@@ -69,8 +69,8 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 07/25/2022|Secret Hitler|Oliver;Kyla;Kenny;Vivienne;Harsha;Robert;Justin;Ellabelle;Ryan;Dorine|0;0;0;0;0;0;1;1;1;1
 07/31/2022|Incan Gold|Vivienne;Kenny;Dorine;Harsha;Oliver|0;0;0;0;1
 07/31/2022|Cash N Guns|Harsha;Kenny;Dorine;Vivienne;Oliver|0;1;1;1;1
-08/07/2022|Incan Gold|Tiff;Ellabelle;Dorine;Kyla;Oliver;Vivienne;Harsha;Dan|0;1;1;1;1;1;1;1
-08/07/2022|Incan Gold|Kyla;Ellabelle;Dorine;Tiff;Oliver;Vivienne;Harsha;Dan|0;1;1;1;1;1;1;1
+08/07/2022|Incan Gold|Tiff;Ellabelle;Dorine;Kyla;Oliver;Vivienne;Harsha;Dan|0;0;0;0;0;0;0;1
+08/07/2022|Incan Gold|Kyla;Ellabelle;Dorine;Tiff;Oliver;Vivienne;Harsha;Dan|0;0;0;0;0;0;0;1
 08/07/2022|Nosferatu|Oliver;Ellabelle;Tiff;Vivienne;Harsha;Dan;Kyla;Dorine|0;0;0;0;0;0;1;1
 09/05/2022|Incan Gold|Dorine;Kyla;Ellabelle;Vivienne;Harsha;Oliver;Dom;Kenny|0;0;0;0;0;0;0;1
 09/05/2022|Secret Hitler|Vivienne;Oliver;Dorine;Justin;Jay;Ellabelle;Dom;Harsha;Kenny;Kyla|0;0;0;0;0;0;1;1;1;1

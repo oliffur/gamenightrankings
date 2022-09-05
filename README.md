@@ -6,33 +6,33 @@
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
 | Jesamine | 193.38 | 1 | 0 | 1.00 | Incan Gold |
-| Dom | 105.74 | 3 | 2 | 0.60 | Codenames |
+| Dom | 110.03 | 3 | 2 | 0.60 | Incan Gold |
 | Robert | 102.92 | 4 | 2 | 0.67 | Coup |
+| Harsha | 102.04 | 34 | 28 | 0.55 | Mascarade |
 | Pearl | 99.36 | 1 | 1 | 0.50 | Secret Hitler |
 | Jane | 99.35 | 2 | 3 | 0.40 | Bang |
 | Sincere | 99.31 | 2 | 2 | 0.50 | Secret Hitler |
 | Nat | 98.09 | 2 | 3 | 0.40 | Bang |
 | Nancy | 97.94 | 6 | 8 | 0.43 | Wavelength |
+| Jay | 97.93 | 2 | 1 | 0.67 | Secret Hitler |
+| Oliver | 97.83 | 43 | 35 | 0.55 | Shifty Eyed Spies |
+| Justin | 97.78 | 4 | 4 | 0.50 | Secret Hitler |
 | Simon | 97.37 | 12 | 29 | 0.29 | Secret Hitler |
+| Kenny | 97.16 | 22 | 25 | 0.47 | Between Two Cities |
 | Abhi | 96.91 | 2 | 6 | 0.25 | Secret Hitler |
-| Kenny | 96.75 | 22 | 25 | 0.47 | Between Two Cities |
-| Justin | 96.48 | 4 | 4 | 0.50 | Secret Hitler |
-| Dan | 96.24 | 5 | 8 | 0.38 | Bang |
+| Dan | 96.70 | 5 | 8 | 0.38 | Bang |
 | Lucy | 96.02 | 1 | 4 | 0.20 | Avalon |
-| Jay | 95.01 | 2 | 1 | 0.67 | Secret Hitler |
+| Vivienne | 94.95 | 29 | 38 | 0.43 | Shifty Eyed Spies |
 | Nicholas | 94.90 | 1 | 2 | 0.33 | Wavelength |
-| Oliver | 94.77 | 41 | 37 | 0.53 | Shifty Eyed Spies |
 | Ryan | 94.71 | 0 | 4 | 0.00 | Camel Up |
 | Bella | 94.06 | 1 | 7 | 0.12 | Wavelength |
 | Wing | 93.90 | 1 | 4 | 0.20 | Wavelength |
-| Harsha | 93.42 | 32 | 30 | 0.52 | Mascarade |
-| Kyla | 93.39 | 35 | 35 | 0.50 | Wavelength |
-| Vivienne | 90.60 | 27 | 40 | 0.40 | Shifty Eyed Spies |
-| Josie | 89.32 | 0 | 2 | 0.00 | Codenames |
-| Dorine | 88.55 | 25 | 37 | 0.40 | 7 Wonders |
+| Kyla | 93.11 | 36 | 34 | 0.51 | Wavelength |
+| Josie | 91.95 | 0 | 2 | 0.00 | Codenames |
+| Dorine | 90.63 | 27 | 35 | 0.44 | 7 Wonders |
 | Connie | 88.01 | 3 | 3 | 0.50 | Codenames |
-| Ellabelle | 74.90 | 7 | 5 | 0.58 | Bang |
-| Tiff | 49.76 | 2 | 1 | 0.67 | Nosferatu |
+| Ellabelle | 81.40 | 9 | 3 | 0.75 | Bang |
+| Tiff | 55.22 | 3 | 0 | 1.00 | Nosferatu |
 
 ### Rankings over Time
 ![Image](rankings.png)
@@ -239,18 +239,18 @@
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Jesamine | 138.12  | 1 | 0 | 1.00 |
-| Dan | 100.40  | 0 | 2 | 0.00 |
+| Dom | 126.69  | 1 | 0 | 1.00 |
+| Dan | 100.00  | 0 | 2 | 0.00 |
 | Abhi | 100.00  | 0 | 1 | 0.00 |
-| Dom | 85.76  | 1 | 0 | 1.00 |
+| Harsha | 74.40  | 6 | 0 | 1.00 |
+| Oliver | 49.33  | 5 | 1 | 0.83 |
 | Connie | 43.62  | 1 | 0 | 1.00 |
 | Kenny | 42.49  | 1 | 1 | 0.50 |
-| Harsha | 31.74  | 4 | 2 | 0.67 |
-| Kyla | 30.71  | 4 | 1 | 0.80 |
-| Oliver | 27.29  | 3 | 3 | 0.50 |
-| Tiff | 20.46  | 1 | 1 | 0.50 |
-| Dorine | 19.50  | 3 | 3 | 0.50 |
-| Vivienne | 15.30  | 2 | 2 | 0.50 |
-| Ellabelle | 12.76  | 1 | 2 | 0.33 |
+| Vivienne | 41.82  | 4 | 0 | 1.00 |
+| Kyla | 33.84  | 5 | 0 | 1.00 |
+| Dorine | 29.22  | 5 | 1 | 0.83 |
+| Tiff | 28.33  | 2 | 0 | 1.00 |
+| Ellabelle | 25.98  | 3 | 0 | 1.00 |
 
 ### Cash N Guns
 
