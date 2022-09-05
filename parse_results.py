@@ -117,6 +117,7 @@ def main():
     chart_df.drop(columns=infrequent_players, inplace=True)
     chart_df.plot.line().legend(
             loc='lower center', ncol=5, bbox_to_anchor=(0.5, -0.3))
+    plt.xticks(rotation='vertical')
     plt.subplots_adjust(bottom=0.25)
     plt.savefig('rankings.png')
 
