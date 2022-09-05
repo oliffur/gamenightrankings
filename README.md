@@ -5,32 +5,32 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Tiff | 103.90 | 2 | 1 | 0.67 | Incan Gold |
-| Robert | 103.29 | 4 | 2 | 0.67 | Coup |
-| Ellabelle | 101.26 | 6 | 6 | 0.50 | Bang |
-| Jay | 100.41 | 2 | 1 | 0.67 | Secret Hitler |
-| Oliver | 100.36 | 38 | 40 | 0.49 | Shifty Eyed Spies |
-| Harsha | 100.00 | 28 | 34 | 0.45 | Mascarade |
-| Pearl | 99.95 | 1 | 1 | 0.50 | Secret Hitler |
-| Justin | 99.77 | 4 | 4 | 0.50 | Secret Hitler |
-| Kyla | 99.46 | 32 | 38 | 0.46 | Incan Gold |
-| Connie | 99.44 | 3 | 3 | 0.50 | Incan Gold |
+| Tiff | 105.05 | 2 | 1 | 0.67 | Incan Gold |
+| Robert | 103.28 | 4 | 2 | 0.67 | Coup |
+| Connie | 101.49 | 3 | 3 | 0.50 | Incan Gold |
+| Ellabelle | 101.15 | 6 | 6 | 0.50 | Bang |
+| Jay | 100.19 | 2 | 1 | 0.67 | Secret Hitler |
+| Kyla | 100.14 | 32 | 38 | 0.46 | Incan Gold |
+| Pearl | 99.94 | 1 | 1 | 0.50 | Secret Hitler |
+| Harsha | 99.72 | 28 | 34 | 0.45 | Mascarade |
+| Justin | 99.72 | 4 | 4 | 0.50 | Secret Hitler |
+| Oliver | 99.70 | 38 | 40 | 0.49 | Shifty Eyed Spies |
+| Dorine | 99.41 | 24 | 38 | 0.39 | 7 Wonders |
 | Jane | 99.35 | 2 | 3 | 0.40 | Bang |
 | Sincere | 99.31 | 2 | 2 | 0.50 | Secret Hitler |
-| Vivienne | 99.17 | 26 | 41 | 0.39 | Shifty Eyed Spies |
-| Kenny | 98.98 | 21 | 26 | 0.45 | Between Two Cities |
-| Dorine | 98.44 | 24 | 38 | 0.39 | 7 Wonders |
-| Dom | 98.40 | 2 | 3 | 0.40 | Codenames |
-| Jesamine | 98.27 | 0 | 1 | 0.00 | Incan Gold |
+| Vivienne | 99.18 | 26 | 41 | 0.39 | Shifty Eyed Spies |
+| Dan | 98.21 | 5 | 8 | 0.38 | Bang |
 | Nat | 98.09 | 2 | 3 | 0.40 | Bang |
-| Dan | 97.97 | 5 | 8 | 0.38 | Bang |
 | Nancy | 97.94 | 6 | 8 | 0.43 | Wavelength |
+| Kenny | 97.79 | 21 | 26 | 0.45 | Between Two Cities |
+| Jesamine | 97.75 | 0 | 1 | 0.00 | Incan Gold |
 | Simon | 97.37 | 12 | 29 | 0.29 | Secret Hitler |
-| Abhi | 97.05 | 2 | 6 | 0.25 | Secret Hitler |
+| Abhi | 96.94 | 2 | 6 | 0.25 | Secret Hitler |
 | Lucy | 96.02 | 1 | 4 | 0.20 | Avalon |
-| Ryan | 95.75 | 0 | 4 | 0.00 | Camel Up |
-| Josie | 95.04 | 0 | 2 | 0.00 | Codenames |
+| Dom | 95.96 | 2 | 3 | 0.40 | Codenames |
+| Ryan | 95.71 | 0 | 4 | 0.00 | Camel Up |
 | Nicholas | 94.90 | 1 | 2 | 0.33 | Wavelength |
+| Josie | 94.81 | 0 | 2 | 0.00 | Codenames |
 | Bella | 94.06 | 1 | 7 | 0.12 | Wavelength |
 | Wing | 93.90 | 1 | 4 | 0.20 | Wavelength |
 
@@ -238,19 +238,19 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Dorine | 112.22  | 2 | 4 | 0.33 |
-| Kyla | 109.91  | 1 | 4 | 0.20 |
-| Connie | 109.06  | 1 | 0 | 1.00 |
-| Tiff | 106.86  | 1 | 1 | 0.50 |
-| Vivienne | 105.42  | 1 | 3 | 0.25 |
-| Ellabelle | 102.49  | 0 | 3 | 0.00 |
-| Jesamine | 98.27  | 0 | 1 | 0.00 |
-| Abhi | 97.79  | 0 | 1 | 0.00 |
-| Dan | 97.70  | 0 | 2 | 0.00 |
-| Harsha | 93.37  | 0 | 6 | 0.00 |
-| Oliver | 90.82  | 0 | 6 | 0.00 |
-| Dom | 89.26  | 0 | 1 | 0.00 |
-| Kenny | 81.99  | 0 | 2 | 0.00 |
+| Connie | 122.51  | 1 | 0 | 1.00 |
+| Kyla | 106.41  | 1 | 4 | 0.20 |
+| Tiff | 105.93  | 1 | 1 | 0.50 |
+| Dorine | 105.62  | 2 | 4 | 0.33 |
+| Ellabelle | 101.30  | 0 | 3 | 0.00 |
+| Vivienne | 101.30  | 1 | 3 | 0.25 |
+| Dan | 98.06  | 0 | 2 | 0.00 |
+| Jesamine | 97.31  | 0 | 1 | 0.00 |
+| Harsha | 95.92  | 0 | 6 | 0.00 |
+| Abhi | 94.67  | 0 | 1 | 0.00 |
+| Oliver | 94.03  | 0 | 6 | 0.00 |
+| Dom | 79.43  | 0 | 1 | 0.00 |
+| Kenny | 77.32  | 0 | 2 | 0.00 |
 
 ### Cash N Guns
 
