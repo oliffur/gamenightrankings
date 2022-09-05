@@ -4,6 +4,8 @@ import numpy as np
 import pandas as pd
 from   trueskill import TrueSkill
 
+RANKED_GAMES = ['Incan Gold']
+
 class RatingsInfo:
     elo = None
     wins = None
@@ -37,7 +39,10 @@ def calc_elo(df):
     for idx, row in df.iterrows():
         teams = [[get_elo(ratings, env, player) for player in team]\
                 for team in row['teams']]
-        elos = env.rate(teams, row['ranks'])
+        if row['game'] in RANKED_GAMES:
+            elos = env.rate(teams, row['ranks'], [i/len(row['ranks']) for i in range(len(row['ranks'], 0, -1))])
+        else:
+            elos = env.rate(teams, row['ranks'])
         has_winner = sum(row['ranks']) > 0
         for team, team_elos, team_rank in zip(row['teams'], elos, row['ranks']):
             for player, player_elo in zip(team, team_elos):
