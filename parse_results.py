@@ -40,7 +40,7 @@ def calc_elo(df):
         teams = [[get_elo(ratings, env, player) for player in team]\
                 for team in row['teams']]
         if row['game'] in RANKED_GAMES:
-            env.sigma = env.sigma
+            env.sigma = env.sigma * 5
             elos = env.rate(teams, row['ranks'])
         else:
             elos = env.rate(teams, row['ranks'])
