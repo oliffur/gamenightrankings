@@ -8,18 +8,18 @@
 | Tiff | 104.74 | 2 | 1 | 0.67 | Incan Gold |
 | Robert | 103.29 | 4 | 2 | 0.67 | Coup |
 | Ellabelle | 101.26 | 6 | 6 | 0.50 | Bang |
+| Oliver | 100.67 | 41 | 42 | 0.49 | Shifty Eyed Spies |
 | Jay | 100.35 | 2 | 1 | 0.67 | Secret Hitler |
-| Oliver | 100.28 | 38 | 40 | 0.49 | Shifty Eyed Spies |
+| Harsha | 100.17 | 31 | 36 | 0.46 | Mascarade |
 | Pearl | 99.95 | 1 | 1 | 0.50 | Secret Hitler |
-| Harsha | 99.94 | 28 | 34 | 0.45 | Mascarade |
 | Connie | 99.81 | 3 | 3 | 0.50 | Incan Gold |
-| Justin | 99.75 | 4 | 4 | 0.50 | Secret Hitler |
 | Kyla | 99.52 | 32 | 38 | 0.46 | Incan Gold |
 | Jane | 99.35 | 2 | 3 | 0.40 | Bang |
 | Sincere | 99.31 | 2 | 2 | 0.50 | Secret Hitler |
-| Vivienne | 99.21 | 26 | 41 | 0.39 | Shifty Eyed Spies |
-| Kenny | 98.85 | 21 | 26 | 0.45 | Between Two Cities |
-| Dorine | 98.55 | 24 | 38 | 0.39 | 7 Wonders |
+| Justin | 99.14 | 5 | 6 | 0.45 | Incan Gold |
+| Kenny | 98.93 | 22 | 28 | 0.44 | Between Two Cities |
+| Vivienne | 98.82 | 27 | 45 | 0.38 | Shifty Eyed Spies |
+| Dorine | 98.37 | 26 | 41 | 0.39 | 7 Wonders |
 | Nat | 98.09 | 2 | 3 | 0.40 | Bang |
 | Dan | 97.97 | 5 | 8 | 0.38 | Bang |
 | Nancy | 97.94 | 6 | 8 | 0.43 | Wavelength |
@@ -143,13 +143,13 @@
 | Nat | 106.70  | 1 | 0 | 1.00 |
 | Dan | 106.31  | 1 | 0 | 1.00 |
 | Jane | 102.81  | 2 | 1 | 0.67 |
-| Dorine | 102.40  | 5 | 4 | 0.56 |
-| Oliver | 102.04  | 6 | 5 | 0.55 |
+| Oliver | 102.66  | 7 | 5 | 0.58 |
+| Dorine | 101.09  | 5 | 5 | 0.50 |
 | Kenny | 100.97  | 3 | 3 | 0.50 |
 | Kyla | 100.92  | 5 | 6 | 0.45 |
-| Vivienne | 98.15  | 3 | 6 | 0.33 |
-| Harsha | 97.84  | 2 | 5 | 0.29 |
+| Vivienne | 99.37  | 4 | 6 | 0.40 |
 | Abhi | 97.23  | 0 | 1 | 0.00 |
+| Harsha | 97.00  | 2 | 6 | 0.25 |
 | Lucy | 96.01  | 0 | 1 | 0.00 |
 | Simon | 95.80  | 1 | 8 | 0.11 |
 | Ryan | 95.61  | 0 | 1 | 0.00 |
@@ -187,12 +187,13 @@
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Kenny | 122.03  | 1 | 0 | 1.00 |
+| Harsha | 101.69  | 1 | 1 | 0.50 |
+| Oliver | 101.69  | 1 | 1 | 0.50 |
 | Simon | 96.33  | 0 | 1 | 0.00 |
 | Kyla | 96.33  | 0 | 1 | 0.00 |
-| Oliver | 96.33  | 0 | 1 | 0.00 |
 | Bella | 96.33  | 0 | 1 | 0.00 |
-| Vivienne | 96.33  | 0 | 1 | 0.00 |
-| Harsha | 96.33  | 0 | 1 | 0.00 |
+| Vivienne | 89.61  | 0 | 2 | 0.00 |
+| Dorine | 87.51  | 0 | 1 | 0.00 |
 
 ### Camel Up
 
@@ -238,19 +239,20 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
+| Justin | 121.73  | 1 | 0 | 1.00 |
 | Connie | 113.63  | 1 | 0 | 1.00 |
-| Dorine | 111.65  | 2 | 4 | 0.33 |
 | Kyla | 110.21  | 1 | 4 | 0.20 |
 | Tiff | 108.65  | 1 | 1 | 0.50 |
-| Vivienne | 105.27  | 1 | 3 | 0.25 |
 | Ellabelle | 102.76  | 0 | 3 | 0.00 |
+| Dorine | 101.19  | 2 | 5 | 0.29 |
+| Vivienne | 98.64  | 1 | 4 | 0.20 |
 | Jesamine | 97.61  | 0 | 1 | 0.00 |
 | Dan | 97.27  | 0 | 2 | 0.00 |
 | Abhi | 96.70  | 0 | 1 | 0.00 |
-| Harsha | 93.52  | 0 | 6 | 0.00 |
-| Oliver | 90.92  | 0 | 6 | 0.00 |
+| Oliver | 96.04  | 0 | 7 | 0.00 |
+| Harsha | 92.58  | 0 | 7 | 0.00 |
 | Dom | 83.98  | 0 | 1 | 0.00 |
-| Kenny | 76.27  | 0 | 2 | 0.00 |
+| Kenny | 82.90  | 0 | 3 | 0.00 |
 
 ### Cash N Guns
 
@@ -266,11 +268,13 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Harsha | 104.86  | 1 | 0 | 1.00 |
-| Vivienne | 104.86  | 1 | 0 | 1.00 |
+| Harsha | 106.86  | 3 | 0 | 1.00 |
 | Dan | 104.86  | 1 | 0 | 1.00 |
-| Oliver | 104.86  | 1 | 0 | 1.00 |
 | Tiff | 104.86  | 1 | 0 | 1.00 |
 | Ellabelle | 104.86  | 1 | 0 | 1.00 |
+| Dorine | 103.06  | 2 | 1 | 0.67 |
+| Oliver | 101.66  | 2 | 1 | 0.67 |
+| Kenny | 100.75  | 1 | 1 | 0.50 |
+| Vivienne | 94.35  | 1 | 2 | 0.33 |
+| Justin | 91.44  | 0 | 2 | 0.00 |
 | Kyla | 85.43  | 0 | 1 | 0.00 |
-| Dorine | 85.43  | 0 | 1 | 0.00 |

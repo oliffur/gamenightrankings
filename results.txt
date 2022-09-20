@@ -77,3 +77,8 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 09/05/2022|Secret Hitler|Kyla;Harsha;Jay;Kenny;Justin;Oliver;Ellabelle;Vivienne;Dom;Dorine|0;0;0;0;0;0;1;1;1;1
 09/05/2022|Wavelength|Kyla;Harsha;Ellabelle;Kenny;Dom;Dorine;Oliver;Josie;Justin;Jay;Vivienne|0;0;0;0;0;1;1;1;1;1;1
 09/05/2022|Codenames|Oliver;Dom;Ellabelle;Dorine;Harsha;Kyla;Vivienne;Kenny;Josie|0;0;0;0;0;1;1;1;1
+09/18/2022|Nosferatu|Dorine;Harsha;Kenny;Justin;Oliver;Vivienne|0;0;1;1;1;1
+09/18/2022|Nosferatu|Dorine;Harsha;Kenny;Oliver;Justin;Vivienne|0;0;0;0;1;1
+09/18/2022|Between Two Cities|Oliver;Harsha;Vivienne;Dorine|0;0;1;1
+09/18/2022|Incan Gold|Justin;Oliver;Kenny;Harsha;Vivienne;Dorine|0;1;2;3;4;5
+09/18/2022|Bang|Oliver;Vivienne;Harsha;Dorine|0;0;1;1
