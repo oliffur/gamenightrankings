@@ -7,10 +7,9 @@
 | --- | --- | --- | --- | --- | --- |
 | Tiff | 104.74 | 2 | 1 | 0.67 | Incan Gold |
 | Robert | 103.29 | 4 | 2 | 0.67 | Coup |
-| Ellabelle | 101.26 | 6 | 6 | 0.50 | Bang |
-| Oliver | 100.67 | 41 | 42 | 0.49 | Shifty Eyed Spies |
+| Harsha | 100.84 | 35 | 37 | 0.49 | Mascarade |
+| Oliver | 100.84 | 44 | 44 | 0.50 | Shifty Eyed Spies |
 | Jay | 100.35 | 2 | 1 | 0.67 | Secret Hitler |
-| Harsha | 100.17 | 31 | 36 | 0.46 | Mascarade |
 | Pearl | 99.95 | 1 | 1 | 0.50 | Secret Hitler |
 | Connie | 99.81 | 3 | 3 | 0.50 | Incan Gold |
 | Kyla | 99.52 | 32 | 38 | 0.46 | Incan Gold |
@@ -18,8 +17,9 @@
 | Sincere | 99.31 | 2 | 2 | 0.50 | Secret Hitler |
 | Justin | 99.14 | 5 | 6 | 0.45 | Incan Gold |
 | Kenny | 98.93 | 22 | 28 | 0.44 | Between Two Cities |
-| Vivienne | 98.82 | 27 | 45 | 0.38 | Shifty Eyed Spies |
-| Dorine | 98.37 | 26 | 41 | 0.39 | 7 Wonders |
+| Vivienne | 98.89 | 29 | 48 | 0.38 | Shifty Eyed Spies |
+| Ellabelle | 98.36 | 6 | 11 | 0.35 | Bang |
+| Dorine | 98.23 | 27 | 44 | 0.38 | 7 Wonders |
 | Nat | 98.09 | 2 | 3 | 0.40 | Bang |
 | Dan | 97.97 | 5 | 8 | 0.38 | Bang |
 | Nancy | 97.94 | 6 | 8 | 0.43 | Wavelength |
@@ -117,21 +117,21 @@
 | --- | --- | --- | --- | --- |
 | Nancy | 105.52  | 2 | 0 | 1.00 |
 | Kyla | 105.08  | 6 | 1 | 0.86 |
-| Ellabelle | 104.93  | 1 | 0 | 1.00 |
 | Dom | 104.93  | 1 | 0 | 1.00 |
-| Oliver | 102.70  | 5 | 2 | 0.71 |
-| Vivienne | 101.29  | 4 | 3 | 0.57 |
+| Oliver | 103.13  | 6 | 2 | 0.75 |
+| Vivienne | 101.94  | 5 | 3 | 0.62 |
 | Kenny | 101.15  | 4 | 3 | 0.57 |
+| Harsha | 99.12  | 3 | 4 | 0.43 |
 | Nicholas | 98.90  | 1 | 1 | 0.50 |
 | Bella | 98.90  | 1 | 1 | 0.50 |
 | Wing | 98.90  | 1 | 1 | 0.50 |
 | Dan | 98.25  | 1 | 2 | 0.33 |
+| Ellabelle | 98.16  | 1 | 1 | 0.50 |
 | Simon | 98.01  | 2 | 3 | 0.40 |
-| Harsha | 97.71  | 2 | 4 | 0.33 |
-| Dorine | 96.97  | 2 | 5 | 0.29 |
 | Jay | 96.43  | 0 | 1 | 0.00 |
 | Justin | 96.43  | 0 | 1 | 0.00 |
 | Josie | 96.43  | 0 | 1 | 0.00 |
+| Dorine | 96.03  | 2 | 6 | 0.25 |
 | Sincere | 95.88  | 0 | 1 | 0.00 |
 | Abhi | 94.96  | 0 | 1 | 0.00 |
 
@@ -158,29 +158,31 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Harsha | 121.28  | 1 | 0 | 1.00 |
-| Oliver | 101.80  | 2 | 4 | 0.33 |
+| Harsha | 109.76  | 2 | 1 | 0.67 |
+| Dorine | 108.95  | 1 | 1 | 0.50 |
+| Oliver | 99.72  | 2 | 6 | 0.25 |
+| Ellabelle | 97.65  | 0 | 2 | 0.00 |
 | Kyla | 97.64  | 1 | 4 | 0.20 |
 | Simon | 95.59  | 1 | 3 | 0.25 |
+| Vivienne | 95.59  | 1 | 6 | 0.14 |
 | Kenny | 94.68  | 0 | 1 | 0.00 |
-| Dorine | 94.68  | 0 | 1 | 0.00 |
-| Vivienne | 94.19  | 1 | 4 | 0.20 |
 
 ### Avalon
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Lucy | 110.86  | 1 | 0 | 1.00 |
-| Dorine | 108.98  | 5 | 0 | 1.00 |
 | Connie | 104.90  | 1 | 0 | 1.00 |
 | Robert | 104.42  | 2 | 1 | 0.67 |
-| Harsha | 99.74  | 2 | 3 | 0.40 |
+| Dorine | 102.50  | 5 | 2 | 0.71 |
+| Harsha | 102.23  | 4 | 3 | 0.57 |
+| Oliver | 100.44  | 3 | 4 | 0.43 |
 | Kyla | 98.71  | 2 | 3 | 0.40 |
-| Vivienne | 97.56  | 1 | 3 | 0.25 |
+| Vivienne | 98.16  | 2 | 4 | 0.33 |
 | Kenny | 97.18  | 1 | 3 | 0.25 |
-| Oliver | 96.81  | 1 | 4 | 0.20 |
 | Simon | 93.48  | 0 | 1 | 0.00 |
 | Nat | 93.48  | 0 | 1 | 0.00 |
+| Ellabelle | 93.47  | 0 | 2 | 0.00 |
 
 ### Between Two Cities
 
