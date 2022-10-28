@@ -8,25 +8,25 @@
 | Tiff | 104.74 | 2 | 1 | 0.67 | Incan Gold |
 | Robert | 103.29 | 4 | 2 | 0.67 | Coup |
 | Oliver | 101.13 | 46 | 46 | 0.50 | Incan Gole |
-| Harsha | 101.01 | 38 | 38 | 0.50 | Mascarade |
+| Harsha | 100.90 | 39 | 40 | 0.49 | Mascarade |
 | Jay | 100.35 | 2 | 1 | 0.67 | Secret Hitler |
 | Pearl | 99.95 | 1 | 1 | 0.50 | Secret Hitler |
 | Connie | 99.81 | 3 | 3 | 0.50 | Incan Gold |
 | Jane | 99.35 | 2 | 3 | 0.40 | Bang |
 | Sincere | 99.31 | 2 | 2 | 0.50 | Secret Hitler |
-| Kyla | 99.18 | 32 | 42 | 0.43 | Incan Gold |
-| Justin | 99.14 | 5 | 6 | 0.45 | Incan Gold |
-| Vivienne | 98.99 | 31 | 50 | 0.38 | Shifty Eyed Spies |
+| Kyla | 99.18 | 32 | 43 | 0.43 | Incan Gold |
+| Vivienne | 99.15 | 32 | 51 | 0.39 | Shifty Eyed Spies |
+| Kenny | 98.95 | 25 | 32 | 0.44 | Between Two Cities |
 | Dorine | 98.79 | 29 | 46 | 0.39 | 7 Wonders |
-| Kenny | 98.77 | 24 | 30 | 0.44 | Between Two Cities |
+| Justin | 98.70 | 6 | 8 | 0.43 | Incan Gold |
+| Dan | 98.11 | 6 | 9 | 0.40 | Camel Up |
 | Nat | 98.09 | 2 | 3 | 0.40 | Bang |
-| Dan | 97.97 | 5 | 8 | 0.38 | Bang |
 | Nancy | 97.94 | 6 | 8 | 0.43 | Wavelength |
 | Dom | 97.91 | 2 | 3 | 0.40 | Codenames |
 | Jesamine | 97.61 | 0 | 1 | 0.00 | Incan Gold |
 | Simon | 97.37 | 12 | 29 | 0.29 | Secret Hitler |
 | Abhi | 97.01 | 2 | 6 | 0.25 | Secret Hitler |
-| Ellabelle | 96.70 | 7 | 14 | 0.33 | Bang |
+| Ellabelle | 96.44 | 7 | 17 | 0.29 | Bang |
 | Lucy | 96.02 | 1 | 4 | 0.20 | Avalon |
 | Ryan | 95.75 | 0 | 4 | 0.00 | Camel Up |
 | Josie | 95.00 | 0 | 2 | 0.00 | Codenames |
@@ -120,20 +120,20 @@
 | Dom | 104.93  | 1 | 0 | 1.00 |
 | Oliver | 103.13  | 6 | 2 | 0.75 |
 | Vivienne | 101.94  | 5 | 3 | 0.62 |
-| Kenny | 101.15  | 4 | 3 | 0.57 |
-| Harsha | 99.12  | 3 | 4 | 0.43 |
+| Kenny | 101.92  | 5 | 3 | 0.62 |
+| Harsha | 100.22  | 4 | 4 | 0.50 |
 | Nicholas | 98.90  | 1 | 1 | 0.50 |
 | Bella | 98.90  | 1 | 1 | 0.50 |
 | Wing | 98.90  | 1 | 1 | 0.50 |
 | Dan | 98.25  | 1 | 2 | 0.33 |
-| Ellabelle | 98.16  | 1 | 1 | 0.50 |
 | Simon | 98.01  | 2 | 3 | 0.40 |
 | Jay | 96.43  | 0 | 1 | 0.00 |
-| Justin | 96.43  | 0 | 1 | 0.00 |
 | Josie | 96.43  | 0 | 1 | 0.00 |
 | Dorine | 96.03  | 2 | 6 | 0.25 |
 | Sincere | 95.88  | 0 | 1 | 0.00 |
 | Abhi | 94.96  | 0 | 1 | 0.00 |
+| Ellabelle | 94.69  | 1 | 2 | 0.33 |
+| Justin | 92.73  | 0 | 2 | 0.00 |
 
 ### Bang
 
@@ -201,14 +201,16 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Vivienne | 110.73  | 2 | 1 | 0.67 |
+| Dan | 113.34  | 1 | 0 | 1.00 |
+| Vivienne | 113.15  | 3 | 1 | 0.75 |
 | Oliver | 109.03  | 2 | 1 | 0.67 |
 | Ryan | 98.76  | 0 | 1 | 0.00 |
-| Justin | 98.76  | 0 | 1 | 0.00 |
-| Harsha | 98.76  | 0 | 1 | 0.00 |
-| Ellabelle | 98.76  | 0 | 1 | 0.00 |
 | Kyla | 96.83  | 0 | 3 | 0.00 |
+| Justin | 96.72  | 0 | 2 | 0.00 |
+| Ellabelle | 96.72  | 0 | 2 | 0.00 |
+| Harsha | 96.72  | 0 | 2 | 0.00 |
 | Dorine | 96.67  | 0 | 2 | 0.00 |
+| Kenny | 95.82  | 0 | 1 | 0.00 |
 | Simon | 95.54  | 0 | 2 | 0.00 |
 | Sincere | 94.31  | 0 | 1 | 0.00 |
 | Nancy | 94.31  | 0 | 1 | 0.00 |
@@ -241,20 +243,20 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Justin | 121.73  | 1 | 0 | 1.00 |
+| Justin | 135.72  | 2 | 0 | 1.00 |
 | Connie | 113.63  | 1 | 0 | 1.00 |
-| Kyla | 110.21  | 1 | 4 | 0.20 |
+| Kyla | 109.83  | 1 | 5 | 0.17 |
 | Tiff | 108.65  | 1 | 1 | 0.50 |
-| Ellabelle | 102.76  | 0 | 3 | 0.00 |
+| Ellabelle | 107.40  | 0 | 4 | 0.00 |
 | Dorine | 101.19  | 2 | 5 | 0.29 |
-| Vivienne | 98.64  | 1 | 4 | 0.20 |
 | Jesamine | 97.61  | 0 | 1 | 0.00 |
-| Dan | 97.27  | 0 | 2 | 0.00 |
+| Vivienne | 96.74  | 1 | 5 | 0.17 |
 | Abhi | 96.70  | 0 | 1 | 0.00 |
 | Oliver | 96.04  | 0 | 7 | 0.00 |
-| Harsha | 92.58  | 0 | 7 | 0.00 |
+| Kenny | 91.68  | 0 | 4 | 0.00 |
+| Harsha | 88.92  | 0 | 8 | 0.00 |
 | Dom | 83.98  | 0 | 1 | 0.00 |
-| Kenny | 82.90  | 0 | 3 | 0.00 |
+| Dan | 82.83  | 0 | 3 | 0.00 |
 
 ### Cash N Guns
 
