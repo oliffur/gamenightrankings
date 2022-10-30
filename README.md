@@ -7,26 +7,26 @@
 | --- | --- | --- | --- | --- | --- |
 | Tiff | 104.74 | 2 | 1 | 0.67 | Incan Gold |
 | Robert | 103.29 | 4 | 2 | 0.67 | Coup |
-| Oliver | 101.13 | 46 | 46 | 0.50 | Incan Gole |
-| Harsha | 100.90 | 39 | 40 | 0.49 | Mascarade |
+| Harsha | 100.99 | 39 | 40 | 0.49 | Mascarade |
+| Oliver | 100.77 | 46 | 46 | 0.50 | Shifty Eyed Spies |
 | Jay | 100.35 | 2 | 1 | 0.67 | Secret Hitler |
 | Pearl | 99.95 | 1 | 1 | 0.50 | Secret Hitler |
 | Connie | 99.81 | 3 | 3 | 0.50 | Incan Gold |
 | Jane | 99.35 | 2 | 3 | 0.40 | Bang |
 | Sincere | 99.31 | 2 | 2 | 0.50 | Secret Hitler |
-| Kyla | 99.18 | 32 | 43 | 0.43 | Incan Gold |
-| Vivienne | 99.15 | 32 | 51 | 0.39 | Shifty Eyed Spies |
-| Kenny | 98.95 | 25 | 32 | 0.44 | Between Two Cities |
-| Dorine | 98.79 | 29 | 46 | 0.39 | 7 Wonders |
+| Vivienne | 99.19 | 32 | 51 | 0.39 | Shifty Eyed Spies |
+| Kenny | 99.17 | 25 | 32 | 0.44 | Between Two Cities |
+| Kyla | 99.11 | 32 | 43 | 0.43 | Incan Gold |
 | Justin | 98.70 | 6 | 8 | 0.43 | Incan Gold |
+| Dorine | 98.56 | 29 | 46 | 0.39 | 7 Wonders |
 | Dan | 98.11 | 6 | 9 | 0.40 | Camel Up |
 | Nat | 98.09 | 2 | 3 | 0.40 | Bang |
 | Nancy | 97.94 | 6 | 8 | 0.43 | Wavelength |
 | Dom | 97.91 | 2 | 3 | 0.40 | Codenames |
 | Jesamine | 97.61 | 0 | 1 | 0.00 | Incan Gold |
 | Simon | 97.37 | 12 | 29 | 0.29 | Secret Hitler |
+| Ellabelle | 97.28 | 7 | 17 | 0.29 | Bang |
 | Abhi | 97.01 | 2 | 6 | 0.25 | Secret Hitler |
-| Ellabelle | 96.44 | 7 | 17 | 0.29 | Bang |
 | Lucy | 96.02 | 1 | 4 | 0.20 | Avalon |
 | Ryan | 95.75 | 0 | 4 | 0.00 | Camel Up |
 | Josie | 95.00 | 0 | 2 | 0.00 | Codenames |
@@ -245,16 +245,16 @@
 | --- | --- | --- | --- | --- |
 | Justin | 135.72  | 2 | 0 | 1.00 |
 | Connie | 113.63  | 1 | 0 | 1.00 |
-| Kyla | 109.83  | 1 | 5 | 0.17 |
+| Kyla | 110.01  | 1 | 6 | 0.14 |
 | Tiff | 108.65  | 1 | 1 | 0.50 |
-| Ellabelle | 107.40  | 0 | 4 | 0.00 |
-| Dorine | 101.19  | 2 | 5 | 0.29 |
+| Dorine | 105.32  | 2 | 6 | 0.25 |
+| Oliver | 104.28  | 1 | 7 | 0.12 |
 | Jesamine | 97.61  | 0 | 1 | 0.00 |
-| Vivienne | 96.74  | 1 | 5 | 0.17 |
 | Abhi | 96.70  | 0 | 1 | 0.00 |
-| Oliver | 96.04  | 0 | 7 | 0.00 |
-| Kenny | 91.68  | 0 | 4 | 0.00 |
-| Harsha | 88.92  | 0 | 8 | 0.00 |
+| Ellabelle | 95.80  | 0 | 5 | 0.00 |
+| Vivienne | 95.70  | 1 | 6 | 0.14 |
+| Harsha | 88.92  | 0 | 9 | 0.00 |
+| Kenny | 87.21  | 0 | 5 | 0.00 |
 | Dom | 83.98  | 0 | 1 | 0.00 |
 | Dan | 82.83  | 0 | 3 | 0.00 |
 
@@ -282,15 +282,3 @@
 | Vivienne | 94.35  | 1 | 2 | 0.33 |
 | Justin | 91.44  | 0 | 2 | 0.00 |
 | Kyla | 85.43  | 0 | 1 | 0.00 |
-
-### Incan Gole
-
-| Player | ELO | Wins | Losses | Win % |
-| --- | --- | --- | --- | --- |
-| Oliver | 138.15  | 1 | 0 | 1.00 |
-| Dorine | 119.67  | 0 | 1 | 0.00 |
-| Kyla | 106.79  | 0 | 1 | 0.00 |
-| Harsha | 95.21  | 0 | 1 | 0.00 |
-| Vivienne | 95.21  | 0 | 1 | 0.00 |
-| Kenny | 81.91  | 0 | 1 | 0.00 |
-| Ellabelle | 63.05  | 0 | 1 | 0.00 |
