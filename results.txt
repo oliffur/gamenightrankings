@@ -94,3 +94,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 10/24/2022|Avalon|Harsha;Ellabelle;Dorine;Kenny;Vivienne;Kyla;Oliver|0;0;0;0;1;1;1
 10/24/2022|Avalon|Harsha;Oliver;Dorine;Vivienne;Kyla;Ellabelle;Kenny|0;0;0;0;1;1;1
 10/24/2022|Incan Gold|Oliver;Dorine;Kyla;Vivienne;Harsha;Kenny;Ellabelle|0;1;2;4;4;5;6
+11/07/2022|Secret Hitler|Harsha;Simon;Ellabelle;Kyla;Vivienne;Oliver;Kenny|0;0;0;0;1;1;1
+11/07/2022|Secret Hitler|Harsha;Kenny;Ellabelle;Vivienne;Oliver;Simon;Kyla|0;0;0;0;1;1;1
+11/07/2022|Nosferatu|Harsha;Ellabelle;Vivienne;Simon;Kyla;Oliver;Kenny|0;0;0;0;0;1;1
+11/07/2022|Codenames|Oliver;Simon;Vivienne;Harsha;Kyla;Ellabelle;Kenny|0;0;0;1;1;1;1
