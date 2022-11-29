@@ -98,3 +98,11 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 11/07/2022|Secret Hitler|Harsha;Kenny;Ellabelle;Vivienne;Oliver;Simon;Kyla|0;0;0;0;1;1;1
 11/07/2022|Nosferatu|Harsha;Ellabelle;Vivienne;Simon;Kyla;Oliver;Kenny|0;0;0;0;0;1;1
 11/07/2022|Codenames|Oliver;Simon;Vivienne;Harsha;Kyla;Ellabelle;Kenny|0;0;0;1;1;1;1
+11/14/2022|Codenames|Harsha;Vivienne;Simon;Abhi;Kyla;Kenny|0;0;0;1;1;1
+11/14/2022|Exploding Kittens|Kyla;Simon;Kenny;Vivienne;Oliver;Abhi;Harsha|0;1;1;1;1;1;1
+11/14/2022|Nosferatu|Simon;Kenny;Oliver;Abhi;Harsha;Kyla;Vivienne|0;0;0;0;0;1;1
+11/14/2022|Nosferatu|Simon;Kenny;Oliver;Abhi;Vivienne;Kyla;Harsha|0;0;0;0;0;1;1
+11/14/2022|Cash N Guns|Oliver;Kyla;Simon;Kenny;Harsha;Abhi;Vivienne|0;1;1;1;1;1;1
+11/28/2022|Coup|Vivienne;Oliver;Harsha;Simon;Ellabelle;Queenie|0;1;1;1;1;1
+11/28/2022|Secret Hitler|Queenie;Vivienne;Ellabelle;Oliver;Harsha;Simon|0;0;0;0;1;1
+11/28/2022|Secret Hitler|Queenie;Vivienne;Oliver;Harsha;Simon;Ellabelle|0;0;0;0;1;1
