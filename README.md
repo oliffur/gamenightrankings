@@ -8,12 +8,12 @@
 | Tiff | 104.74 | 2 | 1 | 0.67 | Incan Gold |
 | Robert | 103.29 | 4 | 2 | 0.67 | Coup |
 | Queenie | 101.52 | 2 | 1 | 0.67 | Secret Hitler |
-| Oliver | 100.65 | 52 | 51 | 0.50 | Shifty Eyed Spies |
-| Harsha | 100.40 | 45 | 46 | 0.49 | Mascarade |
+| Oliver | 100.69 | 52 | 51 | 0.50 | Shifty Eyed Spies |
+| Harsha | 100.44 | 45 | 46 | 0.49 | Mascarade |
 | Jay | 100.35 | 2 | 1 | 0.67 | Secret Hitler |
 | Pearl | 99.95 | 1 | 1 | 0.50 | Secret Hitler |
+| Vivienne | 99.84 | 40 | 55 | 0.42 | Shifty Eyed Spies |
 | Connie | 99.81 | 3 | 3 | 0.50 | Incan Gold |
-| Vivienne | 99.79 | 40 | 55 | 0.42 | Shifty Eyed Spies |
 | Jane | 99.35 | 2 | 3 | 0.40 | Bang |
 | Sincere | 99.31 | 2 | 2 | 0.50 | Secret Hitler |
 | Kyla | 98.74 | 35 | 49 | 0.42 | Incan Gold |
@@ -22,10 +22,10 @@
 | Dorine | 98.56 | 29 | 46 | 0.39 | 7 Wonders |
 | Dan | 98.11 | 6 | 9 | 0.40 | Camel Up |
 | Nat | 98.09 | 2 | 3 | 0.40 | Bang |
+| Ellabelle | 98.02 | 11 | 20 | 0.35 | Bang |
 | Nancy | 97.94 | 6 | 8 | 0.43 | Wavelength |
-| Ellabelle | 97.94 | 11 | 20 | 0.35 | Bang |
 | Dom | 97.91 | 2 | 3 | 0.40 | Codenames |
-| Simon | 97.81 | 18 | 35 | 0.34 | Nosferatu |
+| Simon | 97.85 | 18 | 35 | 0.34 | Nosferatu |
 | Abhi | 97.63 | 4 | 9 | 0.31 | Nosferatu |
 | Jesamine | 97.61 | 0 | 1 | 0.00 | Incan Gold |
 | Lucy | 96.02 | 1 | 4 | 0.20 | Avalon |
