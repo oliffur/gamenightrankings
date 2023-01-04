@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 from   trueskill import TrueSkill
 
-RANKED_GAMES = ['Incan Gold']
+LUCK_FACTORS = {'Incan Gold': 3.0}
 
 class RatingsInfo:
     elo = None
@@ -16,6 +16,9 @@ class RatingsInfo:
 
     def get_elo(self):
         return self.elo.mu * 4.0  # scale to 100
+
+    def get_rating(self):
+        return (self.elo.mu - self.elo.sigma) * 4.0
 
 def get_elo(d, env, player):
     '''
@@ -39,10 +42,10 @@ def calc_elo(df):
     for idx, row in df.iterrows():
         teams = [[get_elo(ratings, env, player) for player in team]\
                 for team in row['teams']]
-        if row['game'] in RANKED_GAMES:
-            env.beta = env.beta * 3.0
+        if row['game'] in LUCK_FACTORS:
+            env.beta = env.beta * LUCK_FACTORS[row['game']]
             elos = env.rate(teams, row['ranks'])
-            env.beta = env.beta / 3.0
+            env.beta = env.beta / LUCK_FACTORS[row['game']]
         else:
             elos = env.rate(teams, row['ranks'])
         has_winner = sum(row['ranks']) > 0
@@ -98,17 +101,17 @@ def main():
     best_game = {}
     for game, ratings in per_game_ratings.items():
         for player, rating in ratings.items():
-            if player not in best_game or rating.get_elo() > best_game[player][1]:
-                best_game[player] = (game, rating.get_elo())
+            if player not in best_game or rating.get_rating() > best_game[player][1]:
+                best_game[player] = (game, rating.get_rating())
 
     infrequent_players = []  # players with <10 games
     for player, rating in sorted(
             all_ratings.items(),
-            key=lambda item: item[1].get_elo(),
+            key=lambda item: item[1].get_rating(),
             reverse=True):
         markdown += '''
 | {} | {:.2f} | {} | {} | {:.2f} | {} |'''.format(
-        player, rating.get_elo(), rating.wins, rating.losses,
+        player, rating.get_rating(), rating.wins, rating.losses,
         rating.wins / (rating.wins + rating.losses), best_game[player][0])
         if rating.wins + rating.losses < 20: infrequent_players.append(player)
 
@@ -140,10 +143,10 @@ def main():
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |'''.format(game)
-        for player, rating in sorted(ratings.items(), key=lambda item: item[1].get_elo(), reverse=True):
+        for player, rating in sorted(ratings.items(), key=lambda item: item[1].get_rating(), reverse=True):
             markdown += '''
 | {} | {:.2f}  | {} | {} | {:.2f} |'''.format(
-            player, rating.get_elo(), rating.wins, rating.losses,
+            player, rating.get_rating(), rating.wins, rating.losses,
             rating.wins / (rating.wins + rating.losses))
 
     with open('README.md', 'w') as f:
