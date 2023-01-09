@@ -5,12 +5,12 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Oliver | 88.46 | 3 | 1 | 0.75 | Secret Hitler |
-| Kyla | 88.46 | 3 | 1 | 0.75 | Secret Hitler |
-| Kenny | 81.05 | 2 | 1 | 0.67 | Codenames |
+| Oliver | 88.02 | 3 | 1 | 0.75 | Secret Hitler |
+| Kyla | 88.02 | 3 | 1 | 0.75 | Secret Hitler |
+| Kenny | 81.36 | 2 | 1 | 0.67 | Codenames |
+| Vivienne | 70.51 | 1 | 3 | 0.25 | Exploding Kittens |
+| Harsha | 69.11 | 1 | 3 | 0.25 | Exploding Kittens |
 | Simon | 67.76 | 1 | 2 | 0.33 | Secret Hitler |
-| Harsha | 67.34 | 1 | 3 | 0.25 | Exploding Kittens |
-| Vivienne | 66.73 | 1 | 3 | 0.25 | Exploding Kittens |
 
 ### Rankings over Time
 ![Image](rankings.png)
@@ -41,8 +41,8 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Vivienne | 82.58  | 1 | 0 | 1.00 |
-| Harsha | 67.65  | 0 | 1 | 0.00 |
-| Kenny | 67.65  | 0 | 1 | 0.00 |
-| Kyla | 67.65  | 0 | 1 | 0.00 |
-| Oliver | 67.65  | 0 | 1 | 0.00 |
+| Vivienne | 85.02  | 1 | 0 | 1.00 |
+| Harsha | 68.50  | 0 | 1 | 0.00 |
+| Kenny | 68.50  | 0 | 1 | 0.00 |
+| Kyla | 68.50  | 0 | 1 | 0.00 |
+| Oliver | 68.50  | 0 | 1 | 0.00 |

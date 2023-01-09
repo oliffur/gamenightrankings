@@ -5,8 +5,8 @@ import pandas as pd
 from   trueskill import TrueSkill
 
 LUCK_FACTORS = {
-        'Exploding Kittens': 3.0,
-        'Incan Gold': 3.0,
+        'Exploding Kittens': 2.5,
+        'Incan Gold': 2.0,
         }
 
 class RatingsInfo:
