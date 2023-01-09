@@ -4,7 +4,10 @@ import numpy as np
 import pandas as pd
 from   trueskill import TrueSkill
 
-LUCK_FACTORS = {'Incan Gold': 3.0}
+LUCK_FACTORS = {
+        'Exploding Kittens': 4.0,
+        'Incan Gold': 3.0,
+        }
 
 class RatingsInfo:
     elo = None
@@ -109,6 +112,7 @@ def main():
             all_ratings.items(),
             key=lambda item: item[1].get_rating(),
             reverse=True):
+        if player.startswith('dummy'): continue
         markdown += '''
 | {} | {:.2f} | {} | {} | {:.2f} | {} |'''.format(
         player, rating.get_rating(), rating.wins, rating.losses,
@@ -122,6 +126,7 @@ def main():
                 itertools.chain.from_iterable(row['elos'])]
         #ratings = [elo.mu * 4 for elo in np.array(row['elos']).flat]
         for player, rating in zip(players, ratings):
+            if player.startswith('dummy'): continue
             chart_df.at[row['date'], player] = rating
     chart_df.ffill(inplace=True)
     chart_df.drop(columns=infrequent_players, inplace=True)
@@ -144,6 +149,7 @@ def main():
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |'''.format(game)
         for player, rating in sorted(ratings.items(), key=lambda item: item[1].get_rating(), reverse=True):
+            if player.startswith('dummy'): continue
             markdown += '''
 | {} | {:.2f}  | {} | {} | {:.2f} |'''.format(
             player, rating.get_rating(), rating.wins, rating.losses,
