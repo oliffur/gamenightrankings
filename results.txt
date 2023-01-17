@@ -3,3 +3,5 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 01/08/2023|Secret Hitler|Kyla,Kenny,Oliver,Harsha;Vivienne,Simon,dummy202301082,dummy202301083|0;1
 01/08/2023|Codenames|Kyla,Oliver,Kenny;Harsha,Vivienne,Simon|0;1
 01/08/2023|Exploding Kittens|Vivienne;Oliver;Kyla;Kenny;Harsha|0;1;1;1;1
+01/16/2023|Secret Hitler|Oliver,Vivienne,Abhi,Jason,Peter;Vivian,Simon,Harsha,Eunice,dummy202301161|0;1
+01/16/2023|Wavelength|Harsha,Jason,Eunice,dummy202301162;Oliver,Vivian,Peter,Abhi|0;1
