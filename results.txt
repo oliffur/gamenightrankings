@@ -7,5 +7,5 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 01/16/2023|Wavelength|Harsha,Jason,Eunice,dummy202301162;Oliver,Vivian,Peter,Abhi|0;1
 01/29/2023|Secret Hitler|Harsha,Vivienne,Kyla,Dari;Oliver,Simon,dummy202301291,dummy202301292|0;1
 01/29/2023|Secret Hitler|Oliver,Vivienne,Kyla,Simon;Harsha,Dari,dummy202301293,dummy202301294|0;1
-01/29/2023|Secret Hitler|Oliver,Vivienne,Harsha;dummy202301295;Simon,Kyla,Dari,Sandy|0;1
+01/29/2023|Secret Hitler|Oliver,Vivienne,Harsha,dummy202301295;Simon,Kyla,Dari,Sandy|0;1
 01/29/2023|Codenames|Kyla,Harsha,Dari;Simon,Oliver,Sandy|0;1

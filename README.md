@@ -5,16 +5,18 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Kyla | 87.55 | 3 | 1 | 0.75 | Secret Hitler |
+| Kyla | 98.61 | 6 | 2 | 0.75 | Secret Hitler |
+| Vivienne | 96.17 | 5 | 3 | 0.62 | Exploding Kittens |
+| Oliver | 88.21 | 6 | 4 | 0.60 | Secret Hitler |
 | Jason | 86.46 | 2 | 0 | 1.00 | Wavelength |
-| Oliver | 86.27 | 4 | 2 | 0.67 | Secret Hitler |
+| Harsha | 84.47 | 5 | 5 | 0.50 | Wavelength |
 | Kenny | 81.93 | 2 | 1 | 0.67 | Codenames |
-| Vivienne | 80.09 | 2 | 3 | 0.40 | Exploding Kittens |
-| Harsha | 74.63 | 2 | 4 | 0.33 | Wavelength |
 | Eunice | 72.56 | 1 | 1 | 0.50 | Wavelength |
+| Dari | 71.51 | 2 | 2 | 0.50 | Codenames |
 | Abhi | 65.10 | 1 | 1 | 0.50 | Secret Hitler |
 | Peter | 65.10 | 1 | 1 | 0.50 | Secret Hitler |
-| Simon | 62.80 | 1 | 3 | 0.25 | Secret Hitler |
+| Simon | 54.18 | 2 | 6 | 0.25 | Secret Hitler |
+| Sandy | 52.21 | 0 | 2 | 0.00 | Codenames |
 | Vivian | 51.20 | 0 | 2 | 0.00 | Secret Hitler |
 
 ### Rankings over Time
@@ -24,28 +26,32 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 93.41  | 3 | 0 | 1.00 |
-| Kyla | 86.06  | 2 | 0 | 1.00 |
+| Oliver | 100.62  | 5 | 1 | 0.83 |
+| Kyla | 96.47  | 4 | 1 | 0.80 |
+| Vivienne | 83.67  | 4 | 2 | 0.67 |
 | Kenny | 75.71  | 1 | 0 | 1.00 |
 | Abhi | 75.26  | 1 | 0 | 1.00 |
 | Jason | 75.26  | 1 | 0 | 1.00 |
 | Peter | 75.26  | 1 | 0 | 1.00 |
-| Simon | 65.58  | 1 | 2 | 0.33 |
-| Harsha | 60.72  | 1 | 2 | 0.33 |
+| Harsha | 72.96  | 3 | 3 | 0.50 |
+| Dari | 64.62  | 1 | 2 | 0.33 |
 | Vivian | 59.87  | 0 | 1 | 0.00 |
 | Eunice | 59.87  | 0 | 1 | 0.00 |
-| Vivienne | 59.41  | 1 | 2 | 0.33 |
+| Simon | 58.39  | 2 | 4 | 0.33 |
+| Sandy | 58.13  | 0 | 1 | 0.00 |
 
 ### Codenames
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Kyla | 77.82  | 1 | 0 | 1.00 |
-| Oliver | 77.82  | 1 | 0 | 1.00 |
+| Kyla | 88.24  | 2 | 0 | 1.00 |
+| Dari | 78.12  | 1 | 0 | 1.00 |
 | Kenny | 77.82  | 1 | 0 | 1.00 |
-| Harsha | 58.40  | 0 | 1 | 0.00 |
+| Oliver | 70.05  | 1 | 1 | 0.50 |
+| Harsha | 68.82  | 1 | 1 | 0.50 |
 | Vivienne | 58.40  | 0 | 1 | 0.00 |
-| Simon | 58.40  | 0 | 1 | 0.00 |
+| Sandy | 58.24  | 0 | 1 | 0.00 |
+| Simon | 50.63  | 0 | 2 | 0.00 |
 
 ### Exploding Kittens
 
