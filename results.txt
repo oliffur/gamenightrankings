@@ -9,3 +9,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 01/29/2023|Secret Hitler|Oliver,Vivienne,Kyla,Simon;Harsha,Dari,dummy202301293,dummy202301294|0;1
 01/29/2023|Secret Hitler|Oliver,Vivienne,Harsha,dummy202301295;Simon,Kyla,Dari,Sandy|0;1
 01/29/2023|Codenames|Kyla,Harsha,Dari;Simon,Oliver,Sandy|0;1
+02/05/2023|Incan Gold|Vivienne;Oliver;Harsha;Kyla;Diana;Simon|0;1;2;3;4;5
+02/05/2023|Secret Hitler|Harsha,Kyla,Vivienne,dummy202302051;Oliver,Karen,Simon,Diana|0;1
+02/05/2023|Wavelength|Diana,Karen,Simon,dummy202302052;Oliver,Harsha,Kyla,Vivienne|0;1
+02/05/2023|Codenames|Diana,Karen,Simon;Oliver,Harsha,Kyla|0;1
