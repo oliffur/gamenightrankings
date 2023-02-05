@@ -21,7 +21,7 @@ class RatingsInfo:
         return self.elo.mu * 4.0  # scale to 100
 
     def get_rating(self):
-        return (self.elo.mu - self.elo.sigma) * 4.0
+        return (self.elo.mu - 2 * self.elo.sigma) * 4.0
 
 def get_elo(d, env, player):
     '''
@@ -122,7 +122,7 @@ def main():
     chart_df = pd.DataFrame()
     for _, row in all_df.iterrows():
         players = list(np.array(row['teams']).flat)
-        ratings = [elo.mu * 4 for elo in \
+        ratings = [elo.get_rating() for elo in \
                 itertools.chain.from_iterable(row['elos'])]
         #ratings = [elo.mu * 4 for elo in np.array(row['elos']).flat]
         for player, rating in zip(players, ratings):
