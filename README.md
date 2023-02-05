@@ -5,21 +5,21 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Karen | 105.70 | 2 | 1 | 0.67 | Codenames |
-| Vivienne | 104.87 | 7 | 4 | 0.64 | Incan Gold |
-| Jason | 86.46 | 2 | 0 | 1.00 | Wavelength |
-| Diana | 85.59 | 2 | 2 | 0.50 | Codenames |
-| Oliver | 84.35 | 6 | 8 | 0.43 | Secret Hitler |
-| Kyla | 82.63 | 7 | 5 | 0.58 | Secret Hitler |
-| Kenny | 81.93 | 2 | 1 | 0.67 | Codenames |
-| Harsha | 78.63 | 6 | 8 | 0.43 | Secret Hitler |
-| Eunice | 72.56 | 1 | 1 | 0.50 | Wavelength |
-| Dari | 71.51 | 2 | 2 | 0.50 | Codenames |
-| Abhi | 65.10 | 1 | 1 | 0.50 | Secret Hitler |
-| Peter | 65.10 | 1 | 1 | 0.50 | Secret Hitler |
-| Simon | 61.52 | 4 | 8 | 0.33 | Wavelength |
-| Sandy | 52.21 | 0 | 2 | 0.00 | Codenames |
-| Vivian | 51.20 | 0 | 2 | 0.00 | Secret Hitler |
+| Vivienne | 84.38 | 7 | 4 | 0.64 | Incan Gold |
+| Karen | 77.49 | 2 | 1 | 0.67 | Codenames |
+| Oliver | 66.22 | 6 | 8 | 0.43 | Secret Hitler |
+| Kyla | 64.20 | 7 | 5 | 0.58 | Secret Hitler |
+| Diana | 61.80 | 2 | 2 | 0.50 | Codenames |
+| Harsha | 60.60 | 6 | 8 | 0.43 | Incan Gold |
+| Kenny | 57.18 | 2 | 1 | 0.67 | Codenames |
+| Jason | 55.29 | 2 | 0 | 1.00 | Wavelength |
+| Dari | 43.14 | 2 | 2 | 0.50 | Codenames |
+| Eunice | 41.39 | 1 | 1 | 0.50 | Wavelength |
+| Simon | 40.13 | 4 | 8 | 0.33 | Wavelength |
+| Abhi | 33.93 | 1 | 1 | 0.50 | Secret Hitler |
+| Peter | 33.93 | 1 | 1 | 0.50 | Secret Hitler |
+| Sandy | 21.94 | 0 | 2 | 0.00 | Codenames |
+| Vivian | 20.03 | 0 | 2 | 0.00 | Secret Hitler |
 
 ### Rankings over Time
 ![Image](rankings.png)
@@ -28,71 +28,71 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Kyla | 102.58  | 5 | 1 | 0.83 |
-| Oliver | 96.09  | 5 | 2 | 0.71 |
-| Vivienne | 89.53  | 5 | 2 | 0.71 |
-| Harsha | 78.82  | 4 | 3 | 0.57 |
-| Kenny | 75.71  | 1 | 0 | 1.00 |
-| Abhi | 75.26  | 1 | 0 | 1.00 |
-| Jason | 75.26  | 1 | 0 | 1.00 |
-| Peter | 75.26  | 1 | 0 | 1.00 |
-| Dari | 64.62  | 1 | 2 | 0.33 |
-| Karen | 60.31  | 0 | 1 | 0.00 |
-| Diana | 60.31  | 0 | 1 | 0.00 |
-| Vivian | 59.87  | 0 | 1 | 0.00 |
-| Eunice | 59.87  | 0 | 1 | 0.00 |
-| Sandy | 58.13  | 0 | 1 | 0.00 |
-| Simon | 53.86  | 2 | 5 | 0.29 |
+| Kyla | 75.04  | 5 | 1 | 0.83 |
+| Oliver | 69.06  | 5 | 2 | 0.71 |
+| Vivienne | 62.50  | 5 | 2 | 0.71 |
+| Harsha | 51.78  | 4 | 3 | 0.57 |
+| Kenny | 43.47  | 1 | 0 | 1.00 |
+| Abhi | 42.83  | 1 | 0 | 1.00 |
+| Jason | 42.83  | 1 | 0 | 1.00 |
+| Peter | 42.83  | 1 | 0 | 1.00 |
+| Dari | 34.62  | 1 | 2 | 0.33 |
+| Karen | 28.14  | 0 | 1 | 0.00 |
+| Diana | 28.14  | 0 | 1 | 0.00 |
+| Vivian | 27.44  | 0 | 1 | 0.00 |
+| Eunice | 27.44  | 0 | 1 | 0.00 |
+| Simon | 26.83  | 2 | 5 | 0.29 |
+| Sandy | 26.10  | 0 | 1 | 0.00 |
 
 ### Codenames
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Diana | 82.34  | 1 | 0 | 1.00 |
-| Karen | 82.34  | 1 | 0 | 1.00 |
-| Dari | 78.12  | 1 | 0 | 1.00 |
-| Kyla | 77.95  | 2 | 1 | 0.67 |
-| Kenny | 77.82  | 1 | 0 | 1.00 |
-| Simon | 63.67  | 1 | 2 | 0.33 |
-| Oliver | 59.76  | 1 | 2 | 0.33 |
-| Harsha | 58.53  | 1 | 2 | 0.33 |
-| Vivienne | 58.40  | 0 | 1 | 0.00 |
-| Sandy | 58.24  | 0 | 1 | 0.00 |
+| Diana | 50.80  | 1 | 0 | 1.00 |
+| Karen | 50.80  | 1 | 0 | 1.00 |
+| Kyla | 48.76  | 2 | 1 | 0.67 |
+| Dari | 46.30  | 1 | 0 | 1.00 |
+| Kenny | 45.93  | 1 | 0 | 1.00 |
+| Simon | 34.49  | 1 | 2 | 0.33 |
+| Oliver | 30.57  | 1 | 2 | 0.33 |
+| Harsha | 29.34  | 1 | 2 | 0.33 |
+| Vivienne | 26.51  | 0 | 1 | 0.00 |
+| Sandy | 26.42  | 0 | 1 | 0.00 |
 
 ### Exploding Kittens
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Vivienne | 88.04  | 1 | 0 | 1.00 |
-| Harsha | 69.78  | 0 | 1 | 0.00 |
-| Kenny | 69.78  | 0 | 1 | 0.00 |
-| Kyla | 69.78  | 0 | 1 | 0.00 |
-| Oliver | 69.78  | 0 | 1 | 0.00 |
+| Vivienne | 59.26  | 1 | 0 | 1.00 |
+| Harsha | 43.76  | 0 | 1 | 0.00 |
+| Kenny | 43.76  | 0 | 1 | 0.00 |
+| Kyla | 43.76  | 0 | 1 | 0.00 |
+| Oliver | 43.76  | 0 | 1 | 0.00 |
 
 ### Wavelength
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Diana | 76.22  | 1 | 0 | 1.00 |
-| Karen | 76.22  | 1 | 0 | 1.00 |
-| Simon | 76.22  | 1 | 0 | 1.00 |
-| Jason | 76.15  | 1 | 0 | 1.00 |
-| Eunice | 76.15  | 1 | 0 | 1.00 |
-| Harsha | 69.22  | 1 | 1 | 0.50 |
-| Vivian | 59.33  | 0 | 1 | 0.00 |
-| Peter | 59.33  | 0 | 1 | 0.00 |
-| Abhi | 59.33  | 0 | 1 | 0.00 |
-| Kyla | 59.29  | 0 | 1 | 0.00 |
-| Vivienne | 59.29  | 0 | 1 | 0.00 |
-| Oliver | 52.39  | 0 | 2 | 0.00 |
+| Diana | 43.98  | 1 | 0 | 1.00 |
+| Karen | 43.98  | 1 | 0 | 1.00 |
+| Simon | 43.98  | 1 | 0 | 1.00 |
+| Jason | 43.90  | 1 | 0 | 1.00 |
+| Eunice | 43.90  | 1 | 0 | 1.00 |
+| Harsha | 37.95  | 1 | 1 | 0.50 |
+| Vivian | 27.08  | 0 | 1 | 0.00 |
+| Peter | 27.08  | 0 | 1 | 0.00 |
+| Abhi | 27.08  | 0 | 1 | 0.00 |
+| Kyla | 27.05  | 0 | 1 | 0.00 |
+| Vivienne | 27.05  | 0 | 1 | 0.00 |
+| Oliver | 21.12  | 0 | 2 | 0.00 |
 
 ### Incan Gold
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Vivienne | 101.87  | 1 | 0 | 1.00 |
-| Oliver | 88.48  | 0 | 1 | 0.00 |
-| Harsha | 78.44  | 0 | 1 | 0.00 |
-| Kyla | 68.93  | 0 | 1 | 0.00 |
-| Diana | 58.20  | 0 | 1 | 0.00 |
-| Simon | 42.09  | 0 | 1 | 0.00 |
+| Vivienne | 73.85  | 1 | 0 | 1.00 |
+| Oliver | 61.82  | 0 | 1 | 0.00 |
+| Harsha | 52.13  | 0 | 1 | 0.00 |
+| Kyla | 42.62  | 0 | 1 | 0.00 |
+| Diana | 31.54  | 0 | 1 | 0.00 |
+| Simon | 14.07  | 0 | 1 | 0.00 |

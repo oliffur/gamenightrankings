@@ -122,7 +122,7 @@ def main():
     chart_df = pd.DataFrame()
     for _, row in all_df.iterrows():
         players = list(np.array(row['teams']).flat)
-        ratings = [elo.get_rating() for elo in \
+        ratings = [(elo.mu - 2 * elo.sigma) * 4 for elo in \
                 itertools.chain.from_iterable(row['elos'])]
         #ratings = [elo.mu * 4 for elo in np.array(row['elos']).flat]
         for player, rating in zip(players, ratings):
