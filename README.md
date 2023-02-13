@@ -5,21 +5,26 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Vivienne | 84.38 | 7 | 4 | 0.64 | Incan Gold |
+| Vivienne | 89.77 | 9 | 4 | 0.69 | Incan Gold |
+| Kyla | 80.44 | 10 | 7 | 0.59 | Secret Hitler |
 | Karen | 77.49 | 2 | 1 | 0.67 | Codenames |
-| Oliver | 66.22 | 6 | 8 | 0.43 | Secret Hitler |
-| Kyla | 64.20 | 7 | 5 | 0.58 | Secret Hitler |
+| Oliver | 74.85 | 10 | 8 | 0.56 | Secret Hitler |
+| Aaron | 72.53 | 2 | 3 | 0.40 | Incan Gold |
+| Kenny | 70.75 | 4 | 4 | 0.50 | Incan Gold |
 | Diana | 61.80 | 2 | 2 | 0.50 | Codenames |
 | Harsha | 60.60 | 6 | 8 | 0.43 | Incan Gold |
-| Kenny | 57.18 | 2 | 1 | 0.67 | Codenames |
-| Jason | 55.29 | 2 | 0 | 1.00 | Wavelength |
 | Dari | 43.14 | 2 | 2 | 0.50 | Codenames |
+| Calvin | 41.56 | 0 | 5 | 0.00 | Incan Gold |
 | Eunice | 41.39 | 1 | 1 | 0.50 | Wavelength |
-| Simon | 40.13 | 4 | 8 | 0.33 | Wavelength |
+| Jason | 37.90 | 3 | 4 | 0.43 | Wavelength |
+| Agnes | 36.80 | 1 | 4 | 0.20 | Incan Gold |
+| Simon | 36.23 | 4 | 10 | 0.29 | Wavelength |
+| Louise | 34.72 | 0 | 5 | 0.00 | Incan Gold |
 | Abhi | 33.93 | 1 | 1 | 0.50 | Secret Hitler |
 | Peter | 33.93 | 1 | 1 | 0.50 | Secret Hitler |
 | Sandy | 21.94 | 0 | 2 | 0.00 | Codenames |
 | Vivian | 20.03 | 0 | 2 | 0.00 | Secret Hitler |
+| Katrina | 15.12 | 2 | 3 | 0.40 | Codenames |
 
 ### Rankings over Time
 ![Image](rankings.png)
@@ -48,16 +53,22 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
+| Kyla | 58.92  | 4 | 1 | 0.80 |
+| Kenny | 58.22  | 3 | 0 | 1.00 |
 | Diana | 50.80  | 1 | 0 | 1.00 |
 | Karen | 50.80  | 1 | 0 | 1.00 |
-| Kyla | 48.76  | 2 | 1 | 0.67 |
+| Katrina | 46.85  | 2 | 0 | 1.00 |
 | Dari | 46.30  | 1 | 0 | 1.00 |
-| Kenny | 45.93  | 1 | 0 | 1.00 |
-| Simon | 34.49  | 1 | 2 | 0.33 |
-| Oliver | 30.57  | 1 | 2 | 0.33 |
+| Oliver | 40.72  | 3 | 2 | 0.60 |
+| Vivienne | 38.80  | 2 | 1 | 0.67 |
 | Harsha | 29.34  | 1 | 2 | 0.33 |
-| Vivienne | 26.51  | 0 | 1 | 0.00 |
+| Simon | 27.85  | 1 | 4 | 0.20 |
 | Sandy | 26.42  | 0 | 1 | 0.00 |
+| Aaron | 25.05  | 0 | 2 | 0.00 |
+| Louise | 25.05  | 0 | 2 | 0.00 |
+| Jason | 25.05  | 0 | 2 | 0.00 |
+| Calvin | 25.05  | 0 | 2 | 0.00 |
+| Agnes | 25.05  | 0 | 2 | 0.00 |
 
 ### Exploding Kittens
 
@@ -90,9 +101,30 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
+| Aaron | 77.12  | 1 | 0 | 1.00 |
 | Vivienne | 73.85  | 1 | 0 | 1.00 |
+| Kyla | 66.50  | 0 | 2 | 0.00 |
 | Oliver | 61.82  | 0 | 1 | 0.00 |
+| Kenny | 58.54  | 0 | 1 | 0.00 |
 | Harsha | 52.13  | 0 | 1 | 0.00 |
-| Kyla | 42.62  | 0 | 1 | 0.00 |
+| Calvin | 51.50  | 0 | 1 | 0.00 |
+| Louise | 44.46  | 0 | 1 | 0.00 |
+| Agnes | 36.73  | 0 | 1 | 0.00 |
 | Diana | 31.54  | 0 | 1 | 0.00 |
+| Jason | 27.06  | 0 | 1 | 0.00 |
 | Simon | 14.07  | 0 | 1 | 0.00 |
+| Katrina | 10.98  | 0 | 1 | 0.00 |
+
+### Avalon
+
+| Player | ELO | Wins | Losses | Win % |
+| --- | --- | --- | --- | --- |
+| Oliver | 49.35  | 2 | 0 | 1.00 |
+| Aaron | 36.60  | 1 | 1 | 0.50 |
+| Jason | 36.60  | 1 | 1 | 0.50 |
+| Kyla | 35.62  | 1 | 1 | 0.50 |
+| Agnes | 35.62  | 1 | 1 | 0.50 |
+| Katrina | 22.86  | 0 | 2 | 0.00 |
+| Louise | 22.86  | 0 | 2 | 0.00 |
+| Calvin | 22.86  | 0 | 2 | 0.00 |
+| Kenny | 22.86  | 0 | 2 | 0.00 |

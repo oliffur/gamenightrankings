@@ -14,7 +14,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 02/05/2023|Wavelength|Diana,Karen,Simon,dummy202302052;Oliver,Harsha,Kyla,Vivienne|0;1
 02/05/2023|Codenames|Diana,Karen,Simon;Oliver,Harsha,Kyla|0;1
 02/13/2023|Incan Gold|Aaron;Kyla;Kenny;Calvin;Louise;Agnes;Jason;Katrina|0;1;2;3;4;5;6;7
-02/13/2023|Avalon|Oliver,Aaron,Jason,dummy202302141,dummy202302142;Katrina,Kyla,Louise,Agnes,Calvin,Kenny|0;1
-02/13/2023|Avalon|Oliver,Kyla,Agnes,dummy202302143,dummy202302144;Katrina,Aaron,Louise,Jason,Calvin,Kenny|0;1
-02/13/2023|Codenames|Oliver,Kyla,Katrina,Vivienne,Kenny,dummy202302145;Aaron,Louise,Jason,Calvin,Agnes,Simon|0;1
-02/13/2023|Codenames|Oliver,Kyla,Katrina,Vivienne,Kenny,dummy202302145;Aaron,Louise,Jason,Calvin,Agnes,Simon|0;1
+02/13/2023|Avalon|Oliver,Aaron,Jason,dummy202302141,dummy202302142,dummy202302143;Katrina,Kyla,Louise,Agnes,Calvin,Kenny|0;1
+02/13/2023|Avalon|Oliver,Kyla,Agnes,dummy202302144,dummy202302145,dummy202302146;Katrina,Aaron,Louise,Jason,Calvin,Kenny|0;1
+02/13/2023|Codenames|Oliver,Kyla,Katrina,Vivienne,Kenny,dummy202302147;Aaron,Louise,Jason,Calvin,Agnes,Simon|0;1
+02/13/2023|Codenames|Oliver,Kyla,Katrina,Vivienne,Kenny,dummy202302148;Aaron,Louise,Jason,Calvin,Agnes,Simon|0;1
