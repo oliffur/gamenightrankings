@@ -5,26 +5,26 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Vivienne | 77.00 | 9 | 4 | 0.69 | Secret Hitler |
-| Kyla | 74.95 | 10 | 7 | 0.59 | Secret Hitler |
-| Karen | 68.06 | 2 | 1 | 0.67 | Codenames |
-| Oliver | 66.58 | 10 | 8 | 0.56 | Secret Hitler |
-| Diana | 63.94 | 2 | 2 | 0.50 | Codenames |
-| Kenny | 59.25 | 4 | 4 | 0.50 | Codenames |
-| Harsha | 55.10 | 6 | 8 | 0.43 | Secret Hitler |
-| Jason | 46.18 | 3 | 4 | 0.43 | Wavelength |
-| Dari | 43.14 | 2 | 2 | 0.50 | Codenames |
-| Eunice | 41.39 | 1 | 1 | 0.50 | Wavelength |
-| Simon | 40.07 | 4 | 10 | 0.29 | Wavelength |
-| Aaron | 38.78 | 2 | 3 | 0.40 | Incan Gold |
-| Abhi | 33.93 | 1 | 1 | 0.50 | Secret Hitler |
-| Peter | 33.93 | 1 | 1 | 0.50 | Secret Hitler |
-| Agnes | 28.48 | 1 | 4 | 0.20 | Avalon |
-| Katrina | 25.92 | 2 | 3 | 0.40 | Codenames |
-| Sandy | 21.94 | 0 | 2 | 0.00 | Codenames |
-| Vivian | 20.03 | 0 | 2 | 0.00 | Secret Hitler |
-| Calvin | 17.51 | 0 | 5 | 0.00 | Incan Gold |
-| Louise | 15.52 | 0 | 5 | 0.00 | Incan Gold |
+| Kyla | 76.72 | 10 | 7 | 0.59 | Secret Hitler |
+| Karen | 69.00 | 2 | 1 | 0.67 | Codenames |
+| Oliver | 65.91 | 10 | 8 | 0.56 | Secret Hitler |
+| Diana | 64.95 | 2 | 2 | 0.50 | Codenames |
+| Vivienne | 61.04 | 9 | 4 | 0.69 | Secret Hitler |
+| Kenny | 53.83 | 4 | 4 | 0.50 | Codenames |
+| Jason | 47.52 | 3 | 4 | 0.43 | Wavelength |
+| Harsha | 47.11 | 6 | 8 | 0.43 | Secret Hitler |
+| Eunice | 41.96 | 1 | 1 | 0.50 | Wavelength |
+| Dari | 41.73 | 2 | 2 | 0.50 | Codenames |
+| Aaron | 39.41 | 2 | 3 | 0.40 | Incan Gold |
+| Simon | 39.12 | 4 | 10 | 0.29 | Wavelength |
+| Abhi | 33.13 | 1 | 1 | 0.50 | Secret Hitler |
+| Peter | 33.13 | 1 | 1 | 0.50 | Secret Hitler |
+| Agnes | 27.82 | 1 | 4 | 0.20 | Avalon |
+| Katrina | 25.63 | 2 | 3 | 0.40 | Codenames |
+| Sandy | 21.08 | 0 | 2 | 0.00 | Codenames |
+| Vivian | 18.94 | 0 | 2 | 0.00 | Secret Hitler |
+| Calvin | 17.50 | 0 | 5 | 0.00 | Incan Gold |
+| Louise | 15.50 | 0 | 5 | 0.00 | Incan Gold |
 
 ### Rankings over Time
 ![Image](rankings.png)
@@ -74,11 +74,11 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Vivienne | 59.26  | 1 | 0 | 1.00 |
-| Harsha | 43.76  | 0 | 1 | 0.00 |
-| Kenny | 43.76  | 0 | 1 | 0.00 |
-| Kyla | 43.76  | 0 | 1 | 0.00 |
-| Oliver | 43.76  | 0 | 1 | 0.00 |
+| Vivienne | 38.65  | 1 | 0 | 1.00 |
+| Kenny | 33.17  | 0 | 1 | 0.00 |
+| Harsha | 33.17  | 0 | 1 | 0.00 |
+| Kyla | 33.17  | 0 | 1 | 0.00 |
+| Oliver | 33.17  | 0 | 1 | 0.00 |
 
 ### Wavelength
 

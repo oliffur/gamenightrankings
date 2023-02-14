@@ -5,7 +5,7 @@ import pandas as pd
 from   trueskill import TrueSkill
 
 LUCK_FACTORS = {
-        'Exploding Kittens': 2.0,
+        'Exploding Kittens': 10.0,
         'Incan Gold': 10.0,
         }
 
