@@ -18,3 +18,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 02/13/2023|Avalon|Oliver,Kyla,Agnes,dummy202302144,dummy202302145,dummy202302146;Katrina,Aaron,Louise,Jason,Calvin,Kenny|0;1
 02/13/2023|Codenames|Oliver,Kyla,Katrina,Vivienne,Kenny,dummy202302147;Aaron,Louise,Jason,Calvin,Agnes,Simon|0;1
 02/13/2023|Codenames|Oliver,Kyla,Katrina,Vivienne,Kenny,dummy202302148;Aaron,Louise,Jason,Calvin,Agnes,Simon|0;1
+02/27/2023|Secret Hitler|Harsha,Rob,Kenny,dummy202302271;Frances,Kyla,Vivienne,Shirley|0;1
+02/27/2023|Secret Hitler|Oliver,Harsha,Kyla,Kenny,Frances;Rob,Shirley,Vivienne,dummy202302272,dummy202302273|0;1
+02/27/2023|Codenames|Harsha,Rob,Vivienne,Frances;Kyla,Oliver,Shirley,Kenny|0;1
+02/27/2023|Wavelength|Harsha,Rob,Frances,Kenny,dummy202302274;Oliver,Kyla,Vivienne,Simon,Shirley|0;1
