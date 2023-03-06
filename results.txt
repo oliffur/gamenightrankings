@@ -1,24 +1,30 @@
 DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;...;RANKM
-01/08/2023|Secret Hitler|Kyla,Simon,Oliver;Vivienne,Harsha,dummy202301081|0;1
-01/08/2023|Secret Hitler|Kyla,Kenny,Oliver,Harsha;Vivienne,Simon,dummy202301082,dummy202301083|0;1
+01/08/2023|Secret Hitler|Kyla,Simon,Oliver;Vivienne,Harsha,dummy01081|0;1
+01/08/2023|Secret Hitler|Kyla,Kenny,Oliver,Harsha;Vivienne,Simon,dummy01082,dummy01083|0;1
 01/08/2023|Codenames|Kyla,Oliver,Kenny;Harsha,Vivienne,Simon|0;1
 01/08/2023|Exploding Kittens|Vivienne;Oliver;Kyla;Kenny;Harsha|0;1;1;1;1
-01/16/2023|Secret Hitler|Oliver,Vivienne,Abhi,Jason,Peter;Vivian,Simon,Harsha,Eunice,dummy202301161|0;1
-01/16/2023|Wavelength|Harsha,Jason,Eunice,dummy202301162;Oliver,Vivian,Peter,Abhi|0;1
-01/29/2023|Secret Hitler|Harsha,Vivienne,Kyla,Dari;Oliver,Simon,dummy202301291,dummy202301292|0;1
-01/29/2023|Secret Hitler|Oliver,Vivienne,Kyla,Simon;Harsha,Dari,dummy202301293,dummy202301294|0;1
-01/29/2023|Secret Hitler|Oliver,Vivienne,Harsha,dummy202301295;Simon,Kyla,Dari,Sandy|0;1
+01/16/2023|Secret Hitler|Oliver,Vivienne,Abhi,Jason,Peter;Vivian,Simon,Harsha,Eunice,dummy01161|0;1
+01/16/2023|Wavelength|Harsha,Jason,Eunice,dummy01162;Oliver,Vivian,Peter,Abhi|0;1
+01/29/2023|Secret Hitler|Harsha,Vivienne,Kyla,Dari;Oliver,Simon,dummy01291,dummy01292|0;1
+01/29/2023|Secret Hitler|Oliver,Vivienne,Kyla,Simon;Harsha,Dari,dummy01293,dummy01294|0;1
+01/29/2023|Secret Hitler|Oliver,Vivienne,Harsha,dummy01295;Simon,Kyla,Dari,Sandy|0;1
 01/29/2023|Codenames|Kyla,Harsha,Dari;Simon,Oliver,Sandy|0;1
 02/05/2023|Incan Gold|Vivienne;Oliver;Harsha;Kyla;Diana;Simon|0;1;2;3;4;5
-02/05/2023|Secret Hitler|Harsha,Kyla,Vivienne,dummy202302051;Oliver,Karen,Simon,Diana|0;1
-02/05/2023|Wavelength|Diana,Karen,Simon,dummy202302052;Oliver,Harsha,Kyla,Vivienne|0;1
+02/05/2023|Secret Hitler|Harsha,Kyla,Vivienne,dummy02051;Oliver,Karen,Simon,Diana|0;1
+02/05/2023|Wavelength|Diana,Karen,Simon,dummy02052;Oliver,Harsha,Kyla,Vivienne|0;1
 02/05/2023|Codenames|Diana,Karen,Simon;Oliver,Harsha,Kyla|0;1
 02/13/2023|Incan Gold|Aaron;Kyla;Kenny;Calvin;Louise;Agnes;Jason;Katrina|0;1;2;3;4;5;6;7
-02/13/2023|Avalon|Oliver,Aaron,Jason,dummy202302141,dummy202302142,dummy202302143;Katrina,Kyla,Louise,Agnes,Calvin,Kenny|0;1
-02/13/2023|Avalon|Oliver,Kyla,Agnes,dummy202302144,dummy202302145,dummy202302146;Katrina,Aaron,Louise,Jason,Calvin,Kenny|0;1
-02/13/2023|Codenames|Oliver,Kyla,Katrina,Vivienne,Kenny,dummy202302147;Aaron,Louise,Jason,Calvin,Agnes,Simon|0;1
-02/13/2023|Codenames|Oliver,Kyla,Katrina,Vivienne,Kenny,dummy202302148;Aaron,Louise,Jason,Calvin,Agnes,Simon|0;1
-02/27/2023|Secret Hitler|Harsha,Rob,Kenny,dummy202302271;Frances,Kyla,Vivienne,Shirley|0;1
-02/27/2023|Secret Hitler|Oliver,Harsha,Kyla,Kenny,Frances;Rob,Shirley,Vivienne,dummy202302272,dummy202302273|0;1
+02/13/2023|Avalon|Oliver,Aaron,Jason,dummy02141,dummy02142,dummy02143;Katrina,Kyla,Louise,Agnes,Calvin,Kenny|0;1
+02/13/2023|Avalon|Oliver,Kyla,Agnes,dummy02144,dummy02145,dummy02146;Katrina,Aaron,Louise,Jason,Calvin,Kenny|0;1
+02/13/2023|Codenames|Oliver,Kyla,Katrina,Vivienne,Kenny,dummy02147;Aaron,Louise,Jason,Calvin,Agnes,Simon|0;1
+02/13/2023|Codenames|Oliver,Kyla,Katrina,Vivienne,Kenny,dummy02148;Aaron,Louise,Jason,Calvin,Agnes,Simon|0;1
+02/27/2023|Secret Hitler|Harsha,Rob,Kenny,dummy02271;Frances,Kyla,Vivienne,Shirley|0;1
+02/27/2023|Secret Hitler|Oliver,Harsha,Kyla,Kenny,Frances;Rob,Shirley,Vivienne,dummy02272,dummy02273|0;1
 02/27/2023|Codenames|Harsha,Rob,Vivienne,Frances;Kyla,Oliver,Shirley,Kenny|0;1
-02/27/2023|Wavelength|Harsha,Rob,Frances,Kenny,dummy202302274;Oliver,Kyla,Vivienne,Simon,Shirley|0;1
+02/27/2023|Wavelength|Harsha,Rob,Frances,Kenny,dummy02274;Oliver,Kyla,Vivienne,Simon,Shirley|0;1
+03/07/2023|Coup|Kenny;Oliver;Queenie;Aaron|0;1;1;1
+03/07/2023|Shifty Eyed Spies|Kenny,Oliver,dummy03071,dummy03072;Queenie,Ellabelle,Aaron,Simon|0;1
+03/07/2023|Shifty Eyed Spies|Kyla,Oliver,dummy03071,dummy03072;Kenny,Queenie,Ellabelle,Aaron,Simon|0;1
+03/07/2023|Secret Hitler|Kenny,Oliver,Aaron,Calvin,Simon,Queenie,Vivienne,Yoyo;Kyla,Ellabelle,Harsha,Kenny,Ashley,dummy03073,dummy03074,dummy03075|0;1
+03/07/2023|Secret Hitler|Vivienne,Oliver,Harsha,Queenie,Kenny,Aaron,Nikini;Kyla,Calvin,Yoyo,Ashley,Ellabelle,dummy03076,dummy03077|0;1
+03/07/2023|Codenames|Kyla,Harsha,Calvin,Vivienne,Simon,dummy03078;Aaron,Oliver,Queenie,Nikini,Kenny,Ellabelle|0;1
