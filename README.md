@@ -5,34 +5,34 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Kenny | 80.10 | 11 | 8 | 0.58 | Coup |
-| Oliver | 72.69 | 15 | 12 | 0.56 | Secret Hitler |
-| Kyla | 72.25 | 13 | 12 | 0.52 | Secret Hitler |
-| Vivienne | 72.05 | 13 | 7 | 0.65 | Secret Hitler |
-| Harsha | 70.01 | 12 | 9 | 0.57 | Secret Hitler |
+| Vivienne | 71.79 | 13 | 7 | 0.65 | Secret Hitler |
+| Kyla | 71.66 | 13 | 12 | 0.52 | Secret Hitler |
+| Oliver | 71.34 | 15 | 12 | 0.56 | Secret Hitler |
+| Kenny | 71.12 | 11 | 8 | 0.58 | Secret Hitler |
+| Harsha | 69.93 | 12 | 9 | 0.57 | Secret Hitler |
 | Karen | 69.00 | 2 | 1 | 0.67 | Codenames |
 | Diana | 64.95 | 2 | 2 | 0.50 | Codenames |
 | Rob | 63.15 | 3 | 1 | 0.75 | Codenames |
-| Aaron | 57.56 | 4 | 7 | 0.36 | Coup |
-| Queenie | 56.27 | 2 | 4 | 0.33 | Coup |
 | Frances | 52.22 | 3 | 1 | 0.75 | Codenames |
 | Jason | 47.52 | 3 | 4 | 0.43 | Wavelength |
-| Simon | 42.19 | 6 | 13 | 0.32 | Wavelength |
-| Yoyo | 42.05 | 1 | 1 | 0.50 | Secret Hitler |
+| Aaron | 42.94 | 4 | 7 | 0.36 | Secret Hitler |
+| Simon | 42.37 | 6 | 13 | 0.32 | Wavelength |
 | Eunice | 41.96 | 1 | 1 | 0.50 | Wavelength |
 | Dari | 41.73 | 2 | 2 | 0.50 | Codenames |
-| Calvin | 33.21 | 2 | 6 | 0.25 | Secret Hitler |
+| Yoyo | 41.68 | 1 | 1 | 0.50 | Secret Hitler |
+| Queenie | 38.67 | 2 | 4 | 0.33 | Secret Hitler |
 | Abhi | 33.13 | 1 | 1 | 0.50 | Secret Hitler |
 | Peter | 33.13 | 1 | 1 | 0.50 | Secret Hitler |
-| Nikini | 32.33 | 1 | 1 | 0.50 | Secret Hitler |
+| Calvin | 32.66 | 2 | 6 | 0.25 | Secret Hitler |
+| Nikini | 32.36 | 1 | 1 | 0.50 | Secret Hitler |
 | Agnes | 27.82 | 1 | 4 | 0.20 | Avalon |
 | Katrina | 25.63 | 2 | 3 | 0.40 | Codenames |
-| Ashley | 21.77 | 0 | 2 | 0.00 | Secret Hitler |
+| Ashley | 21.75 | 0 | 2 | 0.00 | Secret Hitler |
 | Sandy | 21.08 | 0 | 2 | 0.00 | Codenames |
 | Vivian | 18.94 | 0 | 2 | 0.00 | Secret Hitler |
 | Louise | 15.50 | 0 | 5 | 0.00 | Incan Gold |
+| Ellabelle | 8.67 | 0 | 5 | 0.00 | Codenames |
 | Shirley | 8.62 | 0 | 4 | 0.00 | Wavelength |
-| Ellabelle | 8.32 | 0 | 5 | 0.00 | Codenames |
 
 ### Rankings over Time
 ![Image](rankings.png)
@@ -161,10 +161,10 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Kenny | 68.19  | 1 | 0 | 1.00 |
-| Queenie | 49.71  | 0 | 1 | 0.00 |
-| Aaron | 49.71  | 0 | 1 | 0.00 |
-| Oliver | 49.71  | 0 | 1 | 0.00 |
+| Kenny | 51.20  | 1 | 0 | 1.00 |
+| Queenie | 36.91  | 0 | 1 | 0.00 |
+| Aaron | 36.91  | 0 | 1 | 0.00 |
+| Oliver | 36.91  | 0 | 1 | 0.00 |
 
 ### Shifty Eyed Spies
 

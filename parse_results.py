@@ -7,6 +7,7 @@ from   trueskill import TrueSkill
 LUCK_FACTORS = {
         'Exploding Kittens': 10.0,
         'Incan Gold': 10.0,
+        'Coup' : 3.0,
         }
 
 class RatingsInfo:
