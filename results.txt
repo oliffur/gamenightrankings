@@ -24,7 +24,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 02/27/2023|Wavelength|Harsha,Rob,Frances,Kenny,dummy02274;Oliver,Kyla,Vivienne,Simon,Shirley|0;1
 03/07/2023|Coup|Kenny;Oliver;Queenie;Aaron|0;1;1;1
 03/07/2023|Shifty Eyed Spies|Kenny,Oliver,dummy030701,dummy030702;Queenie,Ellabelle,Aaron,Simon|0;1
-03/07/2023|Shifty Eyed Spies|Kyla,Oliver,dummy030703,dummy030704;Kenny,Queenie,Ellabelle,Aaron,Simon|0;1
-03/07/2023|Secret Hitler|Kenny,Oliver,Aaron,Calvin,Simon,Queenie,Vivienne,Yoyo;Kyla,Ellabelle,Harsha,Kenny,Ashley,dummy030705,dummy030706,dummy030707|0;1
-03/07/2023|Secret Hitler|Vivienne,Oliver,Harsha,Queenie,Kenny,Aaron,Nikini;Kyla,Calvin,Yoyo,Ashley,Ellabelle,dummy030708,dummy030709|0;1
-03/07/2023|Codenames|Kyla,Harsha,Calvin,Vivienne,Simon,dummy030710;Aaron,Oliver,Queenie,Nikini,Kenny,Ellabelle|0;1
+03/07/2023|Shifty Eyed Spies|Kyla,Oliver,dummy030703,dummy030704,dummy030705;Kenny,Queenie,Ellabelle,Aaron,Simon|0;1
+03/07/2023|Secret Hitler|Kenny,Oliver,Aaron,Calvin,Simon,Queenie,Vivienne,Yoyo;Kyla,Ellabelle,Harsha,Kenny,Ashley,dummy030706,dummy030707,dummy030708|0;1
+03/07/2023|Secret Hitler|Vivienne,Oliver,Harsha,Queenie,Kenny,Aaron,Nikini;Kyla,Calvin,Yoyo,Ashley,Ellabelle,dummy030709,dummy030710|0;1
+03/07/2023|Codenames|Kyla,Harsha,Calvin,Vivienne,Simon,dummy030711;Aaron,Oliver,Queenie,Nikini,Kenny,Ellabelle|0;1

@@ -5,29 +5,34 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Kyla | 69.37 | 11 | 10 | 0.52 | Secret Hitler |
+| Kenny | 80.10 | 11 | 8 | 0.58 | Coup |
+| Oliver | 72.69 | 15 | 12 | 0.56 | Secret Hitler |
+| Kyla | 72.25 | 13 | 12 | 0.52 | Secret Hitler |
+| Vivienne | 72.05 | 13 | 7 | 0.65 | Secret Hitler |
+| Harsha | 70.01 | 12 | 9 | 0.57 | Secret Hitler |
 | Karen | 69.00 | 2 | 1 | 0.67 | Codenames |
-| Harsha | 67.05 | 10 | 8 | 0.56 | Secret Hitler |
-| Kenny | 66.52 | 7 | 5 | 0.58 | Secret Hitler |
 | Diana | 64.95 | 2 | 2 | 0.50 | Codenames |
 | Rob | 63.15 | 3 | 1 | 0.75 | Codenames |
-| Oliver | 63.03 | 11 | 10 | 0.52 | Secret Hitler |
-| Vivienne | 59.27 | 10 | 7 | 0.59 | Secret Hitler |
+| Aaron | 57.56 | 4 | 7 | 0.36 | Coup |
+| Queenie | 56.27 | 2 | 4 | 0.33 | Coup |
 | Frances | 52.22 | 3 | 1 | 0.75 | Codenames |
 | Jason | 47.52 | 3 | 4 | 0.43 | Wavelength |
+| Simon | 42.19 | 6 | 13 | 0.32 | Wavelength |
+| Yoyo | 42.05 | 1 | 1 | 0.50 | Secret Hitler |
 | Eunice | 41.96 | 1 | 1 | 0.50 | Wavelength |
 | Dari | 41.73 | 2 | 2 | 0.50 | Codenames |
-| Aaron | 39.41 | 2 | 3 | 0.40 | Incan Gold |
-| Simon | 37.28 | 4 | 11 | 0.27 | Wavelength |
+| Calvin | 33.21 | 2 | 6 | 0.25 | Secret Hitler |
 | Abhi | 33.13 | 1 | 1 | 0.50 | Secret Hitler |
 | Peter | 33.13 | 1 | 1 | 0.50 | Secret Hitler |
+| Nikini | 32.33 | 1 | 1 | 0.50 | Secret Hitler |
 | Agnes | 27.82 | 1 | 4 | 0.20 | Avalon |
 | Katrina | 25.63 | 2 | 3 | 0.40 | Codenames |
+| Ashley | 21.77 | 0 | 2 | 0.00 | Secret Hitler |
 | Sandy | 21.08 | 0 | 2 | 0.00 | Codenames |
 | Vivian | 18.94 | 0 | 2 | 0.00 | Secret Hitler |
-| Calvin | 17.50 | 0 | 5 | 0.00 | Incan Gold |
 | Louise | 15.50 | 0 | 5 | 0.00 | Incan Gold |
 | Shirley | 8.62 | 0 | 4 | 0.00 | Wavelength |
+| Ellabelle | 8.32 | 0 | 5 | 0.00 | Codenames |
 
 ### Rankings over Time
 ![Image](rankings.png)
@@ -36,48 +41,58 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 73.24  | 6 | 2 | 0.75 |
-| Kyla | 72.88  | 6 | 2 | 0.75 |
-| Harsha | 64.62  | 6 | 3 | 0.67 |
-| Kenny | 62.21  | 3 | 0 | 1.00 |
-| Vivienne | 54.05  | 5 | 4 | 0.56 |
+| Oliver | 81.84  | 8 | 2 | 0.80 |
+| Kyla | 66.76  | 6 | 4 | 0.60 |
+| Harsha | 63.84  | 7 | 4 | 0.64 |
+| Vivienne | 62.20  | 7 | 4 | 0.64 |
+| Kenny | 61.36  | 5 | 1 | 0.83 |
+| Aaron | 47.23  | 2 | 0 | 1.00 |
+| Queenie | 47.23  | 2 | 0 | 1.00 |
 | Rob | 44.11  | 1 | 1 | 0.50 |
 | Abhi | 42.83  | 1 | 0 | 1.00 |
 | Jason | 42.83  | 1 | 0 | 1.00 |
 | Peter | 42.83  | 1 | 0 | 1.00 |
+| Calvin | 38.85  | 1 | 1 | 0.50 |
+| Yoyo | 38.85  | 1 | 1 | 0.50 |
+| Nikini | 38.81  | 1 | 0 | 1.00 |
 | Dari | 34.62  | 1 | 2 | 0.33 |
+| Simon | 32.35  | 3 | 5 | 0.38 |
 | Frances | 30.73  | 1 | 1 | 0.50 |
 | Karen | 28.14  | 0 | 1 | 0.00 |
 | Diana | 28.14  | 0 | 1 | 0.00 |
 | Vivian | 27.44  | 0 | 1 | 0.00 |
 | Eunice | 27.44  | 0 | 1 | 0.00 |
-| Simon | 26.83  | 2 | 5 | 0.29 |
 | Sandy | 26.10  | 0 | 1 | 0.00 |
+| Ellabelle | 24.10  | 0 | 2 | 0.00 |
+| Ashley | 24.10  | 0 | 2 | 0.00 |
 | Shirley | 21.38  | 0 | 2 | 0.00 |
 
 ### Codenames
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Kyla | 51.71  | 4 | 2 | 0.67 |
-| Vivienne | 51.43  | 3 | 1 | 0.75 |
+| Vivienne | 58.30  | 4 | 1 | 0.80 |
+| Kyla | 57.53  | 5 | 2 | 0.71 |
 | Diana | 50.80  | 1 | 0 | 1.00 |
 | Karen | 50.80  | 1 | 0 | 1.00 |
-| Kenny | 49.90  | 3 | 1 | 0.75 |
 | Rob | 48.41  | 1 | 0 | 1.00 |
 | Frances | 48.41  | 1 | 0 | 1.00 |
 | Katrina | 46.85  | 2 | 0 | 1.00 |
+| Harsha | 46.82  | 3 | 2 | 0.60 |
 | Dari | 46.30  | 1 | 0 | 1.00 |
-| Harsha | 40.63  | 2 | 2 | 0.50 |
-| Oliver | 33.51  | 3 | 3 | 0.50 |
-| Simon | 27.85  | 1 | 4 | 0.20 |
+| Kenny | 45.29  | 3 | 2 | 0.60 |
+| Simon | 34.07  | 2 | 4 | 0.33 |
+| Calvin | 33.17  | 1 | 2 | 0.33 |
+| Oliver | 29.49  | 3 | 4 | 0.43 |
+| Queenie | 27.70  | 0 | 1 | 0.00 |
+| Nikini | 27.70  | 0 | 1 | 0.00 |
+| Ellabelle | 27.70  | 0 | 1 | 0.00 |
 | Sandy | 26.42  | 0 | 1 | 0.00 |
-| Aaron | 25.05  | 0 | 2 | 0.00 |
 | Louise | 25.05  | 0 | 2 | 0.00 |
 | Jason | 25.05  | 0 | 2 | 0.00 |
-| Calvin | 25.05  | 0 | 2 | 0.00 |
 | Agnes | 25.05  | 0 | 2 | 0.00 |
 | Shirley | 23.77  | 0 | 1 | 0.00 |
+| Aaron | 19.79  | 0 | 3 | 0.00 |
 
 ### Exploding Kittens
 
@@ -141,3 +156,24 @@
 | Louise | 22.86  | 0 | 2 | 0.00 |
 | Calvin | 22.86  | 0 | 2 | 0.00 |
 | Kenny | 22.86  | 0 | 2 | 0.00 |
+
+### Coup
+
+| Player | ELO | Wins | Losses | Win % |
+| --- | --- | --- | --- | --- |
+| Kenny | 68.19  | 1 | 0 | 1.00 |
+| Queenie | 49.71  | 0 | 1 | 0.00 |
+| Aaron | 49.71  | 0 | 1 | 0.00 |
+| Oliver | 49.71  | 0 | 1 | 0.00 |
+
+### Shifty Eyed Spies
+
+| Player | ELO | Wins | Losses | Win % |
+| --- | --- | --- | --- | --- |
+| Oliver | 50.91  | 2 | 0 | 1.00 |
+| Kyla | 40.88  | 1 | 0 | 1.00 |
+| Kenny | 39.74  | 1 | 1 | 0.50 |
+| Queenie | 22.92  | 0 | 2 | 0.00 |
+| Ellabelle | 22.92  | 0 | 2 | 0.00 |
+| Aaron | 22.92  | 0 | 2 | 0.00 |
+| Simon | 22.92  | 0 | 2 | 0.00 |
