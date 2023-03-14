@@ -5,12 +5,13 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Vivienne | 71.79 | 13 | 7 | 0.65 | Secret Hitler |
-| Kyla | 71.66 | 13 | 12 | 0.52 | Secret Hitler |
-| Oliver | 71.34 | 15 | 12 | 0.56 | Secret Hitler |
+| Oliver | 79.53 | 17 | 13 | 0.57 | Secret Hitler |
+| Vivienne | 73.04 | 14 | 8 | 0.64 | Secret Hitler |
+| Dan | 71.70 | 1 | 2 | 0.33 | Avalon |
 | Kenny | 71.12 | 11 | 8 | 0.58 | Secret Hitler |
 | Harsha | 69.93 | 12 | 9 | 0.57 | Secret Hitler |
 | Karen | 69.00 | 2 | 1 | 0.67 | Codenames |
+| Kyla | 67.97 | 14 | 14 | 0.50 | Secret Hitler |
 | Diana | 64.95 | 2 | 2 | 0.50 | Codenames |
 | Rob | 63.15 | 3 | 1 | 0.75 | Codenames |
 | Frances | 52.22 | 3 | 1 | 0.75 | Codenames |
@@ -20,6 +21,7 @@
 | Eunice | 41.96 | 1 | 1 | 0.50 | Wavelength |
 | Dari | 41.73 | 2 | 2 | 0.50 | Codenames |
 | Yoyo | 41.68 | 1 | 1 | 0.50 | Secret Hitler |
+| Ellabelle | 38.67 | 1 | 7 | 0.12 | Avalon |
 | Queenie | 38.67 | 2 | 4 | 0.33 | Secret Hitler |
 | Abhi | 33.13 | 1 | 1 | 0.50 | Secret Hitler |
 | Peter | 33.13 | 1 | 1 | 0.50 | Secret Hitler |
@@ -31,7 +33,6 @@
 | Sandy | 21.08 | 0 | 2 | 0.00 | Codenames |
 | Vivian | 18.94 | 0 | 2 | 0.00 | Secret Hitler |
 | Louise | 15.50 | 0 | 5 | 0.00 | Incan Gold |
-| Ellabelle | 8.67 | 0 | 5 | 0.00 | Codenames |
 | Shirley | 8.62 | 0 | 4 | 0.00 | Wavelength |
 
 ### Rankings over Time
@@ -147,11 +148,14 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 49.35  | 2 | 0 | 1.00 |
+| Oliver | 59.76  | 3 | 0 | 1.00 |
+| Ellabelle | 44.78  | 1 | 0 | 1.00 |
+| Dan | 44.78  | 1 | 0 | 1.00 |
 | Aaron | 36.60  | 1 | 1 | 0.50 |
 | Jason | 36.60  | 1 | 1 | 0.50 |
-| Kyla | 35.62  | 1 | 1 | 0.50 |
 | Agnes | 35.62  | 1 | 1 | 0.50 |
+| Kyla | 30.11  | 1 | 2 | 0.33 |
+| Vivienne | 27.46  | 0 | 1 | 0.00 |
 | Katrina | 22.86  | 0 | 2 | 0.00 |
 | Louise | 22.86  | 0 | 2 | 0.00 |
 | Calvin | 22.86  | 0 | 2 | 0.00 |
@@ -177,3 +181,13 @@
 | Ellabelle | 22.92  | 0 | 2 | 0.00 |
 | Aaron | 22.92  | 0 | 2 | 0.00 |
 | Simon | 22.92  | 0 | 2 | 0.00 |
+
+### Bang
+
+| Player | ELO | Wins | Losses | Win % |
+| --- | --- | --- | --- | --- |
+| Vivienne | 55.95  | 1 | 0 | 1.00 |
+| Kyla | 51.49  | 1 | 1 | 0.50 |
+| Oliver | 49.00  | 1 | 1 | 0.50 |
+| Ellabelle | 40.20  | 0 | 2 | 0.00 |
+| Dan | 40.20  | 0 | 2 | 0.00 |
