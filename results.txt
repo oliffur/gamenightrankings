@@ -31,7 +31,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 03/14/2023|Bang|Oliver,dummy031401;Ellabelle,Dan;Kyla,dummy031402|0;1;1
 03/14/2023|Bang|Kyla,Vivienne;Ellabelle,Dan;Oliver,dummy031403|0;1;1
 03/14/2023|Avalon|Oliver,Ellabelle,Dan;Vivienne,Kyla,dummy031404|0;1
-03/19/2023|Secret Hitler|Kyla,Simon,Dan;Harsha,Kai|0,1
+03/19/2023|Secret Hitler|Kyla,Simon,Dan;Harsha,Kai|0;1
 03/19/2023|Secret Hitler|Kyla,Simon,Dan,Harsha;Kai,Vivienne|0;1
 03/19/2023|Incan Gold|Kyla,Simon,Vivienne;Dan;Harsha;Kai|0;1;2;3
 03/19/2023|Codenames|Harsha,Simon,Vivienne;Dan,Kai,Kyla|0;1
