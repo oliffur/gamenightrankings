@@ -5,19 +5,18 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Vivienne | 87.55 | 20 | 10 | 0.67 | Codenames |
-| Harsha | 80.14 | 17 | 16 | 0.52 | Secret Hitler |
+| Vivienne | 91.14 | 21 | 10 | 0.68 | Codenames |
+| Harsha | 81.11 | 17 | 16 | 0.52 | Secret Hitler |
 | Oliver | 79.53 | 17 | 13 | 0.57 | Secret Hitler |
 | Dan | 78.06 | 3 | 5 | 0.38 | Secret Hitler |
-| Kyla | 74.98 | 21 | 19 | 0.53 | Secret Hitler |
+| Kyla | 75.21 | 21 | 19 | 0.53 | Secret Hitler |
 | Kenny | 71.12 | 11 | 8 | 0.58 | Secret Hitler |
 | Karen | 69.00 | 2 | 1 | 0.67 | Codenames |
 | Diana | 64.95 | 2 | 2 | 0.50 | Codenames |
 | Rob | 63.15 | 3 | 1 | 0.75 | Codenames |
-| Simon | 60.24 | 12 | 18 | 0.40 | Wavelength |
+| Simon | 60.00 | 12 | 18 | 0.40 | Wavelength |
 | Frances | 52.22 | 3 | 1 | 0.75 | Codenames |
-| Viv | 50.24 | 1 | 0 | 1.00 | Codenames |
-| Kai | 48.78 | 5 | 7 | 0.42 | Incan Gold |
+| Kai | 48.40 | 5 | 7 | 0.42 | Incan Gold |
 | Jason | 47.52 | 3 | 4 | 0.43 | Wavelength |
 | Aaron | 42.94 | 4 | 7 | 0.36 | Secret Hitler |
 | Eunice | 41.96 | 1 | 1 | 0.50 | Wavelength |
@@ -28,7 +27,7 @@
 | Abhi | 33.13 | 1 | 1 | 0.50 | Secret Hitler |
 | Peter | 33.13 | 1 | 1 | 0.50 | Secret Hitler |
 | Calvin | 32.66 | 2 | 6 | 0.25 | Secret Hitler |
-| Nikiny | 29.84 | 2 | 5 | 0.29 | Secret Hitler |
+| Nikiny | 31.39 | 2 | 5 | 0.29 | Secret Hitler |
 | Agnes | 27.82 | 1 | 4 | 0.20 | Avalon |
 | Katrina | 25.63 | 2 | 3 | 0.40 | Codenames |
 | Ashley | 21.75 | 0 | 2 | 0.00 | Secret Hitler |
@@ -36,7 +35,7 @@
 | Vivian | 18.94 | 0 | 2 | 0.00 | Secret Hitler |
 | Louise | 15.50 | 0 | 5 | 0.00 | Incan Gold |
 | Shirley | 8.62 | 0 | 4 | 0.00 | Wavelength |
-| Dorine | 1.53 | 0 | 6 | 0.00 | Incan Gold |
+| Dorine | 2.47 | 0 | 6 | 0.00 | Incan Gold |
 
 ### Rankings over Time
 ![Image](rankings.png)
@@ -78,32 +77,31 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Vivienne | 73.97  | 6 | 1 | 0.86 |
-| Harsha | 55.04  | 5 | 3 | 0.62 |
-| Kyla | 50.86  | 6 | 4 | 0.60 |
+| Vivienne | 81.93  | 7 | 1 | 0.88 |
+| Harsha | 56.24  | 5 | 3 | 0.62 |
+| Kyla | 52.00  | 6 | 4 | 0.60 |
 | Diana | 50.80  | 1 | 0 | 1.00 |
 | Karen | 50.80  | 1 | 0 | 1.00 |
-| Simon | 50.25  | 4 | 5 | 0.44 |
+| Simon | 48.93  | 4 | 5 | 0.44 |
 | Rob | 48.41  | 1 | 0 | 1.00 |
 | Frances | 48.41  | 1 | 0 | 1.00 |
-| Viv | 47.94  | 1 | 0 | 1.00 |
 | Katrina | 46.85  | 2 | 0 | 1.00 |
 | Dari | 46.30  | 1 | 0 | 1.00 |
 | Kenny | 45.29  | 3 | 2 | 0.60 |
-| Kai | 35.49  | 1 | 2 | 0.33 |
+| Kai | 33.68  | 1 | 2 | 0.33 |
 | Calvin | 33.17  | 1 | 2 | 0.33 |
 | Oliver | 29.49  | 3 | 4 | 0.43 |
 | Queenie | 27.70  | 0 | 1 | 0.00 |
 | Ellabelle | 27.70  | 0 | 1 | 0.00 |
 | Sandy | 26.42  | 0 | 1 | 0.00 |
+| Dorine | 26.24  | 0 | 1 | 0.00 |
 | Louise | 25.05  | 0 | 2 | 0.00 |
 | Jason | 25.05  | 0 | 2 | 0.00 |
 | Agnes | 25.05  | 0 | 2 | 0.00 |
-| Dorine | 24.32  | 0 | 1 | 0.00 |
 | Shirley | 23.77  | 0 | 1 | 0.00 |
 | Dan | 23.44  | 0 | 2 | 0.00 |
+| Nikiny | 20.88  | 0 | 2 | 0.00 |
 | Aaron | 19.79  | 0 | 3 | 0.00 |
-| Nikiny | 19.05  | 0 | 2 | 0.00 |
 
 ### Exploding Kittens
 
