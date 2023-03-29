@@ -8,6 +8,7 @@ trueskill = "*"
 jupyterlab = "*"
 pandas = "*"
 matplotlib = "*"
+numpy = "*"
 
 [dev-packages]
 
