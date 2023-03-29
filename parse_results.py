@@ -113,7 +113,6 @@ def main():
             all_ratings.items(),
             key=lambda item: item[1].get_rating(),
             reverse=True):
-        print(player, type(player))
         if player.startswith('dummy'): continue
         markdown += '''
 | {} | {:.2f} | {} | {} | {:.2f} | {} |'''.format(
@@ -128,6 +127,7 @@ def main():
                 itertools.chain.from_iterable(row['elos'])]
         #ratings = [elo.mu * 4 for elo in np.array(row['elos']).flat]
         for player, rating in zip(players, ratings):
+            print(player)
             if player.startswith('dummy'): continue
             chart_df.at[row['date'], player] = rating
     chart_df.ffill(inplace=True)
