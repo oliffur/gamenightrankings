@@ -113,7 +113,7 @@ def main():
             all_ratings.items(),
             key=lambda item: item[1].get_rating(),
             reverse=True):
-        print(player)
+        print(player, type(player))
         if player.startswith('dummy'): continue
         markdown += '''
 | {} | {:.2f} | {} | {} | {:.2f} | {} |'''.format(
