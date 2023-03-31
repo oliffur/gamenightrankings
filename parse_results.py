@@ -96,9 +96,7 @@ def main():
 
     markdown = '''
 ![Image](https://media.architecturaldigest.com/photos/618036966ba9675f212cc805/16:9/w_2560%2Cc_limit/SquidGame_Season1_Episode1_00_44_44_16.jpg)
-
 ### Total Rankings
-
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |'''
 
@@ -122,14 +120,11 @@ def main():
 
     chart_df = pd.DataFrame()
     for _, row in all_df.iterrows():
-        print(row.teams)
-        print(list(np.array(row['teams']).flat))
         players = list(np.array(row['teams']).flat)
         ratings = [(elo.mu - 2 * elo.sigma) * 4 for elo in \
                 itertools.chain.from_iterable(row['elos'])]
         #ratings = [elo.mu * 4 for elo in np.array(row['elos']).flat]
         for player, rating in zip(players, ratings):
-            print(player)
             if player.startswith('dummy'): continue
             chart_df.at[row['date'], player] = rating
     chart_df.ffill(inplace=True)
@@ -141,15 +136,12 @@ def main():
     plt.savefig('rankings.png')
 
     markdown += '''
-
 ### Rankings over Time
 ![Image](rankings.png)'''
     
     for game, ratings in per_game_ratings.items():
         markdown += '''
-
 ### {}
-
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |'''.format(game)
         for player, rating in sorted(ratings.items(), key=lambda item: item[1].get_rating(), reverse=True):
