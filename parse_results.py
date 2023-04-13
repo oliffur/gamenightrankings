@@ -72,7 +72,6 @@ def parse_results():
     with open('results.txt') as f:
         for line in f.readlines():
             if line.startswith('DATE'): continue
-            print(line)
             date, game, teams, ranks = line.split('|')
             teams, ranks = teams.split(';'), ranks.split(';')
             teams = [team.split(',') for team in teams]

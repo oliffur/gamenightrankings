@@ -47,4 +47,3 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 04/03/2023|Incan Gold|Abhi;Oliver;Queenie;Simon;Peter|0;1;2;3;3
 04/03/2023|Exploding Kittens|Simon;Queenie;Oliver;Abhi;Peter|0;1;2;3;4
 04/03/2023|Wavelength|Oliver,Queenie,Abhi;Peter,Simon,dummy040303|0;1
-
