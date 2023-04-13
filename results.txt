@@ -1,13 +1,13 @@
 DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;...;RANKM
-01/08/2023|Secret Hitler|Kyla,Simon,Oliver;Vivienne,Harsha,dummy01081|0;1
-01/08/2023|Secret Hitler|Kyla,Kenny,Oliver,Harsha;Vivienne,Simon,dummy01082,dummy01083|0;1
+01/08/2023|Secret Hitler|Kyla,Simon,Oliver;Vivienne,Harsha,dummy010801|0;1
+01/08/2023|Secret Hitler|Kyla,Kenny,Oliver,Harsha;Vivienne,Simon,dummy010802,dummy010803|0;1
 01/08/2023|Codenames|Kyla,Oliver,Kenny;Harsha,Vivienne,Simon|0;1
 01/08/2023|Exploding Kittens|Vivienne;Oliver;Kyla;Kenny;Harsha|0;1;1;1;1
-01/16/2023|Secret Hitler|Oliver,Vivienne,Abhi,Jason,Peter;Vivian,Simon,Harsha,Eunice,dummy01161|0;1
-01/16/2023|Wavelength|Harsha,Jason,Eunice,dummy01162;Oliver,Vivian,Peter,Abhi|0;1
-01/29/2023|Secret Hitler|Harsha,Vivienne,Kyla,Dari;Oliver,Simon,dummy01291,dummy01292|0;1
-01/29/2023|Secret Hitler|Oliver,Vivienne,Kyla,Simon;Harsha,Dari,dummy01293,dummy01294|0;1
-01/29/2023|Secret Hitler|Oliver,Vivienne,Harsha,dummy01295;Simon,Kyla,Dari,Sandy|0;1
+01/16/2023|Secret Hitler|Oliver,Vivienne,Abhi,Jason,Peter;Vivian,Simon,Harsha,Eunice,dummy011601|0;1
+01/16/2023|Wavelength|Harsha,Jason,Eunice,dummy011602;Oliver,Vivian,Peter,Abhi|0;1
+01/29/2023|Secret Hitler|Harsha,Vivienne,Kyla,Dari;Oliver,Simon,dummy012901,dummy012902|0;1
+01/29/2023|Secret Hitler|Oliver,Vivienne,Kyla,Simon;Harsha,Dari,dummy012903,dummy012904|0;1
+01/29/2023|Secret Hitler|Oliver,Vivienne,Harsha,dummy012905;Simon,Kyla,Dari,Sandy|0;1
 01/29/2023|Codenames|Kyla,Harsha,Dari;Simon,Oliver,Sandy|0;1
 02/05/2023|Incan Gold|Vivienne;Oliver;Harsha;Kyla;Diana;Simon|0;1;2;3;4;5
 02/05/2023|Secret Hitler|Harsha,Kyla,Vivienne,dummy02051;Oliver,Karen,Simon,Diana|0;1
@@ -43,3 +43,8 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 03/26/2023|Secret Hitler|Harsha,Kai,Vivienne,dummy032602;Kyla,Nikiny,Simon,Dorine|0;1
 03/26/2023|Codenames|Simon,Kai,Vivienne,dummy032603;Kyla,Harsha,Dorine,Nikiny|0;1
 03/26/2023|Wavelength|Simon,Kai,Harsha;Vivienne,Dorine,Kyla|0;1
+04/03/2023|Incan Gold|Peter;Simon;Oliver;Abhi;Queenie|0;1;2;3;4
+04/03/2023|Incan Gold|Abhi;Oliver;Queenie;Simon;Peter|0;1;2;3;3
+04/03/2023|Exploding Kittens|Simon;Queenie;Oliver;Abhi;Peter|0;1;2;3;4
+04/03/2023|Wavelength|Oliver,Queenie,Abhi;Peter,Simon,dummy040303|0;1
+
