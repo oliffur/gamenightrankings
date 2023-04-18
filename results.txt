@@ -47,3 +47,8 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 04/03/2023|Incan Gold|Abhi;Oliver;Queenie;Simon;Peter|0;1;2;3;3
 04/03/2023|Exploding Kittens|Simon;Queenie;Oliver;Abhi;Peter|0;1;2;3;4
 04/03/2023|Wavelength|Oliver,Queenie,Abhi;Peter,Simon,dummy040303|0;1
+04/17/2023|Incan Gold|Vivienne;Leo;Nikiny;Kenny;Oliver;Aaron|0;1;2;3;3;3
+04/17/2023|Incan Gold|Kenny;Leo;Nikiny;Vivienne;Aaron;Oliver|0;1;2;3;4;4
+04/17/2023|Incan Gold|Aaron;Leo;Oliver;Simon;Kenny;Vivienne;Nikiny|0;1;2;3;3;4;4
+04/17/2023|Secret Hitler|Simon,Vivienne,Calvin,Queenie,Leo,Kenny;Oliver,Aaron,Nikiny,Fred,dummy031701,dummy031702|0;1
+04/17/2023|Codenames|Kenny,Nikiny,Fred,Oliver,Aaron;Leo,Calvin,Queenie,Simon,Vivienne|0;1
