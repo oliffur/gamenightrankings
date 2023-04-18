@@ -44,6 +44,7 @@ Rankings over Time
 ![Image](rankings.png)
 
 
+
 ### Secret Hitler
 
 | Player | ELO | Wins | Losses | Win % |
@@ -78,6 +79,7 @@ Rankings over Time
 | Ashley | 24.10  | 0 | 2 | 0.00 |
 | Shirley | 21.38  | 0 | 2 | 0.00 |
 | Dorine | 19.94  | 0 | 2 | 0.00 |
+
 ### Codenames
 
 | Player | ELO | Wins | Losses | Win % |
@@ -109,6 +111,7 @@ Rankings over Time
 | Dan | 23.44  | 0 | 2 | 0.00 |
 | Leo | 23.00  | 0 | 1 | 0.00 |
 | Queenie | 17.80  | 0 | 2 | 0.00 |
+
 ### Exploding Kittens
 
 | Player | ELO | Wins | Losses | Win % |
@@ -122,6 +125,7 @@ Rankings over Time
 | Kyla | 33.17  | 0 | 1 | 0.00 |
 | Abhi | 30.97  | 0 | 1 | 0.00 |
 | Peter | 26.43  | 0 | 1 | 0.00 |
+
 ### Wavelength
 
 | Player | ELO | Wins | Losses | Win % |
@@ -145,6 +149,7 @@ Rankings over Time
 | Vivian | 27.08  | 0 | 1 | 0.00 |
 | Dorine | 23.89  | 0 | 1 | 0.00 |
 | Peter | 17.56  | 0 | 2 | 0.00 |
+
 ### Incan Gold
 
 | Player | ELO | Wins | Losses | Win % |
@@ -170,6 +175,7 @@ Rankings over Time
 | Queenie | 26.65  | 0 | 2 | 0.00 |
 | Katrina | 24.83  | 0 | 1 | 0.00 |
 | Simon | 21.84  | 1 | 6 | 0.14 |
+
 ### Avalon
 
 | Player | ELO | Wins | Losses | Win % |
@@ -186,6 +192,7 @@ Rankings over Time
 | Louise | 22.86  | 0 | 2 | 0.00 |
 | Calvin | 22.86  | 0 | 2 | 0.00 |
 | Kenny | 22.86  | 0 | 2 | 0.00 |
+
 ### Coup
 
 | Player | ELO | Wins | Losses | Win % |
@@ -194,6 +201,7 @@ Rankings over Time
 | Queenie | 36.91  | 0 | 1 | 0.00 |
 | Aaron | 36.91  | 0 | 1 | 0.00 |
 | Oliver | 36.91  | 0 | 1 | 0.00 |
+
 ### Shifty Eyed Spies
 
 | Player | ELO | Wins | Losses | Win % |
@@ -205,6 +213,7 @@ Rankings over Time
 | Ellabelle | 22.92  | 0 | 2 | 0.00 |
 | Aaron | 22.92  | 0 | 2 | 0.00 |
 | Simon | 22.92  | 0 | 2 | 0.00 |
+
 ### Bang
 
 | Player | ELO | Wins | Losses | Win % |

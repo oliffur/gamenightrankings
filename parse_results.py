@@ -147,6 +147,7 @@ Rankings over Time
     
     for game, ratings in per_game_ratings.items():
         markdown += '''
+
 ### {}
 
 | Player | ELO | Wins | Losses | Win % |
