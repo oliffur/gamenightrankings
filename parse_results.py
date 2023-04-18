@@ -147,9 +147,8 @@ Rankings over Time
     
     for game, ratings in per_game_ratings.items():
         markdown += '''
-###
+### {}
 
-{}
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |'''.format(game)
         for player, rating in sorted(ratings.items(), key=lambda item: item[1].get_rating(), reverse=True):

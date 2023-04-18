@@ -44,9 +44,8 @@ Rankings over Time
 ![Image](rankings.png)
 
 
-###
+### Secret Hitler
 
-Secret Hitler
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Kyla | 80.73  | 9 | 5 | 0.64 |
@@ -79,9 +78,8 @@ Secret Hitler
 | Ashley | 24.10  | 0 | 2 | 0.00 |
 | Shirley | 21.38  | 0 | 2 | 0.00 |
 | Dorine | 19.94  | 0 | 2 | 0.00 |
-###
+### Codenames
 
-Codenames
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Vivienne | 75.08  | 7 | 2 | 0.78 |
@@ -111,9 +109,8 @@ Codenames
 | Dan | 23.44  | 0 | 2 | 0.00 |
 | Leo | 23.00  | 0 | 1 | 0.00 |
 | Queenie | 17.80  | 0 | 2 | 0.00 |
-###
+### Exploding Kittens
 
-Exploding Kittens
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Simon | 41.65  | 1 | 0 | 1.00 |
@@ -125,9 +122,8 @@ Exploding Kittens
 | Kyla | 33.17  | 0 | 1 | 0.00 |
 | Abhi | 30.97  | 0 | 1 | 0.00 |
 | Peter | 26.43  | 0 | 1 | 0.00 |
-###
+### Wavelength
 
-Wavelength
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Queenie | 50.35  | 1 | 0 | 1.00 |
@@ -149,9 +145,8 @@ Wavelength
 | Vivian | 27.08  | 0 | 1 | 0.00 |
 | Dorine | 23.89  | 0 | 1 | 0.00 |
 | Peter | 17.56  | 0 | 2 | 0.00 |
-###
+### Incan Gold
 
-Incan Gold
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Kyla | 50.64  | 2 | 3 | 0.40 |
@@ -175,9 +170,8 @@ Incan Gold
 | Queenie | 26.65  | 0 | 2 | 0.00 |
 | Katrina | 24.83  | 0 | 1 | 0.00 |
 | Simon | 21.84  | 1 | 6 | 0.14 |
-###
+### Avalon
 
-Avalon
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Oliver | 59.76  | 3 | 0 | 1.00 |
@@ -192,18 +186,16 @@ Avalon
 | Louise | 22.86  | 0 | 2 | 0.00 |
 | Calvin | 22.86  | 0 | 2 | 0.00 |
 | Kenny | 22.86  | 0 | 2 | 0.00 |
-###
+### Coup
 
-Coup
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Kenny | 51.20  | 1 | 0 | 1.00 |
 | Queenie | 36.91  | 0 | 1 | 0.00 |
 | Aaron | 36.91  | 0 | 1 | 0.00 |
 | Oliver | 36.91  | 0 | 1 | 0.00 |
-###
+### Shifty Eyed Spies
 
-Shifty Eyed Spies
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Oliver | 50.91  | 2 | 0 | 1.00 |
@@ -213,9 +205,8 @@ Shifty Eyed Spies
 | Ellabelle | 22.92  | 0 | 2 | 0.00 |
 | Aaron | 22.92  | 0 | 2 | 0.00 |
 | Simon | 22.92  | 0 | 2 | 0.00 |
-###
+### Bang
 
-Bang
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Vivienne | 55.95  | 1 | 0 | 1.00 |
