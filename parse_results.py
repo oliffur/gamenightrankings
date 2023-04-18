@@ -138,9 +138,8 @@ def main():
     plt.savefig('rankings.png')
 
     markdown += '''
-###
 
-Rankings over Time
+### Rankings over Time
 ![Image](rankings.png)
 
 '''

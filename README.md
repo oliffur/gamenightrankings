@@ -38,9 +38,8 @@
 | Louise | 15.50 | 0 | 5 | 0.00 | Incan Gold |
 | Shirley | 8.62 | 0 | 4 | 0.00 | Wavelength |
 | Dorine | 1.92 | 0 | 6 | 0.00 | Incan Gold |
-###
 
-Rankings over Time
+### Rankings over Time
 ![Image](rankings.png)
 
 
