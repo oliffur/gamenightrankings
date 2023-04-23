@@ -154,7 +154,7 @@ def main():
         for player, rating in sorted(ratings.items(), key=lambda item: item[1].get_rating(), reverse=True):
             if player.startswith('dummy'): continue
             markdown += '''
-| {} | {:.2f}  | {} | {} | {:.2f} |'''.format(
+| {} | {:.2f}  | {} | {} | {:.0%} |'''.format(
             player, rating.get_rating(), rating.wins, rating.losses,
             rating.wins / (rating.wins + rating.losses))
 
