@@ -52,3 +52,9 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 04/17/2023|Incan Gold|Aaron;Leo;Oliver;Simon;Kenny;Vivienne;Nikiny|0;1;2;3;3;4;4
 04/17/2023|Secret Hitler|Simon,Vivienne,Calvin,Queenie,Leo,Kenny;Oliver,Aaron,Nikiny,Fred,dummy031701,dummy031702|0;1
 04/17/2023|Codenames|Kenny,Nikiny,Fred,Oliver,Aaron;Leo,Calvin,Queenie,Simon,Vivienne|0;1
+04/23/2023|Incan Gold|Peter;Nikiny;Diana;Simon|0;1;2;2
+04/23/2023|Incan Gold|Peter;Simon;Kyla;Nikiny;Diana|0;0;0;1;2
+04/23/2023|Secret Hitler|Oliver,Peter,Leo,Kyla,Nikiny;Simon,Kenny,Diana,dummy032301,dummy032302|0;1
+04/23/2023|Cash n Guns|Nikiny;Kyla;Kenny;Simon;Oliver;Calvin;Leo|0;1;2;3;4;5;6
+04/23/2023|Codenames|Simon,Calvin,Kenny,Nikiny;Oliver,Leo,Kyla,dummy032303|0;1
+04/23/2023|Codenames|Oliver,Leo,Kyla,dummy032304;Simon,Calvin,Kenny,Nikiny|0;1
