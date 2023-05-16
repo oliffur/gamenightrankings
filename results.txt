@@ -64,4 +64,3 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 05/15/2023|Coup|Oliver;Leo;Kenny;Kyla;Dan|0;1;1;1;1
 05/15/2023|Avalon|Oliver,Kenny,Calvin,Leo;Dan,Kyla,dummy051501,dummy051502|0;1
 05/15/2023|Wavelength|Kyla,Calvin,Oliver;Leo,Dan,Kenny|0;1
-

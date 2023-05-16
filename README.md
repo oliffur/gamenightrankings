@@ -5,30 +5,30 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Kyla | 92.18 | 24 | 21 | 53% | Secret Hitler |
-| Vivienne | 89.67 | 23 | 13 | 64% | Secret Hitler |
+| Kyla | 94.87 | 26 | 25 | 51% | Secret Hitler |
+| Kenny | 89.98 | 17 | 17 | 50% | Cash n Guns |
 | Nikiny | 88.92 | 6 | 12 | 33% | Cash n Guns |
-| Kenny | 85.50 | 15 | 13 | 54% | Cash n Guns |
-| Oliver | 82.64 | 21 | 22 | 49% | Secret Hitler |
+| Oliver | 88.36 | 24 | 25 | 49% | Secret Hitler |
+| Vivienne | 87.32 | 24 | 14 | 63% | Secret Hitler |
 | Harsha | 80.41 | 17 | 16 | 52% | Secret Hitler |
-| Dan | 77.85 | 3 | 5 | 38% | Secret Hitler |
+| Dan | 73.22 | 4 | 8 | 33% | Secret Hitler |
 | Simon | 69.27 | 16 | 27 | 37% | Cash n Guns |
 | Karen | 69.00 | 2 | 1 | 67% | Codenames |
 | Rob | 63.15 | 3 | 1 | 75% | Codenames |
+| Calvin | 55.87 | 6 | 9 | 40% | Wavelength |
 | Frances | 52.22 | 3 | 1 | 75% | Codenames |
 | Diana | 51.37 | 2 | 5 | 29% | Codenames |
+| Leo | 49.67 | 4 | 9 | 31% | Secret Hitler |
 | Aaron | 49.47 | 6 | 10 | 38% | Incan Gold |
 | Jason | 47.52 | 3 | 4 | 43% | Wavelength |
 | Abhi | 47.51 | 3 | 3 | 50% | Wavelength |
 | Kai | 47.09 | 5 | 7 | 42% | Secret Hitler |
-| Calvin | 44.01 | 4 | 9 | 31% | Secret Hitler |
 | Queenie | 43.87 | 4 | 8 | 33% | Secret Hitler |
 | Fred | 43.59 | 1 | 1 | 50% | Codenames |
 | Peter | 43.44 | 5 | 4 | 56% | Secret Hitler |
 | Eunice | 41.96 | 1 | 1 | 50% | Wavelength |
 | Dari | 41.73 | 2 | 2 | 50% | Codenames |
 | Yoyo | 41.68 | 1 | 1 | 50% | Secret Hitler |
-| Leo | 38.87 | 3 | 6 | 33% | Secret Hitler |
 | Ellabelle | 38.67 | 1 | 7 | 12% | Avalon |
 | Agnes | 27.82 | 1 | 4 | 20% | Avalon |
 | Katrina | 25.63 | 2 | 3 | 40% | Codenames |
@@ -115,13 +115,13 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
+| Vivienne | 43.57  | 2 | 0 | 100% |
 | Simon | 41.65  | 1 | 0 | 100% |
-| Vivienne | 38.65  | 1 | 0 | 100% |
 | Queenie | 37.45  | 0 | 1 | 0% |
-| Oliver | 34.08  | 0 | 2 | 0% |
-| Kenny | 33.17  | 0 | 1 | 0% |
+| Oliver | 33.54  | 0 | 3 | 0% |
 | Harsha | 33.17  | 0 | 1 | 0% |
-| Kyla | 33.17  | 0 | 1 | 0% |
+| Kenny | 32.63  | 0 | 2 | 0% |
+| Kyla | 32.63  | 0 | 2 | 0% |
 | Abhi | 30.97  | 0 | 1 | 0% |
 | Peter | 26.43  | 0 | 1 | 0% |
 
@@ -130,22 +130,25 @@
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Queenie | 50.35  | 1 | 0 | 100% |
+| Calvin | 49.35  | 1 | 0 | 100% |
 | Harsha | 46.20  | 3 | 2 | 60% |
+| Kyla | 46.09  | 2 | 3 | 40% |
 | Simon | 45.90  | 2 | 2 | 50% |
 | Diana | 43.98  | 1 | 0 | 100% |
 | Karen | 43.98  | 1 | 0 | 100% |
 | Jason | 43.90  | 1 | 0 | 100% |
 | Eunice | 43.90  | 1 | 0 | 100% |
+| Oliver | 42.94  | 2 | 3 | 40% |
 | Abhi | 42.90  | 1 | 1 | 50% |
 | Rob | 41.34  | 1 | 0 | 100% |
 | Frances | 41.34  | 1 | 0 | 100% |
-| Kenny | 41.34  | 1 | 0 | 100% |
-| Kyla | 35.21  | 1 | 3 | 25% |
 | Vivienne | 35.21  | 1 | 3 | 25% |
 | Kai | 35.16  | 1 | 1 | 50% |
-| Oliver | 30.95  | 1 | 3 | 25% |
+| Kenny | 32.55  | 1 | 1 | 50% |
 | Shirley | 28.60  | 0 | 1 | 0% |
 | Vivian | 27.08  | 0 | 1 | 0% |
+| Leo | 24.18  | 0 | 1 | 0% |
+| Dan | 24.18  | 0 | 1 | 0% |
 | Dorine | 23.89  | 0 | 1 | 0% |
 | Peter | 17.56  | 0 | 2 | 0% |
 
@@ -179,35 +182,40 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 59.76  | 3 | 0 | 100% |
+| Oliver | 69.24  | 4 | 0 | 100% |
 | Ellabelle | 44.78  | 1 | 0 | 100% |
-| Dan | 44.78  | 1 | 0 | 100% |
+| Leo | 44.68  | 1 | 0 | 100% |
+| Dan | 38.54  | 1 | 1 | 50% |
 | Aaron | 36.60  | 1 | 1 | 50% |
 | Jason | 36.60  | 1 | 1 | 50% |
 | Agnes | 35.62  | 1 | 1 | 50% |
-| Kyla | 30.11  | 1 | 2 | 33% |
+| Calvin | 33.19  | 1 | 2 | 33% |
+| Kenny | 33.19  | 1 | 2 | 33% |
 | Vivienne | 27.46  | 0 | 1 | 0% |
+| Kyla | 24.26  | 1 | 3 | 25% |
 | Katrina | 22.86  | 0 | 2 | 0% |
 | Louise | 22.86  | 0 | 2 | 0% |
-| Calvin | 22.86  | 0 | 2 | 0% |
-| Kenny | 22.86  | 0 | 2 | 0% |
 
 ### Coup
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Kenny | 51.20  | 1 | 0 | 100% |
+| Oliver | 54.82  | 1 | 2 | 33% |
+| Kenny | 54.01  | 1 | 2 | 33% |
+| Dan | 53.55  | 1 | 1 | 50% |
+| Leo | 44.04  | 0 | 2 | 0% |
+| Kyla | 44.04  | 0 | 2 | 0% |
 | Queenie | 36.91  | 0 | 1 | 0% |
 | Aaron | 36.91  | 0 | 1 | 0% |
-| Oliver | 36.91  | 0 | 1 | 0% |
 
 ### Shifty Eyed Spies
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 50.91  | 2 | 0 | 100% |
-| Kyla | 40.88  | 1 | 0 | 100% |
-| Kenny | 39.74  | 1 | 1 | 50% |
+| Kyla | 57.60  | 2 | 0 | 100% |
+| Kenny | 55.31  | 2 | 1 | 67% |
+| Oliver | 43.35  | 2 | 1 | 67% |
+| Vivienne | 25.16  | 0 | 1 | 0% |
 | Queenie | 22.92  | 0 | 2 | 0% |
 | Ellabelle | 22.92  | 0 | 2 | 0% |
 | Aaron | 22.92  | 0 | 2 | 0% |
