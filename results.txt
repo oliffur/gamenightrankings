@@ -58,3 +58,10 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 04/23/2023|Cash n Guns|Nikiny;Kyla;Kenny;Simon;Oliver;Calvin;Leo|0;1;2;3;4;5;6
 04/23/2023|Codenames|Simon,Calvin,Kenny,Nikiny;Oliver,Leo,Kyla,dummy032303|0;1
 04/23/2023|Codenames|Oliver,Leo,Kyla,dummy032304;Simon,Calvin,Kenny,Nikiny|0;1
+05/08/2023|Exploding Kittens|Vivienne;Oliver;Kenny;Kyla|0;1;1;1
+05/08/2023|Shifty Eyed Spies|Kyla,Kenny;Oliver,Vivienne|0;1
+05/15/2023|Coup|Dan;Leo;Kenny;Kyla;Oliver|0;1;1;1;1
+05/15/2023|Coup|Oliver;Leo;Kenny;Kyla;Dan|0;1;1;1;1
+05/15/2023|Avalon|Oliver,Kenny,Calvin,Leo;Dan,Kyla,dummy051501,dummy051502|0;1
+05/15/2023|Wavelength|Kyla,Calvin,Oliver;Leo,Dan,Kenny|0;1
+
