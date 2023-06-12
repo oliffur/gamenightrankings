@@ -64,3 +64,8 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 05/15/2023|Coup|Oliver;Leo;Kenny;Kyla;Dan|0;1;1;1;1
 05/15/2023|Avalon|Oliver,Kenny,Calvin,Leo;Dan,Kyla,dummy051501,dummy051502|0;1
 05/15/2023|Wavelength|Kyla,Calvin,Oliver;Leo,Dan,Kenny|0;1
+06/12/2023|Coup|Oliver;Peter;Gillian;Kazumi;Siri;Leo|0;1
+06/12/2023|Coup|Peter;Oliver;Gillian;Kazumi;Siri;Leo|0;1
+06/12/2023|Secret Hitler|Simon,Gillian,Kazumi,Leo,dummy061201;Kyla,PeterChau,Vivienne,Siri,Oliver|1;0
+06/12/2023|Secret Hitler|Simon,Gillian,Oliver,Kyla,Vivienne,Calvin;Kazumi,Siri,Leo,Peter,dummy061202,dummy061203|0;1
+06/12/2023|Codenames|Oliver,Kyla,Leo,Kazumi,dummy061204;Calvin,Siri,Vivienne,Simon,Gillian|0;1
