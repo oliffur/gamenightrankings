@@ -5,30 +5,34 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Kyla | 94.87 | 26 | 25 | 51% | Secret Hitler |
+| Kyla | 97.46 | 29 | 25 | 54% | Secret Hitler |
+| Oliver | 91.92 | 28 | 26 | 52% | Secret Hitler |
 | Kenny | 89.98 | 17 | 17 | 50% | Cash n Guns |
 | Nikiny | 88.92 | 6 | 12 | 33% | Cash n Guns |
-| Oliver | 88.36 | 24 | 25 | 49% | Secret Hitler |
-| Vivienne | 87.32 | 24 | 14 | 63% | Secret Hitler |
+| Vivienne | 88.15 | 26 | 15 | 63% | Secret Hitler |
 | Harsha | 80.41 | 17 | 16 | 52% | Secret Hitler |
 | Dan | 73.22 | 4 | 8 | 33% | Secret Hitler |
-| Simon | 69.27 | 16 | 27 | 37% | Cash n Guns |
 | Karen | 69.00 | 2 | 1 | 67% | Codenames |
+| Simon | 68.38 | 17 | 29 | 37% | Cash n Guns |
 | Rob | 63.15 | 3 | 1 | 75% | Codenames |
-| Calvin | 55.87 | 6 | 9 | 40% | Wavelength |
+| Calvin | 55.51 | 7 | 10 | 41% | Secret Hitler |
+| Peter | 55.23 | 6 | 6 | 50% | Coup |
+| Leo | 53.87 | 5 | 13 | 28% | Coup |
 | Frances | 52.22 | 3 | 1 | 75% | Codenames |
 | Diana | 51.37 | 2 | 5 | 29% | Codenames |
-| Leo | 49.67 | 4 | 9 | 31% | Secret Hitler |
 | Aaron | 49.47 | 6 | 10 | 38% | Incan Gold |
 | Jason | 47.52 | 3 | 4 | 43% | Wavelength |
 | Abhi | 47.51 | 3 | 3 | 50% | Wavelength |
 | Kai | 47.09 | 5 | 7 | 42% | Secret Hitler |
+| Kazumi | 46.24 | 1 | 4 | 20% | Coup |
 | Queenie | 43.87 | 4 | 8 | 33% | Secret Hitler |
 | Fred | 43.59 | 1 | 1 | 50% | Codenames |
-| Peter | 43.44 | 5 | 4 | 56% | Secret Hitler |
 | Eunice | 41.96 | 1 | 1 | 50% | Wavelength |
+| Gillian | 41.83 | 1 | 4 | 20% | Coup |
 | Dari | 41.73 | 2 | 2 | 50% | Codenames |
 | Yoyo | 41.68 | 1 | 1 | 50% | Secret Hitler |
+| Siri | 40.38 | 1 | 4 | 20% | Coup |
+| PeterChau | 39.70 | 1 | 0 | 100% | Secret Hitler |
 | Ellabelle | 38.67 | 1 | 7 | 12% | Avalon |
 | Agnes | 27.82 | 1 | 4 | 20% | Avalon |
 | Katrina | 25.63 | 2 | 3 | 40% | Codenames |
@@ -48,27 +52,31 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Kyla | 83.77  | 10 | 5 | 67% |
-| Oliver | 81.64  | 9 | 3 | 75% |
-| Vivienne | 76.61  | 10 | 5 | 67% |
+| Kyla | 88.70  | 12 | 5 | 71% |
+| Oliver | 87.59  | 11 | 3 | 79% |
+| Vivienne | 81.69  | 12 | 5 | 71% |
 | Harsha | 66.61  | 9 | 6 | 60% |
 | Kenny | 65.81  | 6 | 2 | 75% |
 | Dan | 56.48  | 2 | 0 | 100% |
 | Queenie | 55.89  | 3 | 0 | 100% |
-| Peter | 49.06  | 2 | 0 | 100% |
-| Leo | 48.95  | 2 | 0 | 100% |
-| Calvin | 47.50  | 2 | 1 | 67% |
+| Calvin | 52.75  | 3 | 1 | 75% |
+| Peter | 46.02  | 2 | 1 | 67% |
 | Rob | 44.11  | 1 | 1 | 50% |
+| Leo | 43.73  | 2 | 2 | 50% |
 | Abhi | 42.83  | 1 | 0 | 100% |
 | Jason | 42.83  | 1 | 0 | 100% |
+| Simon | 42.07  | 7 | 9 | 44% |
 | Aaron | 41.58  | 2 | 1 | 67% |
 | Nikiny | 41.53  | 3 | 2 | 60% |
 | Kai | 41.02  | 2 | 2 | 50% |
-| Simon | 40.78  | 6 | 8 | 43% |
 | Yoyo | 38.85  | 1 | 1 | 50% |
+| PeterChau | 38.53  | 1 | 0 | 100% |
+| Gillian | 36.62  | 1 | 1 | 50% |
+| Siri | 35.35  | 1 | 1 | 50% |
 | Dari | 34.62  | 1 | 2 | 33% |
 | Frances | 30.73  | 1 | 1 | 50% |
 | Karen | 28.14  | 0 | 1 | 0% |
+| Kazumi | 27.72  | 0 | 2 | 0% |
 | Vivian | 27.44  | 0 | 1 | 0% |
 | Eunice | 27.44  | 0 | 1 | 0% |
 | Fred | 27.33  | 0 | 1 | 0% |
@@ -83,32 +91,35 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Vivienne | 75.08  | 7 | 2 | 78% |
+| Vivienne | 70.73  | 7 | 3 | 70% |
+| Kyla | 62.02  | 8 | 5 | 62% |
 | Kenny | 57.00  | 5 | 3 | 62% |
-| Kyla | 56.75  | 7 | 5 | 58% |
 | Harsha | 56.24  | 5 | 3 | 62% |
 | Diana | 50.80  | 1 | 0 | 100% |
 | Karen | 50.80  | 1 | 0 | 100% |
+| Oliver | 50.42  | 6 | 5 | 55% |
 | Fred | 48.43  | 1 | 0 | 100% |
 | Rob | 48.41  | 1 | 0 | 100% |
 | Frances | 48.41  | 1 | 0 | 100% |
 | Katrina | 46.85  | 2 | 0 | 100% |
 | Dari | 46.30  | 1 | 0 | 100% |
-| Oliver | 44.53  | 5 | 5 | 50% |
-| Simon | 42.48  | 5 | 7 | 42% |
+| Kazumi | 44.38  | 1 | 0 | 100% |
+| Leo | 40.13  | 2 | 2 | 50% |
+| Simon | 38.73  | 5 | 8 | 38% |
 | Nikiny | 34.91  | 2 | 3 | 40% |
 | Kai | 33.68  | 1 | 2 | 33% |
 | Aaron | 32.97  | 1 | 3 | 25% |
-| Leo | 31.58  | 1 | 2 | 33% |
 | Ellabelle | 27.70  | 0 | 1 | 0% |
+| Siri | 26.63  | 0 | 1 | 0% |
+| Gillian | 26.63  | 0 | 1 | 0% |
 | Sandy | 26.42  | 0 | 1 | 0% |
 | Dorine | 26.24  | 0 | 1 | 0% |
 | Louise | 25.05  | 0 | 2 | 0% |
 | Jason | 25.05  | 0 | 2 | 0% |
 | Agnes | 25.05  | 0 | 2 | 0% |
-| Calvin | 24.79  | 2 | 4 | 33% |
 | Shirley | 23.77  | 0 | 1 | 0% |
 | Dan | 23.44  | 0 | 2 | 0% |
+| Calvin | 19.73  | 2 | 5 | 29% |
 | Queenie | 17.80  | 0 | 2 | 0% |
 
 ### Exploding Kittens
@@ -200,10 +211,14 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 54.82  | 1 | 2 | 33% |
+| Oliver | 64.63  | 2 | 3 | 40% |
+| Peter | 54.41  | 1 | 1 | 50% |
 | Kenny | 54.01  | 1 | 2 | 33% |
 | Dan | 53.55  | 1 | 1 | 50% |
-| Leo | 44.04  | 0 | 2 | 0% |
+| Leo | 50.55  | 0 | 4 | 0% |
+| Kazumi | 44.38  | 0 | 2 | 0% |
+| Siri | 44.38  | 0 | 2 | 0% |
+| Gillian | 44.38  | 0 | 2 | 0% |
 | Kyla | 44.04  | 0 | 2 | 0% |
 | Queenie | 36.91  | 0 | 1 | 0% |
 | Aaron | 36.91  | 0 | 1 | 0% |
