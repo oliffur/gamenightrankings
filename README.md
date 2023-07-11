@@ -5,35 +5,36 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Kyla | 97.45 | 29 | 25 | 54% | Secret Hitler |
-| Oliver | 91.93 | 28 | 26 | 52% | Secret Hitler |
-| Kenny | 89.98 | 17 | 17 | 50% | Cash n Guns |
+| Oliver | 95.06 | 30 | 26 | 54% | Secret Hitler |
+| Kyla | 94.74 | 29 | 27 | 52% | Cash n Guns |
+| Kenny | 89.67 | 18 | 18 | 50% | Cash n Guns |
 | Nikiny | 88.92 | 6 | 12 | 33% | Cash n Guns |
-| Vivienne | 88.13 | 26 | 15 | 63% | Secret Hitler |
+| Vivienne | 83.22 | 26 | 17 | 60% | Secret Hitler |
 | Harsha | 80.41 | 17 | 16 | 52% | Secret Hitler |
 | Dan | 73.22 | 4 | 8 | 33% | Secret Hitler |
+| Simon | 72.65 | 19 | 29 | 40% | Cash n Guns |
 | Karen | 69.00 | 2 | 1 | 67% | Codenames |
-| Simon | 68.49 | 17 | 29 | 37% | Cash n Guns |
 | Rob | 63.15 | 3 | 1 | 75% | Codenames |
 | Calvin | 55.59 | 7 | 10 | 41% | Secret Hitler |
+| Dari | 55.21 | 3 | 2 | 60% | Secret Hitler |
 | PeterChau | 54.34 | 2 | 2 | 50% | Coup |
 | Leo | 53.92 | 5 | 13 | 28% | Coup |
 | Frances | 52.22 | 3 | 1 | 75% | Codenames |
 | Diana | 51.37 | 2 | 5 | 29% | Codenames |
 | Aaron | 49.47 | 6 | 10 | 38% | Incan Gold |
+| Queenie | 48.75 | 5 | 9 | 36% | Secret Hitler |
 | Jason | 47.52 | 3 | 4 | 43% | Wavelength |
 | Abhi | 47.51 | 3 | 3 | 50% | Wavelength |
 | Kai | 47.09 | 5 | 7 | 42% | Secret Hitler |
 | Kazumi | 46.37 | 1 | 4 | 20% | Coup |
-| Queenie | 43.87 | 4 | 8 | 33% | Secret Hitler |
+| Rayaan | 44.95 | 1 | 1 | 50% | Secret Hitler |
 | Fred | 43.59 | 1 | 1 | 50% | Codenames |
-| Peter | 43.44 | 5 | 4 | 56% | Secret Hitler |
 | Gillian | 42.31 | 1 | 4 | 20% | Coup |
 | Eunice | 41.96 | 1 | 1 | 50% | Wavelength |
-| Dari | 41.73 | 2 | 2 | 50% | Codenames |
 | Yoyo | 41.68 | 1 | 1 | 50% | Secret Hitler |
 | Siri | 39.99 | 1 | 4 | 20% | Coup |
 | Ellabelle | 38.67 | 1 | 7 | 12% | Avalon |
+| Peter | 29.83 | 5 | 6 | 45% | Incan Gold |
 | Agnes | 27.82 | 1 | 4 | 20% | Avalon |
 | Katrina | 25.63 | 2 | 3 | 40% | Codenames |
 | Ashley | 21.75 | 0 | 2 | 0% | Secret Hitler |
@@ -52,28 +53,29 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Kyla | 88.52  | 12 | 5 | 71% |
-| Oliver | 87.37  | 11 | 3 | 79% |
-| Vivienne | 81.51  | 12 | 5 | 71% |
+| Oliver | 102.33  | 13 | 3 | 81% |
+| Kyla | 79.03  | 12 | 7 | 63% |
+| Vivienne | 71.79  | 12 | 7 | 63% |
+| Kenny | 67.53  | 7 | 3 | 70% |
 | Harsha | 66.61  | 9 | 6 | 60% |
-| Kenny | 65.81  | 6 | 2 | 75% |
+| Queenie | 61.61  | 4 | 1 | 80% |
 | Dan | 56.48  | 2 | 0 | 100% |
-| Queenie | 55.89  | 3 | 0 | 100% |
+| Simon | 54.84  | 9 | 9 | 50% |
 | Calvin | 52.40  | 3 | 1 | 75% |
-| Peter | 49.06  | 2 | 0 | 100% |
+| Dari | 46.72  | 2 | 2 | 50% |
 | Rob | 44.11  | 1 | 1 | 50% |
 | Leo | 43.98  | 2 | 2 | 50% |
 | Abhi | 42.83  | 1 | 0 | 100% |
 | Jason | 42.83  | 1 | 0 | 100% |
-| Simon | 41.89  | 7 | 9 | 44% |
 | Aaron | 41.58  | 2 | 1 | 67% |
 | Nikiny | 41.53  | 3 | 2 | 60% |
 | Kai | 41.02  | 2 | 2 | 50% |
+| Rayaan | 40.13  | 1 | 1 | 50% |
 | Yoyo | 38.85  | 1 | 1 | 50% |
 | Gillian | 36.24  | 1 | 1 | 50% |
 | PeterChau | 35.63  | 1 | 1 | 50% |
 | Siri | 35.63  | 1 | 1 | 50% |
-| Dari | 34.62  | 1 | 2 | 33% |
+| Peter | 32.09  | 2 | 2 | 50% |
 | Frances | 30.73  | 1 | 1 | 50% |
 | Karen | 28.14  | 0 | 1 | 0% |
 | Kazumi | 28.00  | 0 | 2 | 0% |
