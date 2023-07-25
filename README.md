@@ -5,28 +5,30 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Oliver | 95.06 | 30 | 26 | 54% | Secret Hitler |
-| Kyla | 94.74 | 29 | 27 | 52% | Cash n Guns |
-| Kenny | 89.67 | 18 | 18 | 50% | Cash n Guns |
+| Oliver | 97.45 | 33 | 26 | 56% | Secret Hitler |
+| Kyla | 94.33 | 31 | 29 | 52% | Cash n Guns |
+| Kenny | 90.23 | 20 | 20 | 50% | Cash n Guns |
 | Nikiny | 88.92 | 6 | 12 | 33% | Cash n Guns |
-| Vivienne | 83.22 | 26 | 17 | 60% | Secret Hitler |
+| Vivienne | 86.49 | 28 | 19 | 60% | Secret Hitler |
+| Dan | 83.34 | 7 | 9 | 44% | Masquerade |
 | Harsha | 80.41 | 17 | 16 | 52% | Secret Hitler |
-| Dan | 73.22 | 4 | 8 | 33% | Secret Hitler |
-| Simon | 72.65 | 19 | 29 | 40% | Cash n Guns |
+| Olver | 78.91 | 1 | 0 | 100% | Masquerade |
+| Simon | 75.82 | 22 | 29 | 43% | Cash n Guns |
+| Leo | 70.32 | 7 | 15 | 32% | Masquerade |
 | Karen | 69.00 | 2 | 1 | 67% | Codenames |
 | Rob | 63.15 | 3 | 1 | 75% | Codenames |
+| Peter | 62.75 | 5 | 10 | 33% | Masquerade |
 | Calvin | 55.59 | 7 | 10 | 41% | Secret Hitler |
 | Dari | 55.21 | 3 | 2 | 60% | Secret Hitler |
 | PeterChau | 54.34 | 2 | 2 | 50% | Coup |
-| Leo | 53.92 | 5 | 13 | 28% | Coup |
 | Frances | 52.22 | 3 | 1 | 75% | Codenames |
 | Diana | 51.37 | 2 | 5 | 29% | Codenames |
 | Aaron | 49.47 | 6 | 10 | 38% | Incan Gold |
 | Queenie | 48.75 | 5 | 9 | 36% | Secret Hitler |
 | Jason | 47.52 | 3 | 4 | 43% | Wavelength |
-| Abhi | 47.51 | 3 | 3 | 50% | Wavelength |
 | Kai | 47.09 | 5 | 7 | 42% | Secret Hitler |
 | Kazumi | 46.37 | 1 | 4 | 20% | Coup |
+| Abhi | 45.99 | 4 | 5 | 44% | Wavelength |
 | Rayaan | 44.95 | 1 | 1 | 50% | Secret Hitler |
 | Fred | 43.59 | 1 | 1 | 50% | Codenames |
 | Gillian | 42.31 | 1 | 4 | 20% | Coup |
@@ -34,7 +36,6 @@
 | Yoyo | 41.68 | 1 | 1 | 50% | Secret Hitler |
 | Siri | 39.99 | 1 | 4 | 20% | Coup |
 | Ellabelle | 38.67 | 1 | 7 | 12% | Avalon |
-| Peter | 29.83 | 5 | 6 | 45% | Incan Gold |
 | Agnes | 27.82 | 1 | 4 | 20% | Avalon |
 | Katrina | 25.63 | 2 | 3 | 40% | Codenames |
 | Ashley | 21.75 | 0 | 2 | 0% | Secret Hitler |
@@ -195,19 +196,22 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 69.24  | 4 | 0 | 100% |
+| Oliver | 84.58  | 7 | 0 | 100% |
+| Dan | 55.11  | 4 | 1 | 80% |
+| Simon | 52.77  | 3 | 0 | 100% |
+| Leo | 50.94  | 3 | 1 | 75% |
 | Ellabelle | 44.78  | 1 | 0 | 100% |
-| Leo | 44.68  | 1 | 0 | 100% |
-| Dan | 38.54  | 1 | 1 | 50% |
+| Kenny | 39.00  | 3 | 3 | 50% |
 | Aaron | 36.60  | 1 | 1 | 50% |
 | Jason | 36.60  | 1 | 1 | 50% |
 | Agnes | 35.62  | 1 | 1 | 50% |
+| Kyla | 34.55  | 3 | 4 | 43% |
+| Abhi | 34.05  | 1 | 2 | 33% |
+| Vivienne | 33.61  | 2 | 2 | 50% |
 | Calvin | 33.19  | 1 | 2 | 33% |
-| Kenny | 33.19  | 1 | 2 | 33% |
-| Vivienne | 27.46  | 0 | 1 | 0% |
-| Kyla | 24.26  | 1 | 3 | 25% |
 | Katrina | 22.86  | 0 | 2 | 0% |
 | Louise | 22.86  | 0 | 2 | 0% |
+| Peter | 21.44  | 0 | 3 | 0% |
 
 ### Coup
 
@@ -259,3 +263,15 @@
 | Oliver | 48.61  | 0 | 1 | 0% |
 | Calvin | 34.97  | 0 | 1 | 0% |
 | Leo | 11.98  | 0 | 1 | 0% |
+
+### Masquerade
+
+| Player | ELO | Wins | Losses | Win % |
+| --- | --- | --- | --- | --- |
+| Olver | 71.98  | 1 | 0 | 100% |
+| Peter | 58.54  | 0 | 1 | 0% |
+| Kenny | 58.54  | 0 | 1 | 0% |
+| Dan | 58.54  | 0 | 1 | 0% |
+| Vivienne | 58.54  | 0 | 1 | 0% |
+| Leo | 58.54  | 0 | 1 | 0% |
+| Kyla | 58.54  | 0 | 1 | 0% |

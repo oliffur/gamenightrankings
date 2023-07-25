@@ -71,3 +71,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 06/12/2023|Codenames|Oliver,Kyla,Leo,Kazumi,dummy061204;Calvin,Siri,Vivienne,Simon,Gillian|0;1
 07/11/2023|Secret Hitler|Oliver,Dari,Rayaan,Queenie,Simon;Peter,Kenny,Kyla,Vivienne,dummy071101|0;1
 07/11/2023|Secret Hitler|Oliver,Kenny,Simon,dummy071102,dummy071103;Vivienne,Peter,Kyla,Queenie,Rayaan|0;1
+07/25/2023|Masquerade|Olver;Kyla;Leo;Vivienne;Dan;Kenny;Peter|0;1;1;1;1;1;1
+07/25/2023|Avalon|Oliver,Kyla,Leo,Simon,Vivienne,Dan;Abhi,Kenny,Peter,dummy072501,dummy072502,dummy072503|0;1
+07/25/2023|Avalon|Abhi,Kyla,Simon,Kenny,Dan,Oliver;Vivienne,Leo,Peter,dummy072504,dummy072505,dummy072506|0;1
+07/25/2023|Avalon|Oliver,Simon,Leo,Dan,Vivienne,Kenny;Kyla,Abhi,Peter,dummy072504,dummy072505,dummy072506|0;1
