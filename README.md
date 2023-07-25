@@ -5,19 +5,18 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Oliver | 97.45 | 33 | 26 | 56% | Secret Hitler |
-| Kyla | 94.33 | 31 | 29 | 52% | Cash n Guns |
-| Kenny | 90.23 | 20 | 20 | 50% | Cash n Guns |
+| Oliver | 101.31 | 34 | 26 | 57% | Secret Hitler |
+| Kyla | 94.37 | 31 | 29 | 52% | Cash n Guns |
+| Kenny | 90.29 | 20 | 20 | 50% | Cash n Guns |
 | Nikiny | 88.92 | 6 | 12 | 33% | Cash n Guns |
-| Vivienne | 86.49 | 28 | 19 | 60% | Secret Hitler |
-| Dan | 83.34 | 7 | 9 | 44% | Masquerade |
+| Vivienne | 86.56 | 28 | 19 | 60% | Secret Hitler |
+| Dan | 83.36 | 7 | 9 | 44% | Masquerade |
 | Harsha | 80.41 | 17 | 16 | 52% | Secret Hitler |
-| Olver | 78.91 | 1 | 0 | 100% | Masquerade |
-| Simon | 75.82 | 22 | 29 | 43% | Cash n Guns |
-| Leo | 70.32 | 7 | 15 | 32% | Masquerade |
+| Simon | 75.75 | 22 | 29 | 43% | Cash n Guns |
+| Leo | 70.38 | 7 | 15 | 32% | Masquerade |
 | Karen | 69.00 | 2 | 1 | 67% | Codenames |
 | Rob | 63.15 | 3 | 1 | 75% | Codenames |
-| Peter | 62.75 | 5 | 10 | 33% | Masquerade |
+| Peter | 63.05 | 5 | 10 | 33% | Masquerade |
 | Calvin | 55.59 | 7 | 10 | 41% | Secret Hitler |
 | Dari | 55.21 | 3 | 2 | 60% | Secret Hitler |
 | PeterChau | 54.34 | 2 | 2 | 50% | Coup |
@@ -28,7 +27,7 @@
 | Jason | 47.52 | 3 | 4 | 43% | Wavelength |
 | Kai | 47.09 | 5 | 7 | 42% | Secret Hitler |
 | Kazumi | 46.37 | 1 | 4 | 20% | Coup |
-| Abhi | 45.99 | 4 | 5 | 44% | Wavelength |
+| Abhi | 46.06 | 4 | 5 | 44% | Wavelength |
 | Rayaan | 44.95 | 1 | 1 | 50% | Secret Hitler |
 | Fred | 43.59 | 1 | 1 | 50% | Codenames |
 | Gillian | 42.31 | 1 | 4 | 20% | Coup |
@@ -268,7 +267,7 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Olver | 71.98  | 1 | 0 | 100% |
+| Oliver | 71.98  | 1 | 0 | 100% |
 | Peter | 58.54  | 0 | 1 | 0% |
 | Kenny | 58.54  | 0 | 1 | 0% |
 | Dan | 58.54  | 0 | 1 | 0% |
