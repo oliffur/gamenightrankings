@@ -5,35 +5,36 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Oliver | 101.31 | 34 | 26 | 57% | Secret Hitler |
-| Kyla | 94.37 | 31 | 29 | 52% | Cash n Guns |
+| Oliver | 102.34 | 36 | 28 | 56% | Secret Hitler |
+| Kyla | 96.43 | 34 | 30 | 53% | Cash n Guns |
 | Kenny | 90.29 | 20 | 20 | 50% | Cash n Guns |
 | Nikiny | 88.92 | 6 | 12 | 33% | Cash n Guns |
-| Vivienne | 86.56 | 28 | 19 | 60% | Secret Hitler |
+| Vivienne | 86.72 | 29 | 21 | 58% | Secret Hitler |
 | Dan | 83.36 | 7 | 9 | 44% | Masquerade |
 | Harsha | 80.41 | 17 | 16 | 52% | Secret Hitler |
-| Simon | 75.75 | 22 | 29 | 43% | Cash n Guns |
+| Simon | 74.63 | 23 | 31 | 43% | Cash n Guns |
 | Leo | 70.38 | 7 | 15 | 32% | Masquerade |
 | Karen | 69.00 | 2 | 1 | 67% | Codenames |
 | Rob | 63.15 | 3 | 1 | 75% | Codenames |
 | Peter | 63.05 | 5 | 10 | 33% | Masquerade |
+| Sincere | 59.99 | 2 | 2 | 50% | Bang |
 | Calvin | 55.59 | 7 | 10 | 41% | Secret Hitler |
 | Dari | 55.21 | 3 | 2 | 60% | Secret Hitler |
 | PeterChau | 54.34 | 2 | 2 | 50% | Coup |
 | Frances | 52.22 | 3 | 1 | 75% | Codenames |
 | Diana | 51.37 | 2 | 5 | 29% | Codenames |
 | Aaron | 49.47 | 6 | 10 | 38% | Incan Gold |
+| Kazumi | 49.16 | 2 | 7 | 22% | Bang |
 | Queenie | 48.75 | 5 | 9 | 36% | Secret Hitler |
 | Jason | 47.52 | 3 | 4 | 43% | Wavelength |
 | Kai | 47.09 | 5 | 7 | 42% | Secret Hitler |
-| Kazumi | 46.37 | 1 | 4 | 20% | Coup |
 | Abhi | 46.06 | 4 | 5 | 44% | Wavelength |
 | Rayaan | 44.95 | 1 | 1 | 50% | Secret Hitler |
 | Fred | 43.59 | 1 | 1 | 50% | Codenames |
 | Gillian | 42.31 | 1 | 4 | 20% | Coup |
 | Eunice | 41.96 | 1 | 1 | 50% | Wavelength |
 | Yoyo | 41.68 | 1 | 1 | 50% | Secret Hitler |
-| Siri | 39.99 | 1 | 4 | 20% | Coup |
+| Siri | 40.93 | 1 | 5 | 17% | Coup |
 | Ellabelle | 38.67 | 1 | 7 | 12% | Avalon |
 | Agnes | 27.82 | 1 | 4 | 20% | Avalon |
 | Katrina | 25.63 | 2 | 3 | 40% | Codenames |
@@ -169,7 +170,7 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Kyla | 53.22  | 3 | 3 | 50% |
+| Kyla | 59.97  | 4 | 3 | 57% |
 | Vivienne | 48.37  | 3 | 2 | 60% |
 | Peter | 46.73  | 3 | 1 | 75% |
 | Leo | 46.47  | 0 | 3 | 0% |
@@ -177,37 +178,41 @@
 | Kenny | 42.58  | 1 | 3 | 25% |
 | Kai | 40.48  | 1 | 2 | 33% |
 | Abhi | 38.64  | 1 | 1 | 50% |
-| Oliver | 37.80  | 0 | 6 | 0% |
+| Oliver | 38.53  | 0 | 7 | 0% |
 | Harsha | 37.72  | 0 | 4 | 0% |
+| Sincere | 37.50  | 0 | 1 | 0% |
 | Calvin | 35.37  | 0 | 1 | 0% |
 | Dan | 34.54  | 0 | 1 | 0% |
 | Louise | 33.38  | 0 | 1 | 0% |
 | Agnes | 31.27  | 0 | 1 | 0% |
 | Dorine | 31.00  | 0 | 2 | 0% |
+| Kazumi | 30.89  | 0 | 1 | 0% |
 | Nikiny | 30.40  | 0 | 7 | 0% |
 | Jason | 28.73  | 0 | 1 | 0% |
 | Queenie | 26.65  | 0 | 2 | 0% |
 | Katrina | 24.83  | 0 | 1 | 0% |
-| Simon | 23.26  | 2 | 7 | 22% |
 | Diana | 21.98  | 0 | 3 | 0% |
+| Simon | 17.96  | 2 | 8 | 20% |
 
 ### Avalon
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 84.58  | 7 | 0 | 100% |
+| Oliver | 95.68  | 9 | 0 | 100% |
 | Dan | 55.11  | 4 | 1 | 80% |
-| Simon | 52.77  | 3 | 0 | 100% |
+| Simon | 54.99  | 4 | 1 | 80% |
 | Leo | 50.94  | 3 | 1 | 75% |
+| Kyla | 45.65  | 5 | 4 | 56% |
 | Ellabelle | 44.78  | 1 | 0 | 100% |
 | Kenny | 39.00  | 3 | 3 | 50% |
 | Aaron | 36.60  | 1 | 1 | 50% |
 | Jason | 36.60  | 1 | 1 | 50% |
+| Sincere | 36.07  | 1 | 1 | 50% |
 | Agnes | 35.62  | 1 | 1 | 50% |
-| Kyla | 34.55  | 3 | 4 | 43% |
 | Abhi | 34.05  | 1 | 2 | 33% |
-| Vivienne | 33.61  | 2 | 2 | 50% |
 | Calvin | 33.19  | 1 | 2 | 33% |
+| Vivienne | 26.65  | 2 | 4 | 33% |
+| Kazumi | 25.30  | 0 | 2 | 0% |
 | Katrina | 22.86  | 0 | 2 | 0% |
 | Louise | 22.86  | 0 | 2 | 0% |
 | Peter | 21.44  | 0 | 3 | 0% |
@@ -245,11 +250,14 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Vivienne | 55.95  | 1 | 0 | 100% |
-| Kyla | 51.49  | 1 | 1 | 50% |
-| Oliver | 49.00  | 1 | 1 | 50% |
+| Vivienne | 66.95  | 2 | 0 | 100% |
+| Kyla | 51.09  | 1 | 2 | 33% |
+| Oliver | 49.08  | 1 | 2 | 33% |
+| Sincere | 47.46  | 1 | 0 | 100% |
+| Kazumi | 47.46  | 1 | 0 | 100% |
 | Ellabelle | 40.20  | 0 | 2 | 0% |
 | Dan | 40.20  | 0 | 2 | 0% |
+| Siri | 34.00  | 0 | 1 | 0% |
 
 ### Cash n Guns
 

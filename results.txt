@@ -75,3 +75,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 07/25/2023|Avalon|Oliver,Kyla,Leo,Simon,Vivienne,Dan;Abhi,Kenny,Peter,dummy072501,dummy072502,dummy072503|0;1
 07/25/2023|Avalon|Abhi,Kyla,Simon,Kenny,Dan,Oliver;Vivienne,Leo,Peter,dummy072504,dummy072505,dummy072506|0;1
 07/25/2023|Avalon|Oliver,Simon,Leo,Dan,Vivienne,Kenny;Kyla,Abhi,Peter,dummy072504,dummy072505,dummy072506|0;1
+07/31/2023|Bang|Vivienne,Sincere,Kazumi;Siri,Kyla,dummy073101;Oliver,dummy073102,dummy073103|0;1;1
+07/31/2023|Avalon|Kyla,Oliver,Sincere,Simon;Vivienne,Kazumi,dummy073104,dummy073105|0;1
+07/31/2023|Avalon|Kyla,Oliver,dummy073106,dummy073107;Sincere,Simon,Vivienne,Kazumi|0;1
+07/31/2023|Incan Gold|Kyla;Sincere;Oliver;Kazumi;Simon|0;1;2;3;4
