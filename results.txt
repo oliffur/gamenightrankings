@@ -79,3 +79,8 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 07/31/2023|Avalon|Kyla,Oliver,Sincere,Simon;Vivienne,Kazumi,dummy073104,dummy073105|0;1
 07/31/2023|Avalon|Kyla,Oliver,dummy073106,dummy073107;Sincere,Simon,Vivienne,Kazumi|0;1
 07/31/2023|Incan Gold|Kyla;Sincere;Oliver;Kazumi;Simon|0;1;2;3;4
+09/19/2023|Incan Gold|Oliver;Kyla;Harsha;Justin;Siri;Peter;Kazumi|0;1;2;3;4;5;6
+09/19/2023|Love Letter|Oliver;Kazumi;Peter;Kyla;Siri;Justin;Harsha|0;0;0;1;1;1;1
+09/19/2023|Avalon|Oliver,Simon,Kyla,Harsha|Justin,Kazumi,Peter,dummy091901|0;1
+09/19/2023|Codenames|Oliver,Kyla,Harsha|Peter,Justin,Kazumi|0;1
+09/19/2023|Codenames|Oliver,Kyla,Justin|Peter,Harsha,Kazumi|0;1
