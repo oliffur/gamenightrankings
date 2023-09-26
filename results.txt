@@ -84,3 +84,8 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 09/19/2023|Avalon|Oliver,Simon,Kyla,Harsha;Justin,Kazumi,Peter,dummy091901|0;1
 09/19/2023|Codenames|Oliver,Kyla,Harsha;Peter,Justin,Kazumi|0;1
 09/19/2023|Codenames|Oliver,Kyla,Justin;Peter,Harsha,Kazumi|0;1
+09/26/2023|Exploding Kittens|Sincere;Harsha;Oliver;Dan;Aaron;Peter|0;1;1;1;1;1
+09/26/2023|Incan Gold|Harsha;Oliver;Dan;Joyce;Sincere;Peter;Aaron|0;1;2;3;3;4;5
+09/26/2023|Incan Gold|Peter;Oliver;Aaron;Joyce;Harsha;Sincere;Dan|0;1;2;3;4;5;5
+09/26/2023|Avalon|Harsha,Sincere,Peter,Aaron,Simon;Oliver,Dan,Joyce,dummy092601,dummy092602|0;1
+09/26/2023|Avalon|Simon,Dan,Oliver,dummy092603,dummy092604;Harsha,Joyce,Aaron,Sincere,Peter|0;1

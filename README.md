@@ -5,28 +5,28 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Oliver | 104.93 | 41 | 28 | 59% | Secret Hitler |
+| Oliver | 105.31 | 42 | 32 | 57% | Secret Hitler |
 | Kyla | 96.88 | 37 | 32 | 54% | Cash n Guns |
 | Kenny | 90.29 | 20 | 20 | 50% | Cash n Guns |
 | Nikiny | 88.92 | 6 | 12 | 33% | Cash n Guns |
 | Vivienne | 86.72 | 29 | 21 | 58% | Secret Hitler |
-| Dan | 83.36 | 7 | 9 | 44% | Masquerade |
-| Harsha | 83.10 | 19 | 19 | 50% | Secret Hitler |
-| Simon | 75.98 | 24 | 31 | 44% | Cash n Guns |
-| Peter | 74.58 | 6 | 14 | 30% | Love Letter |
+| Harsha | 84.52 | 21 | 22 | 49% | Secret Hitler |
+| Dan | 82.62 | 8 | 13 | 38% | Masquerade |
+| Simon | 78.95 | 26 | 31 | 46% | Avalon |
+| Peter | 75.80 | 8 | 17 | 32% | Love Letter |
 | Kazumi | 70.83 | 3 | 11 | 21% | Love Letter |
 | Leo | 70.38 | 7 | 15 | 32% | Masquerade |
 | Karen | 69.00 | 2 | 1 | 67% | Codenames |
 | Justin | 67.16 | 1 | 4 | 20% | Love Letter |
 | Siri | 64.90 | 1 | 7 | 12% | Love Letter |
+| Sincere | 64.52 | 4 | 5 | 44% | Bang |
 | Rob | 63.15 | 3 | 1 | 75% | Codenames |
-| Sincere | 59.99 | 2 | 2 | 50% | Bang |
 | Calvin | 55.59 | 7 | 10 | 41% | Secret Hitler |
 | Dari | 55.21 | 3 | 2 | 60% | Secret Hitler |
 | PeterChau | 54.34 | 2 | 2 | 50% | Coup |
 | Frances | 52.22 | 3 | 1 | 75% | Codenames |
 | Diana | 51.37 | 2 | 5 | 29% | Codenames |
-| Aaron | 49.47 | 6 | 10 | 38% | Incan Gold |
+| Aaron | 50.81 | 7 | 14 | 33% | Avalon |
 | Queenie | 48.75 | 5 | 9 | 36% | Secret Hitler |
 | Jason | 47.52 | 3 | 4 | 43% | Wavelength |
 | Kai | 47.09 | 5 | 7 | 42% | Secret Hitler |
@@ -40,6 +40,7 @@
 | Agnes | 27.82 | 1 | 4 | 20% | Avalon |
 | Katrina | 25.63 | 2 | 3 | 40% | Codenames |
 | Ashley | 21.75 | 0 | 2 | 0% | Secret Hitler |
+| Joyce | 21.22 | 0 | 4 | 0% | Incan Gold |
 | Sandy | 21.08 | 0 | 2 | 0% | Codenames |
 | Vivian | 18.94 | 0 | 2 | 0% | Secret Hitler |
 | Louise | 15.50 | 0 | 5 | 0% | Incan Gold |
@@ -134,13 +135,16 @@
 | --- | --- | --- | --- | --- |
 | Vivienne | 43.57  | 2 | 0 | 100% |
 | Simon | 41.65  | 1 | 0 | 100% |
+| Sincere | 38.73  | 1 | 0 | 100% |
 | Queenie | 37.45  | 0 | 1 | 0% |
-| Oliver | 33.54  | 0 | 3 | 0% |
-| Harsha | 33.17  | 0 | 1 | 0% |
+| Oliver | 33.61  | 0 | 4 | 0% |
+| Dan | 33.36  | 0 | 1 | 0% |
+| Aaron | 33.36  | 0 | 1 | 0% |
+| Harsha | 33.23  | 0 | 2 | 0% |
 | Kenny | 32.63  | 0 | 2 | 0% |
 | Kyla | 32.63  | 0 | 2 | 0% |
 | Abhi | 30.97  | 0 | 1 | 0% |
-| Peter | 26.43  | 0 | 1 | 0% |
+| Peter | 26.73  | 0 | 2 | 0% |
 
 ### Wavelength
 
@@ -174,20 +178,21 @@
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Kyla | 64.38  | 4 | 4 | 50% |
+| Oliver | 55.05  | 1 | 9 | 10% |
 | Vivienne | 48.37  | 3 | 2 | 60% |
-| Oliver | 46.68  | 1 | 7 | 12% |
+| Peter | 48.19  | 4 | 3 | 57% |
+| Harsha | 46.77  | 1 | 6 | 14% |
 | Leo | 46.47  | 0 | 3 | 0% |
-| Aaron | 44.91  | 2 | 2 | 50% |
-| Peter | 42.80  | 3 | 2 | 60% |
 | Kenny | 42.58  | 1 | 3 | 25% |
-| Harsha | 40.76  | 0 | 5 | 0% |
+| Aaron | 40.78  | 2 | 4 | 33% |
 | Kai | 40.48  | 1 | 2 | 33% |
 | Abhi | 38.64  | 1 | 1 | 50% |
-| Sincere | 37.50  | 0 | 1 | 0% |
 | Calvin | 35.37  | 0 | 1 | 0% |
-| Dan | 34.54  | 0 | 1 | 0% |
 | Justin | 34.49  | 0 | 1 | 0% |
+| Joyce | 34.12  | 0 | 2 | 0% |
 | Louise | 33.38  | 0 | 1 | 0% |
+| Sincere | 32.83  | 0 | 3 | 0% |
+| Dan | 32.44  | 0 | 3 | 0% |
 | Siri | 32.16  | 0 | 1 | 0% |
 | Agnes | 31.27  | 0 | 1 | 0% |
 | Dorine | 31.00  | 0 | 2 | 0% |
@@ -203,26 +208,27 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 98.83  | 10 | 0 | 100% |
-| Simon | 58.85  | 5 | 1 | 83% |
-| Dan | 55.11  | 4 | 1 | 80% |
+| Oliver | 96.04  | 11 | 1 | 92% |
+| Simon | 74.08  | 7 | 1 | 88% |
+| Dan | 51.95  | 5 | 2 | 71% |
 | Leo | 50.94  | 3 | 1 | 75% |
 | Kyla | 48.79  | 6 | 4 | 60% |
+| Harsha | 48.70  | 2 | 1 | 67% |
+| Aaron | 46.49  | 2 | 2 | 50% |
+| Sincere | 45.59  | 2 | 2 | 50% |
 | Ellabelle | 44.78  | 1 | 0 | 100% |
 | Kenny | 39.00  | 3 | 3 | 50% |
-| Harsha | 38.32  | 1 | 0 | 100% |
-| Aaron | 36.60  | 1 | 1 | 50% |
 | Jason | 36.60  | 1 | 1 | 50% |
-| Sincere | 36.07  | 1 | 1 | 50% |
 | Agnes | 35.62  | 1 | 1 | 50% |
 | Abhi | 34.05  | 1 | 2 | 33% |
 | Calvin | 33.19  | 1 | 2 | 33% |
 | Justin | 31.30  | 0 | 1 | 0% |
+| Peter | 28.65  | 1 | 5 | 17% |
 | Vivienne | 26.65  | 2 | 4 | 33% |
 | Kazumi | 23.41  | 0 | 3 | 0% |
 | Katrina | 22.86  | 0 | 2 | 0% |
 | Louise | 22.86  | 0 | 2 | 0% |
-| Peter | 19.55  | 0 | 4 | 0% |
+| Joyce | 20.52  | 0 | 2 | 0% |
 
 ### Coup
 
