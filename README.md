@@ -5,29 +5,30 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Oliver | 105.31 | 42 | 32 | 57% | Secret Hitler |
+| Oliver | 104.85 | 44 | 34 | 56% | Secret Hitler |
 | Kyla | 96.88 | 37 | 32 | 54% | Cash n Guns |
 | Kenny | 90.29 | 20 | 20 | 50% | Cash n Guns |
 | Nikiny | 88.92 | 6 | 12 | 33% | Cash n Guns |
-| Vivienne | 86.72 | 29 | 21 | 58% | Secret Hitler |
-| Harsha | 84.52 | 21 | 22 | 49% | Secret Hitler |
+| Vivienne | 85.89 | 30 | 23 | 57% | Secret Hitler |
+| Harsha | 84.69 | 22 | 23 | 49% | Secret Hitler |
 | Dan | 82.62 | 8 | 13 | 38% | Masquerade |
 | Simon | 78.95 | 26 | 31 | 46% | Avalon |
-| Peter | 75.80 | 8 | 17 | 32% | Love Letter |
+| Peter | 75.43 | 10 | 19 | 34% | Love Letter |
+| Jelita | 72.67 | 3 | 1 | 75% | Secret Hitler |
 | Kazumi | 70.83 | 3 | 11 | 21% | Love Letter |
-| Leo | 70.38 | 7 | 15 | 32% | Masquerade |
+| Leo | 69.81 | 9 | 17 | 35% | Masquerade |
 | Karen | 69.00 | 2 | 1 | 67% | Codenames |
+| Sincere | 67.83 | 5 | 6 | 45% | Bang |
 | Justin | 67.16 | 1 | 4 | 20% | Love Letter |
 | Siri | 64.90 | 1 | 7 | 12% | Love Letter |
-| Sincere | 64.52 | 4 | 5 | 44% | Bang |
 | Rob | 63.15 | 3 | 1 | 75% | Codenames |
+| Queenie | 57.72 | 7 | 11 | 39% | Secret Hitler |
 | Calvin | 55.59 | 7 | 10 | 41% | Secret Hitler |
 | Dari | 55.21 | 3 | 2 | 60% | Secret Hitler |
 | PeterChau | 54.34 | 2 | 2 | 50% | Coup |
 | Frances | 52.22 | 3 | 1 | 75% | Codenames |
 | Diana | 51.37 | 2 | 5 | 29% | Codenames |
 | Aaron | 50.81 | 7 | 14 | 33% | Avalon |
-| Queenie | 48.75 | 5 | 9 | 36% | Secret Hitler |
 | Jason | 47.52 | 3 | 4 | 43% | Wavelength |
 | Kai | 47.09 | 5 | 7 | 42% | Secret Hitler |
 | Abhi | 46.06 | 4 | 5 | 44% | Wavelength |
@@ -36,6 +37,7 @@
 | Gillian | 42.31 | 1 | 4 | 20% | Coup |
 | Eunice | 41.96 | 1 | 1 | 50% | Wavelength |
 | Yoyo | 41.68 | 1 | 1 | 50% | Secret Hitler |
+| Jan | 41.67 | 1 | 2 | 33% | Codenames |
 | Ellabelle | 38.67 | 1 | 7 | 12% | Avalon |
 | Agnes | 27.82 | 1 | 4 | 20% | Avalon |
 | Katrina | 25.63 | 2 | 3 | 40% | Codenames |
@@ -56,35 +58,38 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 102.33  | 13 | 3 | 81% |
+| Oliver | 102.54  | 14 | 4 | 78% |
 | Kyla | 79.03  | 12 | 7 | 63% |
-| Vivienne | 71.79  | 12 | 7 | 63% |
+| Vivienne | 74.23  | 13 | 8 | 62% |
 | Kenny | 67.53  | 7 | 3 | 70% |
-| Harsha | 66.61  | 9 | 6 | 60% |
-| Queenie | 61.61  | 4 | 1 | 80% |
+| Harsha | 66.78  | 10 | 7 | 59% |
+| Queenie | 66.74  | 5 | 2 | 71% |
 | Dan | 56.48  | 2 | 0 | 100% |
+| Jelita | 56.41  | 2 | 0 | 100% |
 | Simon | 54.84  | 9 | 9 | 50% |
 | Calvin | 52.40  | 3 | 1 | 75% |
 | Dari | 46.72  | 2 | 2 | 50% |
+| Leo | 44.91  | 3 | 3 | 50% |
 | Rob | 44.11  | 1 | 1 | 50% |
-| Leo | 43.98  | 2 | 2 | 50% |
 | Abhi | 42.83  | 1 | 0 | 100% |
 | Jason | 42.83  | 1 | 0 | 100% |
 | Aaron | 41.58  | 2 | 1 | 67% |
 | Nikiny | 41.53  | 3 | 2 | 60% |
 | Kai | 41.02  | 2 | 2 | 50% |
+| Sincere | 40.53  | 1 | 1 | 50% |
 | Rayaan | 40.13  | 1 | 1 | 50% |
 | Yoyo | 38.85  | 1 | 1 | 50% |
+| Peter | 37.32  | 3 | 3 | 50% |
 | Gillian | 36.24  | 1 | 1 | 50% |
 | PeterChau | 35.63  | 1 | 1 | 50% |
 | Siri | 35.63  | 1 | 1 | 50% |
-| Peter | 32.09  | 2 | 2 | 50% |
 | Frances | 30.73  | 1 | 1 | 50% |
 | Karen | 28.14  | 0 | 1 | 0% |
 | Kazumi | 28.00  | 0 | 2 | 0% |
 | Vivian | 27.44  | 0 | 1 | 0% |
 | Eunice | 27.44  | 0 | 1 | 0% |
 | Fred | 27.33  | 0 | 1 | 0% |
+| Jan | 26.97  | 0 | 1 | 0% |
 | Sandy | 26.10  | 0 | 1 | 0% |
 | Diana | 24.92  | 0 | 2 | 0% |
 | Ellabelle | 24.10  | 0 | 2 | 0% |
@@ -97,8 +102,8 @@
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Kyla | 74.24  | 10 | 5 | 67% |
-| Vivienne | 70.73  | 7 | 3 | 70% |
-| Oliver | 64.02  | 8 | 5 | 62% |
+| Vivienne | 66.00  | 7 | 4 | 64% |
+| Oliver | 63.00  | 9 | 6 | 60% |
 | Harsha | 59.45  | 6 | 4 | 60% |
 | Kenny | 57.00  | 5 | 3 | 62% |
 | Diana | 50.80  | 1 | 0 | 100% |
@@ -108,13 +113,16 @@
 | Frances | 48.41  | 1 | 0 | 100% |
 | Katrina | 46.85  | 2 | 0 | 100% |
 | Dari | 46.30  | 1 | 0 | 100% |
-| Leo | 40.13  | 2 | 2 | 50% |
+| Jan | 45.76  | 1 | 1 | 50% |
+| Jelita | 45.76  | 1 | 1 | 50% |
+| Leo | 39.64  | 3 | 3 | 50% |
 | Justin | 39.30  | 1 | 1 | 50% |
 | Simon | 38.73  | 5 | 8 | 38% |
 | Nikiny | 34.91  | 2 | 3 | 40% |
 | Kai | 33.68  | 1 | 2 | 33% |
 | Aaron | 32.97  | 1 | 3 | 25% |
 | Kazumi | 32.08  | 1 | 2 | 33% |
+| Queenie | 28.68  | 1 | 3 | 25% |
 | Ellabelle | 27.70  | 0 | 1 | 0% |
 | Siri | 26.63  | 0 | 1 | 0% |
 | Gillian | 26.63  | 0 | 1 | 0% |
@@ -125,9 +133,8 @@
 | Agnes | 25.05  | 0 | 2 | 0% |
 | Shirley | 23.77  | 0 | 1 | 0% |
 | Dan | 23.44  | 0 | 2 | 0% |
-| Peter | 20.46  | 0 | 2 | 0% |
+| Peter | 20.16  | 1 | 3 | 25% |
 | Calvin | 19.73  | 2 | 5 | 29% |
-| Queenie | 17.80  | 0 | 2 | 0% |
 
 ### Exploding Kittens
 
