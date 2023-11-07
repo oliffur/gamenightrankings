@@ -5,21 +5,21 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Oliver | 103.40 | 45 | 37 | 55% | Secret Hitler |
+| Oliver | 104.21 | 47 | 37 | 56% | Secret Hitler |
 | Kyla | 96.88 | 37 | 32 | 54% | Cash n Guns |
 | Kenny | 90.46 | 22 | 22 | 50% | Cash n Guns |
+| Vivienne | 89.79 | 34 | 24 | 59% | Secret Hitler |
 | Nikiny | 88.92 | 6 | 12 | 33% | Cash n Guns |
-| Vivienne | 88.37 | 32 | 24 | 57% | Secret Hitler |
-| Dan | 82.62 | 8 | 13 | 38% | Masquerade |
-| Harsha | 81.28 | 22 | 25 | 47% | Secret Hitler |
-| Simon | 78.95 | 26 | 31 | 46% | Avalon |
+| Harsha | 82.94 | 24 | 25 | 49% | Secret Hitler |
+| Dan | 81.29 | 8 | 15 | 35% | Masquerade |
 | Annika | 78.73 | 3 | 1 | 75% | Avalon |
+| Simon | 77.73 | 26 | 33 | 44% | Avalon |
 | Sincere | 77.68 | 7 | 7 | 50% | Avalon |
-| Peter | 75.43 | 10 | 19 | 34% | Love Letter |
-| Leo | 71.01 | 11 | 18 | 38% | Masquerade |
+| Jelita | 77.39 | 6 | 2 | 75% | Secret Hitler |
+| Peter | 75.77 | 11 | 20 | 35% | Love Letter |
 | Kazumi | 70.78 | 4 | 14 | 22% | Love Letter |
+| Leo | 69.92 | 11 | 20 | 35% | Masquerade |
 | Karen | 69.00 | 2 | 1 | 67% | Codenames |
-| Jelita | 68.99 | 4 | 2 | 67% | Secret Hitler |
 | Justin | 67.16 | 1 | 4 | 20% | Love Letter |
 | Siri | 64.90 | 1 | 7 | 12% | Love Letter |
 | Rob | 63.15 | 3 | 1 | 75% | Codenames |
@@ -41,6 +41,7 @@
 | Ellabelle | 38.67 | 1 | 7 | 12% | Avalon |
 | Jan | 34.21 | 2 | 4 | 33% | Codenames |
 | Agnes | 27.82 | 1 | 4 | 20% | Avalon |
+| Lisa | 27.58 | 0 | 2 | 0% | Secret Hitler |
 | Katrina | 25.63 | 2 | 3 | 40% | Codenames |
 | Dorine | 24.58 | 3 | 7 | 30% | Avalon |
 | Ashley | 21.75 | 0 | 2 | 0% | Secret Hitler |
@@ -59,32 +60,33 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 102.54  | 14 | 4 | 78% |
+| Oliver | 107.05  | 16 | 4 | 80% |
 | Kyla | 79.03  | 12 | 7 | 63% |
-| Vivienne | 74.23  | 13 | 8 | 62% |
+| Vivienne | 78.18  | 15 | 8 | 65% |
+| Harsha | 71.08  | 12 | 7 | 63% |
 | Kenny | 67.53  | 7 | 3 | 70% |
-| Harsha | 66.78  | 10 | 7 | 59% |
 | Queenie | 66.74  | 5 | 2 | 71% |
-| Dan | 56.48  | 2 | 0 | 100% |
-| Jelita | 56.41  | 2 | 0 | 100% |
-| Simon | 54.84  | 9 | 9 | 50% |
+| Jelita | 65.32  | 4 | 0 | 100% |
+| Dan | 52.40  | 2 | 2 | 50% |
 | Calvin | 52.40  | 3 | 1 | 75% |
+| Simon | 52.33  | 9 | 11 | 45% |
 | Dari | 46.72  | 2 | 2 | 50% |
-| Leo | 44.91  | 3 | 3 | 50% |
 | Rob | 44.11  | 1 | 1 | 50% |
 | Abhi | 42.83  | 1 | 0 | 100% |
 | Jason | 42.83  | 1 | 0 | 100% |
 | Aaron | 41.58  | 2 | 1 | 67% |
 | Nikiny | 41.53  | 3 | 2 | 60% |
+| Leo | 41.13  | 3 | 5 | 38% |
 | Kai | 41.02  | 2 | 2 | 50% |
 | Sincere | 40.53  | 1 | 1 | 50% |
+| Peter | 40.18  | 4 | 4 | 50% |
 | Rayaan | 40.13  | 1 | 1 | 50% |
 | Yoyo | 38.85  | 1 | 1 | 50% |
-| Peter | 37.32  | 3 | 3 | 50% |
 | Gillian | 36.24  | 1 | 1 | 50% |
 | PeterChau | 35.63  | 1 | 1 | 50% |
 | Siri | 35.63  | 1 | 1 | 50% |
 | Frances | 30.73  | 1 | 1 | 50% |
+| Lisa | 28.74  | 0 | 2 | 0% |
 | Karen | 28.14  | 0 | 1 | 0% |
 | Kazumi | 28.00  | 0 | 2 | 0% |
 | Vivian | 27.44  | 0 | 1 | 0% |
