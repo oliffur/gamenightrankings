@@ -99,3 +99,9 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 10/30/2023|Codenames|Dorine,Annika,Vivienne,Kazumi,dummy103007;Oliver,Jelita,Harsha,Jan,Kenny|0;1
 11/07/2023|Secret Hitler|Jelita,Oliver,Peter,Harsha,Vivienne;Simon,Dan,Leo,Lisa,dummy110701|0;1
 11/07/2023|Secret Hitler|Oliver,Harsha,Vivienne,Jelita,dummy110702;Simon,Dan,Leo,Lisa,Peter|0;1
+11/14/2023|Clank|Leo;Oliver;Siri|0;1;1
+11/21/2023|Incan Gold|Leo;Angela;Oliver;Sincere;Bryan;Kazumi;Julie|0;1;2;3;4;5;5
+11/21/2023|Avalon|Angela,Oliver,Kazumi,Simon,Leo;Vivienne,Sincere,Julie,dummy112101,dummy112102|0;1
+11/21/2023|Avalon|Julie,Sincere,Simon,Leo,dummy112103;Oliver,Angela,Kazumi,Harsha,Bryan|0;1
+11/21/2023|Codenames|Oliver,Kazumi,Vivienne,Leo,dummy112104;Simon,Julie,Bryan,Angela,Sincere|0;1
+11/21/2023|Codenames|Oliver,Simon,Leo;Julie,Bryan,Angela|0;1
