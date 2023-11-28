@@ -126,9 +126,13 @@ def main():
         ratings = [(elo.mu - 2 * elo.sigma) * 4 for elo in \
                 itertools.chain.from_iterable(row['elos'])]
         #ratings = [elo.mu * 4 for elo in np.array(row['elos']).flat]
-        for player, rating in zip(players, ratings):
+        ## DEBUG
+        sigmas = [elo.sigma for elo in \
+                itertools.chain.from_iterable(row['elos'])]
+        for player, rating, sigma in zip(players, ratings, sigmas):
             if player.startswith('dummy'): continue
             chart_df.at[row['date'], player] = rating
+            print("{}: {}".format(player, str(sigma)))
     chart_df.ffill(inplace=True)
     chart_df.drop(columns=infrequent_players, inplace=True)
     chart_df.plot.line().legend(
