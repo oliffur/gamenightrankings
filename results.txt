@@ -105,3 +105,6 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 11/21/2023|Avalon|Julie,Sincere,Simon,Leo,dummy112103;Oliver,Angela,Kazumi,Harsha,Bryan|0;1
 11/21/2023|Codenames|Oliver,Kazumi,Vivienne,Leo,dummy112104;Simon,Julie,Bryan,Angela,Sincere|0;1
 11/21/2023|Codenames|Oliver,Simon,Leo;Julie,Bryan,Angela|0;1
+11/27/2023|Bang|Oliver,Angela,Lucille;Joyce,dummy112701,dummy112702;Harsha,dummy112703,dummy112704;Peter,Leo,Simon|0;1;1;1
+11/27/2023|Avalon|Simon,Joyce,Angela,dummy112705,dummy112706;Oliver,Peter,Leo,Harsha,Lucille|0;1
+11/27/2023|Wavelength|Simon,Peter,dummy112707;Oliver,Leo,Angela|0;1
