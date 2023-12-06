@@ -108,3 +108,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 11/27/2023|Bang|Oliver,Angela,Lucille;Joyce,dummy112701,dummy112702;Harsha,dummy112703,dummy112704;Peter,Leo,Simon|0;1;1;1
 11/27/2023|Avalon|Simon,Joyce,Angela,dummy112705,dummy112706;Oliver,Peter,Leo,Harsha,Lucille|0;1
 11/27/2023|Wavelength|Simon,Peter,dummy112707;Oliver,Leo,Angela|0;1
+12/06/2023|Cash n Guns|Peter;Simon;Abhi;Oliver;Siri;Leo;Julie|0;1;2;3;4;5;6
+12/06/2023|Secret Hitler|Oliver,Simon,Siri,dummy120601,dummy120602;Vivienne,Leo,Julie,Peter,Abhi|0;1
+12/06/2023|Coup|Leo;Peter;Vivienne;Abhi;Oliver|0;1;1;1;1
+12/06/2023|Coup|Oliver;Vivienne;Leo;Peter;Abhi|0;1;1;1;1
