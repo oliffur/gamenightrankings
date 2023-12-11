@@ -132,7 +132,7 @@ def main():
         for player, rating, sigma in zip(players, ratings, sigmas):
             if player.startswith('dummy'): continue
             chart_df.at[row['date'], player] = rating
-            print("{}: {}".format(player, str(sigma)))
+            print("{} : {} : {}".format(player, str(rating), str(sigma)))
     chart_df.ffill(inplace=True)
     chart_df.drop(columns=infrequent_players, inplace=True)
     chart_df.plot.line().legend(
