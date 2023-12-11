@@ -5,18 +5,18 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Oliver | 100.22 | 55 | 48 | 53% | Secret Hitler |
+| Oliver | 100.93 | 57 | 48 | 54% | Secret Hitler |
 | Kyla | 96.88 | 37 | 32 | 54% | Cash n Guns |
-| Simon | 94.93 | 36 | 36 | 50% | Avalon |
-| Vivienne | 93.26 | 39 | 28 | 58% | Secret Hitler |
-| Kenny | 90.46 | 22 | 22 | 50% | Cash n Guns |
+| Jelita | 96.86 | 10 | 2 | 83% | Avalon |
+| Simon | 96.30 | 38 | 36 | 51% | Avalon |
+| Vivienne | 92.09 | 39 | 30 | 57% | Secret Hitler |
+| Kenny | 89.27 | 22 | 24 | 48% | Cash n Guns |
 | Nikiny | 88.92 | 6 | 12 | 33% | Cash n Guns |
-| Jelita | 87.53 | 8 | 2 | 80% | Secret Hitler |
-| Peter | 86.14 | 15 | 29 | 34% | Cash n Guns |
+| Peter | 85.22 | 15 | 31 | 33% | Cash n Guns |
 | Harsha | 82.07 | 26 | 32 | 45% | Secret Hitler |
 | Dan | 81.29 | 8 | 15 | 35% | Masquerade |
-| Leo | 79.73 | 20 | 30 | 40% | Clank |
 | Sincere | 79.52 | 10 | 14 | 42% | Coup |
+| Leo | 78.90 | 20 | 32 | 38% | Clank |
 | Abhi | 74.64 | 4 | 9 | 31% | Cash n Guns |
 | Siri | 71.37 | 2 | 13 | 13% | Love Letter |
 | Kazumi | 71.36 | 6 | 16 | 27% | Love Letter |
@@ -234,25 +234,25 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Simon | 103.64  | 12 | 1 | 92% |
-| Oliver | 83.25  | 13 | 6 | 68% |
-| Jelita | 61.33  | 3 | 0 | 100% |
-| Leo | 51.99  | 6 | 5 | 55% |
+| Simon | 107.59  | 14 | 1 | 93% |
+| Oliver | 86.48  | 15 | 6 | 71% |
+| Jelita | 67.41  | 5 | 0 | 100% |
 | Dan | 51.95  | 5 | 2 | 71% |
 | Sincere | 51.92  | 5 | 5 | 50% |
-| Kenny | 50.46  | 5 | 3 | 62% |
+| Leo | 50.24  | 6 | 7 | 46% |
 | Kyla | 48.79  | 6 | 4 | 60% |
+| Kenny | 48.58  | 5 | 5 | 50% |
 | Dorine | 48.28  | 2 | 0 | 100% |
 | Aaron | 46.49  | 2 | 2 | 50% |
 | Angela | 45.43  | 2 | 1 | 67% |
 | Ellabelle | 44.78  | 1 | 0 | 100% |
-| Vivienne | 41.51  | 5 | 6 | 45% |
+| Vivienne | 39.78  | 5 | 8 | 38% |
 | Julie | 38.47  | 1 | 1 | 50% |
 | Annika | 36.69  | 2 | 2 | 50% |
 | Jason | 36.60  | 1 | 1 | 50% |
-| Peter | 36.06  | 3 | 6 | 33% |
 | Agnes | 35.62  | 1 | 1 | 50% |
 | Bryan | 34.29  | 1 | 1 | 50% |
+| Peter | 34.25  | 3 | 8 | 27% |
 | Abhi | 34.05  | 1 | 2 | 33% |
 | Calvin | 33.19  | 1 | 2 | 33% |
 | Jan | 32.21  | 1 | 1 | 50% |
