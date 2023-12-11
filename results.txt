@@ -112,3 +112,9 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 12/06/2023|Secret Hitler|Oliver,Simon,Siri,dummy120601,dummy120602;Vivienne,Leo,Julie,Peter,Abhi|0;1
 12/06/2023|Coup|Leo;Peter;Vivienne;Abhi;Oliver|0;1;1;1;1
 12/06/2023|Coup|Oliver;Vivienne;Leo;Peter;Abhi|0;1;1;1;1
+12/12/2023|Coup|Sincere;Peter;Leo;Harsha;Annika;Oliver|0;1;1;1;1;1
+12/12/2023|Coup|Sincere;Peter;Leo;Harsha;Annika;Oliver|0;1;1;1;1;1
+12/12/2023|Secret Hitler|Oliver,Harsha,Simon,Vivienne,Leo;Peter,Sincere,Annika,Siri,dummy121201|0;1
+12/12/2023|Secret Hitler|Oliver,Harsha,Simon,Vivienne,Leo;Peter,Sincere,Annika,Siri,dummy121201|0;1
+12/12/2023|Avalon|Simon,Jelita,Peter,Vivienne,dummy121202,dummy121203;Oliver,Siri,Annika,Sincere,Leo,Harsha|0;1
+12/12/2023|Avalon|Simon,Jelita,Peter,Vivienne,dummy121202,dummy121203;Oliver,Siri,Annika,Sincere,Leo,Harsha|0;1

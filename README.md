@@ -5,25 +5,25 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Oliver | 99.95 | 53 | 44 | 55% | Secret Hitler |
+| Oliver | 100.22 | 55 | 48 | 53% | Secret Hitler |
 | Kyla | 96.88 | 37 | 32 | 54% | Cash n Guns |
-| Simon | 91.11 | 32 | 36 | 47% | Avalon |
+| Simon | 94.93 | 36 | 36 | 50% | Avalon |
+| Vivienne | 93.26 | 39 | 28 | 58% | Secret Hitler |
 | Kenny | 90.46 | 22 | 22 | 50% | Cash n Guns |
 | Nikiny | 88.92 | 6 | 12 | 33% | Cash n Guns |
-| Vivienne | 88.79 | 35 | 28 | 56% | Codenames |
-| Peter | 86.25 | 13 | 25 | 34% | Cash n Guns |
+| Jelita | 87.53 | 8 | 2 | 80% | Secret Hitler |
+| Peter | 86.14 | 15 | 29 | 34% | Cash n Guns |
+| Harsha | 82.07 | 26 | 32 | 45% | Secret Hitler |
 | Dan | 81.29 | 8 | 15 | 35% | Masquerade |
-| Harsha | 79.54 | 24 | 28 | 46% | Secret Hitler |
-| Annika | 78.73 | 3 | 1 | 75% | Avalon |
-| Leo | 78.06 | 18 | 26 | 41% | Clank |
-| Sincere | 77.48 | 8 | 10 | 44% | Avalon |
-| Jelita | 77.39 | 6 | 2 | 75% | Secret Hitler |
-| Siri | 75.02 | 2 | 9 | 18% | Love Letter |
+| Leo | 79.73 | 20 | 30 | 40% | Clank |
+| Sincere | 79.52 | 10 | 14 | 42% | Coup |
 | Abhi | 74.64 | 4 | 9 | 31% | Cash n Guns |
+| Siri | 71.37 | 2 | 13 | 13% | Love Letter |
 | Kazumi | 71.36 | 6 | 16 | 27% | Love Letter |
 | Karen | 69.00 | 2 | 1 | 67% | Codenames |
 | Justin | 67.16 | 1 | 4 | 20% | Love Letter |
 | Rob | 63.15 | 3 | 1 | 75% | Codenames |
+| Annika | 61.99 | 3 | 7 | 30% | Codenames |
 | Queenie | 57.72 | 7 | 11 | 39% | Secret Hitler |
 | Calvin | 55.59 | 7 | 10 | 41% | Secret Hitler |
 | Dari | 55.21 | 3 | 2 | 60% | Secret Hitler |
@@ -64,32 +64,33 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 110.69  | 17 | 4 | 81% |
+| Oliver | 114.56  | 19 | 4 | 83% |
+| Vivienne | 79.37  | 17 | 9 | 65% |
 | Kyla | 79.03  | 12 | 7 | 63% |
-| Vivienne | 75.95  | 15 | 9 | 62% |
-| Harsha | 71.08  | 12 | 7 | 63% |
+| Harsha | 74.88  | 14 | 7 | 67% |
 | Kenny | 67.53  | 7 | 3 | 70% |
 | Queenie | 66.74  | 5 | 2 | 71% |
 | Jelita | 65.32  | 4 | 0 | 100% |
-| Simon | 55.75  | 10 | 11 | 48% |
+| Simon | 59.39  | 12 | 11 | 52% |
 | Dan | 52.40  | 2 | 2 | 50% |
 | Calvin | 52.40  | 3 | 1 | 75% |
 | Dari | 46.72  | 2 | 2 | 50% |
 | Rob | 44.11  | 1 | 1 | 50% |
-| Siri | 43.56  | 2 | 1 | 67% |
+| Leo | 43.73  | 5 | 6 | 45% |
 | Jason | 42.83  | 1 | 0 | 100% |
 | Aaron | 41.58  | 2 | 1 | 67% |
 | Nikiny | 41.53  | 3 | 2 | 60% |
 | Kai | 41.02  | 2 | 2 | 50% |
-| Sincere | 40.53  | 1 | 1 | 50% |
 | Rayaan | 40.13  | 1 | 1 | 50% |
+| Siri | 39.85  | 2 | 3 | 40% |
 | Yoyo | 38.85  | 1 | 1 | 50% |
 | Abhi | 38.24  | 1 | 1 | 50% |
-| Leo | 37.52  | 3 | 6 | 33% |
-| Peter | 36.73  | 4 | 5 | 44% |
+| Sincere | 36.81  | 1 | 3 | 25% |
 | Gillian | 36.24  | 1 | 1 | 50% |
 | PeterChau | 35.63  | 1 | 1 | 50% |
+| Peter | 33.75  | 4 | 7 | 36% |
 | Frances | 30.73  | 1 | 1 | 50% |
+| Annika | 29.28  | 0 | 2 | 0% |
 | Lisa | 28.74  | 0 | 2 | 0% |
 | Julie | 28.54  | 0 | 1 | 0% |
 | Karen | 28.14  | 0 | 1 | 0% |
@@ -233,51 +234,55 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Simon | 91.86  | 10 | 1 | 91% |
-| Oliver | 90.34  | 13 | 4 | 76% |
-| Sincere | 61.09  | 5 | 3 | 62% |
-| Leo | 61.03  | 6 | 3 | 67% |
+| Simon | 103.64  | 12 | 1 | 92% |
+| Oliver | 83.25  | 13 | 6 | 68% |
+| Jelita | 61.33  | 3 | 0 | 100% |
+| Leo | 51.99  | 6 | 5 | 55% |
 | Dan | 51.95  | 5 | 2 | 71% |
+| Sincere | 51.92  | 5 | 5 | 50% |
 | Kenny | 50.46  | 5 | 3 | 62% |
 | Kyla | 48.79  | 6 | 4 | 60% |
 | Dorine | 48.28  | 2 | 0 | 100% |
-| Annika | 48.28  | 2 | 0 | 100% |
 | Aaron | 46.49  | 2 | 2 | 50% |
 | Angela | 45.43  | 2 | 1 | 67% |
 | Ellabelle | 44.78  | 1 | 0 | 100% |
-| Jelita | 43.16  | 1 | 0 | 100% |
+| Vivienne | 41.51  | 5 | 6 | 45% |
 | Julie | 38.47  | 1 | 1 | 50% |
+| Annika | 36.69  | 2 | 2 | 50% |
 | Jason | 36.60  | 1 | 1 | 50% |
+| Peter | 36.06  | 3 | 6 | 33% |
 | Agnes | 35.62  | 1 | 1 | 50% |
 | Bryan | 34.29  | 1 | 1 | 50% |
 | Abhi | 34.05  | 1 | 2 | 33% |
 | Calvin | 33.19  | 1 | 2 | 33% |
 | Jan | 32.21  | 1 | 1 | 50% |
-| Harsha | 31.88  | 2 | 4 | 33% |
 | Joyce | 31.45  | 1 | 2 | 33% |
 | Justin | 31.30  | 0 | 1 | 0% |
-| Vivienne | 28.74  | 3 | 6 | 33% |
 | Lucille | 25.36  | 0 | 1 | 0% |
 | Katrina | 22.86  | 0 | 2 | 0% |
 | Louise | 22.86  | 0 | 2 | 0% |
-| Peter | 22.25  | 1 | 6 | 14% |
+| Harsha | 22.20  | 2 | 6 | 25% |
+| Siri | 20.92  | 0 | 2 | 0% |
 | Kazumi | 15.39  | 1 | 6 | 14% |
 
 ### Coup
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 70.80  | 3 | 4 | 43% |
-| Leo | 59.76  | 1 | 5 | 17% |
+| Oliver | 70.74  | 3 | 6 | 33% |
+| Sincere | 66.76  | 2 | 0 | 100% |
+| Leo | 62.34  | 1 | 7 | 12% |
 | PeterChau | 54.41  | 1 | 1 | 50% |
 | Kenny | 54.01  | 1 | 2 | 33% |
 | Dan | 53.55  | 1 | 1 | 50% |
+| Peter | 50.70  | 0 | 4 | 0% |
+| Annika | 45.53  | 0 | 2 | 0% |
+| Harsha | 45.53  | 0 | 2 | 0% |
 | Kazumi | 44.38  | 0 | 2 | 0% |
 | Siri | 44.38  | 0 | 2 | 0% |
 | Gillian | 44.38  | 0 | 2 | 0% |
 | Kyla | 44.04  | 0 | 2 | 0% |
 | Abhi | 42.98  | 0 | 2 | 0% |
-| Peter | 42.98  | 0 | 2 | 0% |
 | Vivienne | 42.98  | 0 | 2 | 0% |
 | Queenie | 36.91  | 0 | 1 | 0% |
 | Aaron | 36.91  | 0 | 1 | 0% |
