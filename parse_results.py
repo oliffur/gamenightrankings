@@ -22,7 +22,7 @@ class RatingsInfo:
         return self.elo.mu * 4.0  # scale to 100
 
     def get_rating(self):
-        return (self.elo.mu - 2 * self.elo.sigma) * 4.0
+        return (self.elo.mu - 2 * max(3.0, elo.sigma)) * 4.0
 
 def get_elo(d, env, player):
     '''
