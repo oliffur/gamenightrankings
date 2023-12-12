@@ -5,22 +5,22 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
+| Oliver | 99.20 | 57 | 48 | 54% | Secret Hitler |
+| Kyla | 96.88 | 37 | 32 | 54% | Cash n Guns |
 | Jelita | 96.86 | 10 | 2 | 83% | Avalon |
-| Simon | 91.42 | 38 | 36 | 51% | Avalon |
-| Oliver | 91.20 | 57 | 48 | 54% | Secret Hitler |
-| Kyla | 89.75 | 37 | 32 | 54% | Cash n Guns |
+| Simon | 96.30 | 38 | 36 | 51% | Avalon |
+| Vivienne | 92.09 | 39 | 30 | 57% | Secret Hitler |
+| Kenny | 89.27 | 22 | 24 | 48% | Cash n Guns |
 | Nikiny | 88.92 | 6 | 12 | 33% | Cash n Guns |
-| Vivienne | 88.61 | 39 | 30 | 57% | Secret Hitler |
-| Kenny | 85.93 | 22 | 24 | 48% | Cash n Guns |
+| Peter | 85.22 | 15 | 31 | 33% | Cash n Guns |
+| Harsha | 82.07 | 26 | 32 | 45% | Secret Hitler |
 | Dan | 81.29 | 8 | 15 | 35% | Masquerade |
-| Harsha | 79.79 | 26 | 32 | 45% | Secret Hitler |
 | Sincere | 79.52 | 10 | 14 | 42% | Coup |
-| Peter | 79.13 | 15 | 31 | 33% | Cash n Guns |
+| Leo | 78.90 | 20 | 32 | 38% | Clank |
 | Abhi | 74.64 | 4 | 9 | 31% | Cash n Guns |
-| Leo | 71.78 | 20 | 32 | 38% | Clank |
+| Siri | 71.37 | 2 | 13 | 13% | Love Letter |
 | Kazumi | 71.36 | 6 | 16 | 27% | Love Letter |
 | Karen | 69.00 | 2 | 1 | 67% | Codenames |
-| Siri | 68.12 | 2 | 13 | 13% | Love Letter |
 | Justin | 67.16 | 1 | 4 | 20% | Love Letter |
 | Rob | 63.15 | 3 | 1 | 75% | Codenames |
 | Annika | 61.99 | 3 | 7 | 30% | Codenames |
