@@ -3,3 +3,6 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 01/22/2024|Avalon|Simon,Abhi,Jelita,dummy012201,dummy012202;Oliver,Queenie,Leo,Sincere,Peter|0;1
 01/22/2024|Avalon|Simon,Abhi,Peter,Sincere,Jelita;Leo,Oliver,Queenie,dummy012203,dummy012204|0;1
 01/22/2024|Avalon|Simon,Abhi,Peter,dummy012205,dummy012206,dummy012207;Oliver,Queenie,Leo,Sincere,Jelita,Rebecca|0;1
+01/29/2024|Bang|Oliver,Peter,Aaron;Sincere,dummy012901,dummy012902;Kazumi,Jelita,Leo;Trista,dummy012903,dummy012904|0;1;1;1
+01/29/2024|Secret Hitler|Peter,Simon,Jelita,Leo,dummy012905;Oliver,Kazumi,Aaron,Trista,Daphne|0;1
+01/29/2024|Codenames|Oliver,Kazumi,Leo,Jelita;Vivienne,Aaron,Trista,Peter|0;1

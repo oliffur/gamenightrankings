@@ -5,16 +5,21 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
+| Jelita | 68.93 | 4 | 3 | 57% | Avalon |
+| Simon | 64.22 | 4 | 0 | 100% | Avalon |
 | Abhi | 56.81 | 3 | 1 | 75% | Avalon |
-| Simon | 55.79 | 3 | 0 | 100% | Avalon |
-| Jelita | 49.43 | 2 | 2 | 50% | Avalon |
-| Sincere | 39.43 | 2 | 2 | 50% | Incan Gold |
-| Peter | 33.32 | 2 | 2 | 50% | Avalon |
+| Peter | 50.13 | 4 | 3 | 57% | Bang |
+| Oliver | 46.25 | 2 | 5 | 29% | Bang |
+| Kazumi | 43.92 | 1 | 2 | 33% | Codenames |
+| Aaron | 40.33 | 1 | 2 | 33% | Bang |
+| Sincere | 39.75 | 2 | 3 | 40% | Incan Gold |
+| Leo | 35.89 | 2 | 5 | 29% | Codenames |
 | Julie | 32.58 | 0 | 1 | 0% | Incan Gold |
 | Rebecca | 29.07 | 0 | 1 | 0% | Avalon |
-| Oliver | 24.22 | 0 | 4 | 0% | Incan Gold |
+| Daphne | 27.49 | 0 | 1 | 0% | Secret Hitler |
+| Vivienne | 24.36 | 0 | 1 | 0% | Codenames |
+| Trista | 22.60 | 0 | 3 | 0% | Bang |
 | Queenie | 19.61 | 0 | 3 | 0% | Avalon |
-| Leo | 16.35 | 0 | 4 | 0% | Incan Gold |
 
 ### Rankings over Time
 ![Image](rankings.png)
@@ -46,3 +51,43 @@
 | Oliver | 19.87  | 0 | 3 | 0% |
 | Queenie | 19.87  | 0 | 3 | 0% |
 | Leo | 19.87  | 0 | 3 | 0% |
+
+### Bang
+
+| Player | ELO | Wins | Losses | Win % |
+| --- | --- | --- | --- | --- |
+| Oliver | 49.61  | 1 | 0 | 100% |
+| Peter | 49.61  | 1 | 0 | 100% |
+| Aaron | 49.61  | 1 | 0 | 100% |
+| Kazumi | 36.10  | 0 | 1 | 0% |
+| Jelita | 36.10  | 0 | 1 | 0% |
+| Leo | 36.10  | 0 | 1 | 0% |
+| Trista | 36.10  | 0 | 1 | 0% |
+| Sincere | 36.10  | 0 | 1 | 0% |
+
+### Secret Hitler
+
+| Player | ELO | Wins | Losses | Win % |
+| --- | --- | --- | --- | --- |
+| Peter | 42.57  | 1 | 0 | 100% |
+| Simon | 42.57  | 1 | 0 | 100% |
+| Jelita | 42.57  | 1 | 0 | 100% |
+| Leo | 42.57  | 1 | 0 | 100% |
+| Oliver | 27.53  | 0 | 1 | 0% |
+| Kazumi | 27.53  | 0 | 1 | 0% |
+| Aaron | 27.53  | 0 | 1 | 0% |
+| Trista | 27.53  | 0 | 1 | 0% |
+| Daphne | 27.53  | 0 | 1 | 0% |
+
+### Codenames
+
+| Player | ELO | Wins | Losses | Win % |
+| --- | --- | --- | --- | --- |
+| Jelita | 43.90  | 1 | 0 | 100% |
+| Oliver | 43.90  | 1 | 0 | 100% |
+| Kazumi | 43.90  | 1 | 0 | 100% |
+| Leo | 43.90  | 1 | 0 | 100% |
+| Vivienne | 27.08  | 0 | 1 | 0% |
+| Aaron | 27.08  | 0 | 1 | 0% |
+| Trista | 27.08  | 0 | 1 | 0% |
+| Peter | 27.08  | 0 | 1 | 0% |
