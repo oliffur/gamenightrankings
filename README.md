@@ -5,17 +5,17 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Oliver | 83.28 | 5 | 9 | 36% | Camel Up |
-| Kazumi | 69.19 | 1 | 5 | 17% | Camel Up |
-| Leo | 69.03 | 3 | 7 | 30% | Secret Princess |
 | Jelita | 68.93 | 4 | 3 | 57% | Avalon |
-| Siri | 66.86 | 1 | 1 | 50% | Secret Princess |
+| Oliver | 67.22 | 5 | 9 | 36% | Camel Up |
 | Simon | 64.22 | 4 | 0 | 100% | Avalon |
 | Abhi | 56.81 | 3 | 1 | 75% | Avalon |
 | Peter | 50.13 | 4 | 3 | 57% | Bang |
+| Kazumi | 50.00 | 1 | 5 | 17% | Camel Up |
 | Dan | 47.41 | 2 | 2 | 50% | Wavelength |
+| Leo | 44.63 | 3 | 7 | 30% | Codenames |
+| Siri | 42.92 | 1 | 1 | 50% | Secret Princess |
 | Aaron | 40.33 | 1 | 2 | 33% | Bang |
-| Harsha | 38.30 | 2 | 3 | 40% | Wavelength |
+| Harsha | 39.59 | 2 | 3 | 40% | Wavelength |
 | Sincere | 34.02 | 3 | 6 | 33% | Bang |
 | Julie | 32.58 | 0 | 1 | 0% | Incan Gold |
 | Rebecca | 29.07 | 0 | 1 | 0% | Avalon |
@@ -117,25 +117,25 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Leo | 66.06  | 1 | 0 | 100% |
-| Siri | 66.06  | 1 | 0 | 100% |
-| Oliver | 42.27  | 0 | 1 | 0% |
-| Kazumi | 42.27  | 0 | 1 | 0% |
+| Leo | 41.37  | 1 | 0 | 100% |
+| Siri | 41.37  | 1 | 0 | 100% |
+| Kazumi | 31.49  | 0 | 1 | 0% |
+| Oliver | 31.49  | 0 | 1 | 0% |
 
 ### Camel Up
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 81.22  | 1 | 0 | 100% |
-| Kazumi | 65.52  | 0 | 1 | 0% |
-| Siri | 50.90  | 0 | 1 | 0% |
-| Leo | 50.90  | 0 | 1 | 0% |
-| Harsha | 21.31  | 0 | 1 | 0% |
+| Oliver | 58.63  | 1 | 0 | 100% |
+| Kazumi | 47.13  | 0 | 1 | 0% |
+| Siri | 37.40  | 0 | 1 | 0% |
+| Leo | 37.40  | 0 | 1 | 0% |
+| Harsha | 21.38  | 0 | 1 | 0% |
 
 ### Here to Slay
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 65.24  | 1 | 0 | 100% |
-| Leo | 42.44  | 0 | 1 | 0% |
-| Kazumi | 42.44  | 0 | 1 | 0% |
+| Oliver | 49.88  | 1 | 0 | 100% |
+| Leo | 33.84  | 0 | 1 | 0% |
+| Kazumi | 33.84  | 0 | 1 | 0% |
