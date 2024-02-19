@@ -6,13 +6,13 @@
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
 | Jelita | 68.93 | 4 | 3 | 57% | Avalon |
-| Oliver | 67.22 | 5 | 9 | 36% | Camel Up |
+| Oliver | 66.34 | 5 | 10 | 33% | Camel Up |
 | Simon | 64.22 | 4 | 0 | 100% | Avalon |
 | Abhi | 56.81 | 3 | 1 | 75% | Avalon |
 | Peter | 50.13 | 4 | 3 | 57% | Bang |
-| Kazumi | 50.00 | 1 | 5 | 17% | Camel Up |
+| Kazumi | 49.30 | 1 | 6 | 14% | Camel Up |
 | Dan | 47.41 | 2 | 2 | 50% | Wavelength |
-| Leo | 44.63 | 3 | 7 | 30% | Codenames |
+| Leo | 46.84 | 4 | 7 | 36% | Codenames |
 | Siri | 42.92 | 1 | 1 | 50% | Secret Princess |
 | Aaron | 40.33 | 1 | 2 | 33% | Bang |
 | Harsha | 39.59 | 2 | 3 | 40% | Wavelength |
@@ -139,3 +139,11 @@
 | Oliver | 49.88  | 1 | 0 | 100% |
 | Leo | 33.84  | 0 | 1 | 0% |
 | Kazumi | 33.84  | 0 | 1 | 0% |
+
+### What do you Meme
+
+| Player | ELO | Wins | Losses | Win % |
+| --- | --- | --- | --- | --- |
+| Leo | 38.14  | 1 | 0 | 100% |
+| Oliver | 31.98  | 0 | 1 | 0% |
+| Kazumi | 31.98  | 0 | 1 | 0% |

@@ -6,6 +6,7 @@ from   trueskill import TrueSkill
 
 LUCK_FACTORS = {
         'Exploding Kittens': 10.0,
+        'What do you Meme': 10.0,
         'Incan Gold': 10.0,
         'Secret Princess': 5.0,
         'Coup' : 3.0,
