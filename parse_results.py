@@ -9,6 +9,7 @@ LUCK_FACTORS = {
         'What do you Meme': 10.0,
         'Incan Gold': 10.0,
         'Secret Princess': 5.0,
+        'No Thanks': 5.0,
         'Coup' : 3.0,
         'Camel Up': 3.0,
         'Here to Slay': 3.0,

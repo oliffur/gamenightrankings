@@ -14,3 +14,6 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 02/19/2024|Camel Up|Oliver;Kazumi;Leo;Siri;Harsha|0;1;2;2;3
 02/19/2024|Here to Slay|Oliver;Kazumi;Leo|0;1;1
 02/19/2024|What do you Meme|Leo;Kazumi;Oliver|0;1;1
+02/26/2024|Coup|Oliver;Peter;Viktoria|0;1;1
+02/26/2024|No Thanks|Kenny;Peter;Viktoria;Oliver;Leo|0;1;1;1;1
+02/26/2024|No Thanks|Peter;Kenny;Viktoria;Oliver;Leo|0;1;1;1;1

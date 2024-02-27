@@ -5,17 +5,19 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
+| Oliver | 71.31 | 6 | 12 | 33% | Camel Up |
 | Jelita | 68.93 | 4 | 3 | 57% | Avalon |
-| Oliver | 66.34 | 5 | 10 | 33% | Camel Up |
 | Simon | 64.22 | 4 | 0 | 100% | Avalon |
 | Abhi | 56.81 | 3 | 1 | 75% | Avalon |
-| Peter | 50.13 | 4 | 3 | 57% | Bang |
+| Peter | 55.79 | 5 | 5 | 50% | Bang |
 | Kazumi | 49.30 | 1 | 6 | 14% | Camel Up |
+| Leo | 48.34 | 4 | 9 | 31% | Codenames |
 | Dan | 47.41 | 2 | 2 | 50% | Wavelength |
-| Leo | 46.84 | 4 | 7 | 36% | Codenames |
+| Kenny | 45.05 | 1 | 1 | 50% | No Thanks |
 | Siri | 42.92 | 1 | 1 | 50% | Secret Princess |
 | Aaron | 40.33 | 1 | 2 | 33% | Bang |
 | Harsha | 39.59 | 2 | 3 | 40% | Wavelength |
+| Viktoria | 38.48 | 0 | 3 | 0% | No Thanks |
 | Sincere | 34.02 | 3 | 6 | 33% | Bang |
 | Julie | 32.58 | 0 | 1 | 0% | Incan Gold |
 | Rebecca | 29.07 | 0 | 1 | 0% | Avalon |
@@ -147,3 +149,21 @@
 | Leo | 38.14  | 1 | 0 | 100% |
 | Oliver | 31.98  | 0 | 1 | 0% |
 | Kazumi | 31.98  | 0 | 1 | 0% |
+
+### Coup
+
+| Player | ELO | Wins | Losses | Win % |
+| --- | --- | --- | --- | --- |
+| Oliver | 49.88  | 1 | 0 | 100% |
+| Viktoria | 33.84  | 0 | 1 | 0% |
+| Peter | 33.84  | 0 | 1 | 0% |
+
+### No Thanks
+
+| Player | ELO | Wins | Losses | Win % |
+| --- | --- | --- | --- | --- |
+| Peter | 44.99  | 1 | 1 | 50% |
+| Kenny | 44.71  | 1 | 1 | 50% |
+| Leo | 36.28  | 0 | 2 | 0% |
+| Oliver | 36.28  | 0 | 2 | 0% |
+| Viktoria | 36.28  | 0 | 2 | 0% |
