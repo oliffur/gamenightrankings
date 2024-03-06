@@ -5,20 +5,21 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Oliver | 71.31 | 6 | 12 | 33% | Camel Up |
+| Oliver | 74.09 | 7 | 13 | 35% | Coup |
 | Jelita | 68.93 | 4 | 3 | 57% | Avalon |
 | Simon | 64.22 | 4 | 0 | 100% | Avalon |
 | Abhi | 56.81 | 3 | 1 | 75% | Avalon |
 | Peter | 55.79 | 5 | 5 | 50% | Bang |
+| Leo | 50.47 | 4 | 11 | 27% | Codenames |
+| Jovan | 50.14 | 1 | 1 | 50% | Coup |
 | Kazumi | 49.30 | 1 | 6 | 14% | Camel Up |
-| Leo | 48.34 | 4 | 9 | 31% | Codenames |
 | Dan | 47.41 | 2 | 2 | 50% | Wavelength |
 | Kenny | 45.05 | 1 | 1 | 50% | No Thanks |
 | Siri | 42.92 | 1 | 1 | 50% | Secret Princess |
 | Aaron | 40.33 | 1 | 2 | 33% | Bang |
+| Sincere | 40.28 | 3 | 8 | 27% | Coup |
 | Harsha | 39.59 | 2 | 3 | 40% | Wavelength |
 | Viktoria | 38.48 | 0 | 3 | 0% | No Thanks |
-| Sincere | 34.02 | 3 | 6 | 33% | Bang |
 | Julie | 32.58 | 0 | 1 | 0% | Incan Gold |
 | Rebecca | 29.07 | 0 | 1 | 0% | Avalon |
 | Daphne | 27.49 | 0 | 1 | 0% | Secret Hitler |
@@ -154,7 +155,10 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 49.88  | 1 | 0 | 100% |
+| Oliver | 61.13  | 2 | 1 | 67% |
+| Jovan | 52.70  | 1 | 1 | 50% |
+| Leo | 41.57  | 0 | 2 | 0% |
+| Sincere | 41.57  | 0 | 2 | 0% |
 | Viktoria | 33.84  | 0 | 1 | 0% |
 | Peter | 33.84  | 0 | 1 | 0% |
 

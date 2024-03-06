@@ -17,3 +17,5 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 02/26/2024|Coup|Oliver;Peter;Viktoria|0;1;1
 02/26/2024|No Thanks|Kenny;Peter;Viktoria;Oliver;Leo|0;1;1;1;1
 02/26/2024|No Thanks|Peter;Kenny;Viktoria;Oliver;Leo|0;1;1;1;1
+03/04/2024|Coup|Oliver;Leo;Sincere;Jovan|0;1;1;1
+03/04/2024|Coup|Jovan;Leo;Sincere;Oliver|0;1;1;1
