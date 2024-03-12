@@ -5,30 +5,30 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Oliver | 75.67 | 8 | 16 | 33% | Coup |
-| Jelita | 71.93 | 4 | 3 | 57% | Avalon |
-| Simon | 65.70 | 4 | 0 | 100% | Avalon |
-| Jovan | 59.62 | 3 | 2 | 60% | Coup |
-| Abhi | 58.96 | 3 | 1 | 75% | Avalon |
-| Peter | 58.76 | 7 | 7 | 50% | Secret Hitler |
-| Clarys | 55.07 | 2 | 0 | 100% | Love Letter |
-| Susan | 54.80 | 2 | 2 | 50% | Codenames |
-| Kazumi | 49.04 | 1 | 6 | 14% | Camel Up |
-| Dan | 48.43 | 2 | 2 | 50% | Wavelength |
-| Leo | 47.29 | 5 | 13 | 28% | Codenames |
-| Kenny | 44.79 | 1 | 1 | 50% | No Thanks |
-| Harsha | 43.73 | 2 | 3 | 40% | Wavelength |
-| Aaron | 41.62 | 1 | 2 | 33% | Bang |
-| Sincere | 41.45 | 3 | 8 | 27% | Coup |
-| Siri | 39.32 | 1 | 3 | 25% | Love Letter |
-| Queenie | 38.18 | 2 | 4 | 33% | Codenames |
-| Viktoria | 37.72 | 0 | 3 | 0% | No Thanks |
-| Julie | 33.69 | 0 | 1 | 0% | Incan Gold |
-| Rebecca | 28.36 | 0 | 1 | 0% | Avalon |
-| JustinKhoo | 28.10 | 1 | 3 | 25% | Incan Gold |
-| Daphne | 26.80 | 0 | 1 | 0% | Secret Hitler |
-| Vivienne | 25.06 | 0 | 1 | 0% | Codenames |
-| Trista | 22.84 | 0 | 3 | 0% | Bang |
+| Oliver | 74.67 | 8 | 16 | 33% | Coup |
+| Jelita | 68.93 | 4 | 3 | 57% | Avalon |
+| Simon | 64.22 | 4 | 0 | 100% | Avalon |
+| Peter | 61.46 | 7 | 7 | 50% | Secret Hitler |
+| Jovan | 58.68 | 3 | 2 | 60% | Coup |
+| Abhi | 56.81 | 3 | 1 | 75% | Avalon |
+| Susan | 55.70 | 2 | 2 | 50% | Codenames |
+| Clarys | 54.85 | 2 | 0 | 100% | Love Letter |
+| Kazumi | 49.30 | 1 | 6 | 14% | Camel Up |
+| Leo | 47.95 | 5 | 13 | 28% | Codenames |
+| Dan | 47.41 | 2 | 2 | 50% | Wavelength |
+| Kenny | 45.05 | 1 | 1 | 50% | No Thanks |
+| Aaron | 40.33 | 1 | 2 | 33% | Bang |
+| Sincere | 40.28 | 3 | 8 | 27% | Coup |
+| Siri | 39.66 | 1 | 3 | 25% | Love Letter |
+| Harsha | 39.59 | 2 | 3 | 40% | Wavelength |
+| Queenie | 39.46 | 2 | 4 | 33% | Codenames |
+| Viktoria | 38.48 | 0 | 3 | 0% | No Thanks |
+| Julie | 32.58 | 0 | 1 | 0% | Incan Gold |
+| Rebecca | 29.07 | 0 | 1 | 0% | Avalon |
+| Daphne | 27.49 | 0 | 1 | 0% | Secret Hitler |
+| Vivienne | 24.36 | 0 | 1 | 0% | Codenames |
+| Trista | 22.60 | 0 | 3 | 0% | Bang |
+| JustinKhoo | 20.36 | 1 | 3 | 25% | Incan Gold |
 
 ### Rankings over Time
 ![Image](rankings.png)
@@ -39,16 +39,16 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 51.19  | 0 | 2 | 0% |
-| JustinKhoo | 50.70  | 1 | 0 | 100% |
-| Jelita | 43.24  | 0 | 1 | 0% |
-| Sincere | 38.66  | 1 | 1 | 50% |
-| Abhi | 38.42  | 0 | 1 | 0% |
-| Harsha | 37.19  | 0 | 1 | 0% |
-| Julie | 33.69  | 0 | 1 | 0% |
+| JustinKhoo | 41.70  | 1 | 0 | 100% |
+| Oliver | 41.55  | 0 | 2 | 0% |
+| Jelita | 37.61  | 0 | 1 | 0% |
+| Abhi | 35.06  | 0 | 1 | 0% |
+| Sincere | 34.80  | 1 | 1 | 50% |
+| Harsha | 34.32  | 0 | 1 | 0% |
+| Julie | 32.58  | 0 | 1 | 0% |
 | Dan | 31.07  | 0 | 1 | 0% |
-| Leo | 28.25  | 0 | 1 | 0% |
-| Peter | 20.02  | 0 | 1 | 0% |
+| Leo | 29.76  | 0 | 1 | 0% |
+| Peter | 25.58  | 0 | 1 | 0% |
 
 ### Avalon
 
