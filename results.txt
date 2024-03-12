@@ -10,7 +10,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 02/05/2024|Codenames|Sincere,Oliver,dummy020501;Harsha,Dan,JustinKhoo|0;1
 02/05/2024|Codenames|Harsha,Dan,dummy020502;Oliver,Sincere,JustinKhoo|0;1
 02/05/2024|Wavelength|Harsha,Dan,dummy020503;Oliver,Sincere,JustinKhoo|0;1
-02/19/2024|Secret Princess|Siri;Leo;Oliver;Kazumi|0;0;1;1
+02/19/2024|Love Letter|Siri;Leo;Oliver;Kazumi|0;0;1;1
 02/19/2024|Camel Up|Oliver;Kazumi;Leo;Siri;Harsha|0;1;2;2;3
 02/19/2024|Here to Slay|Oliver;Kazumi;Leo|0;1;1
 02/19/2024|What do you Meme|Leo;Kazumi;Oliver|0;1;1
@@ -19,3 +19,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 02/26/2024|No Thanks|Peter;Kenny;Viktoria;Oliver;Leo|0;1;1;1;1
 03/04/2024|Coup|Oliver;Leo;Sincere;Jovan|0;1;1;1
 03/04/2024|Coup|Jovan;Leo;Sincere;Oliver|0;1;1;1
+03/11/2024|Love Letter|Clarys;Oliver;Peter;Susan;Siri|0;1;1;1;1
+03/11/2024|Secret Hitler|Jovan,Peter,Susan,Queenie,Clarys;Oliver,Siri,Leo,dummy031101,dummy031102|0;1
+03/11/2024|Codenames|Jovan,Peter,Leo;Oliver,Queenie,Susan|0;1
+03/11/2024|Codenames|Oliver,Queenie,Susan;Jovan,Peter,Leo|0;1

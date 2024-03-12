@@ -5,20 +5,23 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Oliver | 74.09 | 7 | 13 | 35% | Coup |
+| Oliver | 74.67 | 8 | 16 | 33% | Coup |
 | Jelita | 68.93 | 4 | 3 | 57% | Avalon |
 | Simon | 64.22 | 4 | 0 | 100% | Avalon |
+| Peter | 61.46 | 7 | 7 | 50% | Secret Hitler |
+| Jovan | 58.68 | 3 | 2 | 60% | Coup |
 | Abhi | 56.81 | 3 | 1 | 75% | Avalon |
-| Peter | 55.79 | 5 | 5 | 50% | Bang |
-| Leo | 50.47 | 4 | 11 | 27% | Codenames |
-| Jovan | 50.14 | 1 | 1 | 50% | Coup |
+| Susan | 55.70 | 2 | 2 | 50% | Codenames |
+| Clarys | 54.85 | 2 | 0 | 100% | Love Letter |
 | Kazumi | 49.30 | 1 | 6 | 14% | Camel Up |
+| Leo | 47.95 | 5 | 13 | 28% | Codenames |
 | Dan | 47.41 | 2 | 2 | 50% | Wavelength |
 | Kenny | 45.05 | 1 | 1 | 50% | No Thanks |
-| Siri | 42.92 | 1 | 1 | 50% | Secret Princess |
 | Aaron | 40.33 | 1 | 2 | 33% | Bang |
 | Sincere | 40.28 | 3 | 8 | 27% | Coup |
+| Siri | 39.66 | 1 | 3 | 25% | Love Letter |
 | Harsha | 39.59 | 2 | 3 | 40% | Wavelength |
+| Queenie | 39.46 | 2 | 4 | 33% | Codenames |
 | Viktoria | 38.48 | 0 | 3 | 0% | No Thanks |
 | Julie | 32.58 | 0 | 1 | 0% | Incan Gold |
 | Rebecca | 29.07 | 0 | 1 | 0% | Avalon |
@@ -26,7 +29,6 @@
 | Vivienne | 24.36 | 0 | 1 | 0% | Codenames |
 | Trista | 22.60 | 0 | 3 | 0% | Bang |
 | JustinKhoo | 20.36 | 1 | 3 | 25% | Incan Gold |
-| Queenie | 19.61 | 0 | 3 | 0% | Avalon |
 
 ### Rankings over Time
 ![Image](rankings.png)
@@ -79,31 +81,39 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Peter | 42.57  | 1 | 0 | 100% |
+| Peter | 50.96  | 2 | 0 | 100% |
 | Simon | 42.57  | 1 | 0 | 100% |
 | Jelita | 42.57  | 1 | 0 | 100% |
-| Leo | 42.57  | 1 | 0 | 100% |
-| Oliver | 27.53  | 0 | 1 | 0% |
+| Jovan | 42.22  | 1 | 0 | 100% |
+| Susan | 42.22  | 1 | 0 | 100% |
+| Queenie | 42.22  | 1 | 0 | 100% |
+| Clarys | 42.22  | 1 | 0 | 100% |
+| Leo | 37.32  | 1 | 1 | 50% |
+| Siri | 27.85  | 0 | 1 | 0% |
 | Kazumi | 27.53  | 0 | 1 | 0% |
 | Aaron | 27.53  | 0 | 1 | 0% |
 | Trista | 27.53  | 0 | 1 | 0% |
 | Daphne | 27.53  | 0 | 1 | 0% |
+| Oliver | 22.28  | 0 | 2 | 0% |
 
 ### Codenames
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 46.12  | 2 | 1 | 67% |
+| Oliver | 54.10  | 3 | 2 | 60% |
+| Leo | 45.87  | 2 | 1 | 67% |
 | Jelita | 43.90  | 1 | 0 | 100% |
 | Kazumi | 43.90  | 1 | 0 | 100% |
-| Leo | 43.90  | 1 | 0 | 100% |
+| Queenie | 43.81  | 1 | 1 | 50% |
+| Susan | 43.81  | 1 | 1 | 50% |
 | Harsha | 42.43  | 1 | 1 | 50% |
 | Dan | 42.43  | 1 | 1 | 50% |
 | Sincere | 35.95  | 1 | 1 | 50% |
+| Jovan | 35.72  | 1 | 1 | 50% |
+| Peter | 29.05  | 1 | 2 | 33% |
 | Vivienne | 27.08  | 0 | 1 | 0% |
 | Aaron | 27.08  | 0 | 1 | 0% |
 | Trista | 27.08  | 0 | 1 | 0% |
-| Peter | 27.08  | 0 | 1 | 0% |
 | JustinKhoo | 17.86  | 0 | 2 | 0% |
 
 ### Wavelength
@@ -116,14 +126,17 @@
 | Sincere | 26.51  | 0 | 1 | 0% |
 | JustinKhoo | 26.51  | 0 | 1 | 0% |
 
-### Secret Princess
+### Love Letter
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
+| Clarys | 44.56  | 1 | 0 | 100% |
+| Siri | 41.95  | 1 | 1 | 50% |
 | Leo | 41.37  | 1 | 0 | 100% |
-| Siri | 41.37  | 1 | 0 | 100% |
+| Susan | 34.84  | 0 | 1 | 0% |
+| Peter | 34.84  | 0 | 1 | 0% |
+| Oliver | 33.33  | 0 | 2 | 0% |
 | Kazumi | 31.49  | 0 | 1 | 0% |
-| Oliver | 31.49  | 0 | 1 | 0% |
 
 ### Camel Up
 
