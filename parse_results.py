@@ -10,10 +10,10 @@ LUCK_FACTORS = {
         'Incan Gold': 10.0,
         'Love Letter': 5.0,
         'No Thanks': 5.0,
+        'Shifty Eyed Spies': 5.0,
         'Coup' : 3.0,
         'Camel Up': 3.0,
         'Here to Slay': 3.0,
-        'Shifty Eyed Spies': 3.0,
         }
 
 class RatingsInfo:
