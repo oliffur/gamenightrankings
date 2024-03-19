@@ -13,6 +13,7 @@ LUCK_FACTORS = {
         'Coup' : 3.0,
         'Camel Up': 3.0,
         'Here to Slay': 3.0,
+        'Shifty Eyed Spies': 3.0,
         }
 
 class RatingsInfo:

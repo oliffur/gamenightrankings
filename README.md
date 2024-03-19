@@ -5,31 +5,31 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Oliver | 83.46 | 11 | 18 | 38% | Shifty Eyed Spies |
-| Kazumi | 76.60 | 3 | 6 | 33% | Shifty Eyed Spies |
-| Iris | 73.56 | 3 | 1 | 75% | Codenames |
-| Simon | 70.85 | 5 | 0 | 100% | Avalon |
+| Oliver | 78.52 | 11 | 18 | 38% | Coup |
+| Iris | 72.43 | 3 | 1 | 75% | Codenames |
+| Simon | 71.32 | 5 | 0 | 100% | Avalon |
 | Jelita | 68.93 | 4 | 3 | 57% | Avalon |
+| Kazumi | 61.50 | 3 | 6 | 33% | Shifty Eyed Spies |
 | Peter | 61.46 | 7 | 7 | 50% | Secret Hitler |
-| Tyler | 60.99 | 1 | 1 | 50% | Shifty Eyed Spies |
-| Leo | 59.52 | 8 | 14 | 36% | Codenames |
-| Icy | 58.70 | 0 | 1 | 0% | Shifty Eyed Spies |
-| Victoria | 58.70 | 0 | 1 | 0% | Shifty Eyed Spies |
-| Joyce | 58.70 | 0 | 1 | 0% | Shifty Eyed Spies |
+| Leo | 59.16 | 8 | 14 | 36% | Codenames |
 | Jovan | 58.68 | 3 | 2 | 60% | Coup |
-| Kenny | 57.86 | 3 | 3 | 50% | Codenames |
 | Abhi | 56.81 | 3 | 1 | 75% | Avalon |
+| Kenny | 56.23 | 3 | 3 | 50% | Codenames |
 | Susan | 55.70 | 2 | 2 | 50% | Codenames |
-| Clarys | 52.33 | 2 | 5 | 29% | Shifty Eyed Spies |
 | Dan | 47.41 | 2 | 2 | 50% | Wavelength |
-| Harsha | 44.51 | 3 | 3 | 50% | Wavelength |
+| Tyler | 46.17 | 1 | 1 | 50% | Secret Hitler |
+| Harsha | 44.87 | 3 | 3 | 50% | Wavelength |
 | Aaron | 40.33 | 1 | 2 | 33% | Bang |
 | Sincere | 40.28 | 3 | 8 | 27% | Coup |
+| Icy | 39.89 | 0 | 1 | 0% | Shifty Eyed Spies |
+| Victoria | 39.89 | 0 | 1 | 0% | Shifty Eyed Spies |
+| Joyce | 39.89 | 0 | 1 | 0% | Shifty Eyed Spies |
 | Siri | 39.66 | 1 | 3 | 25% | Love Letter |
 | Queenie | 39.46 | 2 | 4 | 33% | Codenames |
 | Viktoria | 38.48 | 0 | 3 | 0% | No Thanks |
+| Clarys | 33.73 | 2 | 5 | 29% | Love Letter |
 | Julie | 32.58 | 0 | 1 | 0% | Incan Gold |
-| Vivienne | 31.75 | 1 | 1 | 50% | Secret Hitler |
+| Vivienne | 32.26 | 1 | 1 | 50% | Secret Hitler |
 | Rebecca | 29.07 | 0 | 1 | 0% | Avalon |
 | Daphne | 27.49 | 0 | 1 | 0% | Secret Hitler |
 | Trista | 22.60 | 0 | 3 | 0% | Bang |
@@ -202,10 +202,10 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Kazumi | 71.11  | 1 | 0 | 100% |
-| Oliver | 71.11  | 1 | 0 | 100% |
-| Clarys | 55.96  | 0 | 1 | 0% |
-| Tyler | 55.96  | 0 | 1 | 0% |
-| Joyce | 55.96  | 0 | 1 | 0% |
-| Victoria | 55.96  | 0 | 1 | 0% |
-| Icy | 55.96  | 0 | 1 | 0% |
+| Oliver | 50.08  | 1 | 0 | 100% |
+| Kazumi | 50.08  | 1 | 0 | 100% |
+| Clarys | 39.02  | 0 | 1 | 0% |
+| Victoria | 39.02  | 0 | 1 | 0% |
+| Tyler | 39.02  | 0 | 1 | 0% |
+| Joyce | 39.02  | 0 | 1 | 0% |
+| Icy | 39.02  | 0 | 1 | 0% |
