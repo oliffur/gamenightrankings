@@ -5,28 +5,33 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Oliver | 74.67 | 8 | 16 | 33% | Coup |
+| Oliver | 83.46 | 11 | 18 | 38% | Shifty Eyed Spies |
+| Kazumi | 76.60 | 3 | 6 | 33% | Shifty Eyed Spies |
+| Iris | 73.56 | 3 | 1 | 75% | Codenames |
+| Simon | 70.85 | 5 | 0 | 100% | Avalon |
 | Jelita | 68.93 | 4 | 3 | 57% | Avalon |
-| Simon | 64.22 | 4 | 0 | 100% | Avalon |
 | Peter | 61.46 | 7 | 7 | 50% | Secret Hitler |
+| Tyler | 60.99 | 1 | 1 | 50% | Shifty Eyed Spies |
+| Leo | 59.52 | 8 | 14 | 36% | Codenames |
+| Icy | 58.70 | 0 | 1 | 0% | Shifty Eyed Spies |
+| Victoria | 58.70 | 0 | 1 | 0% | Shifty Eyed Spies |
+| Joyce | 58.70 | 0 | 1 | 0% | Shifty Eyed Spies |
 | Jovan | 58.68 | 3 | 2 | 60% | Coup |
+| Kenny | 57.86 | 3 | 3 | 50% | Codenames |
 | Abhi | 56.81 | 3 | 1 | 75% | Avalon |
 | Susan | 55.70 | 2 | 2 | 50% | Codenames |
-| Clarys | 54.85 | 2 | 0 | 100% | Love Letter |
-| Kazumi | 49.30 | 1 | 6 | 14% | Camel Up |
-| Leo | 47.95 | 5 | 13 | 28% | Codenames |
+| Clarys | 52.33 | 2 | 5 | 29% | Shifty Eyed Spies |
 | Dan | 47.41 | 2 | 2 | 50% | Wavelength |
-| Kenny | 45.05 | 1 | 1 | 50% | No Thanks |
+| Harsha | 44.51 | 3 | 3 | 50% | Wavelength |
 | Aaron | 40.33 | 1 | 2 | 33% | Bang |
 | Sincere | 40.28 | 3 | 8 | 27% | Coup |
 | Siri | 39.66 | 1 | 3 | 25% | Love Letter |
-| Harsha | 39.59 | 2 | 3 | 40% | Wavelength |
 | Queenie | 39.46 | 2 | 4 | 33% | Codenames |
 | Viktoria | 38.48 | 0 | 3 | 0% | No Thanks |
 | Julie | 32.58 | 0 | 1 | 0% | Incan Gold |
+| Vivienne | 31.75 | 1 | 1 | 50% | Secret Hitler |
 | Rebecca | 29.07 | 0 | 1 | 0% | Avalon |
 | Daphne | 27.49 | 0 | 1 | 0% | Secret Hitler |
-| Vivienne | 24.36 | 0 | 1 | 0% | Codenames |
 | Trista | 22.60 | 0 | 3 | 0% | Bang |
 | JustinKhoo | 20.36 | 1 | 3 | 25% | Incan Gold |
 
@@ -81,27 +86,34 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
+| Simon | 51.54  | 2 | 0 | 100% |
 | Peter | 50.96  | 2 | 0 | 100% |
-| Simon | 42.57  | 1 | 0 | 100% |
+| Tyler | 42.82  | 1 | 0 | 100% |
+| Vivienne | 42.82  | 1 | 0 | 100% |
+| Harsha | 42.82  | 1 | 0 | 100% |
 | Jelita | 42.57  | 1 | 0 | 100% |
 | Jovan | 42.22  | 1 | 0 | 100% |
 | Susan | 42.22  | 1 | 0 | 100% |
 | Queenie | 42.22  | 1 | 0 | 100% |
-| Clarys | 42.22  | 1 | 0 | 100% |
-| Leo | 37.32  | 1 | 1 | 50% |
+| Kazumi | 36.49  | 1 | 1 | 50% |
+| Clarys | 36.10  | 1 | 1 | 50% |
+| Leo | 31.47  | 1 | 2 | 33% |
+| Oliver | 30.78  | 1 | 2 | 33% |
 | Siri | 27.85  | 0 | 1 | 0% |
-| Kazumi | 27.53  | 0 | 1 | 0% |
 | Aaron | 27.53  | 0 | 1 | 0% |
 | Trista | 27.53  | 0 | 1 | 0% |
 | Daphne | 27.53  | 0 | 1 | 0% |
-| Oliver | 22.28  | 0 | 2 | 0% |
+| Iris | 26.94  | 0 | 1 | 0% |
+| Kenny | 26.94  | 0 | 1 | 0% |
 
 ### Codenames
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 54.10  | 3 | 2 | 60% |
-| Leo | 45.87  | 2 | 1 | 67% |
+| Leo | 69.65  | 5 | 1 | 83% |
+| Iris | 64.41  | 3 | 0 | 100% |
+| Oliver | 54.48  | 4 | 4 | 50% |
+| Kenny | 46.59  | 2 | 1 | 67% |
 | Jelita | 43.90  | 1 | 0 | 100% |
 | Kazumi | 43.90  | 1 | 0 | 100% |
 | Queenie | 43.81  | 1 | 1 | 50% |
@@ -114,6 +126,7 @@
 | Vivienne | 27.08  | 0 | 1 | 0% |
 | Aaron | 27.08  | 0 | 1 | 0% |
 | Trista | 27.08  | 0 | 1 | 0% |
+| Clarys | 17.89  | 0 | 3 | 0% |
 | JustinKhoo | 17.86  | 0 | 2 | 0% |
 
 ### Wavelength
@@ -184,3 +197,15 @@
 | Leo | 36.28  | 0 | 2 | 0% |
 | Oliver | 36.28  | 0 | 2 | 0% |
 | Viktoria | 36.28  | 0 | 2 | 0% |
+
+### Shifty Eyed Spies
+
+| Player | ELO | Wins | Losses | Win % |
+| --- | --- | --- | --- | --- |
+| Kazumi | 71.11  | 1 | 0 | 100% |
+| Oliver | 71.11  | 1 | 0 | 100% |
+| Clarys | 55.96  | 0 | 1 | 0% |
+| Tyler | 55.96  | 0 | 1 | 0% |
+| Joyce | 55.96  | 0 | 1 | 0% |
+| Victoria | 55.96  | 0 | 1 | 0% |
+| Icy | 55.96  | 0 | 1 | 0% |
