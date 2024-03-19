@@ -23,7 +23,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 03/11/2024|Secret Hitler|Jovan,Peter,Susan,Queenie,Clarys;Oliver,Siri,Leo,dummy031101,dummy031102|0;1
 03/11/2024|Codenames|Jovan,Peter,Leo;Oliver,Queenie,Susan|0;1
 03/11/2024|Codenames|Oliver,Queenie,Susan;Jovan,Peter,Leo|0;1
-03/18/2024|Shifty Eyed Spies|Oliver;Kazumi;Tyler;Icy;Joyce;Victoria;Clarys|0;0;1;1;1;1;1
+03/18/2024|Shifty Eyed Spies|Oliver;Kazumi;Tyler;Icy;Joyce;Viktoria;Clarys|0;0;1;1;1;1;1
 03/18/2024|Secret Hitler|Oliver,Tyler,Vivienne,Simon,Harsha,Kazumi;Leo,Iris,Kenny,Clarys,dummy031801,dummy031802|0;1
 03/18/2024|Codenames|Iris,Oliver,Leo;Clarys,Kenny,dummy031803|0;1
 03/18/2024|Codenames|Iris,Leo,Kenny;Clarys,Oliver,dummy031804|0;1
