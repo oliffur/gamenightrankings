@@ -30,4 +30,4 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 03/18/2024|Codenames|Iris,Leo,Kenny;Clarys,Oliver,dummy031805|0;1
 03/25/2024|Love Letter|Viktoria;Oliver;Trista;Aaron;Susan;Jackie|0;1;1;1;1;1
 03/25/2024|Wavelength|Trista,Aaron,Susan,Jackie;Oliver,Viktoria,Felicianna,Jovan|0;1
-03/25/2024|Secret Hitler|Simon,Viktoria,Jovan,Felicianna,Jackie;Oliver,Trista,Aaron,Susan,dummy032500,dummy032501|0;1
+03/25/2024|Secret Hitler|Simon,Viktoria,Jovan,Felicianna,Jackie;Oliver,Trista,Aaron,Susan,dummy032500|0;1
