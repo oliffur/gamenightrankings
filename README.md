@@ -5,35 +5,36 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Simon | 79.92 | 6 | 0 | 100% | Secret Hitler |
-| Oliver | 72.63 | 11 | 21 | 34% | Coup |
-| Iris | 72.12 | 3 | 1 | 75% | Codenames |
+| Simon | 85.65 | 7 | 0 | 100% | Secret Hitler |
+| Iris | 74.88 | 4 | 5 | 44% | Codenames |
+| Oliver | 74.61 | 13 | 23 | 36% | Coup |
 | Jelita | 68.93 | 4 | 3 | 57% | Avalon |
+| Susan | 64.99 | 4 | 5 | 44% | Codenames |
+| Tyler | 61.50 | 4 | 2 | 67% | Secret Hitler |
 | Peter | 61.46 | 7 | 7 | 50% | Secret Hitler |
-| Susan | 61.12 | 3 | 4 | 43% | Codenames |
 | Leo | 59.06 | 8 | 14 | 36% | Codenames |
-| Jovan | 58.22 | 4 | 3 | 57% | Coup |
 | Jackie | 58.22 | 2 | 1 | 67% | Wavelength |
-| Kazumi | 57.72 | 3 | 6 | 33% | Camel Up |
+| Kazumi | 57.74 | 4 | 8 | 33% | Camel Up |
 | Abhi | 56.81 | 3 | 1 | 75% | Avalon |
 | Kenny | 55.66 | 3 | 3 | 50% | Codenames |
+| Jovan | 52.10 | 5 | 6 | 45% | Secret Hitler |
+| Dan | 48.28 | 2 | 5 | 29% | Wavelength |
 | Aaron | 48.14 | 2 | 4 | 33% | Bang |
-| Dan | 47.41 | 2 | 2 | 50% | Wavelength |
+| Harsha | 47.98 | 4 | 4 | 50% | Wavelength |
 | Viktoria | 46.85 | 2 | 5 | 29% | Love Letter |
-| Harsha | 44.99 | 3 | 3 | 50% | Wavelength |
-| Tyler | 42.99 | 1 | 1 | 50% | Secret Hitler |
+| Vivienne | 41.11 | 2 | 4 | 33% | Avalon |
 | Sincere | 40.28 | 3 | 8 | 27% | Coup |
 | Siri | 39.66 | 1 | 3 | 25% | Love Letter |
 | Queenie | 39.46 | 2 | 4 | 33% | Codenames |
 | Joyce | 35.20 | 0 | 1 | 0% | Shifty Eyed Spies |
 | Icy | 35.20 | 0 | 1 | 0% | Shifty Eyed Spies |
-| Felicianna | 33.46 | 1 | 1 | 50% | Secret Hitler |
 | Julie | 32.58 | 0 | 1 | 0% | Incan Gold |
-| Vivienne | 32.44 | 1 | 1 | 50% | Secret Hitler |
 | Trista | 31.86 | 1 | 5 | 17% | Wavelength |
 | Clarys | 29.53 | 2 | 5 | 29% | Love Letter |
 | Rebecca | 29.07 | 0 | 1 | 0% | Avalon |
 | Daphne | 27.49 | 0 | 1 | 0% | Secret Hitler |
+| Felicianna | 26.77 | 2 | 5 | 29% | Secret Hitler |
+| Dorine | 25.68 | 1 | 3 | 25% | Avalon |
 | JustinKhoo | 20.36 | 1 | 3 | 25% | Incan Gold |
 
 ### Rankings over Time
@@ -45,16 +46,24 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
+| Tyler | 43.46  | 1 | 0 | 100% |
 | JustinKhoo | 41.70  | 1 | 0 | 100% |
-| Oliver | 41.55  | 0 | 2 | 0% |
+| Oliver | 41.36  | 0 | 3 | 0% |
+| Susan | 41.15  | 1 | 1 | 50% |
+| Iris | 39.74  | 0 | 2 | 0% |
 | Jelita | 37.61  | 0 | 1 | 0% |
+| Dan | 37.09  | 0 | 3 | 0% |
+| Kazumi | 35.37  | 0 | 1 | 0% |
+| Vivienne | 35.27  | 0 | 2 | 0% |
 | Abhi | 35.06  | 0 | 1 | 0% |
 | Sincere | 34.80  | 1 | 1 | 50% |
-| Harsha | 34.32  | 0 | 1 | 0% |
+| Felicianna | 32.91  | 0 | 2 | 0% |
 | Julie | 32.58  | 0 | 1 | 0% |
-| Dan | 31.07  | 0 | 1 | 0% |
+| Jovan | 31.29  | 0 | 1 | 0% |
 | Leo | 29.76  | 0 | 1 | 0% |
+| Harsha | 26.05  | 0 | 2 | 0% |
 | Peter | 25.58  | 0 | 1 | 0% |
+| Dorine | 24.85  | 0 | 1 | 0% |
 
 ### Avalon
 
@@ -63,12 +72,19 @@
 | Simon | 55.36  | 3 | 0 | 100% |
 | Abhi | 55.36  | 3 | 0 | 100% |
 | Jelita | 46.57  | 2 | 1 | 67% |
+| Dorine | 41.64  | 1 | 0 | 100% |
+| Iris | 41.64  | 1 | 0 | 100% |
+| Vivienne | 41.64  | 1 | 0 | 100% |
 | Peter | 40.31  | 2 | 1 | 67% |
 | Sincere | 31.53  | 1 | 2 | 33% |
 | Rebecca | 29.74  | 0 | 1 | 0% |
-| Oliver | 19.87  | 0 | 3 | 0% |
+| Felicianna | 28.30  | 0 | 1 | 0% |
+| Tyler | 28.30  | 0 | 1 | 0% |
+| Jovan | 28.30  | 0 | 1 | 0% |
+| Kazumi | 28.30  | 0 | 1 | 0% |
 | Queenie | 19.87  | 0 | 3 | 0% |
 | Leo | 19.87  | 0 | 3 | 0% |
+| Oliver | 15.37  | 0 | 4 | 0% |
 
 ### Bang
 
@@ -87,28 +103,30 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Simon | 58.16  | 3 | 0 | 100% |
+| Simon | 64.08  | 4 | 0 | 100% |
+| Jovan | 55.39  | 3 | 0 | 100% |
 | Peter | 50.96  | 2 | 0 | 100% |
-| Jovan | 49.18  | 2 | 0 | 100% |
-| Tyler | 42.82  | 1 | 0 | 100% |
-| Vivienne | 42.82  | 1 | 0 | 100% |
+| Tyler | 49.38  | 2 | 0 | 100% |
+| Felicianna | 47.26  | 2 | 0 | 100% |
 | Harsha | 42.82  | 1 | 0 | 100% |
+| Kazumi | 42.70  | 2 | 1 | 67% |
 | Jelita | 42.57  | 1 | 0 | 100% |
 | Queenie | 42.22  | 1 | 0 | 100% |
 | Viktoria | 40.70  | 1 | 0 | 100% |
-| Felicianna | 40.70  | 1 | 0 | 100% |
 | Jackie | 40.70  | 1 | 0 | 100% |
+| Vivienne | 38.76  | 1 | 1 | 50% |
 | Susan | 38.15  | 1 | 1 | 50% |
-| Kazumi | 36.49  | 1 | 1 | 50% |
 | Clarys | 36.10  | 1 | 1 | 50% |
+| Oliver | 32.65  | 2 | 3 | 40% |
 | Leo | 31.47  | 1 | 2 | 33% |
+| Dorine | 29.11  | 0 | 1 | 0% |
+| Dan | 29.11  | 0 | 1 | 0% |
 | Siri | 27.85  | 0 | 1 | 0% |
 | Daphne | 27.53  | 0 | 1 | 0% |
-| Oliver | 27.01  | 1 | 3 | 25% |
-| Iris | 26.94  | 0 | 1 | 0% |
 | Kenny | 26.94  | 0 | 1 | 0% |
 | Aaron | 23.46  | 0 | 2 | 0% |
 | Trista | 23.46  | 0 | 2 | 0% |
+| Iris | 22.88  | 0 | 2 | 0% |
 
 ### Codenames
 
@@ -137,18 +155,21 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Harsha | 45.93  | 1 | 0 | 100% |
+| Harsha | 55.16  | 2 | 0 | 100% |
 | Dan | 45.93  | 1 | 0 | 100% |
+| Tyler | 43.51  | 1 | 0 | 100% |
 | Trista | 43.27  | 1 | 0 | 100% |
 | Aaron | 43.27  | 1 | 0 | 100% |
 | Susan | 43.27  | 1 | 0 | 100% |
 | Jackie | 43.27  | 1 | 0 | 100% |
+| Oliver | 29.82  | 1 | 2 | 33% |
 | Viktoria | 27.60  | 0 | 1 | 0% |
-| Felicianna | 27.60  | 0 | 1 | 0% |
-| Jovan | 27.60  | 0 | 1 | 0% |
+| Dorine | 27.49  | 0 | 1 | 0% |
+| Iris | 27.49  | 0 | 1 | 0% |
 | Sincere | 26.51  | 0 | 1 | 0% |
 | JustinKhoo | 26.51  | 0 | 1 | 0% |
-| Oliver | 21.18  | 0 | 2 | 0% |
+| Felicianna | 22.06  | 0 | 2 | 0% |
+| Jovan | 22.06  | 0 | 2 | 0% |
 
 ### Love Letter
 
