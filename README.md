@@ -5,14 +5,14 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
-| Simon | 85.65 | 7 | 0 | 100% | Secret Hitler |
+| Simon | 86.00 | 7 | 1 | 88% | Secret Hitler |
+| Oliver | 77.83 | 14 | 25 | 36% | Coup |
+| Tyler | 76.29 | 5 | 4 | 56% | Camel Up |
 | Iris | 74.88 | 4 | 5 | 44% | Codenames |
-| Oliver | 74.61 | 13 | 23 | 36% | Coup |
 | Jelita | 68.93 | 4 | 3 | 57% | Avalon |
+| Leo | 66.98 | 9 | 16 | 36% | Codenames |
 | Susan | 64.99 | 4 | 5 | 44% | Codenames |
-| Tyler | 61.50 | 4 | 2 | 67% | Secret Hitler |
 | Peter | 61.46 | 7 | 7 | 50% | Secret Hitler |
-| Leo | 59.06 | 8 | 14 | 36% | Codenames |
 | Jackie | 58.22 | 2 | 1 | 67% | Wavelength |
 | Kazumi | 57.74 | 4 | 8 | 33% | Camel Up |
 | Abhi | 56.81 | 3 | 1 | 75% | Avalon |
@@ -22,16 +22,17 @@
 | Aaron | 48.14 | 2 | 4 | 33% | Bang |
 | Harsha | 47.98 | 4 | 4 | 50% | Wavelength |
 | Viktoria | 46.85 | 2 | 5 | 29% | Love Letter |
-| Vivienne | 41.11 | 2 | 4 | 33% | Avalon |
 | Sincere | 40.28 | 3 | 8 | 27% | Coup |
 | Siri | 39.66 | 1 | 3 | 25% | Love Letter |
 | Queenie | 39.46 | 2 | 4 | 33% | Codenames |
+| Sara | 36.77 | 0 | 3 | 0% | Coup |
 | Joyce | 35.20 | 0 | 1 | 0% | Shifty Eyed Spies |
 | Icy | 35.20 | 0 | 1 | 0% | Shifty Eyed Spies |
 | Julie | 32.58 | 0 | 1 | 0% | Incan Gold |
 | Trista | 31.86 | 1 | 5 | 17% | Wavelength |
 | Clarys | 29.53 | 2 | 5 | 29% | Love Letter |
 | Rebecca | 29.07 | 0 | 1 | 0% | Avalon |
+| Vivienne | 28.58 | 2 | 6 | 25% | Avalon |
 | Daphne | 27.49 | 0 | 1 | 0% | Secret Hitler |
 | Felicianna | 26.77 | 2 | 5 | 29% | Secret Hitler |
 | Dorine | 25.68 | 1 | 3 | 25% | Avalon |
@@ -191,11 +192,15 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 58.63  | 1 | 0 | 100% |
+| Tyler | 63.39  | 1 | 0 | 100% |
+| Oliver | 57.71  | 1 | 1 | 50% |
+| Leo | 54.15  | 0 | 2 | 0% |
 | Kazumi | 47.13  | 0 | 1 | 0% |
+| Simon | 46.18  | 0 | 1 | 0% |
 | Siri | 37.40  | 0 | 1 | 0% |
-| Leo | 37.40  | 0 | 1 | 0% |
+| Sara | 30.31  | 0 | 1 | 0% |
 | Harsha | 21.38  | 0 | 1 | 0% |
+| Vivienne | 16.88  | 0 | 1 | 0% |
 
 ### Here to Slay
 
@@ -217,10 +222,12 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 61.13  | 2 | 1 | 67% |
+| Oliver | 70.48  | 3 | 1 | 75% |
 | Jovan | 52.70  | 1 | 1 | 50% |
-| Leo | 41.57  | 0 | 2 | 0% |
+| Leo | 44.03  | 0 | 3 | 0% |
 | Sincere | 41.57  | 0 | 2 | 0% |
+| Sara | 37.18  | 0 | 1 | 0% |
+| Tyler | 37.18  | 0 | 1 | 0% |
 | Viktoria | 33.84  | 0 | 1 | 0% |
 | Peter | 33.84  | 0 | 1 | 0% |
 
@@ -245,3 +252,13 @@
 | Tyler | 34.93  | 0 | 1 | 0% |
 | Joyce | 34.93  | 0 | 1 | 0% |
 | Icy | 34.93  | 0 | 1 | 0% |
+
+### Exploding Kittens
+
+| Player | ELO | Wins | Losses | Win % |
+| --- | --- | --- | --- | --- |
+| Leo | 38.65  | 1 | 0 | 100% |
+| Sara | 33.17  | 0 | 1 | 0% |
+| Vivienne | 33.17  | 0 | 1 | 0% |
+| Tyler | 33.17  | 0 | 1 | 0% |
+| Oliver | 33.17  | 0 | 1 | 0% |
