@@ -6,22 +6,24 @@
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
 | Simon | 86.00 | 7 | 1 | 88% | Secret Hitler |
-| Oliver | 77.83 | 14 | 25 | 36% | Coup |
+| Oliver | 79.61 | 15 | 26 | 37% | Coup |
+| Iris | 78.37 | 5 | 6 | 45% | Codenames |
 | Tyler | 76.29 | 5 | 4 | 56% | Camel Up |
-| Iris | 74.88 | 4 | 5 | 44% | Codenames |
+| Leo | 69.29 | 10 | 17 | 37% | Codenames |
 | Jelita | 68.93 | 4 | 3 | 57% | Avalon |
-| Leo | 66.98 | 9 | 16 | 36% | Codenames |
 | Susan | 64.99 | 4 | 5 | 44% | Codenames |
-| Peter | 61.46 | 7 | 7 | 50% | Secret Hitler |
+| Peter | 59.18 | 7 | 9 | 44% | Secret Hitler |
 | Jackie | 58.22 | 2 | 1 | 67% | Wavelength |
 | Kazumi | 57.74 | 4 | 8 | 33% | Camel Up |
 | Abhi | 56.81 | 3 | 1 | 75% | Avalon |
 | Kenny | 55.66 | 3 | 3 | 50% | Codenames |
-| Jovan | 52.10 | 5 | 6 | 45% | Secret Hitler |
+| Harsha | 55.11 | 5 | 4 | 56% | Wavelength |
+| Jovan | 48.40 | 5 | 7 | 42% | Secret Hitler |
 | Dan | 48.28 | 2 | 5 | 29% | Wavelength |
 | Aaron | 48.14 | 2 | 4 | 33% | Bang |
-| Harsha | 47.98 | 4 | 4 | 50% | Wavelength |
 | Viktoria | 46.85 | 2 | 5 | 29% | Love Letter |
+| Vivienne | 42.26 | 3 | 7 | 30% | Avalon |
+| Felicianna | 41.54 | 3 | 6 | 33% | Secret Hitler |
 | Sincere | 40.28 | 3 | 8 | 27% | Coup |
 | Siri | 39.66 | 1 | 3 | 25% | Love Letter |
 | Queenie | 39.46 | 2 | 4 | 33% | Codenames |
@@ -32,9 +34,7 @@
 | Trista | 31.86 | 1 | 5 | 17% | Wavelength |
 | Clarys | 29.53 | 2 | 5 | 29% | Love Letter |
 | Rebecca | 29.07 | 0 | 1 | 0% | Avalon |
-| Vivienne | 28.58 | 2 | 6 | 25% | Avalon |
 | Daphne | 27.49 | 0 | 1 | 0% | Secret Hitler |
-| Felicianna | 26.77 | 2 | 5 | 29% | Secret Hitler |
 | Dorine | 25.68 | 1 | 3 | 25% | Avalon |
 | JustinKhoo | 20.36 | 1 | 3 | 25% | Incan Gold |
 
@@ -72,20 +72,21 @@
 | --- | --- | --- | --- | --- |
 | Simon | 55.36  | 3 | 0 | 100% |
 | Abhi | 55.36  | 3 | 0 | 100% |
+| Iris | 50.39  | 2 | 0 | 100% |
+| Vivienne | 50.39  | 2 | 0 | 100% |
 | Jelita | 46.57  | 2 | 1 | 67% |
+| Harsha | 42.57  | 1 | 0 | 100% |
 | Dorine | 41.64  | 1 | 0 | 100% |
-| Iris | 41.64  | 1 | 0 | 100% |
-| Vivienne | 41.64  | 1 | 0 | 100% |
-| Peter | 40.31  | 2 | 1 | 67% |
+| Felicianna | 37.04  | 1 | 1 | 50% |
+| Peter | 35.24  | 2 | 2 | 50% |
 | Sincere | 31.53  | 1 | 2 | 33% |
 | Rebecca | 29.74  | 0 | 1 | 0% |
-| Felicianna | 28.30  | 0 | 1 | 0% |
 | Tyler | 28.30  | 0 | 1 | 0% |
-| Jovan | 28.30  | 0 | 1 | 0% |
 | Kazumi | 28.30  | 0 | 1 | 0% |
+| Oliver | 22.99  | 1 | 4 | 20% |
+| Jovan | 22.86  | 0 | 2 | 0% |
 | Queenie | 19.87  | 0 | 3 | 0% |
-| Leo | 19.87  | 0 | 3 | 0% |
-| Oliver | 15.37  | 0 | 4 | 0% |
+| Leo | 14.80  | 0 | 4 | 0% |
 
 ### Bang
 
@@ -222,14 +223,17 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 70.48  | 3 | 1 | 75% |
+| Oliver | 69.19  | 3 | 2 | 60% |
+| Leo | 55.51  | 1 | 3 | 25% |
 | Jovan | 52.70  | 1 | 1 | 50% |
-| Leo | 44.03  | 0 | 3 | 0% |
 | Sincere | 41.57  | 0 | 2 | 0% |
+| Peter | 40.58  | 0 | 2 | 0% |
+| Iris | 40.37  | 0 | 1 | 0% |
+| Vivienne | 40.37  | 0 | 1 | 0% |
+| Felicianna | 40.37  | 0 | 1 | 0% |
 | Sara | 37.18  | 0 | 1 | 0% |
 | Tyler | 37.18  | 0 | 1 | 0% |
 | Viktoria | 33.84  | 0 | 1 | 0% |
-| Peter | 33.84  | 0 | 1 | 0% |
 
 ### No Thanks
 

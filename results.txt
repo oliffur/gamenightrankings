@@ -39,3 +39,5 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 04/22/2024|Coup|Oliver;Tyler;Sara;Leo|0;1;1;1
 04/22/2024|Camel Up|Tyler;Leo;Simon;Oliver;Sara;Vivienne|0;1;2;3;4;5
 04/22/2024|Exploding Kittens|Leo;Oliver;Tyler;Sara;Vivienne|0;1;1;1;1
+05/06/2024|Coup|Leo;Iris;Felicianna;Peter;Vivienne;Oliver|0;1;1;1;1;1
+05/06/2024|Avalon|Oliver,Iris,Felicianna,Harsha,Vivienne;Peter,Jovan,Leo,dummy050600,dummy050601|0;1
