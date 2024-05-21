@@ -6,36 +6,38 @@
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
 | Simon | 86.00 | 7 | 1 | 88% | Secret Hitler |
-| Oliver | 79.61 | 15 | 26 | 37% | Coup |
+| Oliver | 83.00 | 18 | 26 | 41% | Coup |
 | Iris | 78.37 | 5 | 6 | 45% | Codenames |
-| Tyler | 76.29 | 5 | 4 | 56% | Camel Up |
-| Leo | 69.29 | 10 | 17 | 37% | Codenames |
+| Leo | 73.38 | 13 | 17 | 43% | Codenames |
+| Tyler | 72.61 | 6 | 6 | 50% | Camel Up |
 | Jelita | 68.93 | 4 | 3 | 57% | Avalon |
-| Susan | 64.99 | 4 | 5 | 44% | Codenames |
+| Susan | 62.62 | 4 | 6 | 40% | Wavelength |
+| Aaron | 61.04 | 5 | 4 | 56% | Bang |
 | Peter | 59.18 | 7 | 9 | 44% | Secret Hitler |
 | Jackie | 58.22 | 2 | 1 | 67% | Wavelength |
 | Kazumi | 57.74 | 4 | 8 | 33% | Camel Up |
 | Abhi | 56.81 | 3 | 1 | 75% | Avalon |
 | Kenny | 55.66 | 3 | 3 | 50% | Codenames |
 | Harsha | 55.11 | 5 | 4 | 56% | Wavelength |
+| Sammie | 49.51 | 2 | 1 | 67% | Codenames |
+| Felicianna | 49.31 | 5 | 7 | 42% | Codenames |
 | Jovan | 48.40 | 5 | 7 | 42% | Secret Hitler |
 | Dan | 48.28 | 2 | 5 | 29% | Wavelength |
-| Aaron | 48.14 | 2 | 4 | 33% | Bang |
 | Viktoria | 46.85 | 2 | 5 | 29% | Love Letter |
 | Vivienne | 42.26 | 3 | 7 | 30% | Avalon |
-| Felicianna | 41.54 | 3 | 6 | 33% | Secret Hitler |
 | Sincere | 40.28 | 3 | 8 | 27% | Coup |
 | Siri | 39.66 | 1 | 3 | 25% | Love Letter |
-| Queenie | 39.46 | 2 | 4 | 33% | Codenames |
-| Sara | 36.77 | 0 | 3 | 0% | Coup |
 | Joyce | 35.20 | 0 | 1 | 0% | Shifty Eyed Spies |
 | Icy | 35.20 | 0 | 1 | 0% | Shifty Eyed Spies |
 | Julie | 32.58 | 0 | 1 | 0% | Incan Gold |
-| Trista | 31.86 | 1 | 5 | 17% | Wavelength |
+| Queenie | 31.20 | 2 | 7 | 22% | Codenames |
 | Clarys | 29.53 | 2 | 5 | 29% | Love Letter |
 | Rebecca | 29.07 | 0 | 1 | 0% | Avalon |
+| Sara | 28.85 | 0 | 6 | 0% | Coup |
 | Daphne | 27.49 | 0 | 1 | 0% | Secret Hitler |
 | Dorine | 25.68 | 1 | 3 | 25% | Avalon |
+| Trista | 24.24 | 1 | 8 | 11% | Wavelength |
+| Ellabelle | 21.78 | 0 | 3 | 0% | Secret Hitler |
 | JustinKhoo | 20.36 | 1 | 3 | 25% | Incan Gold |
 
 ### Rankings over Time
@@ -106,50 +108,58 @@
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Simon | 64.08  | 4 | 0 | 100% |
+| Tyler | 58.03  | 3 | 0 | 100% |
 | Jovan | 55.39  | 3 | 0 | 100% |
 | Peter | 50.96  | 2 | 0 | 100% |
-| Tyler | 49.38  | 2 | 0 | 100% |
-| Felicianna | 47.26  | 2 | 0 | 100% |
 | Harsha | 42.82  | 1 | 0 | 100% |
 | Kazumi | 42.70  | 2 | 1 | 67% |
 | Jelita | 42.57  | 1 | 0 | 100% |
-| Queenie | 42.22  | 1 | 0 | 100% |
+| Felicianna | 41.38  | 2 | 1 | 67% |
 | Viktoria | 40.70  | 1 | 0 | 100% |
 | Jackie | 40.70  | 1 | 0 | 100% |
+| Oliver | 40.15  | 3 | 3 | 50% |
+| Leo | 39.60  | 2 | 2 | 50% |
 | Vivienne | 38.76  | 1 | 1 | 50% |
 | Susan | 38.15  | 1 | 1 | 50% |
+| Queenie | 36.16  | 1 | 1 | 50% |
 | Clarys | 36.10  | 1 | 1 | 50% |
-| Oliver | 32.65  | 2 | 3 | 40% |
-| Leo | 31.47  | 1 | 2 | 33% |
+| Aaron | 32.00  | 1 | 2 | 33% |
 | Dorine | 29.11  | 0 | 1 | 0% |
 | Dan | 29.11  | 0 | 1 | 0% |
 | Siri | 27.85  | 0 | 1 | 0% |
 | Daphne | 27.53  | 0 | 1 | 0% |
+| Ellabelle | 27.00  | 0 | 1 | 0% |
+| Sammie | 27.00  | 0 | 1 | 0% |
+| Sara | 27.00  | 0 | 1 | 0% |
 | Kenny | 26.94  | 0 | 1 | 0% |
-| Aaron | 23.46  | 0 | 2 | 0% |
-| Trista | 23.46  | 0 | 2 | 0% |
 | Iris | 22.88  | 0 | 2 | 0% |
+| Trista | 17.64  | 0 | 3 | 0% |
 
 ### Codenames
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Leo | 69.65  | 5 | 1 | 83% |
+| Leo | 77.79  | 7 | 1 | 88% |
 | Iris | 64.41  | 3 | 0 | 100% |
-| Oliver | 54.48  | 4 | 4 | 50% |
+| Oliver | 61.65  | 6 | 4 | 60% |
 | Kenny | 46.59  | 2 | 1 | 67% |
+| Felicianna | 46.59  | 2 | 0 | 100% |
+| Sammie | 46.59  | 2 | 0 | 100% |
 | Jelita | 43.90  | 1 | 0 | 100% |
 | Kazumi | 43.90  | 1 | 0 | 100% |
-| Queenie | 43.81  | 1 | 1 | 50% |
-| Susan | 43.81  | 1 | 1 | 50% |
 | Harsha | 42.43  | 1 | 1 | 50% |
 | Dan | 42.43  | 1 | 1 | 50% |
+| Susan | 41.42  | 1 | 2 | 33% |
+| Aaron | 39.42  | 2 | 1 | 67% |
+| Queenie | 37.38  | 1 | 3 | 25% |
 | Sincere | 35.95  | 1 | 1 | 50% |
 | Jovan | 35.72  | 1 | 1 | 50% |
 | Peter | 29.05  | 1 | 2 | 33% |
 | Vivienne | 27.08  | 0 | 1 | 0% |
-| Aaron | 27.08  | 0 | 1 | 0% |
-| Trista | 27.08  | 0 | 1 | 0% |
+| Ellabelle | 25.77  | 0 | 2 | 0% |
+| Sara | 25.77  | 0 | 2 | 0% |
+| Tyler | 25.77  | 0 | 2 | 0% |
+| Trista | 19.89  | 0 | 3 | 0% |
 | Clarys | 17.89  | 0 | 3 | 0% |
 | JustinKhoo | 17.86  | 0 | 2 | 0% |
 
