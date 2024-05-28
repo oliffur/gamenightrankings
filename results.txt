@@ -47,13 +47,12 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 05/28/2024|Wavelength|Clarys,Oliver,Leo,Susan,dummy052800;Felicianna,Jelita,Wincy,Sara,Peter|0;1
 05/28/2024|Secret Hitler|Oliver,Susan,Jelita,Wincy,dummy052801;Leo,Clarys,Sara,Peter,Feliciann|0;1
 05/28/2024|Exploding Kittens|Sara;Leo;Oliver;Jelita;Clarys;Wincy;Felicianna|0;1;1;1;1;1;1
-05/28/2024|Fetch|Ted;dummyted00;dummyted01;dummyted02;dummyted03;dummyted04|0;1;1;1;1;1
-05/28/2024|Fetch|Ted;dummyted00;dummyted01;dummyted02;dummyted03;dummyted04|0;1;1;1;1;1
-05/28/2024|Fetch|Ted;dummyted00;dummyted01;dummyted02;dummyted03;dummyted04|0;1;1;1;1;1
-05/28/2024|Fetch|Ted;dummyted00;dummyted01;dummyted02;dummyted03;dummyted04|0;1;1;1;1;1
-05/28/2024|Fetch|Ted;dummyted00;dummyted01;dummyted02;dummyted03;dummyted04|0;1;1;1;1;1
-05/28/2024|Fetch|Ted;dummyted00;dummyted01;dummyted02;dummyted03;dummyted04|0;1;1;1;1;1
-05/28/2024|Fetch|Ted;dummyted00;dummyted01;dummyted02;dummyted03;dummyted04|0;1;1;1;1;1
-05/28/2024|Fetch|Ted;dummyted00;dummyted01;dummyted02;dummyted03;dummyted04|0;1;1;1;1;1
-05/28/2024|Fetch|Ted;dummyted00;dummyted01;dummyted02;dummyted03;dummyted04|0;1;1;1;1;1
-05/28/2024|Fetch|Ted;dummyted00;dummyted01;dummyted02;dummyted03;dummyted04|0;1;1;1;1;1
+05/28/2024|Fetch|Ted;dummyted00;dummyted01;dummyted02;dummyted03|0;1;1;1;1
+05/28/2024|Fetch|Ted;dummyted00;dummyted01;dummyted02;dummyted03|0;1;1;1;1
+05/28/2024|Fetch|Ted;dummyted00;dummyted01;dummyted02;dummyted03|0;1;1;1;1
+05/28/2024|Fetch|Ted;dummyted00;dummyted01;dummyted02;dummyted03|0;1;1;1;1
+05/28/2024|Fetch|Ted;dummyted00;dummyted01;dummyted02;dummyted03|0;1;1;1;1
+05/28/2024|Fetch|Ted;dummyted00;dummyted01;dummyted02;dummyted03|0;1;1;1;1
+05/28/2024|Fetch|Ted;dummyted00;dummyted01;dummyted02;dummyted03|0;1;1;1;1
+05/28/2024|Fetch|Ted;dummyted00;dummyted01;dummyted02;dummyted03|0;1;1;1;1
+05/28/2024|Fetch|Ted;dummyted00;dummyted01;dummyted02;dummyted03|0;1;1;1;1
