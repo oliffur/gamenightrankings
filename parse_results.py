@@ -126,6 +126,7 @@ def main():
         rating.wins / (rating.wins + rating.losses), best_game[player][0])
         if rating.wins + rating.losses < 10: infrequent_players.append(player)
 
+    plt.style.use('ggplot')
     chart_df = pd.DataFrame()
     for _, row in all_df.iterrows():
         players = list(np.array(row['teams']).flat)
