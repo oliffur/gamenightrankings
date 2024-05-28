@@ -127,7 +127,7 @@ def main():
         if rating.wins + rating.losses < 10: infrequent_players.append(player)
 
     print(plt.style.available)
-    plt.style.use('ggplot')
+    plt.style.use('seaborn-v0_8')
     chart_df = pd.DataFrame()
     for _, row in all_df.iterrows():
         players = list(np.array(row['teams']).flat)
