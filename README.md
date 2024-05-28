@@ -5,6 +5,7 @@
 
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
+| Ted | 111.60 | 10 | 0 | 100% | Fetch |
 | Simon | 86.00 | 7 | 1 | 88% | Secret Hitler |
 | Oliver | 85.31 | 20 | 27 | 43% | Coup |
 | Iris | 78.37 | 5 | 6 | 45% | Codenames |
@@ -290,3 +291,9 @@
 | Oliver | 33.50  | 0 | 2 | 0% |
 | Vivienne | 33.17  | 0 | 1 | 0% |
 | Tyler | 33.17  | 0 | 1 | 0% |
+
+### Fetch
+
+| Player | ELO | Wins | Losses | Win % |
+| --- | --- | --- | --- | --- |
+| Ted | 111.60  | 10 | 0 | 100% |
