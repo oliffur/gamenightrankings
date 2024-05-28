@@ -6,35 +6,37 @@
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
 | Simon | 86.00 | 7 | 1 | 88% | Secret Hitler |
-| Oliver | 83.00 | 18 | 26 | 41% | Coup |
+| Oliver | 85.31 | 20 | 27 | 43% | Coup |
 | Iris | 78.37 | 5 | 6 | 45% | Codenames |
-| Leo | 73.38 | 13 | 17 | 43% | Codenames |
+| Leo | 74.52 | 14 | 19 | 42% | Codenames |
 | Tyler | 72.61 | 6 | 6 | 50% | Camel Up |
-| Jelita | 68.93 | 4 | 3 | 57% | Avalon |
-| Susan | 62.62 | 4 | 6 | 40% | Wavelength |
+| Susan | 70.80 | 6 | 6 | 50% | Wavelength |
+| Jelita | 67.71 | 5 | 5 | 50% | Secret Hitler |
 | Aaron | 61.04 | 5 | 4 | 56% | Bang |
-| Peter | 59.18 | 7 | 9 | 44% | Secret Hitler |
 | Jackie | 58.22 | 2 | 1 | 67% | Wavelength |
 | Kazumi | 57.74 | 4 | 8 | 33% | Camel Up |
 | Abhi | 56.81 | 3 | 1 | 75% | Avalon |
 | Kenny | 55.66 | 3 | 3 | 50% | Codenames |
+| Peter | 55.55 | 7 | 11 | 39% | Bang |
 | Harsha | 55.11 | 5 | 4 | 56% | Wavelength |
 | Sammie | 49.51 | 2 | 1 | 67% | Codenames |
-| Felicianna | 49.31 | 5 | 7 | 42% | Codenames |
 | Jovan | 48.40 | 5 | 7 | 42% | Secret Hitler |
 | Dan | 48.28 | 2 | 5 | 29% | Wavelength |
 | Viktoria | 46.85 | 2 | 5 | 29% | Love Letter |
+| Felicianna | 46.10 | 5 | 9 | 36% | Codenames |
 | Vivienne | 42.26 | 3 | 7 | 30% | Avalon |
 | Sincere | 40.28 | 3 | 8 | 27% | Coup |
 | Siri | 39.66 | 1 | 3 | 25% | Love Letter |
 | Joyce | 35.20 | 0 | 1 | 0% | Shifty Eyed Spies |
 | Icy | 35.20 | 0 | 1 | 0% | Shifty Eyed Spies |
+| Clarys | 34.26 | 3 | 7 | 30% | Love Letter |
+| Wincy | 33.12 | 1 | 2 | 33% | Secret Hitler |
 | Julie | 32.58 | 0 | 1 | 0% | Incan Gold |
 | Queenie | 31.20 | 2 | 7 | 22% | Codenames |
-| Clarys | 29.53 | 2 | 5 | 29% | Love Letter |
+| Feliciann | 30.77 | 0 | 1 | 0% | Secret Hitler |
 | Rebecca | 29.07 | 0 | 1 | 0% | Avalon |
-| Sara | 28.85 | 0 | 6 | 0% | Coup |
 | Daphne | 27.49 | 0 | 1 | 0% | Secret Hitler |
+| Sara | 26.61 | 1 | 8 | 11% | Exploding Kittens |
 | Dorine | 25.68 | 1 | 3 | 25% | Avalon |
 | Trista | 24.24 | 1 | 8 | 11% | Wavelength |
 | Ellabelle | 21.78 | 0 | 3 | 0% | Secret Hitler |
@@ -110,29 +112,31 @@
 | Simon | 64.08  | 4 | 0 | 100% |
 | Tyler | 58.03  | 3 | 0 | 100% |
 | Jovan | 55.39  | 3 | 0 | 100% |
-| Peter | 50.96  | 2 | 0 | 100% |
+| Jelita | 51.55  | 2 | 0 | 100% |
+| Oliver | 47.33  | 4 | 3 | 57% |
+| Susan | 46.70  | 2 | 1 | 67% |
+| Peter | 45.58  | 2 | 1 | 67% |
+| Wincy | 42.84  | 1 | 0 | 100% |
 | Harsha | 42.82  | 1 | 0 | 100% |
 | Kazumi | 42.70  | 2 | 1 | 67% |
-| Jelita | 42.57  | 1 | 0 | 100% |
 | Felicianna | 41.38  | 2 | 1 | 67% |
 | Viktoria | 40.70  | 1 | 0 | 100% |
 | Jackie | 40.70  | 1 | 0 | 100% |
-| Oliver | 40.15  | 3 | 3 | 50% |
-| Leo | 39.60  | 2 | 2 | 50% |
 | Vivienne | 38.76  | 1 | 1 | 50% |
-| Susan | 38.15  | 1 | 1 | 50% |
 | Queenie | 36.16  | 1 | 1 | 50% |
-| Clarys | 36.10  | 1 | 1 | 50% |
+| Leo | 34.58  | 2 | 3 | 40% |
 | Aaron | 32.00  | 1 | 2 | 33% |
+| Clarys | 30.70  | 1 | 2 | 33% |
 | Dorine | 29.11  | 0 | 1 | 0% |
 | Dan | 29.11  | 0 | 1 | 0% |
 | Siri | 27.85  | 0 | 1 | 0% |
 | Daphne | 27.53  | 0 | 1 | 0% |
+| Feliciann | 27.47  | 0 | 1 | 0% |
 | Ellabelle | 27.00  | 0 | 1 | 0% |
 | Sammie | 27.00  | 0 | 1 | 0% |
-| Sara | 27.00  | 0 | 1 | 0% |
 | Kenny | 26.94  | 0 | 1 | 0% |
 | Iris | 22.88  | 0 | 2 | 0% |
+| Sara | 21.37  | 0 | 2 | 0% |
 | Trista | 17.64  | 0 | 3 | 0% |
 
 ### Codenames
@@ -168,20 +172,26 @@
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Harsha | 55.16  | 2 | 0 | 100% |
+| Susan | 51.33  | 2 | 0 | 100% |
 | Dan | 45.93  | 1 | 0 | 100% |
 | Tyler | 43.51  | 1 | 0 | 100% |
 | Trista | 43.27  | 1 | 0 | 100% |
 | Aaron | 43.27  | 1 | 0 | 100% |
-| Susan | 43.27  | 1 | 0 | 100% |
 | Jackie | 43.27  | 1 | 0 | 100% |
-| Oliver | 29.82  | 1 | 2 | 33% |
+| Clarys | 41.99  | 1 | 0 | 100% |
+| Leo | 41.99  | 1 | 0 | 100% |
+| Oliver | 36.74  | 2 | 2 | 50% |
+| Jelita | 28.07  | 0 | 1 | 0% |
+| Wincy | 28.07  | 0 | 1 | 0% |
+| Sara | 28.07  | 0 | 1 | 0% |
+| Peter | 28.07  | 0 | 1 | 0% |
 | Viktoria | 27.60  | 0 | 1 | 0% |
 | Dorine | 27.49  | 0 | 1 | 0% |
 | Iris | 27.49  | 0 | 1 | 0% |
 | Sincere | 26.51  | 0 | 1 | 0% |
 | JustinKhoo | 26.51  | 0 | 1 | 0% |
-| Felicianna | 22.06  | 0 | 2 | 0% |
 | Jovan | 22.06  | 0 | 2 | 0% |
+| Felicianna | 17.32  | 0 | 3 | 0% |
 
 ### Love Letter
 
@@ -271,8 +281,12 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Leo | 38.65  | 1 | 0 | 100% |
-| Sara | 33.17  | 0 | 1 | 0% |
+| Leo | 38.76  | 1 | 1 | 50% |
+| Sara | 38.57  | 1 | 1 | 50% |
+| Clarys | 33.64  | 0 | 1 | 0% |
+| Felicianna | 33.64  | 0 | 1 | 0% |
+| Wincy | 33.64  | 0 | 1 | 0% |
+| Jelita | 33.64  | 0 | 1 | 0% |
+| Oliver | 33.50  | 0 | 2 | 0% |
 | Vivienne | 33.17  | 0 | 1 | 0% |
 | Tyler | 33.17  | 0 | 1 | 0% |
-| Oliver | 33.17  | 0 | 1 | 0% |
