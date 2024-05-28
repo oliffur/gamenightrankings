@@ -124,7 +124,7 @@ def main():
 | {} | {:.2f} | {} | {} | {:.0%} | {} |'''.format(
         player, rating.get_rating(), rating.wins, rating.losses,
         rating.wins / (rating.wins + rating.losses), best_game[player][0])
-        if rating.wins + rating.losses < 20: infrequent_players.append(player)
+        if rating.wins + rating.losses < 10: infrequent_players.append(player)
 
     chart_df = pd.DataFrame()
     for _, row in all_df.iterrows():
