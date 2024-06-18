@@ -6,42 +6,43 @@
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
 | Ted | 109.30 | 9 | 0 | 100% | Fetch |
-| Oliver | 88.92 | 21 | 28 | 43% | Camel Up |
-| Simon | 86.00 | 7 | 1 | 88% | Secret Hitler |
-| Leo | 82.80 | 15 | 20 | 43% | Codenames |
+| Oliver | 93.70 | 22 | 29 | 43% | Camel Up |
+| Leo | 87.01 | 15 | 22 | 41% | Codenames |
+| Sammi | 82.86 | 4 | 3 | 57% | Cash n Guns |
+| Jelita | 80.05 | 5 | 7 | 42% | Cash n Guns |
+| Simon | 79.34 | 7 | 2 | 78% | Secret Hitler |
 | Iris | 78.37 | 5 | 6 | 45% | Codenames |
-| Tyler | 71.41 | 6 | 8 | 43% | Camel Up |
+| Tyler | 71.67 | 6 | 8 | 43% | Camel Up |
 | Susan | 70.57 | 6 | 6 | 50% | Wavelength |
-| Jelita | 67.42 | 5 | 5 | 50% | Secret Hitler |
-| Aaron | 61.04 | 5 | 4 | 56% | Bang |
+| Kenny | 64.24 | 4 | 3 | 57% | Codenames |
+| Vivienne | 60.76 | 5 | 7 | 42% | Avalon |
 | Jackie | 58.22 | 2 | 1 | 67% | Wavelength |
-| Kazumi | 57.74 | 4 | 8 | 33% | Camel Up |
 | Abhi | 56.81 | 3 | 1 | 75% | Avalon |
 | Peter | 55.70 | 7 | 11 | 39% | Bang |
-| Kenny | 55.66 | 3 | 3 | 50% | Codenames |
 | Harsha | 55.11 | 5 | 4 | 56% | Wavelength |
-| Vivienne | 54.44 | 4 | 7 | 36% | Avalon |
-| Felicianna | 53.13 | 5 | 11 | 31% | Camel Up |
-| Sammi | 50.13 | 3 | 2 | 60% | Bang |
+| Aaron | 54.73 | 5 | 5 | 50% | Bang |
+| Kazumi | 52.91 | 4 | 9 | 31% | Camel Up |
+| Garrick | 52.19 | 0 | 2 | 0% | Cash n Guns |
+| Felicianna | 48.75 | 5 | 13 | 28% | Camel Up |
 | Viktoria | 48.54 | 2 | 6 | 25% | Love Letter |
 | Jovan | 48.40 | 5 | 7 | 42% | Secret Hitler |
 | Dan | 48.28 | 2 | 5 | 29% | Wavelength |
 | Sincere | 40.28 | 3 | 8 | 27% | Coup |
 | Siri | 39.66 | 1 | 3 | 25% | Love Letter |
+| Sara | 38.57 | 1 | 9 | 10% | Exploding Kittens |
 | Leonardo | 37.58 | 0 | 1 | 0% | Camel Up |
 | Joyce | 35.20 | 0 | 1 | 0% | Shifty Eyed Spies |
 | Icy | 35.20 | 0 | 1 | 0% | Shifty Eyed Spies |
 | Clarys | 34.49 | 3 | 7 | 30% | Love Letter |
 | Wincy | 32.69 | 1 | 2 | 33% | Secret Hitler |
 | Julie | 32.58 | 0 | 1 | 0% | Incan Gold |
-| Feliciann | 31.43 | 0 | 1 | 0% | Bang |
+| Trista | 31.86 | 2 | 8 | 20% | Wavelength |
 | Queenie | 31.20 | 2 | 7 | 22% | Codenames |
 | Cameron | 29.64 | 0 | 1 | 0% | Camel Up |
 | Rebecca | 29.07 | 0 | 1 | 0% | Avalon |
 | Daphne | 27.49 | 0 | 1 | 0% | Secret Hitler |
-| Sara | 26.83 | 1 | 8 | 11% | Exploding Kittens |
 | Dorine | 25.68 | 1 | 3 | 25% | Avalon |
-| Trista | 24.24 | 1 | 8 | 11% | Wavelength |
+| Feli | 22.49 | 0 | 1 | 0% | Avalon |
 | Ellabelle | 21.78 | 0 | 3 | 0% | Secret Hitler |
 | JustinKhoo | 20.36 | 1 | 3 | 25% | Incan Gold |
 
@@ -77,23 +78,29 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Simon | 55.36  | 3 | 0 | 100% |
+| Vivienne | 56.80  | 3 | 0 | 100% |
 | Abhi | 55.36  | 3 | 0 | 100% |
+| Simon | 50.97  | 3 | 1 | 75% |
 | Iris | 50.39  | 2 | 0 | 100% |
-| Vivienne | 50.39  | 2 | 0 | 100% |
-| Jelita | 46.57  | 2 | 1 | 67% |
 | Harsha | 42.57  | 1 | 0 | 100% |
+| Jelita | 42.19  | 2 | 2 | 50% |
 | Dorine | 41.64  | 1 | 0 | 100% |
+| Trista | 40.48  | 1 | 0 | 100% |
+| Kenny | 40.48  | 1 | 0 | 100% |
 | Felicianna | 37.04  | 1 | 1 | 50% |
 | Peter | 35.24  | 2 | 2 | 50% |
 | Sincere | 31.53  | 1 | 2 | 33% |
 | Rebecca | 29.74  | 0 | 1 | 0% |
+| Oliver | 28.62  | 2 | 4 | 33% |
+| Aaron | 28.40  | 0 | 1 | 0% |
+| Garrick | 28.40  | 0 | 1 | 0% |
+| Sammi | 28.40  | 0 | 1 | 0% |
+| Feli | 28.40  | 0 | 1 | 0% |
 | Tyler | 28.30  | 0 | 1 | 0% |
-| Kazumi | 28.30  | 0 | 1 | 0% |
-| Oliver | 22.99  | 1 | 4 | 20% |
+| Kazumi | 23.58  | 0 | 2 | 0% |
 | Jovan | 22.86  | 0 | 2 | 0% |
 | Queenie | 19.87  | 0 | 3 | 0% |
-| Leo | 14.80  | 0 | 4 | 0% |
+| Leo | 10.60  | 0 | 5 | 0% |
 
 ### Bang
 
@@ -110,7 +117,7 @@
 | Trista | 36.10  | 0 | 1 | 0% |
 | Sincere | 36.10  | 0 | 1 | 0% |
 | Tyler | 34.49  | 0 | 1 | 0% |
-| Feliciann | 34.49  | 0 | 1 | 0% |
+| Felicianna | 34.49  | 0 | 1 | 0% |
 
 ### Secret Hitler
 
@@ -307,3 +314,15 @@
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Ted | 109.30  | 9 | 0 | 100% |
+
+### Cash n Guns
+
+| Player | ELO | Wins | Losses | Win % |
+| --- | --- | --- | --- | --- |
+| Sammi | 80.62  | 1 | 0 | 100% |
+| Leo | 67.70  | 0 | 1 | 0% |
+| Jelita | 67.70  | 0 | 1 | 0% |
+| Oliver | 67.70  | 0 | 1 | 0% |
+| Garrick | 52.47  | 0 | 1 | 0% |
+| Sara | 35.17  | 0 | 1 | 0% |
+| Felicianna | 35.17  | 0 | 1 | 0% |

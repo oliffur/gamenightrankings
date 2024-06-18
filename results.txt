@@ -57,4 +57,6 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 05/28/2024|Fetch|Ted;dummyted00;dummyted01;dummyted02;dummyted03|0;1;1;1;1
 05/28/2024|Fetch|Ted;dummyted00;dummyted01;dummyted02;dummyted03|0;1;1;1;1
 06/03/2024|Camel Up|Oliver;Leo;Felicianna;Tyler;Viktoria;Leonardo;Cameron;Sammi|0;1;2;3;4;4;6;7
-06/03/2024|Bang|Vivienne,Sammi,Leo;Tyler,Feliciann,dummy060300;Oliver,dummy060301,dummy060302|0;1;1
+06/03/2024|Bang|Vivienne,Sammi,Leo;Tyler,Felicianna,dummy060300;Oliver,dummy060301,dummy060302|0;1;1
+06/17/2024|Cash n Guns|Sammi;Oliver;Jelita;Leo;Garrick;Felicianna;Sara|0;1;1;1;2;3;3
+06/17/2024|Avalon|Oliver,Vivienne,Trista,Kenny,dummy061700,dummy061701,dummy061702,dummy061703;Simon,Jelita,Aaron,Garrick,Sammi,Kazumi,Feli,Leo|0;1
