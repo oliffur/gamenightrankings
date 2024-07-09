@@ -62,4 +62,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 06/17/2024|Avalon|Oliver,Vivienne,Trista,Kenny,dummy061700,dummy061701,dummy061702,dummy061703;Simon,Jelita,Aaron,Garrick,Sammi,Kazumi,Felicianna,Leo|0;1
 06/25/2024|Codenames|Aaron,Tyler,Leo,Garrick,Oliver,Cameron,dummy062500,dummy062501,dummy062502;Jelita,Wincy,Janice,Viktoria,Sammi,Susan,Pansy,Felicianna,Trista|0;1
 06/25/2024|Wavelength|Susan,Pansy,Viktoria,Janice,Felicianna,Sammi,Jelita,Wincy;Trista,Aaron,Leo,Cameron,Garrick,Oliver,Simon,dummy062503|0;1
-05/28/2024|Secret Hitler|Oliver,Jelita,Sammi,Garrick,Felicianna;Wincy,Simon,Leo,dummy062504,dummy062505|0;1
+06/25/2024|Secret Hitler|Oliver,Jelita,Sammi,Garrick,Felicianna;Wincy,Simon,Leo,dummy062504,dummy062505|0;1
+07/08/2024|Codenames|Peter,Sammi,Jovan,Viktoria,Cameron,dummy070900;Leo,Oliver,Felicianna,Sara,Lucille,Iris|0;1
+07/08/2024|Codenames|Iris,Peter,Lucille,Feliciann,dummy070901;Sammi,Leo,Jovan,Sara,Oliver|0;1
+07/08/2024|Incan Gold|Sammi;Jovan;Leo;Iris;Lucille;Felicianna;Oliver;Simon|0;1;2;3;4;5;6;6
