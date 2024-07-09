@@ -6,32 +6,35 @@
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
 | Ted | 109.30 | 9 | 0 | 100% | Fetch |
-| Oliver | 92.57 | 24 | 30 | 44% | Camel Up |
-| Leo | 79.48 | 16 | 24 | 40% | Codenames |
-| Iris | 78.37 | 5 | 6 | 45% | Codenames |
+| Oliver | 88.96 | 24 | 33 | 42% | Camel Up |
+| Iris | 79.14 | 6 | 8 | 43% | Codenames |
+| Leo | 76.98 | 16 | 27 | 37% | Codenames |
 | Jelita | 74.45 | 7 | 8 | 47% | Secret Hitler |
 | Tyler | 73.83 | 7 | 8 | 47% | Camel Up |
 | Susan | 73.57 | 7 | 7 | 50% | Wavelength |
-| Simon | 70.43 | 7 | 4 | 64% | Secret Hitler |
-| Sammi | 64.19 | 6 | 4 | 60% | Bang |
+| Sammi | 71.67 | 8 | 5 | 62% | Bang |
+| Simon | 67.17 | 7 | 5 | 58% | Secret Hitler |
+| Peter | 63.41 | 9 | 11 | 45% | Bang |
 | Kenny | 63.18 | 4 | 3 | 57% | Codenames |
 | Vivienne | 59.98 | 5 | 7 | 42% | Avalon |
 | Jackie | 58.22 | 2 | 1 | 67% | Wavelength |
+| Viktoria | 56.90 | 4 | 7 | 36% | Love Letter |
 | Abhi | 56.81 | 3 | 1 | 75% | Avalon |
-| Peter | 55.70 | 7 | 11 | 39% | Bang |
 | Harsha | 55.11 | 5 | 4 | 56% | Wavelength |
 | Aaron | 54.50 | 6 | 6 | 50% | Bang |
 | Kazumi | 53.57 | 4 | 9 | 31% | Camel Up |
-| Felicianna | 51.67 | 7 | 15 | 32% | Camel Up |
-| Viktoria | 51.30 | 3 | 7 | 30% | Love Letter |
-| Jovan | 48.40 | 5 | 7 | 42% | Secret Hitler |
+| Jovan | 53.33 | 6 | 9 | 40% | Secret Hitler |
 | Dan | 48.28 | 2 | 5 | 29% | Wavelength |
+| Felicianna | 47.88 | 7 | 17 | 29% | Camel Up |
+| Feliciann | 45.16 | 1 | 0 | 100% | Codenames |
 | Sincere | 40.28 | 3 | 8 | 27% | Coup |
 | Pansy | 40.23 | 1 | 1 | 50% | Wavelength |
 | Janice | 40.23 | 1 | 1 | 50% | Wavelength |
 | Siri | 39.66 | 1 | 3 | 25% | Love Letter |
+| Cameron | 37.98 | 2 | 2 | 50% | Codenames |
 | Leonardo | 37.58 | 0 | 1 | 0% | Camel Up |
 | Garrick | 35.68 | 2 | 3 | 40% | Secret Hitler |
+| Lucille | 35.44 | 1 | 2 | 33% | Codenames |
 | Joyce | 35.20 | 0 | 1 | 0% | Shifty Eyed Spies |
 | Icy | 35.20 | 0 | 1 | 0% | Shifty Eyed Spies |
 | Clarys | 34.49 | 3 | 7 | 30% | Love Letter |
@@ -39,13 +42,12 @@
 | Wincy | 31.50 | 2 | 4 | 33% | Secret Hitler |
 | Queenie | 31.20 | 2 | 7 | 22% | Codenames |
 | Rebecca | 29.07 | 0 | 1 | 0% | Avalon |
-| Cameron | 28.45 | 1 | 2 | 33% | Codenames |
 | Daphne | 27.49 | 0 | 1 | 0% | Secret Hitler |
 | Dorine | 25.68 | 1 | 3 | 25% | Avalon |
-| Sara | 24.77 | 1 | 9 | 10% | Exploding Kittens |
 | Trista | 24.29 | 2 | 10 | 17% | Avalon |
 | Ellabelle | 21.78 | 0 | 3 | 0% | Secret Hitler |
 | JustinKhoo | 20.36 | 1 | 3 | 25% | Incan Gold |
+| Sara | 16.81 | 1 | 11 | 8% | Exploding Kittens |
 
 ### Rankings over Time
 ![Image](rankings.png)
@@ -57,20 +59,23 @@
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Tyler | 43.46  | 1 | 0 | 100% |
+| Sammi | 43.25  | 1 | 0 | 100% |
 | JustinKhoo | 41.70  | 1 | 0 | 100% |
-| Oliver | 41.36  | 0 | 3 | 0% |
+| Iris | 41.15  | 0 | 3 | 0% |
 | Susan | 41.15  | 1 | 1 | 50% |
-| Iris | 39.74  | 0 | 2 | 0% |
 | Jelita | 37.61  | 0 | 1 | 0% |
+| Jovan | 37.50  | 0 | 2 | 0% |
 | Dan | 37.09  | 0 | 3 | 0% |
+| Oliver | 36.16  | 0 | 4 | 0% |
 | Kazumi | 35.37  | 0 | 1 | 0% |
 | Vivienne | 35.27  | 0 | 2 | 0% |
 | Abhi | 35.06  | 0 | 1 | 0% |
 | Sincere | 34.80  | 1 | 1 | 50% |
-| Felicianna | 32.91  | 0 | 2 | 0% |
+| Leo | 33.63  | 0 | 2 | 0% |
+| Lucille | 32.95  | 0 | 1 | 0% |
 | Julie | 32.58  | 0 | 1 | 0% |
-| Jovan | 31.29  | 0 | 1 | 0% |
-| Leo | 29.76  | 0 | 1 | 0% |
+| Felicianna | 30.48  | 0 | 3 | 0% |
+| Simon | 27.92  | 0 | 1 | 0% |
 | Harsha | 26.05  | 0 | 2 | 0% |
 | Peter | 25.58  | 0 | 1 | 0% |
 | Dorine | 24.85  | 0 | 1 | 0% |
@@ -157,35 +162,37 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Leo | 81.41  | 8 | 1 | 89% |
-| Oliver | 64.87  | 7 | 4 | 64% |
-| Iris | 64.41  | 3 | 0 | 100% |
+| Leo | 70.59  | 8 | 3 | 73% |
+| Iris | 66.05  | 4 | 1 | 80% |
+| Oliver | 55.06  | 7 | 6 | 54% |
+| Cameron | 52.41  | 2 | 0 | 100% |
+| Peter | 48.24  | 3 | 2 | 60% |
+| Sammi | 47.35  | 3 | 2 | 60% |
 | Kenny | 46.59  | 2 | 1 | 67% |
+| Feliciann | 45.96  | 1 | 0 | 100% |
 | Aaron | 44.73  | 3 | 1 | 75% |
 | Kazumi | 43.90  | 1 | 0 | 100% |
-| Felicianna | 42.64  | 2 | 1 | 67% |
-| Sammi | 42.64  | 2 | 1 | 67% |
 | Harsha | 42.43  | 1 | 1 | 50% |
 | Dan | 42.43  | 1 | 1 | 50% |
+| Viktoria | 41.91  | 1 | 1 | 50% |
 | Jelita | 39.87  | 1 | 1 | 50% |
+| Jovan | 39.86  | 2 | 2 | 50% |
 | Garrick | 39.56  | 1 | 0 | 100% |
-| Cameron | 39.56  | 1 | 0 | 100% |
 | Susan | 37.94  | 1 | 3 | 25% |
 | Queenie | 37.38  | 1 | 3 | 25% |
 | Sincere | 35.95  | 1 | 1 | 50% |
-| Jovan | 35.72  | 1 | 1 | 50% |
+| Lucille | 35.76  | 1 | 1 | 50% |
+| Felicianna | 34.14  | 2 | 2 | 50% |
 | Tyler | 31.43  | 1 | 2 | 33% |
 | Wincy | 29.06  | 0 | 1 | 0% |
 | Janice | 29.06  | 0 | 1 | 0% |
-| Viktoria | 29.06  | 0 | 1 | 0% |
 | Pansy | 29.06  | 0 | 1 | 0% |
-| Peter | 29.05  | 1 | 2 | 33% |
 | Vivienne | 27.08  | 0 | 1 | 0% |
 | Ellabelle | 25.77  | 0 | 2 | 0% |
-| Sara | 25.77  | 0 | 2 | 0% |
 | Clarys | 17.89  | 0 | 3 | 0% |
 | JustinKhoo | 17.86  | 0 | 2 | 0% |
 | Trista | 16.14  | 0 | 4 | 0% |
+| Sara | 9.88  | 0 | 4 | 0% |
 
 ### Wavelength
 
