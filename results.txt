@@ -64,5 +64,11 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 06/25/2024|Wavelength|Susan,Pansy,Viktoria,Janice,Felicianna,Sammi,Jelita,Wincy;Trista,Aaron,Leo,Cameron,Garrick,Oliver,Simon,dummy062503|0;1
 06/25/2024|Secret Hitler|Oliver,Jelita,Sammi,Garrick,Felicianna;Wincy,Simon,Leo,dummy062504,dummy062505|0;1
 07/08/2024|Codenames|Peter,Sammi,Jovan,Viktoria,Cameron,dummy070900;Leo,Oliver,Felicianna,Sara,Lucille,Iris|0;1
-07/08/2024|Codenames|Iris,Peter,Lucille,Feliciann,dummy070901;Sammi,Leo,Jovan,Sara,Oliver|0;1
+07/08/2024|Codenames|Iris,Peter,Lucille,Felicianna,dummy070901;Sammi,Leo,Jovan,Sara,Oliver|0;1
 07/08/2024|Incan Gold|Sammi;Jovan;Leo;Iris;Lucille;Felicianna;Oliver;Simon|0;1;2;3;4;5;6;6
+07/15/2024|Secret Hitler|Oliver,Jelita,Garrick,Trista,Simon;Lucille,Aaron,Leo,Felicianna,dummy071500|0;1
+07/15/2024|Secret Hitler|Felicianna,Simon,Garrick,Trista,Lucille;Oliver,Aaron,Leo,Jelita,dummy071501|0;1
+07/15/2024|Codenames|Oliver,Aaron,Leo,Garrick,Trista;Lucille,Jelita,Simon,Felicianna,dummy071502|0;1
+06/03/2024|Bang|Oliver,Leo,Trista;Aaron,dummy071503,dummy071504;Felicianna,Jelita,dummy071505|0;1;1
+06/03/2024|Bang|Felicianna,Jelita,Leo;Aaron,dummy071506,dummy071507;Oliver,Garrick,Trista|0;1;1
+07/15/2024|Incan Gold|Felicianna;Leo;Lucille;Aaron;Jelita;Garrick;Oliver;Trista|0;1;1;2;3;3;4;5
