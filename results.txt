@@ -72,3 +72,6 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 06/03/2024|Bang|Oliver,Leo,Trista;Aaron,dummy071503,dummy071504;Felicianna,Jelita,dummy071505|0;1;1
 06/03/2024|Bang|Felicianna,Jelita,Leo;Aaron,dummy071506,dummy071507;Oliver,Garrick,Trista|0;1;1
 07/15/2024|Incan Gold|Felicianna;Leo;Lucille;Aaron;Jelita;Garrick;Oliver;Trista|0;1;1;2;3;3;4;5
+07/22/2024|Shifty Eyed Spies|Leo;Oliver;Peter;Felicianna;Susan;Lil Su;Pansy;Wincy|0;0;1;1;1;1;1;1
+07/22/2024|Exploding Kittens|Susan;Oliver;Peter;Pansy;Leo;Felicianna;Lil Su;Wincy|0;1;1;1;1;1;1;1
+07/22/2024|Secret Hitler|Oliver,Susan,Felicianna,Jovan,Wincy;Peter,Leo,Lil Su,Pansy,dummy072200|0;1
