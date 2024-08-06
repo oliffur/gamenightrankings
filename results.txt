@@ -75,3 +75,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 07/22/2024|Shifty Eyed Spies|Leo;Oliver;Peter;Felicianna;Susan;Lil Su;Pansy;Wincy|0;0;1;1;1;1;1;1
 07/22/2024|Exploding Kittens|Susan;Oliver;Peter;Pansy;Leo;Felicianna;Lil Su;Wincy|0;1;1;1;1;1;1;1
 07/22/2024|Secret Hitler|Oliver,Susan,Felicianna,Jovan,Wincy;Peter,Leo,Lil Su,Pansy,dummy072200|0;1
+08/06/2024|Codenames|Oliver,Wincy,Felicianna,Lil Su,Garrick,Abhi;Leo,Cameron,Jelita,Sammi,Viktoria,Sara|0;1
+08/06/2024|Codenames|Abhi,Felicianna,Oliver,Annabeth,Lil Su,Aaron,Trista,Garrick;Leo,Jelita,Sammi,Chia,Sara,Wincy,Max,dummy080600|0;1
+08/06/2024|Wavelength|Sammi,Aaron,Max,Garrick,Leo,Jelita,Lil Su;Oliver,Chia,Felicianna,Annabeth,Wincy,Trista,dummy080601|0;1
+08/06/2024|Undercover|Aaron,Trista,Garrick,Wincy,Leo,Jelita;Oliver,Sammi,Anna,Felicianna,Simon,Max|0;1
