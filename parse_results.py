@@ -13,6 +13,7 @@ LUCK_FACTORS = {
         'Shifty Eyed Spies': 5.0,
         'Cash n Guns': 5.0,
         'Coup' : 3.0,
+        'Masquerade' : 3.0,
         'Camel Up': 3.0,
         'Here to Slay': 3.0,
         }
