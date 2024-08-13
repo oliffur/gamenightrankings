@@ -78,4 +78,8 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 08/06/2024|Codenames|Oliver,Wincy,Felicianna,Lil Su,Garrick,Abhi;Leo,Cameron,Jelita,Sammi,Viktoria,Sara|0;1
 08/06/2024|Codenames|Abhi,Felicianna,Oliver,Annabeth,Lil Su,Aaron,Trista,Garrick;Leo,Jelita,Sammi,Chia,Sara,Wincy,Max,dummy080600|0;1
 08/06/2024|Wavelength|Sammi,Aaron,Max,Garrick,Leo,Jelita,Lil Su;Oliver,Chia,Felicianna,Annabeth,Wincy,Trista,dummy080601|0;1
-08/06/2024|Undercover|Aaron,Trista,Garrick,Wincy,Leo,Jelita;Oliver,Sammi,Anna,Felicianna,Simon,Max|0;1
+08/06/2024|Undercover|Aaron,Trista,Garrick,Wincy,Leo,Jelita;Oliver,Sammi,Annabeth,Felicianna,Simon,Max|0;1
+08/12/2024|Masquerade|Felicianna;Oliver;Pansy;Harsha;Bo;Tyler;Leo;Vivienne;Susan|0;1;1;1;1;1;1;1;1
+08/12/2024|Avalon|Harsha,Leo,Bo,Wincy,dummy081200,dummy081201;Felicianna,Susan,Oliver,Pansy,Vivienne,Annabeth|0;1
+08/12/2024|Avalon|Oliver,Leo,Bo,dummy081202,dummy081203,dummy081204;Felicianna,Vivienne,Annabeth,Harsha,Tyler,Wincy|0;1
+08/12/2024|Bang|Oliver,Leo,Annabeth;Vivienne,dummy081205,dummy081206;Felicianna,Wincy,dummy081207|0;1;1
