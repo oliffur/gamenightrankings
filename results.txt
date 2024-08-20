@@ -83,3 +83,6 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 08/12/2024|Avalon|Harsha,Leo,Bo,Wincy,dummy081200,dummy081201;Felicianna,Susan,Oliver,Pansy,Vivienne,Annabeth|0;1
 08/12/2024|Avalon|Oliver,Leo,Bo,dummy081202,dummy081203,dummy081204;Felicianna,Vivienne,Annabeth,Harsha,Tyler,Wincy|0;1
 08/12/2024|Bang|Oliver,Leo,Annabeth;Vivienne,dummy081205,dummy081206;Felicianna,Wincy,dummy081207|0;1;1
+08/19/2024|Camel Up|Garrick;Trista;Leo;Sammi;Chia;Anna;Aaron;Jelita;Sally;Oliver|0;1;2;3;4;4;5;6;6;7
+08/19/2024|Secret Hitler|Garrick,Oliver,Aaron,Jovan,Trista,Sally,Wincy,Jelita;Sammi,Chia,Anna,Simon,dummy081900,dummy081901,dummy081902,dummy081903|0;1
+08/19/2024|Undercover|Oliver,Anna,dummy081904,dummy081905,dummy081906,dummy081907,dummy081908;Sammi,Garrick,Jovan,Trista,dummy081909,dummy081910,dummy081911;Aaron,Wincy,Leo,Chia,Simon,Sally,Jelita|0;1;1
