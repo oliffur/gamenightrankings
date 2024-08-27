@@ -11,7 +11,7 @@ LUCK_FACTORS = {
         'Love Letter': 5.0,
         'No Thanks': 5.0,
         'Shifty Eyed Spies': 5.0,
-        'Cash n Guns': 10.0,
+        'Cash n Guns': 5.0,
         'Bang' : 3.0,
         'Coup' : 3.0,
         'Masquerade' : 3.0,
