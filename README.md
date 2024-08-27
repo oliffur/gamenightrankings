@@ -6,56 +6,56 @@
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
 | Ted | 109.30 | 9 | 0 | 100% | Fetch |
-| Garrick | 91.38 | 11 | 6 | 65% | Camel Up |
-| Leo | 90.07 | 26 | 40 | 39% | Bang |
-| Oliver | 89.84 | 36 | 45 | 44% | Coup |
-| Susan | 83.71 | 10 | 11 | 48% | Wavelength |
-| Iris | 83.19 | 6 | 8 | 43% | Codenames |
-| Jelita | 76.80 | 12 | 16 | 43% | Secret Hitler |
-| Tyler | 75.30 | 7 | 10 | 41% | Camel Up |
-| Abhi | 72.45 | 5 | 1 | 83% | Avalon |
-| Felicianna | 68.41 | 16 | 29 | 36% | Secret Hitler |
-| Simon | 67.00 | 9 | 9 | 50% | Secret Hitler |
-| Aaron | 66.60 | 11 | 13 | 46% | Codenames |
-| Sammi | 66.41 | 9 | 11 | 45% | Incan Gold |
-| Kenny | 63.17 | 4 | 3 | 57% | Codenames |
-| Jovan | 61.56 | 8 | 10 | 44% | Secret Hitler |
-| Peter | 60.76 | 9 | 14 | 39% | Bang |
-| Annabeth | 60.18 | 5 | 7 | 42% | Bang |
-| Harsha | 59.54 | 6 | 6 | 50% | Wavelength |
-| Trista | 59.49 | 9 | 15 | 38% | Camel Up |
-| Vivienne | 58.50 | 6 | 14 | 30% | Bang |
-| Bo | 58.30 | 2 | 1 | 67% | Avalon |
-| Jackie | 58.20 | 2 | 1 | 67% | Wavelength |
-| Wincy | 56.49 | 7 | 11 | 39% | Secret Hitler |
-| Dan | 55.24 | 2 | 5 | 29% | Wavelength |
-| Kazumi | 54.34 | 4 | 9 | 31% | Camel Up |
-| Viktoria | 54.30 | 4 | 8 | 33% | Love Letter |
-| Lil Su | 50.54 | 3 | 3 | 50% | Codenames |
-| Lucille | 47.20 | 2 | 5 | 29% | Incan Gold |
-| Max | 46.99 | 2 | 3 | 40% | Bang |
-| Sincere | 41.45 | 3 | 8 | 27% | Coup |
-| Janice | 40.41 | 1 | 1 | 50% | Wavelength |
-| Siri | 39.32 | 1 | 3 | 25% | Love Letter |
-| Maurice | 38.19 | 1 | 1 | 50% | Cash n Guns |
-| Sally | 37.99 | 1 | 2 | 33% | Secret Hitler |
-| Leonardo | 37.59 | 0 | 1 | 0% | Camel Up |
-| Clarys | 36.37 | 3 | 7 | 30% | Love Letter |
-| Feli | 36.08 | 0 | 1 | 0% | Exploding Kittens |
-| Joyce | 35.18 | 0 | 1 | 0% | Shifty Eyed Spies |
-| Icy | 35.18 | 0 | 1 | 0% | Shifty Eyed Spies |
-| Cameron | 34.84 | 2 | 3 | 40% | Codenames |
-| Pansy | 34.65 | 1 | 8 | 11% | Wavelength |
+| Garrick | 96.70 | 11 | 6 | 65% | Camel Up |
+| Oliver | 88.00 | 36 | 45 | 44% | Coup |
+| Leo | 84.28 | 26 | 40 | 39% | Camel Up |
+| Susan | 82.80 | 10 | 11 | 48% | Wavelength |
+| Iris | 81.98 | 6 | 8 | 43% | Codenames |
+| Tyler | 75.59 | 7 | 10 | 41% | Camel Up |
+| Jelita | 71.00 | 12 | 16 | 43% | Secret Hitler |
+| Abhi | 70.55 | 5 | 1 | 83% | Avalon |
+| Simon | 66.57 | 9 | 9 | 50% | Secret Hitler |
+| Felicianna | 66.56 | 16 | 29 | 36% | Secret Hitler |
+| Kenny | 61.86 | 4 | 3 | 57% | Codenames |
+| Aaron | 61.83 | 11 | 13 | 46% | Codenames |
+| Sammi | 61.23 | 9 | 11 | 45% | Incan Gold |
+| Jovan | 60.68 | 8 | 10 | 44% | Secret Hitler |
+| Harsha | 58.91 | 6 | 6 | 50% | Wavelength |
+| Trista | 58.50 | 9 | 15 | 38% | Camel Up |
+| Bo | 57.89 | 2 | 1 | 67% | Avalon |
+| Jackie | 57.68 | 2 | 1 | 67% | Wavelength |
+| Peter | 57.00 | 9 | 14 | 39% | Codenames |
+| Wincy | 55.49 | 7 | 11 | 39% | Secret Hitler |
+| Dan | 54.49 | 2 | 5 | 29% | Wavelength |
+| Vivienne | 54.28 | 6 | 14 | 30% | Exploding Kittens |
+| Viktoria | 53.93 | 4 | 8 | 33% | Love Letter |
+| Kazumi | 52.46 | 4 | 9 | 31% | Camel Up |
+| Annabeth | 50.06 | 5 | 7 | 42% | Bang |
+| Lil Su | 49.23 | 3 | 3 | 50% | Codenames |
+| Lucille | 45.37 | 2 | 5 | 29% | Incan Gold |
+| Sincere | 40.90 | 3 | 8 | 27% | Coup |
+| Janice | 40.40 | 1 | 1 | 50% | Wavelength |
+| Siri | 38.93 | 1 | 3 | 25% | Love Letter |
+| Max | 38.87 | 2 | 3 | 40% | Bang |
+| Maurice | 38.27 | 1 | 1 | 50% | Cash n Guns |
+| Sally | 38.01 | 1 | 2 | 33% | Secret Hitler |
+| Leonardo | 37.52 | 0 | 1 | 0% | Camel Up |
+| Clarys | 36.19 | 3 | 7 | 30% | Love Letter |
+| Cameron | 36.04 | 2 | 3 | 40% | Codenames |
+| Feli | 35.64 | 0 | 1 | 0% | Exploding Kittens |
+| Joyce | 35.11 | 0 | 1 | 0% | Shifty Eyed Spies |
+| Icy | 35.11 | 0 | 1 | 0% | Shifty Eyed Spies |
+| Pansy | 34.58 | 1 | 8 | 11% | Wavelength |
+| Chia | 33.81 | 0 | 5 | 0% | Camel Up |
 | Julie | 33.69 | 0 | 1 | 0% | Incan Gold |
-| Chia | 32.53 | 0 | 5 | 0% | Camel Up |
-| Queenie | 29.92 | 2 | 7 | 22% | Codenames |
+| Queenie | 29.07 | 2 | 7 | 22% | Codenames |
 | Rebecca | 28.36 | 0 | 1 | 0% | Avalon |
-| JustinKhoo | 28.10 | 1 | 3 | 25% | Incan Gold |
-| Daphne | 26.80 | 0 | 1 | 0% | Secret Hitler |
-| Dam | 23.48 | 0 | 2 | 0% | Secret Hitler |
-| Dorine | 21.71 | 1 | 3 | 25% | Avalon |
-| Ellabelle | 21.71 | 0 | 3 | 0% | Secret Hitler |
-| Sara | 17.83 | 1 | 13 | 7% | Exploding Kittens |
+| JustinKhoo | 28.09 | 1 | 3 | 25% | Incan Gold |
+| Daphne | 27.18 | 0 | 1 | 0% | Secret Hitler |
+| Dam | 23.54 | 0 | 2 | 0% | Secret Hitler |
+| Dorine | 21.22 | 1 | 3 | 25% | Avalon |
+| Ellabelle | 20.75 | 0 | 3 | 0% | Secret Hitler |
+| Sara | 17.95 | 1 | 13 | 7% | Exploding Kittens |
 
 ### Rankings over Time
 ![Image](rankings.png)
@@ -127,22 +127,22 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Leo | 86.29  | 5 | 1 | 83% |
-| Oliver | 61.64  | 3 | 3 | 50% |
-| Annabeth | 57.66  | 2 | 0 | 100% |
-| Felicianna | 52.69  | 1 | 4 | 20% |
-| Jelita | 50.92  | 1 | 2 | 33% |
-| Sammi | 50.21  | 1 | 0 | 100% |
-| Peter | 49.61  | 1 | 0 | 100% |
-| Vivienne | 48.48  | 1 | 2 | 33% |
-| Aaron | 47.80  | 1 | 2 | 33% |
-| Max | 45.95  | 1 | 0 | 100% |
-| Trista | 45.69  | 1 | 2 | 33% |
-| Kazumi | 36.10  | 0 | 1 | 0% |
-| Sincere | 36.10  | 0 | 1 | 0% |
-| Wincy | 35.98  | 0 | 1 | 0% |
-| Tyler | 34.49  | 0 | 1 | 0% |
-| Garrick | 30.50  | 0 | 1 | 0% |
+| Leo | 68.36  | 5 | 1 | 83% |
+| Oliver | 50.39  | 3 | 3 | 50% |
+| Annabeth | 48.19  | 2 | 0 | 100% |
+| Peter | 42.36  | 1 | 0 | 100% |
+| Sammi | 42.08  | 1 | 0 | 100% |
+| Max | 40.87  | 1 | 0 | 100% |
+| Jelita | 40.51  | 1 | 2 | 33% |
+| Aaron | 39.41  | 1 | 2 | 33% |
+| Vivienne | 39.03  | 1 | 2 | 33% |
+| Trista | 39.02  | 1 | 2 | 33% |
+| Felicianna | 38.50  | 1 | 4 | 20% |
+| Kazumi | 33.38  | 0 | 1 | 0% |
+| Sincere | 33.38  | 0 | 1 | 0% |
+| Wincy | 32.65  | 0 | 1 | 0% |
+| Tyler | 32.21  | 0 | 1 | 0% |
+| Garrick | 31.20  | 0 | 1 | 0% |
 
 ### Secret Hitler
 
