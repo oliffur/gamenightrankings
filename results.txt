@@ -89,4 +89,8 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 08/26/2024|Cash n Guns|Maurice;Oliver;Felicianna;Susan;Leo;Vivienne;Dam;Pansy|0;1;2;3;4;5;6;7
 08/26/2024|Secret Hitler|Oliver,Annabeth,Felicianna,Susan,dummy082600;Leo,Maurice,Pansy,Dam,Vivienne|0;1
 08/26/2024|Bang|Leo,Annabeth,Max;Oliver,Vivienne,dummy082601;Felicianna,dummy082602,dummy082603|0;1;1
-08/26/2024|Exploding Kittens|Vivienne;Feli;Leo;Annabeth;Oliver;Max|0;1;1;1;1;1
+08/26/2024|Exploding Kittens|Vivienne;Felicianna;Leo;Annabeth;Oliver;Max|0;1;1;1;1;1
+09/02/2024|Incan Gold|Garrick;Jelita;Felicianna;Jovan;Leo;Oliver;Tyler;Peter|0;1;2;3;4;5;6;6
+09/02/2024|Fishbowl|Leo,Peter,Cindy,Vivienne,Garrick,Jelita;Annabeth,Oliver,Wincy,Felicianna,Jovan,Tyler|0;1
+09/02/2024|Codenames|Leo,Peter,Cindy,Vivienne,Garrick,Jelita;Annabeth,Oliver,Wincy,Felicianna,Jovan,Tyler|1;0
+09/02/2024|Secret Hitler|Leo,Garrick,Felicianna,Vivienne,Oliver,Cindy;Jovan,Jelita,Annabeth,Wincy,dummy090200,dummy090201|0;1
