@@ -6,26 +6,27 @@
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
 | Ted | 109.30 | 9 | 0 | 100% | Fetch |
-| Garrick | 103.56 | 14 | 7 | 67% | Secret Hitler |
-| Oliver | 90.19 | 38 | 47 | 45% | Secret Hitler |
-| Leo | 84.39 | 28 | 42 | 40% | Camel Up |
+| Garrick | 107.14 | 16 | 8 | 67% | Secret Hitler |
+| Oliver | 89.20 | 39 | 49 | 44% | Secret Hitler |
+| Leo | 83.78 | 29 | 43 | 40% | Camel Up |
 | Susan | 83.01 | 10 | 11 | 48% | Wavelength |
 | Iris | 82.36 | 6 | 8 | 43% | Codenames |
 | Tyler | 75.64 | 8 | 12 | 40% | Camel Up |
 | Jelita | 72.13 | 13 | 19 | 41% | Secret Hitler |
-| Felicianna | 72.05 | 18 | 32 | 36% | Secret Hitler |
+| Felicianna | 71.84 | 19 | 34 | 36% | Codenames |
 | Abhi | 71.02 | 5 | 1 | 83% | Avalon |
 | Simon | 66.61 | 9 | 9 | 50% | Secret Hitler |
 | Sammi | 64.21 | 9 | 11 | 45% | Incan Gold |
 | Jovan | 64.04 | 9 | 13 | 41% | Secret Hitler |
 | Aaron | 62.01 | 11 | 13 | 46% | Codenames |
 | Kenny | 61.98 | 4 | 3 | 57% | Codenames |
+| Dev | 60.70 | 2 | 1 | 67% | Secret Hitler |
+| Vivienne | 59.44 | 9 | 17 | 35% | Secret Hitler |
 | Trista | 59.09 | 9 | 15 | 38% | Camel Up |
 | Harsha | 58.87 | 6 | 6 | 50% | Wavelength |
-| Wincy | 58.67 | 8 | 13 | 38% | Codenames |
 | Bo | 57.73 | 2 | 1 | 67% | Avalon |
 | Jackie | 57.68 | 2 | 1 | 67% | Wavelength |
-| Vivienne | 55.05 | 8 | 15 | 35% | Exploding Kittens |
+| Wincy | 57.33 | 9 | 14 | 39% | Codenames |
 | Dan | 54.49 | 2 | 5 | 29% | Wavelength |
 | Viktoria | 53.48 | 4 | 8 | 33% | Love Letter |
 | Annabeth | 53.44 | 6 | 9 | 40% | Bang |
@@ -34,6 +35,7 @@
 | Lil Su | 49.44 | 3 | 3 | 50% | Codenames |
 | Maurice | 49.13 | 1 | 1 | 50% | Cash n Guns |
 | Lucille | 46.20 | 2 | 5 | 29% | Incan Gold |
+| Pansy | 43.86 | 3 | 8 | 27% | Secret Hitler |
 | Sincere | 40.90 | 3 | 8 | 27% | Coup |
 | Janice | 40.16 | 1 | 1 | 50% | Wavelength |
 | Cindy | 39.50 | 2 | 1 | 67% | Secret Hitler |
@@ -45,17 +47,18 @@
 | Cameron | 35.70 | 2 | 3 | 40% | Codenames |
 | Joyce | 35.11 | 0 | 1 | 0% | Shifty Eyed Spies |
 | Icy | 35.11 | 0 | 1 | 0% | Shifty Eyed Spies |
+| Sara | 34.51 | 3 | 14 | 18% | Exploding Kittens |
 | Chia | 33.73 | 0 | 5 | 0% | Camel Up |
 | Julie | 33.69 | 0 | 1 | 0% | Incan Gold |
-| Pansy | 31.13 | 1 | 8 | 11% | Wavelength |
 | Queenie | 29.07 | 2 | 7 | 22% | Codenames |
 | Rebecca | 28.36 | 0 | 1 | 0% | Avalon |
 | JustinKhoo | 28.09 | 1 | 3 | 25% | Incan Gold |
+| Freya | 27.32 | 0 | 1 | 0% | Secret Hitler |
+| Kelly | 27.32 | 0 | 1 | 0% | Secret Hitler |
 | Daphne | 27.18 | 0 | 1 | 0% | Secret Hitler |
 | Dam | 21.78 | 0 | 2 | 0% | Secret Hitler |
 | Dorine | 21.22 | 1 | 3 | 25% | Avalon |
 | Ellabelle | 20.75 | 0 | 3 | 0% | Secret Hitler |
-| Sara | 17.79 | 1 | 13 | 7% | Exploding Kittens |
 
 ### Rankings over Time
 ![Image](rankings.png)
@@ -148,24 +151,27 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Garrick | 73.67  | 5 | 0 | 100% |
-| Oliver | 73.57  | 10 | 4 | 71% |
+| Garrick | 88.08  | 7 | 0 | 100% |
+| Oliver | 74.81  | 11 | 5 | 69% |
 | Simon | 67.66  | 6 | 2 | 75% |
-| Felicianna | 65.49  | 7 | 3 | 70% |
 | Jelita | 61.09  | 5 | 2 | 71% |
 | Jovan | 60.28  | 5 | 1 | 83% |
 | Tyler | 58.03  | 3 | 0 | 100% |
 | Susan | 57.55  | 4 | 1 | 80% |
-| Vivienne | 45.16  | 2 | 2 | 50% |
+| Felicianna | 57.24  | 7 | 5 | 58% |
+| Dev | 51.79  | 2 | 0 | 100% |
+| Vivienne | 48.07  | 3 | 3 | 50% |
 | Cindy | 44.17  | 1 | 0 | 100% |
+| Wincy | 43.65  | 4 | 3 | 57% |
+| Pansy | 43.52  | 2 | 2 | 50% |
 | Harsha | 42.82  | 1 | 0 | 100% |
 | Kazumi | 42.70  | 2 | 1 | 67% |
 | Peter | 42.34  | 2 | 2 | 50% |
-| Wincy | 41.60  | 3 | 2 | 60% |
 | Viktoria | 40.70  | 1 | 0 | 100% |
 | Jackie | 40.70  | 1 | 0 | 100% |
 | Sally | 39.79  | 1 | 0 | 100% |
 | Lucille | 39.40  | 1 | 1 | 50% |
+| Sara | 37.72  | 2 | 2 | 50% |
 | Trista | 36.62  | 3 | 3 | 50% |
 | Queenie | 36.16  | 1 | 1 | 50% |
 | Sammi | 33.38  | 1 | 2 | 33% |
@@ -180,12 +186,12 @@
 | Annabeth | 28.31  | 1 | 2 | 33% |
 | Siri | 27.85  | 0 | 1 | 0% |
 | Daphne | 27.53  | 0 | 1 | 0% |
+| Freya | 27.37  | 0 | 1 | 0% |
+| Kelly | 27.37  | 0 | 1 | 0% |
 | Ellabelle | 27.00  | 0 | 1 | 0% |
 | Kenny | 26.94  | 0 | 1 | 0% |
-| Pansy | 26.75  | 0 | 2 | 0% |
-| Leo | 23.16  | 3 | 8 | 27% |
+| Leo | 24.56  | 4 | 9 | 31% |
 | Iris | 22.88  | 0 | 2 | 0% |
-| Sara | 21.17  | 0 | 2 | 0% |
 
 ### Codenames
 
@@ -327,15 +333,17 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 69.19  | 3 | 2 | 60% |
+| Oliver | 68.69  | 3 | 3 | 50% |
 | Leo | 55.51  | 1 | 3 | 25% |
+| Felicianna | 55.37  | 1 | 1 | 50% |
 | Jovan | 52.70  | 1 | 1 | 50% |
+| Vivienne | 45.38  | 0 | 2 | 0% |
+| Sara | 43.02  | 0 | 2 | 0% |
 | Sincere | 41.57  | 0 | 2 | 0% |
 | Peter | 40.58  | 0 | 2 | 0% |
+| Dev | 40.40  | 0 | 1 | 0% |
+| Garrick | 40.40  | 0 | 1 | 0% |
 | Iris | 40.37  | 0 | 1 | 0% |
-| Vivienne | 40.37  | 0 | 1 | 0% |
-| Felicianna | 40.37  | 0 | 1 | 0% |
-| Sara | 37.18  | 0 | 1 | 0% |
 | Tyler | 37.18  | 0 | 1 | 0% |
 | Viktoria | 33.84  | 0 | 1 | 0% |
 

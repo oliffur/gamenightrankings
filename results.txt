@@ -96,4 +96,4 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 09/02/2024|Secret Hitler|Leo,Garrick,Felicianna,Vivienne,Oliver,Cindy;Jovan,Jelita,Annabeth,Wincy,dummy090200,dummy090201|0;1
 09/09/2024|Coup|Felicianna;Sara;Oliver;Garrick;Vivienne;Dev|0;1;1;1;1;1
 09/09/2024|Secret Hitler|Wincy,Oliver,Dev,Garrick,Pansy,Leo,Sara;Felicianna,Vivienne,Freya,Kelly,dummy090900,dummy090901,dummy090902|0;1
-09/09/2024|Secret Hitler|Vivienne,Garrick,Pansy,Sara,Dev;Oliver,Wincy;Leo,Felicianna,dummy090903|0;1
+09/09/2024|Secret Hitler|Vivienne,Garrick,Pansy,Sara,Dev;Oliver,Wincy,Leo,Felicianna,dummy090903|0;1
