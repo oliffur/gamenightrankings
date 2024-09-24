@@ -97,3 +97,8 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 09/09/2024|Coup|Felicianna;Sara;Oliver;Garrick;Vivienne;Dev|0;1;1;1;1;1
 09/09/2024|Secret Hitler|Wincy,Oliver,Dev,Garrick,Pansy,Leo,Sara;Felicianna,Vivienne,Freya,Kelly,dummy090900,dummy090901,dummy090902|0;1
 09/09/2024|Secret Hitler|Vivienne,Garrick,Pansy,Sara,Dev;Oliver,Wincy,Leo,Felicianna,dummy090903|0;1
+09/24/2024|Incan Gold|Oliver;Vivienne;Jovan;Felicianna;Wincy;Leo;Garrick;Jelita|0;1;2;3;4;5;6;7
+09/24/2024|Avalon|Oliver,Garrick,Wincy,Annabeth,Leo,Felicianna;Jelita,Vivienne,Jovan,dummy092400,dummy092401,dummy092402|0;1
+09/24/2024|Avalon|Felicianna,Vivienne,Jelita,dummy092403,dummy092404,dummy092405;Garrick,Oliver,Wincy,Leo,Jovan,Annabeth|0;1
+09/24/2024|Avalon|Oliver,Jelita,Wincy,dummy092406,dummy092407,dummy092408;Garrick,Vivienne,Felicianna,Leo,Jovan,Annabeth|0;1
+09/24/2024|Avalon|Oliver,Leo,Jovan,dummy092403,dummy092404,dummy092405;Garrick,Vivienne,Wincy,Felicianna,Jelita,Annabeth|0;1

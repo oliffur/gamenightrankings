@@ -6,35 +6,35 @@
 | Player | ELO | Wins | Losses | Win % | Best Game |
 | --- | --- | --- | --- | --- | --- |
 | Ted | 109.30 | 9 | 0 | 100% | Fetch |
-| Garrick | 107.14 | 16 | 8 | 67% | Secret Hitler |
-| Oliver | 89.20 | 39 | 49 | 44% | Secret Hitler |
-| Leo | 83.78 | 29 | 43 | 40% | Camel Up |
+| Garrick | 97.22 | 17 | 12 | 59% | Secret Hitler |
+| Oliver | 92.13 | 43 | 50 | 46% | Secret Hitler |
 | Susan | 83.01 | 10 | 11 | 48% | Wavelength |
 | Iris | 82.36 | 6 | 8 | 43% | Codenames |
+| Leo | 82.22 | 31 | 46 | 40% | Camel Up |
 | Tyler | 75.64 | 8 | 12 | 40% | Camel Up |
-| Jelita | 72.13 | 13 | 19 | 41% | Secret Hitler |
-| Felicianna | 71.84 | 19 | 34 | 36% | Codenames |
+| Felicianna | 73.59 | 21 | 37 | 36% | Codenames |
+| Jelita | 72.31 | 15 | 22 | 41% | Secret Hitler |
 | Abhi | 71.02 | 5 | 1 | 83% | Avalon |
 | Simon | 66.61 | 9 | 9 | 50% | Secret Hitler |
 | Sammi | 64.21 | 9 | 11 | 45% | Incan Gold |
-| Jovan | 64.04 | 9 | 13 | 41% | Secret Hitler |
+| Vivienne | 62.01 | 10 | 21 | 32% | Incan Gold |
 | Aaron | 62.01 | 11 | 13 | 46% | Codenames |
 | Kenny | 61.98 | 4 | 3 | 57% | Codenames |
+| Jovan | 61.26 | 10 | 17 | 37% | Secret Hitler |
 | Dev | 60.70 | 2 | 1 | 67% | Secret Hitler |
-| Vivienne | 59.44 | 9 | 17 | 35% | Secret Hitler |
 | Trista | 59.09 | 9 | 15 | 38% | Camel Up |
 | Harsha | 58.87 | 6 | 6 | 50% | Wavelength |
+| Wincy | 58.35 | 11 | 17 | 39% | Codenames |
 | Bo | 57.73 | 2 | 1 | 67% | Avalon |
 | Jackie | 57.68 | 2 | 1 | 67% | Wavelength |
-| Wincy | 57.33 | 9 | 14 | 39% | Codenames |
 | Dan | 54.49 | 2 | 5 | 29% | Wavelength |
 | Viktoria | 53.48 | 4 | 8 | 33% | Love Letter |
-| Annabeth | 53.44 | 6 | 9 | 40% | Bang |
 | Peter | 52.83 | 10 | 16 | 38% | No Thanks |
 | Kazumi | 52.39 | 4 | 9 | 31% | Camel Up |
 | Lil Su | 49.44 | 3 | 3 | 50% | Codenames |
 | Maurice | 49.13 | 1 | 1 | 50% | Cash n Guns |
 | Lucille | 46.20 | 2 | 5 | 29% | Incan Gold |
+| Annabeth | 45.54 | 7 | 12 | 37% | Bang |
 | Pansy | 43.86 | 3 | 8 | 27% | Secret Hitler |
 | Sincere | 40.90 | 3 | 8 | 27% | Coup |
 | Janice | 40.16 | 1 | 1 | 50% | Wavelength |
@@ -69,24 +69,25 @@
 
 | Player | ELO | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Jelita | 53.92  | 0 | 3 | 0% |
+| Felicianna | 55.75  | 1 | 5 | 17% |
+| Jovan | 54.11  | 0 | 4 | 0% |
 | Sammi | 53.39  | 1 | 0 | 100% |
-| Felicianna | 52.80  | 1 | 4 | 20% |
-| Garrick | 52.78  | 1 | 1 | 50% |
+| Vivienne | 51.48  | 0 | 3 | 0% |
+| Oliver | 51.02  | 1 | 6 | 14% |
 | Iris | 50.87  | 0 | 3 | 0% |
 | JustinKhoo | 50.70  | 1 | 0 | 100% |
 | Susan | 50.08  | 1 | 1 | 50% |
-| Jovan | 47.59  | 0 | 3 | 0% |
-| Leo | 45.67  | 0 | 4 | 0% |
+| Garrick | 45.93  | 1 | 2 | 33% |
 | Dan | 44.80  | 0 | 3 | 0% |
+| Leo | 44.13  | 0 | 5 | 0% |
 | Tyler | 43.77  | 1 | 1 | 50% |
 | Lucille | 43.55  | 0 | 2 | 0% |
-| Vivienne | 40.13  | 0 | 2 | 0% |
+| Jelita | 42.25  | 0 | 4 | 0% |
 | Kazumi | 39.03  | 0 | 1 | 0% |
 | Aaron | 38.78  | 0 | 1 | 0% |
 | Sincere | 38.66  | 1 | 1 | 50% |
 | Abhi | 38.42  | 0 | 1 | 0% |
-| Oliver | 38.20  | 0 | 6 | 0% |
+| Wincy | 35.78  | 0 | 1 | 0% |
 | Julie | 33.69  | 0 | 1 | 0% |
 | Simon | 25.09  | 0 | 1 | 0% |
 | Harsha | 23.77  | 0 | 2 | 0% |
@@ -102,29 +103,29 @@
 | Bo | 53.34  | 2 | 0 | 100% |
 | Simon | 50.95  | 3 | 1 | 75% |
 | Iris | 50.39  | 2 | 0 | 100% |
+| Oliver | 46.37  | 6 | 6 | 50% |
 | Harsha | 44.91  | 2 | 1 | 67% |
-| Vivienne | 44.64  | 3 | 2 | 60% |
-| Jelita | 42.17  | 2 | 2 | 50% |
+| Wincy | 42.23  | 3 | 3 | 50% |
 | Dorine | 41.64  | 1 | 0 | 100% |
+| Jelita | 41.22  | 4 | 4 | 50% |
 | Trista | 40.52  | 1 | 0 | 100% |
 | Kenny | 40.52  | 1 | 0 | 100% |
-| Wincy | 35.91  | 1 | 1 | 50% |
+| Vivienne | 36.41  | 4 | 5 | 44% |
+| Leo | 35.48  | 4 | 7 | 36% |
 | Peter | 35.24  | 2 | 2 | 50% |
 | Sincere | 31.53  | 1 | 2 | 33% |
-| Oliver | 31.38  | 3 | 5 | 38% |
 | Rebecca | 29.74  | 0 | 1 | 0% |
+| Felicianna | 29.01  | 3 | 6 | 33% |
 | Aaron | 28.38  | 0 | 1 | 0% |
-| Garrick | 28.38  | 0 | 1 | 0% |
 | Sammi | 28.38  | 0 | 1 | 0% |
 | Susan | 26.81  | 0 | 1 | 0% |
 | Pansy | 26.81  | 0 | 1 | 0% |
-| Leo | 26.65  | 2 | 5 | 29% |
+| Garrick | 26.79  | 1 | 4 | 20% |
 | Kazumi | 23.56  | 0 | 2 | 0% |
-| Jovan | 22.86  | 0 | 2 | 0% |
 | Tyler | 21.18  | 0 | 2 | 0% |
-| Felicianna | 20.32  | 1 | 4 | 20% |
 | Queenie | 19.87  | 0 | 3 | 0% |
-| Annabeth | 19.67  | 0 | 2 | 0% |
+| Annabeth | 17.95  | 1 | 5 | 17% |
+| Jovan | 14.87  | 1 | 5 | 17% |
 
 ### Bang
 
