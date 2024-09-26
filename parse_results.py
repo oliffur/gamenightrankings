@@ -145,7 +145,7 @@ def main():
     best_dict = get_best_game_by_player(ts_dict)
     logger.info(best_dict)
     markdown, infrequent_players = add_ranking_rows(
-        "Overall Rankings", overall_ts, markdown
+        "Overall Rankings", overall_ts, markdown, infrequent_threshold=20
     )
     plot_rankings_over_time(overall_df, infrequent_players)
 
