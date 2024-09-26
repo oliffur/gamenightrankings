@@ -4,13 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-trueskill = "*"
-jupyterlab = "*"
 pandas = "*"
 matplotlib = "*"
 numpy = "*"
+inferent = "0.0.34"
 
 [dev-packages]
 
 [requires]
-python_version = "3.8"
+python_version = "3.9"

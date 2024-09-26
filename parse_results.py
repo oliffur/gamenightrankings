@@ -1,181 +1,169 @@
 import itertools
-from   matplotlib import pyplot as plt
+import logging
+from matplotlib import pyplot as plt
 import numpy as np
 import pandas as pd
-from   trueskill import TrueSkill
+from typing import Dict, List, Tuple
+from inferent.ratings import TSRating
+
+logger = logging.getLogger("ratings")
+logger.setLevel(logging.INFO)
 
 LUCK_FACTORS = {
-        'What do you Meme': 10.0,
-        'Incan Gold': 5.0,
-        'Exploding Kittens': 5.0,
-        'Love Letter': 5.0,
-        'No Thanks': 5.0,
-        'Shifty Eyed Spies': 5.0,
-        'Cash n Guns': 5.0,
-        'Bang' : 3.0,
-        'Coup' : 3.0,
-        'Masquerade' : 3.0,
-        'Camel Up': 3.0,
-        'Here to Slay': 3.0,
-        }
+    "What do you Meme": 10.0,
+    "Incan Gold": 5.0,
+    "Exploding Kittens": 5.0,
+    "Love Letter": 5.0,
+    "No Thanks": 5.0,
+    "Shifty Eyed Spies": 5.0,
+    "Cash n Guns": 5.0,
+    "Bang": 3.0,
+    "Coup": 3.0,
+    "Masquerade": 3.0,
+    "Camel Up": 3.0,
+    "Here to Slay": 3.0,
+}
 
-class RatingsInfo:
-    elo = None
-    wins = None
-    losses = None
-    def __init__(self, env):
-        self.elo = env.create_rating()
-        self.wins, self.losses = 0, 0
 
-    def get_elo(self):
-        return self.elo.mu * 4.0  # scale to 100
-
-    def get_rating(self):
-        return (self.elo.mu - 2 * max(0.0, self.elo.sigma)) * 4.0
-
-def get_elo(d, env, player):
-    '''
-    Get elo from dict d, if not present, create a new RatingsInfo
-    object and return its elo
-    '''
-    if player not in d: d[player] = RatingsInfo(env)
-    return d[player].elo
-
-def calc_elo(df):
-    '''
-    For a given input dataframe, calculates the running elo of each player
-    in each team. Returns a dictionary of players to latest elos, and also
-    returns the running df
-    '''
-
-    env = TrueSkill(draw_probability=0)
-    ratings = {}
-    df['elos'] = None
-    df['elos'] = df['elos'].astype(object)  # avoid insertion errors later
-    for idx, row in df.iterrows():
-        teams = [[get_elo(ratings, env, player) for player in team]\
-                for team in row['teams']]
-        if row['game'] in LUCK_FACTORS:
-            env.beta = env.beta * LUCK_FACTORS[row['game']]
-            elos = env.rate(teams, row['ranks'])
-            env.beta = env.beta / LUCK_FACTORS[row['game']]
-        else:
-            elos = env.rate(teams, row['ranks'])
-        has_winner = sum(row['ranks']) > 0
-        for team, team_elos, team_rank in zip(row['teams'], elos, row['ranks']):
-            for player, player_elo in zip(team, team_elos):
-                ratings[player].elo = player_elo
-                if has_winner:
-                    if team_rank == 0: ratings[player].wins += 1
-                    else: ratings[player].losses += 1
-        #df.at[idx, 'elos'] = [elos]
-        df.at[idx, 'elos'] = elos
-    return ratings, df
-
-def parse_results():
-    '''
-    Parses results.txt and runs calc_elo on the aggregate df as well
-    as per-game dfs
-    '''
+def parse_results(file_path: str = "results.txt"):
+    """
+    Parses results.txt into a dataframe
+    """
     results = []
-    with open('results.txt') as f:
-        for line in f.readlines():
-            if line.startswith('DATE'): continue
-            date, game, teams, ranks = line.split('|')
-            teams, ranks = teams.split(';'), ranks.split(';')
-            teams = [team.split(',') for team in teams]
-            ranks = [int(rank) for rank in ranks]
+    with open(file_path) as f:
+        for line in f:
+            if line.startswith("DATE"):
+                continue
+            date, game, teams, ranks = line.split("|")
+            teams = [team.split(",") for team in teams.split(";")]
+            ranks = list(map(int, ranks.split(";")))
             results.append((date, game, teams, ranks))
 
-    res_df = pd.DataFrame(results, columns=['date', 'game', 'teams', 'ranks'])
-
-    elos = {}
-    for game in res_df.game.unique():
-        elos[game], _ = calc_elo(res_df.loc[res_df.game == game])
-        # (DEBUG) if game == "Secret Hitler": _.to_csv('./test.csv')
-    return calc_elo(res_df) + (elos,)  # Tuple concatenation
-
-def main():
-    '''
-    Calls parse_results() and then updates README.md based on return value.
-    '''
-
-    all_ratings, all_df, per_game_ratings = parse_results()
+    return pd.DataFrame(results, columns=["date", "game", "teams", "ranks"])
 
 
-    markdown = '''
-![Image](https://media.architecturaldigest.com/photos/618036966ba9675f212cc805/16:9/w_2560%2Cc_limit/SquidGame_Season1_Episode1_00_44_44_16.jpg)
+def get_ratings(results_df: pd.DataFrame):
+    df_dict = {}  # dataframes containing elo time series
+    ts_dict = {}  # TSRating classes with latest player information
+    for game in results_df["game"].unique():
+        ts_dict[game] = TSRating(beta_adjustments=LUCK_FACTORS)
+        _ = ts_dict[game].enrich_update(results_df.loc[results_df.game == game])
+    overall_ts = TSRating(beta_adjustments=LUCK_FACTORS)
+    overall_df = overall_ts.enrich_update(results_df)
+    return overall_df, overall_ts, ts_dict
 
-### Total Rankings
 
-| Player | ELO | Wins | Losses | Win % | Best Game |
-| --- | --- | --- | --- | --- | --- |'''
+def get_best_game_by_player(ts_dict: Dict[str, TSRating]) -> Dict[str, float]:
+    best_dict = {}  # Dictionary of player -> (game, min_rating)
+    for game, ts in ts_dict.items():
+        for player, p in ts.players.items():
+            min_rating = p.get_min_rating()
+            if player not in best_dict or min_rating > best_dict[player][1]:
+                best_dict[player] = (game, min_rating)
+    return best_dict
 
-    best_game = {}
-    for game, ratings in per_game_ratings.items():
-        for player, rating in ratings.items():
-            if player not in best_game or rating.get_rating() > best_game[player][1]:
-                best_game[player] = (game, rating.get_rating())
+
+def add_ranking_rows(
+    game: str,
+    overall_ts: TSRating,
+    markdown: str,
+    infrequent_threshold: int = -1,
+) -> Tuple[List, str]:
+    # fmt: off
+    markdown +=\
+f"""
+
+### {game}
+
+| Player | ELO | Wins | Losses | Win % |
+| --- | --- | --- | --- | --- |
+"""
+    # fmt: on
 
     infrequent_players = []  # players with <10 games
-    for player, rating in sorted(
-            all_ratings.items(),
-            key=lambda item: item[1].get_rating(),
-            reverse=True):
-        if player.startswith('dummy'): continue
-        markdown += '''
-| {} | {:.2f} | {} | {} | {:.0%} | {} |'''.format(
-        player, rating.get_rating(), rating.wins, rating.losses,
-        rating.wins / (rating.wins + rating.losses), best_game[player][0])
-        if rating.wins + rating.losses < 15: infrequent_players.append(player)
+    for player, p in sorted(
+        overall_ts.players.items(),
+        key=lambda item: item[1].get_min_rating(),
+        reverse=True,
+    ):
+        if player.startswith("dummy"):  # skip dummies
+            continue
 
-    print(infrequent_players)
-    plt.style.use('ggplot')
+        # fmt: off
+        markdown +=\
+f"""\
+| {player} | {p.get_min_rating():.2f} | {p.wins} | {p.losses} | {p.wins / (p.wins + p.losses):.0%} |
+"""
+        # fmt: on
+
+        if p.wins + p.losses < infrequent_threshold:
+            infrequent_players.append(player)
+
+    return markdown, infrequent_players
+
+
+def flatten(xss):
+    return [x for xs in xss for x in xs]
+
+
+def plot_rankings_over_time(df: pd.DataFrame, infrequent_players: List[str]):
+    plt.style.use("ggplot")
     chart_df = pd.DataFrame()
-    for _, row in all_df.iterrows():
-        players = list(np.array(row['teams']).flat)
-        ratings = [(elo.mu - 2 * max(0.0, elo.sigma)) * 4 for elo in \
-                itertools.chain.from_iterable(row['elos'])]
-        #ratings = [elo.mu * 4 for elo in np.array(row['elos']).flat]
-        ## DEBUG
-        sigmas = [elo.sigma for elo in \
-                itertools.chain.from_iterable(row['elos'])]
-        for player, rating, sigma in zip(players, ratings, sigmas):
-            if player.startswith('dummy'): continue
-            chart_df.at[row['date'], player] = rating
-            print("{} : {} : {}".format(player, str(rating), str(sigma)))
-    chart_df.ffill(inplace=True)
-    chart_df.drop(columns=infrequent_players, inplace=True)
+
+    for date, ps in zip(df["date"], df["ratings"]):
+        for p in flatten(ps):
+            if p.name.startswith("dummy"):
+                continue
+            chart_df.at[date, p.name] = p.get_min_rating()
+            logger.info(f"{p.name} : {p.get_min_rating()} : {p.rtg.sigma}")
+
+    chart_df = chart_df.ffill().drop(columns=infrequent_players)
     if not chart_df.empty:
         chart_df.plot.line().legend(
-                loc='lower center', ncol=5, bbox_to_anchor=(0.5, -0.3))
-    plt.xticks(rotation='vertical')
+            loc="lower center", ncol=5, bbox_to_anchor=(0.5, -0.3)
+        )
+    plt.xticks(rotation="vertical")
     plt.subplots_adjust(bottom=0.25)
-    plt.savefig('rankings.png')
+    plt.savefig("rankings.png")
 
-    markdown += '''
+
+def main():
+    """
+    Calls parse_results() and then updates README.md based on return value.
+    """
+
+    results_df = parse_results()
+    overall_df, overall_ts, ts_dict = get_ratings(results_df)
+
+    # fmt: off
+    markdown =\
+"""
+![Image](https://media.architecturaldigest.com/photos/618036966ba9675f212cc805/16:9/w_2560%2Cc_limit/SquidGame_Season1_Episode1_00_44_44_16.jpg)
+"""
+    # fmt: on
+
+    best_dict = get_best_game_by_player(ts_dict)
+    logger.info(best_dict)
+    markdown, infrequent_players = add_ranking_rows(
+        "Overall Rankings", overall_ts, markdown
+    )
+    plot_rankings_over_time(overall_df, infrequent_players)
+
+    # fmt: off
+    markdown +=\
+"""
 
 ### Rankings over Time
 ![Image](rankings.png)
 
-'''
-    
-    for game, ratings in per_game_ratings.items():
-        markdown += '''
+"""
+    # fmt: on
+    for game, ts in ts_dict.items():
+        markdown, _ = add_ranking_rows(game, ts, markdown)
 
-### {}
-
-| Player | ELO | Wins | Losses | Win % |
-| --- | --- | --- | --- | --- |'''.format(game)
-        for player, rating in sorted(ratings.items(), key=lambda item: item[1].get_rating(), reverse=True):
-            if player.startswith('dummy'): continue
-            markdown += '''
-| {} | {:.2f}  | {} | {} | {:.0%} |'''.format(
-            player, rating.get_rating(), rating.wins, rating.losses,
-            rating.wins / (rating.wins + rating.losses))
-
-    with open('README.md', 'w') as f:
+    with open("README.md", "w") as f:
         f.write(markdown)
+
 
 if __name__ == "__main__":
     main()
