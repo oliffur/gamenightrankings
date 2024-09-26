@@ -38,7 +38,37 @@ df = overall_ts.enrich_update(df)
 
 TSRating is a class that holds a bunch of player objects in a dictionary ```ts.players```. After you call ```enrich_update()```, two things will happen:
 - the dataframe you pass in will be enriched by adding a column ```ratings``` which contains a list of trueskill.Rating objects in the same shape as ```teams```. You can look at **parse_results.py** for how to use this output, and consult the trueskill docs at https://trueskill.org/.
-- the TrueSkill instance you use to update the ratings will update its ```players``` dictionary, and that dictionary will contain the latest information about its players. Again, consult ```parse_results.py``` for how to use it.
+- the TrueSkill instance you use to update the ratings will update its ```players``` dictionary, and that dictionary will contain the latest information about its players. The players class is a custom class defined within my ```inferent``` module, but I've pasted it below for your convenience. Again, consult ```parse_results.py``` if you need help on how to use it.
+
+```python3
+class Player:
+    """Container for player-level data"""
+
+    name: str = ""
+    wins: int = 0
+    losses: int = 0
+
+    def __init__(
+        self, env: trueskill.TrueSkill, name: str, scale=4.0
+    ) -> None:
+        """
+        Initializes DualRating with offensive and defensive ratings.
+
+        :param env: TrueSkill environment
+        :param scale: scaling factor for mean (default mean is 25.0)
+        """
+        self.rtg: trueskill.Rating = env.create_rating()
+        self.name = name
+        self.scale: float = scale  # TODO: remove scale; change directly
+
+    def get_rating(self) -> float:
+        """Get mean rating"""
+        return self.rtg.mu * self.scale  # scale to 100
+
+    def get_min_rating(self) -> float:
+        """Get value 2 standard deviations below mean"""
+        return (self.rtg.mu - 2 * max(0.0, self. mean  [A]      lf.scale
+```
 
 In general, use (1) to get a time series of scores (how has Leo's rating changed over time?) and use (2) to get the final up-to-date rankings (who is the highest and lowest ranking person right now?).
 
