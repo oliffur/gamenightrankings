@@ -102,3 +102,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 09/24/2024|Avalon|Felicianna,Vivienne,Jelita,dummy092403,dummy092404,dummy092405;Garrick,Oliver,Wincy,Leo,Jovan,Annabeth|0;1
 09/24/2024|Avalon|Oliver,Jelita,Wincy,dummy092406,dummy092407,dummy092408;Garrick,Vivienne,Felicianna,Leo,Jovan,Annabeth|0;1
 09/24/2024|Avalon|Oliver,Leo,Jovan,dummy092403,dummy092404,dummy092405;Garrick,Vivienne,Wincy,Felicianna,Jelita,Annabeth|0;1
+09/30/2024|Coup|Susan;Lil Su;Oliver;Peter;Andrea|0;1;1;1;1
+09/30/2024|Incan Gold|Andrea;Lil Su;Annabeth;Susan;Peter;Felicianna;Tyler;Oliver|0;1;2;3;4;5;6;7
+09/30/2024|Bang|Oliver,Annabeth,Lil Su;Felicianna,dummy093000,dummy093001;Tyler,Peter,Andrea|0;1;1
+09/30/2024|Exploding Kittens|Oliver;Felicianna;Lil Su;Annabeth;Andrea|0;1;1;1;1
