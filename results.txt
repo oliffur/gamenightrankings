@@ -106,3 +106,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 09/30/2024|Incan Gold|Andrea;Lil Su;Annabeth;Susan;Peter;Felicianna;Tyler;Oliver|0;1;2;3;4;5;6;7
 09/30/2024|Bang|Oliver,Annabeth,Lil Su;Felicianna,dummy093000,dummy093001;Tyler,Peter,Andrea|0;1;1
 09/30/2024|Exploding Kittens|Oliver;Felicianna;Lil Su;Annabeth;Andrea|0;1;1;1;1
+10/07/2024|Incan Gold|Wincy;Garrick;Harsha;Jovan;Oliver;Felicianna;Kenny;Dorine|0;1;2;3;3;4;5;6
+10/07/2024|Incan Gold|Jovan;Harsha;Felicianna;Howard;Wincy;Oliver;Kenny;Dorine|0;1;2;3;3;4;5;5
+10/07/2024|Secret Hitler|Oliver,Howard,Jovan,Kenny,Dorine;Garrick,Felicianna,Wincy,dummy100700,dummy100701|0;1
+10/07/2024|Secret Hitler|Oliver,Kenny,Annabeth,Wincy,dummy100702;Garrick,Felicianna,Jovan,Howard,Dorine|0;1
