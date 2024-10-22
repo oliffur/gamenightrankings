@@ -110,3 +110,5 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 10/07/2024|Incan Gold|Jovan;Harsha;Felicianna;Howard;Wincy;Oliver;Kenny;Dorine|0;1;2;3;3;4;5;5
 10/07/2024|Secret Hitler|Oliver,Howard,Jovan,Kenny,Dorine;Garrick,Felicianna,Wincy,dummy100700,dummy100701|0;1
 10/07/2024|Secret Hitler|Oliver,Kenny,Annabeth,Wincy,dummy100702;Garrick,Felicianna,Jovan,Howard,Dorine|0;1
+10/21/2024|Camel Up|Jovan;Tyler;Garrick;Leo;Jelita;Oliver;Vivienne;Susan|0;1;2;3;4;5;6;7
+10/21/2024|Secret Hitler|Oliver,Garrick,Jovan,Vivienne,Jelita;Keiga,Leo,Annabeth,dummy102100,dummy102101|0;1
