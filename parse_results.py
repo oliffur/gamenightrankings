@@ -14,7 +14,7 @@ LUCK_FACTORS = {
     "What do you Meme": 10.0,
     "Incan Gold": 5.0,
     "Exploding Kittens": 5.0,
-    "Love Letter": 5.0,
+    "Love Letter": 1.0,
     "No Thanks": 5.0,
     "Shifty Eyed Spies": 5.0,
     "Cash n Guns": 5.0,
