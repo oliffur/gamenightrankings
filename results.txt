@@ -121,3 +121,5 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 11/04/2024|Undercover|Leo,Oliver,dummy110405,dummy110406,dummy110407,dummy110408,dummy110409,dummy110410,dummy110411,dummy110412,dummy110413;Howard,Jovan,Trista,Annabeth,Tyler,Harsha,Aaron,Wincy,Vivienne,Sammi,Jelita|0;1
 11/04/2024|Undercover|Jelita,Tyler,Oliver,Harsha,Sammi,Wincy,Annabeth,Vivienne;Aaron,Leo,Trista,Howard,Jovan,dummy110414,dummy110415,dummy110416|0;1
 11/04/2024|Undercover|Aaron,Trista,Vivienne,Leo,Tyler,Jovan,Oliver,Howard;Wincy,Annabeth,Sammi,Jelita,Harsha,dummy110414,dummy110415,dummy110416|0;1
+11/11/2024|Love Letter|Leo;Oliver;Freya;Felicianna|0;1;1;1
+11/11/2024|Secret Hitler|Felicianna,Garrick,Leo,Harsha;Oliver,Jovan,dummy111100,dummy111101|0;1
