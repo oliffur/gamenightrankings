@@ -123,3 +123,8 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 11/04/2024|Undercover|Aaron,Trista,Vivienne,Leo,Tyler,Jovan,Oliver,Howard;Wincy,Annabeth,Sammi,Jelita,Harsha,dummy110414,dummy110415,dummy110416|0;1
 11/11/2024|Love Letter|Leo;Oliver;Freya;Felicianna|0;1;1;1
 11/11/2024|Secret Hitler|Felicianna,Garrick,Leo,Harsha;Oliver,Jovan,dummy111100,dummy111101|0;1
+11/18/2024|Incan Gold|Oliver;Leo;Lil Su;Felicianna;Karen|0;1;2;3;4
+11/18/2024|Incan Gold|Leo;Oliver;Karen;Howard;Lil Su;Jovan;Felicianna|0;1;2;3;3;4;4
+11/18/2024|Incan Gold|Garrick;Karen;Leo;Jovan;Lil Su;Oliver;Felicianna;Howard|0;1;2;3;3;4;4;5
+11/18/2024|Secret Hitler|Leo,Felicianna,Lil Su,Jovan,dummy111800;Oliver,Garrick,Annabeth,Karen,Howard|0;1
+11/18/2024|Secret Hitler|Leo,Oliver,Jovan,Karen,dummy111801;Lil Su,Garrick,Annabeth,Felicianna,Howard|0;1
