@@ -132,3 +132,5 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 11/25/2024|Bang|Leo,Karen,Lil Su;Howard,dummy112502,dummy112503;Alex,dummy112504,dummy112505;Oliver,Vivienne,Garrick|0;1;1;1
 11/25/2024|Secret Hitler|Garrick,Vivienne,Felicianna,Karen,Alex,Leo,Howard;Annabeth,Oliver,Tyler,Jovan,dummy112506,dummy112507|0;1
 11/25/2024|Secret Hitler|Leo,Oliver,Howard,Annabeth,Garrick;Jovan,Felicianna,Vivienne,dummy112508,dummy112509|0;1
+12/02/2024|Incan Gold|Leo;Tyler;Lil Su;Felicianna;Susan;Wincy;Annabeth;Oliver|0;1;2;3;4;5;6;6
+12/02/2024|Incan Gold|Leo;Tyler;Lil Su;Felicianna;Susan;Wincy;Annabeth;Oliver|0;1;2;3;4;5;6;6
