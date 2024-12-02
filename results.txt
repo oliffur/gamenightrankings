@@ -134,3 +134,5 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 11/25/2024|Secret Hitler|Leo,Oliver,Howard,Annabeth,Garrick;Jovan,Felicianna,Vivienne,dummy112508,dummy112509|0;1
 12/02/2024|Incan Gold|Leo;Tyler;Lil Su;Felicianna;Susan;Wincy;Annabeth;Oliver|0;1;2;3;4;5;6;6
 12/02/2024|Incan Gold|Leo;Tyler;Lil Su;Felicianna;Susan;Wincy;Annabeth;Oliver|0;1;2;3;4;5;6;6
+12/02/2024|Secret Hitler|Oliver,Garrick,Tyler,Lil Su,Vivienne,Felicianna;Leo,Annabeth,Susan,Wincy,dummy120200,dummy120201|0;1
+12/02/2024|Secret Hitler|Oliver,Garrick,Tyler,Lil Su,Vivienne,Felicianna;Leo,Annabeth,Susan,Wincy,dummy120200,dummy120201|0;1
