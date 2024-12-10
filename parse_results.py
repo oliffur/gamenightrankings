@@ -55,9 +55,9 @@ def get_ratings(results_df: pd.DataFrame):
     """
     ts_dict = {}  # TSRating classes with latest player information
     for game in results_df["game"].unique():
-        ts_dict[game] = TSRating(beta_adjustments=LUCK_FACTORS, mu=100.0, sigma=25.0)
+        ts_dict[game] = TSRating(beta_adjustments=LUCK_FACTORS, mu=100.0, sigma=35.0)
         _ = ts_dict[game].enrich_update(results_df.loc[results_df.game == game])
-    overall_ts = TSRating(beta_adjustments=LUCK_FACTORS, mu=100.0, sigma=25.0)
+    overall_ts = TSRating(beta_adjustments=LUCK_FACTORS, mu=100.0, sigma=35.0)
     overall_df = overall_ts.enrich_update(results_df)
     return overall_df, overall_ts, ts_dict
 
