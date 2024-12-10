@@ -7,7 +7,7 @@ name = "pypi"
 pandas = "*"
 matplotlib = "*"
 numpy = "*"
-inferent = "0.1.0"
+inferent = "0.1.2"
 
 [dev-packages]
 
