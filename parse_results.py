@@ -11,18 +11,18 @@ logger = logging.getLogger("ratings")
 logger.setLevel(logging.INFO)
 
 LUCK_FACTORS = {
-    "What do you Meme": 20.0,
-    "Incan Gold": 10.0,
-    "Exploding Kittens": 10.0,
-    "Love Letter": 4.0,
-    "No Thanks": 10.0,
-    "Shifty Eyed Spies": 10.0,
-    "Cash n Guns": 10.0,
-    "Bang": 6.0,
-    "Coup": 6.0,
-    "Masquerade": 6.0,
-    "Camel Up": 6.0,
-    "Here to Slay": 6.0,
+    "What do you Meme": 40.0,
+    "Incan Gold": 20.0,
+    "Exploding Kittens": 20.0,
+    "Love Letter": 8.0,
+    "No Thanks": 20.0,
+    "Shifty Eyed Spies": 20.0,
+    "Cash n Guns": 20.0,
+    "Bang": 12.0,
+    "Coup": 12.0,
+    "Masquerade": 12.0,
+    "Camel Up": 12.0,
+    "Here to Slay": 12.0,
 }
 
 
