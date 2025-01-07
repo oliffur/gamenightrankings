@@ -108,7 +108,7 @@ f"""
     infrequent_players = []  # players with <10 games
     for player, p in sorted(
         overall_ts.players.items(),
-        key=lambda item: item[1].get_min_rating(),
+        key=lambda item: item[1].get_min_rating() + 400,
         reverse=True,
     ):
         if player.startswith("dummy"):  # skip dummies
