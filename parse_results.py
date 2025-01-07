@@ -77,7 +77,7 @@ def get_best_game_by_player(ts_dict: Dict[str, TSRating]) -> Dict[str, float]:
     best_dict = {}  # Dictionary of player -> (game, min_rating)
     for game, ts in ts_dict.items():
         for player, p in ts.players.items():
-            min_rating = p.get_min_rating()
+            min_rating = p.rtg.mu
             if player not in best_dict or min_rating > best_dict[player][1]:
                 best_dict[player] = (game, min_rating)
     return best_dict
@@ -117,7 +117,7 @@ f"""
         # fmt: off
         markdown +=\
 f"""\
-| {player} | {p.get_min_rating() + 400:.2f} | {p.wins} | {p.losses} | {p.wins / (p.wins + p.losses):.0%} |
+| {player} | {p.rtg.mu:.2f} | {p.wins} | {p.losses} | {p.wins / (p.wins + p.losses):.0%} |
 """
         # fmt: on
 
@@ -144,8 +144,8 @@ def plot_rankings_over_time(df: pd.DataFrame, infrequent_players: List[str]):
         for p in flatten(ps):
             if p.name.startswith("dummy"):
                 continue
-            chart_df.at[date, p.name] = p.get_min_rating() + 400
-            logger.info("%s : %s : %s", p.name, p.get_min_rating() + 400, p.rtg.sigma)
+            chart_df.at[date, p.name] = p.rtg.mu
+            logger.info("%s : %s : %s", p.name, p.rtg.mu, p.rtg.sigma)
 
     chart_df = chart_df.ffill().drop(columns=infrequent_players)
     if not chart_df.empty:
