@@ -11,18 +11,18 @@ logger = logging.getLogger("ratings")
 logger.setLevel(logging.INFO)
 
 LUCK_FACTORS = {
-    "What do you Meme": 40.0,
-    "Incan Gold": 20.0,
-    "Exploding Kittens": 20.0,
-    "Love Letter": 8.0,
-    "No Thanks": 20.0,
-    "Shifty Eyed Spies": 20.0,
-    "Cash n Guns": 20.0,
-    "Bang": 12.0,
-    "Coup": 12.0,
-    "Masquerade": 12.0,
-    "Camel Up": 12.0,
-    "Here to Slay": 12.0,
+    "What do you Meme": 10.0,
+    "Incan Gold": 10.0,
+    "Exploding Kittens": 10.0,
+    "Love Letter": 10.0,
+    "No Thanks": 10.0,
+    "Shifty Eyed Spies": 10.0,
+    "Cash n Guns": 10.0,
+    "Bang": 1.0,
+    "Coup": 10.0,
+    "Masquerade": 10.0,
+    "Camel Up": 10.0,
+    "Here to Slay": 10.0,
 }
 
 
@@ -55,9 +55,19 @@ def get_ratings(results_df: pd.DataFrame):
     """
     ts_dict = {}  # TSRating classes with latest player information
     for game in results_df["game"].unique():
-        ts_dict[game] = TSRating(beta_adjustments=LUCK_FACTORS, mu=100.0, sigma=75.0)
+        ts_dict[game] = TSRating(
+                beta_adjustments=LUCK_FACTORS,
+                mu=100.0,
+                sigma=100.0,
+                beta=5.0,
+                tau=00.5)
         _ = ts_dict[game].enrich_update(results_df.loc[results_df.game == game])
-    overall_ts = TSRating(beta_adjustments=LUCK_FACTORS, mu=100.0, sigma=75.0)
+    overall_ts = TSRating(
+            beta_adjustments=LUCK_FACTORS,
+            mu=100.0,
+            sigma=100.0,
+            beta=5.0,
+            tau=0.05)
     overall_df = overall_ts.enrich_update(results_df)
     return overall_df, overall_ts, ts_dict
 
@@ -167,7 +177,7 @@ def main():
     best_dict = get_best_game_by_player(ts_dict)
     logger.info(best_dict)
     markdown, infrequent_players = add_ranking_rows(
-        "Overall Rankings", overall_ts, markdown, infrequent_threshold=20
+        "Overall Rankings", overall_ts, markdown, infrequent_threshold=0
     )
     plot_rankings_over_time(overall_df, infrequent_players)
 
