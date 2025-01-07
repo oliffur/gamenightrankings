@@ -60,7 +60,7 @@ def get_ratings(results_df: pd.DataFrame):
                 mu=100.0,
                 sigma=100.0,
                 beta=5.0,
-                tau=00.5)
+                tau=0.05)
         _ = ts_dict[game].enrich_update(results_df.loc[results_df.game == game])
     overall_ts = TSRating(
             beta_adjustments=LUCK_FACTORS,
