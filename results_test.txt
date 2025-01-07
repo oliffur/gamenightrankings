@@ -1,5 +1,5 @@
 DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;...;RANKM
-01/06/2025|Bang|Garrick;Leo;Oliver;Freya;Feli;Eric;Karen|0;0;0;1;1;1;1
-01/07/2025|Bang|Garrick;Leo;Feli;Freya;Eric;Karen;Wincy;Oliver|0;0;0;1;1;1;1;1
+01/06/2025|Bang|Garrick,Leo,Oliver;Freya,dummy010600,dummy010601;Feli,Eric,Karen|0;1;1
+01/07/2025|Bang|Garrick,Leo,Feli;Freya,Eric,Karen;Wincy,dummy010602,dummy010603;Oliver,dummy010604,dummy010605|0;1;1;1
 01/08/2025|Secret Hitler|Oliver,Garrick,Viv,Feli,Karen;Wincy,Leo,Eric,dummy010606,dummy010607|0;1
 01/09/2025|Secret Hitler|Oliver,Garrick,Viv,Wincy,Karen;Leo,Feli,Eric,Anna,dummy010608|0;1
