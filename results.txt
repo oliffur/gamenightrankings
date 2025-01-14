@@ -3,3 +3,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 01/06/2025|Bang|Garrick,Leo,Feli;Freya,Eric,Karen;Wincy,dummy010602,dummy010603;Oliver,dummy010604,dummy010605|0;1;1;1
 01/06/2025|Secret Hitler|Oliver,Garrick,Viv,Feli,Karen;Wincy,Leo,Eric,dummy010606,dummy010607|0;1
 01/06/2025|Secret Hitler|Oliver,Garrick,Viv,Wincy,Karen;Leo,Feli,Eric,Anna,dummy010608|0;1
+01/13/2025|Codenames|Harsha,Feli,Oliver,Abhi,Leo;Mandy,Peter,Vittoria,Howard,Garrick|0;1
+01/13/2025|Codenames|Mandy,Peter,Vittoria,Howard,Garrick,Anna;Harsha,Oliver,Abhi,Leo,Feli,dummy011300|0;1
+01/13/2025|Secret Hitler|Oliver,Howard,Vittoria,Harsha,Abhi,Anna;Feli,Peter,Garrick,Mandy,dummy011301,dummy011302|0;1
+01/13/2025|Secret Hitler|Garrick,Mandy,Anna,Oliver,Feli;Howard,Harsha,Leo,dummy011303,dummy011304|0;1
