@@ -23,6 +23,7 @@ LUCK_FACTORS = {
     "Masquerade": 10.0,
     "Camel Up": 10.0,
     "Here to Slay": 10.0,
+    "Monopoly Deal": 10.0,
 }
 
 
