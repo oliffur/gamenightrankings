@@ -7,3 +7,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 01/13/2025|Codenames|Mandy,Peter,Vittoria,Howard,Garrick,Anna;Harsha,Oliver,Abhi,Leo,Feli,dummy011300|0;1
 01/13/2025|Secret Hitler|Oliver,Howard,Vittoria,Harsha,Abhi,Anna;Feli,Peter,Garrick,Mandy,dummy011301,dummy011302|0;1
 01/13/2025|Secret Hitler|Garrick,Mandy,Anna,Oliver,Feli;Howard,Harsha,Leo,dummy011303,dummy011304|0;1
+02/03/2025|Monopoly Deal|Garrick;Leo;Serene;Oliver|0;1;1;1
+02/03/2025|Monopoly Deal|Feli;Leo;Serene;Oliver;Garrick|0;1;1;1;1
+02/03/2025|Coup|Anna;Feli;Leo;Serene;Oliver;Garrick|0;1;1;1;1;1
+02/03/2025|Bang|Serene,Oliver,dummy020300;Feli,dummy020301,dummy020302;Leo;Anna;Garrick|0;1;1
