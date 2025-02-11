@@ -11,3 +11,5 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 02/03/2025|Monopoly Deal|Feli;Leo;Serene;Oliver;Garrick|0;1;1;1;1
 02/03/2025|Coup|Anna;Feli;Leo;Serene;Oliver;Garrick|0;1;1;1;1;1
 02/03/2025|Bang|Serene,Oliver,dummy020300;Feli,dummy020301,dummy020302;Leo,Anna,Garrick|0;1;1
+02/10/2025|Avalon|Susan,Jordan,Leo,dummy021000,dummy021001;Feli,Oliver,Vittoria,Garrick,Tyler|0;1
+02/10/2025|Exploding Kittens|Oliver;Feli;Garrick;Leo;Wincy;Vittoria|0;1;1;1;1;1
