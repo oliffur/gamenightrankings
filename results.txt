@@ -19,3 +19,4 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 02/24/2025|Bang|Garrick,Katie,Viv;Michael,dummy022400,dummy022401;Jack,Oliver,dummy022402|0;1;1
 02/24/2025|Secret Hitler|Oliver,Garrick,Viv,Katie,dummy022403;Anna,Wincy,Abhi,Jack,Michael|0;1
 02/24/2025|Secret Hitler|Oliver,Viv,Wincy,Katie,Jack;Anna,Garrick,Abhi,Michael,dummy022404|0;1
+03/03/2025|Avalon|Oliver,Viv,Feli,Garrick,Jacky(Feli);Jovan,Leo,Anna,dummy030300,dummy030301|0;1
