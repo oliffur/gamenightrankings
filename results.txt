@@ -24,4 +24,4 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 03/10/2025|Secret Hitler|Garrick,Anna,Wincy,Peter,dummy031000,dummy031001;Kristy,Katie,Susan,Jack,Oliver,Feli|0;1
 03/10/2025|Codenames|Jack,Oliver,Jacky(Feli),Garrick,Abhi,Harsha;Peter,Wincy,Anna,Kristy,Katie,Feli|0;1
 03/10/2025|Codenames|Anna,Wincy,Jacky(Feli),Katie,dummy031002;Oliver,Garrick,Jack,Kristy,Feli|0;1
-03/10/2025|Exploding Kittens|Garrick;Wincy;Oliver;Feli;Katie;Jacky(Feli),Jack,Anna,Kristy|0;1;1;1;1;1;1;1;1
+03/10/2025|Exploding Kittens|Garrick;Wincy;Oliver;Feli;Katie;Jacky(Feli);Jack;Anna;Kristy|0;1;1;1;1;1;1;1;1
