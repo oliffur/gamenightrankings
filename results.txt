@@ -38,3 +38,6 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 04/14/2025|Codenames|Tyler,Garrick,Katie,Vivian,dummy041400;Oliver,Anna,Kuki,Abhi,Nicole|0;1
 04/14/2025|Codenames|Tyler,Garrick,Katie,Vivian,dummy041401;Oliver,Anna,Kuki,Abhi,Nicole|0;1
 04/14/2025|Secret Hitler|Vivian,Oliver,Anna,Garrick,Nicole;Abhi,Kuki,Katie,dummy041402,dummy041403|0;1
+04/28/2025|Monopoly Deal|Oliver;Simon;Garrick;Susan;Nicole|0;1;1;1;1
+04/28/2025|Bang|Jack,Nicole;Oliver,Garrick;Jovan,dummy042800|0;1;1
+04/28/2025|Bang|Garrick,Jovan;Oliver,Nicole;Jack,dummy042801|0;1;1
