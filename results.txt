@@ -46,3 +46,8 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 05/12/2025|Secret Hitler|Oliver,Tyler,Nicole,Wincy,Allan;Nicole(Tyler),Rachel,Peter,dummy051200,dummy051201|0;1
 05/12/2025|Codenames|Nicole(Tyler),Nicole,Wincy,Rachel;Allan,Oliver,Jovan,Tyler|0;1
 05/12/2025|Codenames|Nicole(Tyler),Nicole,Wincy,Rachel;Allan,Oliver,Jovan,Tyler|0;1
+05/19/2025|Monopoly Deal|Garrick;Phoebe;Oliver;Jane;Katie|0;1;1;1;1
+05/19/2025|Shifty Eyed Spies|Garrick;Katie;Oliver;Jane;Jack|0;0;1;1;1
+05/19/2025|Bang|Garrick,Jane;Oliver,Jack;Katie,dummy051900|0;1;1
+05/19/2025|Bang|Garrick,Katie;Oliver,Jack;Jane,dummy051901|0;1;1
+05/19/2025|Codenames|Garrick,Katie,dummy051902;Oliver,Jane,Jack|0;1
