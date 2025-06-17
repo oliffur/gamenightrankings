@@ -59,3 +59,8 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 06/09/2025|Incan Gold|Wincy;Garrick;Viv;Oliver;Jovan;Katie|0;1;1;2;3;4
 06/09/2025|Incan Gold|Garrick;Wincy;Viv;Jovan;Katie;Oliver|0;1;2;2;3;4
 06/09/2025|Quest|Oliver,Viv,Katie,Anna,Jane;Jovan,Garrick,Wincy,Allan,dummy060900|0;1
+06/16/2025|Coup|Oliver;Allan;Garrick;Narin|0;1;1;1
+06/16/2025|Coup|Allan;Oliver;Garrick;Narin|0;1;1;1
+06/16/2025|Monopoly Deal|Narin;Garrick;Oliver;Allan|0;1;1;1
+06/16/2025|Quest|Oliver,Jovan,Garrick,Allan;Viv,Narin,Anna,Wincy|0;1
+06/16/2025|Quest|Oliver,Anna,Jovan,Wincy;Narin,Garrick,Viv,Allan|0;1
