@@ -150,9 +150,11 @@ def plot_rankings_over_time(df: pd.DataFrame, infrequent_players: List[str]):
 
     chart_df = chart_df.ffill().drop(columns=infrequent_players)
     if not chart_df.empty:
-        chart_df.plot.line().legend(
+        ax = chart_df.plot.line()
+        ax.legend(
             loc="lower center", ncol=5, bbox_to_anchor=(0.5, -0.3)
         )
+        ax.set_ylim(bottom=0.0)
     plt.xticks(rotation="vertical")
     plt.subplots_adjust(bottom=0.25)
     plt.savefig("rankings.png")
