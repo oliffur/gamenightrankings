@@ -68,3 +68,6 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 06/23/2025|Codenames|Garrick,Allan,Tyler,Phoebe,Gloria;Oliver,Anna,Tara,Jane,Myron|0;1
 06/23/2025|Secret Hitler|Oliver,Wincy,Garrick,dummy062302;Anna,Tara,Jane,Myron|0;1
 06/23/2025|Bang|Oliver,Jane,Tara;Garrick,dummy062303,dummy062304;Anna,Wincy,dummy062305|0;1;1
+07/08/2025|Quest|Garrick,Amy,Nicole,Anna,Alima,Jovan;Oliver,Allan,Howard,dummy070800,dummy070801,dummy070802|0;1
+07/08/2025|Quest|Allan,Oliver,Anna,Howard;Garrick,Alima,Nicole,Amy|0;1
+07/08/2025|Bang|Howard,dummy070803,dummy070804;Garrick,Alima,Amy;Anna,Nicole,Oliver|0;1;1
