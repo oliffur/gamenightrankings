@@ -71,3 +71,8 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 07/08/2025|Quest|Garrick,Amy,Nicole,Anna,Alima,Jovan;Oliver,Allan,Howard,dummy070800,dummy070801,dummy070802|0;1
 07/08/2025|Quest|Allan,Oliver,Anna,Howard;Garrick,Alima,Nicole,Amy|0;1
 07/08/2025|Bang|Howard,dummy070803,dummy070804;Garrick,Alima,Amy;Anna,Nicole,Oliver|0;1;1
+07/14/2025|Carcassone|Oliver;Allan;Kristy|0;1;1
+07/14/2025|Shifty Eyed Spies|Oliver;Alima;Jack;Kristy|0;0;1;1
+07/14/2025|Shifty Eyed Spies|Jack;Kristy;Oliver;Alima|0;0;1;1
+07/14/2025|Love Letter|Oliver;Alima;Kristy;Jack|0;1;1;1
+07/14/2025|Coup|Jack;Oliver;Alima;Kristy|0;1;1;1
