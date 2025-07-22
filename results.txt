@@ -76,3 +76,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 07/14/2025|Shifty Eyed Spies|Jack;Kristy;Oliver;Alima|0;0;1;1
 07/14/2025|Love Letter|Oliver;Alima;Kristy;Jack|0;1;1;1
 07/14/2025|Coup|Jack;Oliver;Alima;Kristy|0;1;1;1
+07/21/2025|Codenames|Oliver,Garrick,Anna,Summer,Babs;Phoebe,Allan,Nicole,Amy,Jane|0;1
+07/21/2025|Codenames|Oliver,Garrick,Anna,Summer,Babs;Phoebe,Allan,Nicole,Amy,Jane|0;1
+07/21/2025|Secret Hitler|Anna,Amy,Summer,Babs,dummy072100,dummy072101;Oliver,Garrick,Jane,Allan,Nicole,Kristy|0;1
+07/21/2025|Secret Hitler|Garrick,Kristy,Amy,Anna,Oliver;Babs,Summer,Jane,dummy072102,dummy072103|0;1
