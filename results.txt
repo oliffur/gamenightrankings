@@ -83,3 +83,8 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 07/28/2025|Quest|Oliver,Tyler,Garrick,Narin;Anna,Leo,Alima,dummy072800|0;1
 07/28/2025|Quest|Oliver,Anna,Garrick,dummy072801;Narin,Alima,Leo,Wincy|0;1
 07/28/2025|Codenames|Wincy,Leo,Narin,dummy072802;Oliver,Garrick,Alima,Anna|0;1
+08/04/2025|Coup|Amy;Ruby;Oliver;Allan;Garrick|0;1;1;1;1
+08/04/2025|Incan Gold|Heidi;Garrick;Amy;Oliver;Jack;Ruby;Allan|0;1;2;3;4;5;6
+08/04/2025|Incan Gold|Ruby;Allan;Garrick;Oliver;Amy;Heidi;Jack|0;1;2;2;4;5;5
+08/04/2025|Secret Hitler|Heidi,Jack,Allan,dummy080400;Ruby,Garrick,Amy,Oliver|0;1
+08/04/2025|Secret Hitler|Ruby,Oliver,Garrick,dummy080401;Allan,Jack,Heidi,Amy|0;1
