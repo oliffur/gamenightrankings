@@ -27,7 +27,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 03/10/2025|Exploding Kittens|Garrick;Wincy;Oliver;Feli;Katie;Jacky(Feli);Jack;Anna;Kristy(Katie)|0;1;1;1;1;1;1;1;1
 03/17/2025|Incan Gold|Feli;Angela(Oliver);Angelica(Feli);Vittoria;Oliver;Jonathan(Oliver)|0;1;2;2;3;4
 03/17/2025|Secret Hitler|Oliver,Angela(Oliver),Angelica(Feli),Garrick,Nicole,Jonathan(Oliver);Feli,Jordan,Vittoria,Tyler,dummy031700,dummy031701|0;1
-03/17/2025|Codenames|Oliver,Feli,Angelica,Jordan;Garrick,Anna,Nicole,Tyler|0;1
+03/17/2025|Codenames|Oliver,Feli,Angelica(Feli),Jordan;Garrick,Anna,Nicole,Tyler|0;1
 03/24/2025|Incan Gold|Susan;Oliver;Feli|0;1;2
 03/24/2025|Monopoly Deal|Oliver;Feli;Susan|0;1;1
 03/31/2025|Exploding Kittens|Oliver;Vittoria;Lil Su;Garrick;Feli;Katie|0;0;1;1;1;1
