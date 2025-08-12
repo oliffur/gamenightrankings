@@ -25,6 +25,7 @@ LUCK_FACTORS = {
     "Camel Up": 10.0,
     "Here to Slay": 10.0,
     "Monopoly Deal": 10.0,
+    "Dixit": 10.0,
 }
 
 

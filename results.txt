@@ -88,3 +88,6 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 08/04/2025|Incan Gold|Ruby;Allan;Garrick;Oliver;Amy;Heidi;Jack|0;1;2;2;4;5;5
 08/04/2025|Secret Hitler|Heidi,Jack,Allan,dummy080400;Ruby,Garrick,Amy,Oliver|0;1
 08/04/2025|Secret Hitler|Ruby,Oliver,Garrick,dummy080401;Allan,Jack,Heidi,Amy|0;1
+08/11/2025|Camel Up|Oliver;Heidi;Garrick;Tara;Allen;Jane;Katie;Amy|0;1;2;2;3;4;5;5
+08/11/2025|Secret Hitler|Oliver,Amy,Katie,Jane,Tara;Garrick,Allan,Anna,Heidi,dummy081100|0;1
+08/11/2025|Dixit|Amy;Anna;Garrick;Oliver;Heidi;Tara;Amber(Summer);Summer;Allan;Katie|0;1;1;2;3;4;5;5;5;5
