@@ -19,6 +19,7 @@ LUCK_FACTORS = {
     "Shifty Eyed Spies": 10.0,
     "Cash n Guns": 10.0,
     "Bang": 1.0,
+    "Crabs": 1.0,
     "Carcassone": 10.0,
     "Coup": 10.0,
     "Masquerade": 10.0,
@@ -26,6 +27,7 @@ LUCK_FACTORS = {
     "Here to Slay": 10.0,
     "Monopoly Deal": 10.0,
     "Dixit": 10.0,
+    "Night of the Ninja": 10.0,
 }
 
 

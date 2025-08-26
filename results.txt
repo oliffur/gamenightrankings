@@ -20,7 +20,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 02/24/2025|Secret Hitler|Oliver,Garrick,Viv,Katie,dummy022403;Anna,Wincy,Abhi,Jack,Michael|0;1
 02/24/2025|Secret Hitler|Oliver,Viv,Wincy,Katie,Jack;Anna,Garrick,Abhi,Michael,dummy022404|0;1
 03/03/2025|Avalon|Oliver,Viv,Feli,Garrick,Jacky(Feli);Jovan,Leo,Anna,dummy030300,dummy030301|0;1
-03/10/2025|Coup|Peter;Feli;Oliver;Katie;Kristy(Kristy);Susan|0;1;1;1;1;1
+03/10/2025|Coup|Peter;Feli;Oliver;Katie;Kristy(Katie);Susan|0;1;1;1;1;1
 03/10/2025|Secret Hitler|Garrick,Anna,Wincy,Peter,dummy031000,dummy031001;Kristy(Katie),Katie,Susan,Jack,Oliver,Feli|0;1
 03/10/2025|Codenames|Jack,Oliver,Jacky(Feli),Garrick,Abhi,Harsha;Peter,Wincy,Anna,Kristy(Katie),Katie,Feli|0;1
 03/10/2025|Codenames|Anna,Wincy,Jacky(Feli),Katie,dummy031002;Oliver,Garrick,Jack,Kristy(Katie),Feli|0;1
@@ -88,6 +88,8 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 08/04/2025|Incan Gold|Ruby;Allan;Garrick;Oliver;Amy;Heidi;Jack|0;1;2;2;4;5;5
 08/04/2025|Secret Hitler|Heidi,Jack,Allan,dummy080400;Ruby,Garrick,Amy,Oliver|0;1
 08/04/2025|Secret Hitler|Ruby,Oliver,Garrick,dummy080401;Allan,Jack,Heidi,Amy|0;1
-08/11/2025|Camel Up|Oliver;Heidi;Garrick;Tara;Allen;Jane;Katie;Amy|0;1;2;2;3;4;5;5
+08/11/2025|Camel Up|Oliver;Heidi;Garrick;Tara;Allan;Jane;Katie;Amy|0;1;2;2;3;4;5;5
 08/11/2025|Secret Hitler|Oliver,Amy,Katie,Jane,Tara;Garrick,Allan,Anna,Heidi,dummy081100|0;1
 08/11/2025|Dixit|Amy;Anna;Garrick;Oliver;Heidi;Tara;Amber(Summer);Summer;Allan;Katie|0;1;1;2;3;4;5;5;5;5
+08/25/2025|Crabs|Jovan,Phoebe;Oliver,Tara;Allan,Garrick|0;1;2
+08/25/2025|Night of the Ninja|Oliver;Anna;Garrick;Tyler;Phoebe;Tara;Allan|0;0;0;1;1;1;1
