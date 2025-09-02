@@ -93,3 +93,9 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 08/11/2025|Dixit|Amy;Anna;Garrick;Oliver;Heidi;Tara;Amber(Summer);Summer;Allan;Katie|0;1;1;2;3;4;5;5;5;5
 08/25/2025|Crabs|Jovan,Phoebe;Oliver,Tara;Allan,Garrick|0;1;2
 08/25/2025|Night of the Ninja|Oliver;Anna;Garrick;Tyler;Phoebe;Tara;Allan|0;0;0;1;1;1;1
+09/01/2025|Codenames|Oliver,Garrick,Sheldon(Ruby),Allan,Alistair;Lil Su,Ruby,Amy,Feli,dummy090100|0;1
+09/01/2025|Codenames|Oliver,Garrick,Sheldon(Ruby),Allan,Alistair;Lil Su,Ruby,Amy,Feli,Viv|0;1
+09/01/2025|Secret Hitler|Garrick,Sheldon(Ruby),Kristy,Viv,dummy090101;Oliver,Feli,Ruby,Alima,Amy|0;1
+09/01/2025|Incan Gold|Feli;Garrick;Oliver;Viv;Amy;Alistair;Alima;Kristy|0;1;2;3;3;4;5;6
+09/01/2025|Bang|Oliver,Viv;Garrick,Feli;Alima,dummy090102|0;1;1
+09/01/2025|Bang|Oliver,Garrick;Viv,dummy090103;Alima,Feli|0;1;1
