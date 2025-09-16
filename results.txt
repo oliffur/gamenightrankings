@@ -103,3 +103,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 09/08/2025|Camel Up|Anna;Oliver;Mia;Katie;Tara;Nicole|0;1;2;3;4;5
 09/08/2025|Secret Hitler|Garrick,Oliver,Nicole,dummy090804;Anna,Katie,Tara,Mia|0;1
 09/08/2025|Bang|Oliver,Katie,Tara;Mia,dummy090800,dummy090801;Garrick,Anna,dummy090802|0;1;1
+09/15/2025|Night of the Ninja|Oliver,Allan,Monica;Summer,Feli,Mia|0;1
+09/15/2025|Codenames|Oliver,Allan,Feli,Summer;Garrick,Mia,Monica,Anna|0;1
+09/15/2025|Codenames|Garrick,Mia,Monica,Anna;Oliver,Allan,Feli,Summer|0;1
+09/15/2025|Secret Hitler|Garrick,Allan,Monica,Mia,Summer;Oliver,Feli,Anna,dummy091500,dummy091501|0;1
