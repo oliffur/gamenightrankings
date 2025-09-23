@@ -107,3 +107,8 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 09/15/2025|Codenames|Oliver,Allan,Feli,Summer;Garrick,Mia,Monica,Anna|0;1
 09/15/2025|Codenames|Garrick,Mia,Monica,Anna;Oliver,Allan,Feli,Summer|0;1
 09/15/2025|Secret Hitler|Garrick,Allan,Monica,Mia,Summer;Oliver,Feli,Anna,dummy091500,dummy091501|0;1
+09/22/2025|Codenames|Jane,Tyler,Rebecca(Tyler),dummy092200;Oliver,Harsha,Alima,Garrick|0;1
+09/22/2025|Codenames|Jane,Tyler,Rebecca(Tyler),Anna;Oliver,Harsha,Alima,Garrick|0;1
+09/22/2025|Codenames|Jane,Tyler,Rebecca(Tyler),Anna;Oliver,Harsha,Alima,Garrick|0;1
+09/22/2025|Incan Gold|Alima;Oliver;Garrick;Rebecca(Tyler);Anna;Jane;Tyler|0;1;2;3;4;5;6
+09/22/2025|Clank|Garrick;Oliver;Alima;Anna|0;1;2;3
