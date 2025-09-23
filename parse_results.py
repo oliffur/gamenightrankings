@@ -28,6 +28,7 @@ LUCK_FACTORS = {
     "Monopoly Deal": 10.0,
     "Dixit": 10.0,
     "Night of the Ninja": 10.0,
+    "Clank": 10.0,
 }
 
 
