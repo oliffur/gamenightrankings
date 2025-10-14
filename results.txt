@@ -107,12 +107,17 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 09/15/2025|Codenames|Oliver,Allan,Feli,Summer;Garrick,Mia,Monica,Anna|0;1
 09/15/2025|Codenames|Garrick,Mia,Monica,Anna;Oliver,Allan,Feli,Summer|0;1
 09/15/2025|Secret Hitler|Garrick,Allan,Monica,Mia,Summer;Oliver,Feli,Anna,dummy091500,dummy091501|0;1
-09/22/2025|Codenames|Jane,Tyler,Rebecca(Tyler),dummy092200;Oliver,Harsha,Alima,Garrick|0;1
-09/22/2025|Codenames|Jane,Tyler,Rebecca(Tyler),Anna;Oliver,Harsha,Alima,Garrick|0;1
-09/22/2025|Codenames|Jane,Tyler,Rebecca(Tyler),Anna;Oliver,Harsha,Alima,Garrick|0;1
-09/22/2025|Incan Gold|Alima;Oliver;Garrick;Rebecca(Tyler);Anna;Jane;Tyler|0;1;2;3;4;5;6
+09/22/2025|Codenames|Jane,Tyler,Rebecca,dummy092200;Oliver,Harsha,Alima,Garrick|0;1
+09/22/2025|Codenames|Jane,Tyler,Rebecca,Anna;Oliver,Harsha,Alima,Garrick|0;1
+09/22/2025|Codenames|Jane,Tyler,Rebecca,Anna;Oliver,Harsha,Alima,Garrick|0;1
+09/22/2025|Incan Gold|Alima;Oliver;Garrick;Rebecca;Anna;Jane;Tyler|0;1;2;3;4;5;6
 09/22/2025|Clank|Garrick;Oliver;Alima;Anna|0;1;2;3
 09/29/2025|Codenames|Peter,Oliver,Alina(Feli),Egor(Feli),Tara;Feli,Dev,Garrick,Phoebe,dummy092900|0;1
 09/29/2025|Codenames|Garrick,Feli,Dev,Phoebe,Summer,Alexandra(Summer);Peter,Oliver,Alina(Feli),Egor(Feli),Tara,dummy092901|0;1
 09/29/2025|Secret Hitler|Feli,Oliver,Garrick,Harsha,Alexandra(Summer),Tara;Summer,Dev,Phoebe,Egor,dummy092902,dummy092903|0;1
 09/29/2025|Night of the Ninja|Feli;Tara;Egor(Feli);Summer;Alexandra(Summer);Oliver;Garrick|0;0;0;0;0;1;1
+10/13/2025|Camel Up|Oliver;Viv;Tara;Feli;Rebecca;Amy;Tyler|0;1;2;3;4;5;6
+10/13/2025|Codenames|Tyler,Mia,Amanda(Wincy),Rebecca,Tara;Viv,Oliver,Amy,Feli,Wincy|0;1
+10/13/2025|Codenames|Viv,Oliver,Amy,Feli,Wincy;Tyler,Rebecca,Mia,Amanda(Wincy),Tara|0;1
+10/13/2025|Bang|Oliver;Wincy;Tara;Feli;Viv|0;0;1;1;1
+10/13/2025|Bang|Feli;Oliver;Wincy;Tara;Viv|0;1;1;1;1
