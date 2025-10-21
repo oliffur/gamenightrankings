@@ -121,3 +121,5 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 10/13/2025|Codenames|Viv,Oliver,Amy,Feli,Wincy;Tyler,Rebecca,Mia,Amanda(Wincy),Tara|0;1
 10/13/2025|Bang|Oliver;Wincy;Tara;Feli;Viv|0;0;1;1;1
 10/13/2025|Bang|Feli;Oliver;Wincy;Tara;Viv|0;1;1;1;1
+10/20/2025|Secret Hitler|Nicole,Kristy,Kristy(Katie),Summer,dummy102000;Oliver,Egor(Feli),Allan,Feli,Anna|0;1
+10/20/2025|Secret Hitler|Oliver,Kristy,Kristy(Katie),Summer,Anna;Feli,Egor(Feli),Allan,Nicole|0;1
