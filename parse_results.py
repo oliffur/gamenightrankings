@@ -29,6 +29,7 @@ LUCK_FACTORS = {
     "Dixit": 10.0,
     "Night of the Ninja": 10.0,
     "Clank": 10.0,
+    "Uno": 15.0,
 }
 
 
