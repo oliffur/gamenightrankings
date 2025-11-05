@@ -127,3 +127,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 10/27/2025|Avalon|Feli,Anna,Viv,Kenny,Alexandra(Summer),Katie;Oliver,Allan,Dorine,Jacomo(Dorine),Jane,Summer|0;1
 10/27/2025|Avalon|Oliver,Jane,Viv,Feli,Anna,Summer,Kenny,Dorine;Jack,Jacomo(Dorine),Allan,Alexandra(Summer),Katie,dummy102700,dummy102701,dummy102702|0;1
 10/27/2025|Bang|Alexandra(Summer);Oliver;Jacomo(Dorine);Dorine;Kenny;Viv;Feli;Summer|0;0;0;1;1;1;1;1
+11/03/2025|Uno|Phoebe;Allan;Kristy;Oliver;Tara|0;1;1;1;1
+11/03/2025|Uno|Phoebe;Allan;Kristy;Oliver;Tara;Amy|0;1;1;1;1;1
+11/03/2025|Night of the Ninja|Kristy;Tara;Amy;Tyler;Allan;Garrick;Oliver;Feli;Anna;Phoebe|0;0;0;0;0;0;1;1;1;2
+11/03/2025|Bang|Garrick;Tara;Anna;Oliver;Feli;Amy|0;0;0;1;1;1;1
