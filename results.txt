@@ -112,22 +112,26 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 09/22/2025|Codenames|Jane,Tyler,Rebecca,Anna;Oliver,Harsha,Alima,Garrick|0;1
 09/22/2025|Incan Gold|Alima;Oliver;Garrick;Rebecca;Anna;Jane;Tyler|0;1;2;3;4;5;6
 09/22/2025|Clank|Garrick;Oliver;Alima;Anna|0;1;2;3
-09/29/2025|Codenames|Peter,Oliver,Alina(Feli),Egor(Feli),Tara;Feli,Dev,Garrick,Phoebe,dummy092900|0;1
-09/29/2025|Codenames|Garrick,Feli,Dev,Phoebe,Summer,Alexandra(Summer);Peter,Oliver,Alina(Feli),Egor(Feli),Tara,dummy092901|0;1
-09/29/2025|Secret Hitler|Feli,Oliver,Garrick,Harsha,Alexandra(Summer),Tara;Summer,Dev,Phoebe,Egor(Feli),dummy092902,dummy092903|0;1
-09/29/2025|Night of the Ninja|Feli;Tara;Egor(Feli);Summer;Alexandra(Summer);Oliver;Garrick|0;0;0;0;0;1;1
+09/29/2025|Codenames|Peter,Oliver,Alina(Feli),Egor,Tara;Feli,Dev,Garrick,Phoebe,dummy092900|0;1
+09/29/2025|Codenames|Garrick,Feli,Dev,Phoebe,Summer,Alexandra;Peter,Oliver,Alina(Feli),Egor,Tara,dummy092901|0;1
+09/29/2025|Secret Hitler|Feli,Oliver,Garrick,Harsha,Alexandra,Tara;Summer,Dev,Phoebe,Egor,dummy092902,dummy092903|0;1
+09/29/2025|Night of the Ninja|Feli;Tara;Egor;Summer;Alexandra;Oliver;Garrick|0;0;0;0;0;1;1
 10/13/2025|Camel Up|Oliver;Viv;Tara;Feli;Rebecca;Amy;Tyler|0;1;2;3;4;5;6
 10/13/2025|Codenames|Tyler,Mia,Amanda(Wincy),Rebecca,Tara;Viv,Oliver,Amy,Feli,Wincy|0;1
 10/13/2025|Codenames|Viv,Oliver,Amy,Feli,Wincy;Tyler,Rebecca,Mia,Amanda(Wincy),Tara|0;1
 10/13/2025|Bang|Oliver;Wincy;Tara;Feli;Viv|0;0;1;1;1
 10/13/2025|Bang|Feli;Oliver;Wincy;Tara;Viv|0;1;1;1;1
-10/20/2025|Secret Hitler|Nicole,Kristy,Kristy(Katie),Summer,dummy102000;Oliver,Egor(Feli),Allan,Feli,Anna|0;1
-10/20/2025|Secret Hitler|Oliver,Kristy,Kristy(Katie),Summer,Anna;Feli,Egor(Feli),Allan,Nicole|0;1
-10/27/2025|Incan Gold|Dorine;Jane;Viv;Katie;Anna;Allan;Alexandra(Summer);Summer|0;1;2;2;4;5;6;7
-10/27/2025|Avalon|Feli,Anna,Viv,Kenny,Alexandra(Summer),Katie;Oliver,Allan,Dorine,Jacomo(Dorine),Jane,Summer|0;1
-10/27/2025|Avalon|Oliver,Jane,Viv,Feli,Anna,Summer,Kenny,Dorine;Jack,Jacomo(Dorine),Allan,Alexandra(Summer),Katie,dummy102700,dummy102701,dummy102702|0;1
-10/27/2025|Bang|Alexandra(Summer);Oliver;Jacomo(Dorine);Dorine;Kenny;Viv;Feli;Summer|0;0;0;1;1;1;1;1
+10/20/2025|Secret Hitler|Nicole,Kristy,Kristy(Katie),Summer,dummy102000;Oliver,Egor,Allan,Feli,Anna|0;1
+10/20/2025|Secret Hitler|Oliver,Kristy,Kristy(Katie),Summer,Anna;Feli,Egor,Allan,Nicole|0;1
+10/27/2025|Incan Gold|Dorine;Jane;Viv;Katie;Anna;Allan;Alexandra;Summer|0;1;2;2;4;5;6;7
+10/27/2025|Avalon|Feli,Anna,Viv,Kenny,Alexandra,Katie;Oliver,Allan,Dorine,Jacomo(Dorine),Jane,Summer|0;1
+10/27/2025|Avalon|Oliver,Jane,Viv,Feli,Anna,Summer,Kenny,Dorine;Jack,Jacomo(Dorine),Allan,Alexandra,Katie,dummy102700,dummy102701,dummy102702|0;1
+10/27/2025|Bang|Alexandra;Oliver;Jacomo(Dorine);Dorine;Kenny;Viv;Feli;Summer|0;0;0;1;1;1;1;1
 11/03/2025|Uno|Phoebe;Allan;Kristy;Oliver;Tara|0;1;1;1;1
 11/03/2025|Uno|Phoebe;Allan;Kristy;Oliver;Tara;Amy|0;1;1;1;1;1
 11/03/2025|Night of the Ninja|Kristy;Tara;Amy;Tyler;Allan;Garrick;Oliver;Feli;Anna;Phoebe|0;0;0;0;0;0;1;1;1;2
 11/03/2025|Bang|Garrick;Tara;Anna;Oliver;Feli;Amy|0;0;0;1;1;1
+11/10/2025|Shifty Eyed Spies|Summer;Alexandra;Kristy;Wincy;Egor;Katie;Anna;Claudia(Alexandra)|0;0;1;1;1;1;1;1
+11/10/2025|Codenames|Wincy,Kristy,Anna,Oliver,Feli;Alexandra,Claudia(Alexandra),Katie,Summer,Egor|0;1
+11/10/2025|Codenames|Wincy,Kristy,Claudia(Alexandra),Oliver,Katie;Alexandra,Anna,Summer,Feli,Egor|0;1
+11/10/2025|Exploding Kittens|Wincy;Kristy;Oliver;Katie;Egor;Feli|0;1;1;1;1;1
