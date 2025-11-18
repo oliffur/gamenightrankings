@@ -135,3 +135,6 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 11/10/2025|Codenames|Wincy,Kristy,Anna,Oliver,Feli;Alexandra,Claudia(Alexandra),Katie,Summer,Egor|0;1
 11/10/2025|Codenames|Wincy,Kristy,Claudia(Alexandra),Oliver,Katie;Alexandra,Anna,Summer,Feli,Egor|0;1
 11/10/2025|Exploding Kittens|Wincy;Kristy;Oliver;Katie;Egor;Feli|0;1;1;1;1;1
+11/17/2025|Secret Hitler|Oliver,Garrick,Feli,Tyler,Vivian;Howard,Kristy,Tara,dummy111700,dummy111701|0;1
+11/17/2025|Codenames|Vivian,Howard,Garrick;Tyler,Tara,Oliver|0;1
+11/17/2025|Codenames|Vivian,Howard,Garrick;Tyler,Tara,Oliver|0;1
