@@ -18,7 +18,7 @@ LUCK_FACTORS = {
     "No Thanks": 10.0,
     "Shifty Eyed Spies": 10.0,
     "Cash n Guns": 10.0,
-    "Bang": 1.0,
+    "Bang": 5.0,
     "Crabs": 5.0,
     "Carcassone": 10.0,
     "Coup": 10.0,
