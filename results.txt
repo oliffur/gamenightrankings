@@ -138,3 +138,6 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 11/17/2025|Secret Hitler|Oliver,Garrick,Feli,Tyler,Vivian;Howard,Kristy,Tara,dummy111700,dummy111701|0;1
 11/17/2025|Codenames|Vivian,Howard,Garrick;Tyler,Tara,Oliver|0;1
 11/17/2025|Codenames|Vivian,Howard,Garrick;Tyler,Tara,Oliver|0;1
+11/24/2025|Camel Up|Allan;Oliver;Vivian;Phoebe;Feli;Anna;Garrick|0;1;2;3;4;4;4
+11/24/2025|Coup|Anna;Garrick;Oliver;Feli;Vivian;Allan|0;1;1;1;1;1
+11/24/2025|Bang|Garrick;Vivian;Oliver;Allan;Anna|0;1;1;1;1
