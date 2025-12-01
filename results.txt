@@ -144,3 +144,6 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 12/01/2025|Coup|Allan;Tara;Oliver;Wincy;Garrick;Jane|0;0;1;1;1;1
 12/01/2025|Coup|Allan;Tara;Oliver;Wincy;Garrick;Jane|0;0;1;1;1;1
 12/01/2025|Coup|Allan;Tara;Oliver;Wincy;Garrick;Jane|0;0;1;1;1;1
+12/01/2025|Secret Hitler|Oliver,Garrick,Wincy,Jane;Summer,Allan,Tara,dummy120100|0;1
+12/01/2025|Secret Hitler|Oliver,Garrick,Wincy,Jane;Summer,Allan,Tara,dummy120100|0;1
+12/01/2025|Secret Hitler|Oliver,Garrick,Wincy,Jane;Summer,Allan,Tara,dummy120100|0;1
