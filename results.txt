@@ -141,3 +141,6 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 11/24/2025|Bang|Garrick,Vivian;Oliver,dummy112400;Allan,Anna|0;1;1
 11/24/2025|Camel Up|Allan;Oliver;Vivian;Phoebe;Feli;Anna;Garrick|0;1;2;3;4;4;4
 11/24/2025|Coup|Anna;Garrick;Oliver;Feli;Vivian;Allan|0;1;1;1;1;1
+12/01/2025|Coup|Allan;Tara;Oliver;Wincy;Garrick;Jane|0;0;1;1;1;1
+12/01/2025|Coup|Allan;Tara;Oliver;Wincy;Garrick;Jane|0;0;1;1;1;1
+12/01/2025|Coup|Allan;Tara;Oliver;Wincy;Garrick;Jane|0;0;1;1;1;1
