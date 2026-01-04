@@ -7,7 +7,7 @@ from enum import Enum
 import matplotlib.pyplot as plt
 
 # Type aliases for clarity
-PlayerStats = Dict[str, float | int]
+PlayerStats = Dict[str, float]
 AllPlayerStats = Dict[str, PlayerStats]
 Team = List[str]
 Teams = List[Team]
