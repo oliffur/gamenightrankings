@@ -29,6 +29,18 @@ GAME_CONFIG = {
     "Bang": GameType.TEAM_UNBALANCED,
     "Secret Hitler": GameType.TEAM_BALANCED,
     "Codenames": GameType.TEAM_BALANCED,
+    "Incan Gold": GameType.INDIVIDUAL_RANKED,
+    "Exploding Kittens": GameType.INDIVIDUAL_WINNER,
+    "Love Letter": GameType.INDIVIDUAL_WINNER,
+    "Shifty Eyed Spies": GameType.INDIVIDUAL_WINNER,
+    "Cash n Guns": GameType.INDIVIDUAL_WINNER,
+    "Carcassone": GameType.INDIVIDUAL_RANKED,
+    "Coup": GameType.INDIVIDUAL_WINNER,
+    "Masquerade": GameType.INDIVIDUAL_WINNER,
+    "Camel Up": GameType.INDIVIDUAL_RANKED,
+    "Monopoly Deal": GameType.INDIVIDUAL_WINNER,
+    "Night of the Ninja": GameType.INDIVIDUAL_WINNER,
+    "Clank": GameType.INDIVIDUAL_WINNER,
 }
 
 
@@ -521,8 +533,6 @@ def run() -> None:
     calculator = RankingCalculator()
     formatter = ResultFormatter()
     results = parse_game_data()
-
-    print(results)
 
     # (1) Calculate Overall Rankings
     stats = calculator.calculate_rankings(tuple(results))

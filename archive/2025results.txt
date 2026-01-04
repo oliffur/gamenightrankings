@@ -90,6 +90,8 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 08/04/2025|Secret Hitler|Ruby,Oliver,Garrick,dummy080401;Allan,Jack,Heidi,Amy|0;1
 08/11/2025|Camel Up|Oliver;Heidi;Garrick;Tara;Allan;Jane;Katie;Amy|0;1;2;2;3;4;5;5
 08/11/2025|Secret Hitler|Oliver,Amy,Katie,Jane,Tara;Garrick,Allan,Anna,Heidi,dummy081100|0;1
+08/11/2025|Dixit|Amy;Anna;Garrick;Oliver;Heidi;Tara;Amber(Summer);Summer;Allan;Katie|0;1;1;2;3;4;5;5;5;5
+08/25/2025|Crabs|Jovan,Phoebe;Oliver,Tara;Allan,Garrick|0;1;2
 08/25/2025|Night of the Ninja|Oliver;Anna;Garrick;Tyler;Phoebe;Tara;Allan|0;0;0;1;1;1;1
 09/01/2025|Codenames|Oliver,Garrick,Sheldon(Ruby),Allan,Alistair;Lil Su,Ruby,Amy,Feli,dummy090100|0;1
 09/01/2025|Codenames|Oliver,Garrick,Sheldon(Ruby),Allan,Alistair;Lil Su,Ruby,Amy,Feli,Viv|0;1
@@ -125,6 +127,8 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 10/27/2025|Avalon|Feli,Anna,Viv,Kenny,Alexandra,Katie;Oliver,Allan,Dorine,Jacomo(Dorine),Jane,Summer|0;1
 10/27/2025|Avalon|Oliver,Jane,Viv,Feli,Anna,Summer,Kenny,Dorine;Jack,Jacomo(Dorine),Allan,Alexandra,Katie,dummy102700,dummy102701,dummy102702|0;1
 10/27/2025|Bang|Alexandra;Oliver;Jacomo(Dorine);Dorine;Kenny;Viv;Feli;Summer|0;0;0;1;1;1;1;1
+11/03/2025|Uno|Phoebe;Allan;Kristy;Oliver;Tara|0;1;1;1;1
+11/03/2025|Uno|Phoebe;Allan;Kristy;Oliver;Tara;Amy|0;1;1;1;1;1
 11/03/2025|Night of the Ninja|Kristy;Tara;Amy;Tyler;Allan;Garrick;Oliver;Feli;Anna;Phoebe|0;0;0;0;0;0;1;1;1;2
 11/03/2025|Bang|Garrick;Tara;Anna;Oliver;Feli;Amy|0;0;0;1;1;1
 11/10/2025|Shifty Eyed Spies|Summer;Alexandra;Kristy;Wincy;Egor;Katie;Anna;Claudia(Alexandra)|0;0;1;1;1;1;1;1
