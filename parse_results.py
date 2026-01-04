@@ -358,8 +358,8 @@ class RankingCalculator:
         return game_rankings
 
     def save_game_history(self, filename: str = "game_history.txt") -> None:
-        """Save the interleaved game history to a file."""
-        # FIX 3: Get all players and include initial state
+        """Save the interleaved game history to a file with incremental differences."""
+        # Get all players and sort them
         all_players = self._get_all_players()
         sorted_players = sorted(all_players)
         
@@ -369,39 +369,60 @@ class RankingCalculator:
             f.write(", ".join(initial_ratings) + "\n")
             f.write("INITIAL STATE - No games played\n")
             
-            # Write each game with ratings before the game
+            # Track previous ratings for calculating differences
+            previous_ratings = {player: 100.0 for player in sorted_players}
+            
+            # Write each game with incremental differences
             for game, ratings_before in self.processed_games:
-                # Format ratings line for all players
-                rating_lines = []
-                for player in sorted_players:
-                    if player in ratings_before:
-                        score = ratings_before[player].get("score", 100.0)
-                        rating_lines.append(f"{player}: {score:.2f}")
-                    else:
-                        # Player hasn't played yet, use default 100.0
-                        rating_lines.append(f"{player}: 100.00")
+                # Get players in this game
+                game_players = set()
+                for team in game.teams:
+                    game_players.update(team)
                 
-                # Write ratings line
-                f.write(", ".join(rating_lines) + "\n")
+                # Calculate incremental differences for players in this game
+                delta_lines = []
+                for player in sorted(game_players):
+                    if player in ratings_before:
+                        current_score = ratings_before[player].get("score", 100.0)
+                        delta = current_score - previous_ratings[player]
+                        
+                        # Format with +/- sign
+                        if delta >= 0:
+                            delta_lines.append(f"{player}: +{delta:.2f}")
+                        else:
+                            delta_lines.append(f"{player}: {delta:.2f}")
+                        
+                        # Update previous rating for this player
+                        previous_ratings[player] = current_score
+                    else:
+                        # Player hasn't played yet, delta is 0 (from 100.0)
+                        delta_lines.append(f"{player}: +0.00")
+                
+                # Write delta line for players in this game
+                f.write(", ".join(delta_lines) + "\n")
                 
                 # Write game string
                 f.write(game.to_string() + "\n")
             
-            # Write final state (after all games)
-            final_rating_lines = []
+            # Write final state (after all games) with deltas from last game
+            final_delta_lines = []
             for player in sorted_players:
                 if player in self.final_stats:
-                    score = self.final_stats[player].get("score", 100.0)
-                    final_rating_lines.append(f"{player}: {score:.2f}")
+                    final_score = self.final_stats[player].get("score", 100.0)
+                    delta = final_score - previous_ratings[player]
+                    
+                    if delta >= 0:
+                        final_delta_lines.append(f"{player}: +{delta:.2f}")
+                    else:
+                        final_delta_lines.append(f"{player}: {delta:.2f}")
                 else:
-                    # Player never played, still 100.0
-                    final_rating_lines.append(f"{player}: 100.00")
+                    # Player never played, delta is 0
+                    final_delta_lines.append(f"{player}: +0.00")
             
-            f.write(", ".join(final_rating_lines) + "\n")
+            f.write(", ".join(final_delta_lines) + "\n")
             f.write("FINAL STATE - All games processed\n")
         
         print(f"Game history saved to {filename}")
-
 
 class ResultFormatter:
     """Formats and displays results in various views."""
