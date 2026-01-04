@@ -1,20 +1,19 @@
 import pandas as pd
 from collections import defaultdict
 from copy import deepcopy
-from typing import Dict, List, Tuple, Optional, Any, Union
+from typing import Dict, List, Tuple, Optional, Any
 from dataclasses import dataclass
 from enum import Enum
 import matplotlib.pyplot as plt
 from datetime import datetime
 
 
-# Type aliases for clarity - using Union for Python < 3.10 compatibility
-PlayerStats = Dict[str, Union[float, int]]
+PlayerStats = Dict[str, float]
 AllPlayerStats = Dict[str, PlayerStats]
 Team = List[str]
 Teams = List[Team]
 Ranks = List[int]
-GameHistory = List[Tuple[str, Dict[str, Dict[str, Union[float, int]]]]]  # Store all game details
+GameHistory = List[Tuple[str, AllPlayerStats]  # Store all game details
 
 
 class GameType(Enum):
@@ -235,6 +234,7 @@ class RankingCalculator:
         self.game_history: GameHistory = []  # Store all game details
         self.game_results: List[GameResult] = []  # Store all game results
         self.processed_games: List[Tuple[GameResult, AllPlayerStats]] = []  # Store interleaved game and ratings
+        self.final_stats: AllPlayerStats = {}  # Store final statistics after all games
 
     def process_game(
         self, game: GameResult, player_stats: AllPlayerStats
@@ -249,8 +249,9 @@ class RankingCalculator:
             for player in team:
                 # Initialize player if not exists
                 if player not in player_stats:
+                    # FIX 1: Changed from 0.0 to 100.0 for initial score
                     player_stats[player] = {
-                        "score": 0.0,
+                        "score": 100.0,
                         "wins": 0,
                         "losses": 0,
                         "games": 0,
@@ -291,21 +292,50 @@ class RankingCalculator:
             
             self.process_game(game, player_stats)
 
+        # Store final stats
+        self.final_stats = deepcopy(player_stats)
         return player_stats
 
-    def get_historical_ratings(self, player: str = None) -> Dict[str, List[Tuple[str, Dict[str, Union[float, int]]]]]:
+    def get_historical_ratings(self, player: str = None) -> Dict[str, List[Tuple[str, Dict[str, float]]]]:
         """Get historical ratings for all players or a specific player."""
         historical_ratings = defaultdict(list)
         
+        # Add initial state (before any games)
+        all_players = self._get_all_players()
+        initial_ratings = {p: {"score": 100.0, "wins": 0, "losses": 0, "games": 0} for p in all_players}
+        historical_ratings["initial"] = [("Initial", initial_ratings)]
+        
+        # Add game states
         for game_record in self.game_history:
             date, ratings = game_record
-            
-            for player_name, rating in ratings.items():
+            # Ensure all players are in each rating snapshot
+            full_ratings = self._fill_missing_players(ratings, all_players)
+            for player_name, rating in full_ratings.items():
                 historical_ratings[player_name].append((date, rating))
+        
+        # Add final state
+        final_ratings = self._fill_missing_players(self.final_stats, all_players)
+        historical_ratings["final"] = [("Final", final_ratings)]
         
         if player:
             return {player: historical_ratings.get(player, [])}
         return dict(historical_ratings)
+
+    def _get_all_players(self) -> List[str]:
+        """Get all unique players from all games."""
+        all_players = set()
+        for game in self.game_results:
+            for team in game.teams:
+                all_players.update(team)
+        return sorted(all_players)
+
+    def _fill_missing_players(self, ratings: AllPlayerStats, all_players: List[str]) -> AllPlayerStats:
+        """Fill missing players in ratings with default values."""
+        full_ratings = deepcopy(ratings)
+        for player in all_players:
+            if player not in full_ratings:
+                full_ratings[player] = {"score": 100.0, "wins": 0, "losses": 0, "games": 0}
+        return full_ratings
 
     def get_game_rankings(self, data_string: str = None, games: List[GameResult] = None) -> Dict[str, AllPlayerStats]:
         """Calculate rankings per game type."""
@@ -329,31 +359,49 @@ class RankingCalculator:
 
     def save_game_history(self, filename: str = "game_history.txt") -> None:
         """Save the interleaved game history to a file."""
+        # FIX 3: Get all players and include initial state
+        all_players = self._get_all_players()
+        sorted_players = sorted(all_players)
+        
         with open(filename, "w", encoding="utf-8") as f:
+            # Write initial state (before any games)
+            initial_ratings = ["{}: 100.00".format(p) for p in sorted_players]
+            f.write(", ".join(initial_ratings) + "\n")
+            f.write("INITIAL STATE - No games played\n")
+            
+            # Write each game with ratings before the game
             for game, ratings_before in self.processed_games:
-                # Get all unique players from all games for consistent ordering
-                all_players = set()
-                for g, _ in self.processed_games:
-                    for team in g.teams:
-                        all_players.update(team)
-                
-                # Sort players alphabetically for consistent output
-                sorted_players = sorted(all_players)
-                
-                # Format ratings line
+                # Format ratings line for all players
                 rating_lines = []
                 for player in sorted_players:
                     if player in ratings_before:
-                        score = ratings_before[player].get("score", 0.0)
+                        score = ratings_before[player].get("score", 100.0)
                         rating_lines.append(f"{player}: {score:.2f}")
+                    else:
+                        # Player hasn't played yet, use default 100.0
+                        rating_lines.append(f"{player}: 100.00")
                 
                 # Write ratings line
                 f.write(", ".join(rating_lines) + "\n")
                 
                 # Write game string
                 f.write(game.to_string() + "\n")
+            
+            # Write final state (after all games)
+            final_rating_lines = []
+            for player in sorted_players:
+                if player in self.final_stats:
+                    score = self.final_stats[player].get("score", 100.0)
+                    final_rating_lines.append(f"{player}: {score:.2f}")
+                else:
+                    # Player never played, still 100.0
+                    final_rating_lines.append(f"{player}: 100.00")
+            
+            f.write(", ".join(final_rating_lines) + "\n")
+            f.write("FINAL STATE - All games processed\n")
         
         print(f"Game history saved to {filename}")
+
 
 class ResultFormatter:
     """Formats and displays results in various views."""
@@ -395,7 +443,7 @@ class ResultFormatter:
                             rating_at_date = rating
                     if rating_at_date is not None:
                         # Get the score from the rating dict
-                        row[player] = round(rating_at_date.get("score", 0.0), 2)
+                        row[player] = round(rating_at_date.get("score", 100.0), 2)
             history_data.append(row)
         
         return pd.DataFrame(history_data)
@@ -465,57 +513,31 @@ class ResultFormatter:
     @staticmethod
     def plot_rankings_over_time(calculator: RankingCalculator, overall_stats: AllPlayerStats, output_file: str = "rankings.png"):
         """Plot a time series of rankings over time."""
-        historical_ratings = calculator.get_historical_ratings()
+        # FIX 2: Get top 25 players and use get_history_dataframe
+        sorted_players = sorted(
+            overall_stats.items(),
+            key=lambda x: x[1]["score"],
+            reverse=True
+        )
+        top_25_players = [player for player, _ in sorted_players[:25]]
         
-        if not historical_ratings:
+        # Get historical data for top 25 players
+        df = ResultFormatter.get_history_dataframe(calculator, top_25_players)
+        
+        if df.empty:
             print("No historical data available for plotting.")
             return
         
-        # Prepare data for plotting
-        chart_data = {}
-        all_dates = set()
-        
-        # Collect all dates
-        for ratings in historical_ratings.values():
-            all_dates.update(date for date, _ in ratings)
-        
-        all_dates = sorted(all_dates)
-        
-        # Initialize chart data
-        for player in historical_ratings.keys():
-            chart_data[player] = []
-        
-        # Fill chart data with scores at each date
-        for date in all_dates:
-            for player in historical_ratings.keys():
-                player_ratings = historical_ratings[player]
-                score_at_date = None
-                
-                # Find the latest rating on or before this date
-                for rating_date, rating in player_ratings:
-                    if rating_date <= date:
-                        score_at_date = rating.get("score", 0.0)
-                
-                if score_at_date is not None:
-                    chart_data[player].append(score_at_date)
-                else:
-                    chart_data[player].append(None)
-        
-        # Create DataFrame for plotting
-        df = pd.DataFrame(chart_data, index=all_dates)
-        
-        # Forward fill missing values
-        df = df.ffill()
-        
         # Create the plot
         plt.style.use("ggplot")
-        plt.figure(figsize=(12, 8))
+        plt.figure(figsize=(14, 8))
         
-        # Plot each player's rating history
-        for player in df.columns:
-            plt.plot(df.index, df[player], marker='o', markersize=3, label=player)
+        # Plot each top player's rating history
+        for player in top_25_players:
+            if player in df.columns:
+                plt.plot(df.index, df[player], marker='o', markersize=3, label=player)
         
-        plt.title("Player Rankings Over Time")
+        plt.title("Top 25 Player Rankings Over Time")
         plt.xlabel("Date")
         plt.ylabel("Score")
         plt.xticks(rotation=45)
