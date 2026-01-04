@@ -51,7 +51,6 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 05/19/2025|Bang|Garrick,Jane;Oliver,Jack;Katie,dummy051900|0;1;1
 05/19/2025|Bang|Garrick,Katie;Oliver,Jack;Jane,dummy051901|0;1;1
 05/19/2025|Codenames|Garrick,Katie,dummy051902;Oliver,Jane,Jack|0;1
-05/26/2025|Santorini|Allan;Oliver|0;1
 05/26/2025|Exploding Kittens|Oliver;Allan;Phoebe;Nicole;Bonnie|0;1;1;1;1
 05/26/2025|Secret Hitler|Oliver,Anna,Wincy,Nicole,dummy052600;Garrick,Feli,Abhi,Allan,Harsha|0;1
 05/26/2025|Secret Hitler|Garrick,Wincy,Anna,Abhi,Nicole;Oliver,Feli,Bonnie,Harsha,dummy052601|0;1
