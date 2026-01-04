@@ -26,25 +26,27 @@ class GameType(Enum):
 
 
 GAME_CONFIG = {
-    "Bang": GameType.INDIVIDUAL_RANKED,
-    "Secret Hitler": GameType.TEAM_UNBALANCED,
+    "Bang": GameType.TEAM_UNBALANCED,
+    "Secret Hitler": GameType.TEAM_BALANCED,
     "Codenames": GameType.TEAM_BALANCED,
-    "Winner Game Example": GameType.INDIVIDUAL_WINNER,
 }
 
 
-def parse_game_data(data_string: str) -> List['GameResult']:
+def parse_game_data(file_path: str = "results.txt") -> List['GameResult']:
     """Parse the raw data string into a list of GameResult objects."""
     results = []
-    for line in data_string.strip().split("\n"):
-        parts = line.split("|")
-        if len(parts) != 4:
-            raise ValueError("Bad input data")
+    with open(file_path, encoding="ascii") as f:
+        for line in f:
+            if line.startswith("DATE"):
+                continue
+            parts = line.split("|")
+            if len(parts) != 4:
+                raise ValueError("Bad input data")
 
-        date = parts[0]
-        game_name = parts[1]
-        teams = [t.split(",") for t in parts[2].split(";")]
-        ranks = [int(r) for r in parts[3].split(";")]
+            date = parts[0]
+            game_name = parts[1]
+            teams = [t.split(",") for t in parts[2].split(";")]
+            ranks = [int(r) for r in parts[3].split(";")]
 
         results.append(GameResult(date, game_name, teams, ranks))
 
@@ -263,7 +265,7 @@ class RankingCalculator:
     ) -> AllPlayerStats:
         """Calculate rankings from the provided data string."""
         player_stats = defaultdict(
-            lambda: {"score": 0.0, "wins": 0, "losses": 0, "games": 0}
+            lambda: {"score": 100.0, "wins": 0, "losses": 0, "games": 0}
         )
 
         for game in games:
@@ -338,36 +340,6 @@ class RankingCalculator:
                 f.write(game.to_string() + "\n")
         
         print(f"Game history saved to {filename}")
-
-    def get_interleaved_history_string(self) -> str:
-        """Get the interleaved game history as a string."""
-        lines = []
-        
-        for game, ratings_before in self.processed_games:
-            # Get all unique players from all games for consistent ordering
-            all_players = set()
-            for g, _ in self.processed_games:
-                for team in g.teams:
-                    all_players.update(team)
-            
-            # Sort players alphabetically for consistent output
-            sorted_players = sorted(all_players)
-            
-            # Format ratings line
-            rating_lines = []
-            for player in sorted_players:
-                if player in ratings_before:
-                    score = ratings_before[player].get("score", 0.0)
-                    rating_lines.append(f"{player}: {score:.2f}")
-            
-            # Add ratings line
-            lines.append(", ".join(rating_lines))
-            
-            # Add game string
-            lines.append(game.to_string())
-        
-        return "\n".join(lines)
-
 
 class ResultFormatter:
     """Formats and displays results in various views."""
@@ -477,8 +449,7 @@ class ResultFormatter:
         return "\n".join(markdown_lines)
 
     @staticmethod
-    def plot_rankings_over_time(calculator: RankingCalculator, overall_stats: AllPlayerStats, 
-                               infrequent_threshold: int = 10, output_file: str = "rankings.png"):
+    def plot_rankings_over_time(calculator: RankingCalculator, overall_stats: AllPlayerStats, output_file: str = "rankings.png"):
         """Plot a time series of rankings over time."""
         historical_ratings = calculator.get_historical_ratings()
         
@@ -522,19 +493,6 @@ class ResultFormatter:
         # Forward fill missing values
         df = df.ffill()
         
-        # Filter out infrequent players (played fewer than threshold games)
-        filtered_players = []
-        for player in df.columns:
-            total_games = overall_stats.get(player, {}).get("games", 0)
-            if total_games >= infrequent_threshold:
-                filtered_players.append(player)
-        
-        df = df[filtered_players]
-        
-        if df.empty:
-            print("No players with enough games to plot.")
-            return
-        
         # Create the plot
         plt.style.use("ggplot")
         plt.figure(figsize=(12, 8))
@@ -560,18 +518,9 @@ class ResultFormatter:
 
 def run() -> None:
     """Main function to run the ranking calculation and display results."""
-    raw_data = """01/06/2025|Bang|Garrick,Leo,Oliver;Freya;Feli,Eric,Karen|0;1;1
-01/06/2025|Bang|Garrick,Leo,Feli;Freya,Eric,Karen;Wincy;Oliver|0;1;1;2
-01/06/2025|Secret Hitler|Oliver,Garrick,Viv,Feli,Karen;Wincy,Leo,Eric|0;1
-01/06/2025|Secret Hitler|Oliver,Garrick,Viv,Wincy,Karen;Leo,Feli,Eric,Anna|0;1
-01/13/2025|Codenames|Harsha,Feli,Oliver,Abhi,Leo;Mandy,Peter,Vittoria,Howard,Garrick|0;1
-01/13/2025|Codenames|Mandy,Peter,Vittoria,Howard,Garrick,Anna;Harsha,Oliver,Abhi,Leo,Feli|0;1
-01/13/2025|Secret Hitler|Oliver,Howard,Vittoria,Harsha,Abhi,Anna;Feli,Peter,Garrick,Mandy|0;1
-01/13/2025|Secret Hitler|Garrick,Mandy,Anna,Oliver,Feli;Howard,Harsha,Leo|0;1"""
-
     calculator = RankingCalculator()
     formatter = ResultFormatter()
-    results = parse_game_data(raw_data)
+    results = parse_game_data()
 
     # (1) Calculate Overall Rankings
     stats = calculator.calculate_rankings(tuple(results))
@@ -598,11 +547,6 @@ def run() -> None:
     print("\n--- OVERALL RANKINGS ---")
     overall_df = formatter.format_stats(stats)
     print(overall_df[["score", "wins", "losses"]])
-    
-    # (8) Print the interleaved history format
-    print("\n--- INTERLEAVED GAME HISTORY ---")
-    print(calculator.get_interleaved_history_string())
-
 
 if __name__ == "__main__":
     run()

@@ -1,16 +1,2 @@
 
-01/06/2025|Bang|Garrick,Leo,Oliver;Freya;Feli,Eric,Karen|0;1;1
-Eric: -2.80, Feli: -2.80, Freya: -2.80, Garrick: 4.20, Karen: -2.80, Leo: 4.20, Oliver: 4.20
-01/06/2025|Bang|Garrick,Leo,Feli;Freya,Eric,Karen;Wincy;Oliver|0;1;1;2
-Eric: -4.10, Feli: 3.40, Freya: -4.10, Garrick: 9.40, Karen: -4.10, Leo: 9.40, Oliver: -5.10, Wincy: -1.80
-01/06/2025|Secret Hitler|Oliver,Garrick,Viv,Feli,Karen;Wincy,Leo,Eric|0;1
-Eric: -5.57, Feli: 4.60, Freya: -4.10, Garrick: 10.60, Karen: -2.40, Leo: 7.43, Oliver: -3.40, Viv: 1.20, Wincy: -3.27
-01/06/2025|Secret Hitler|Oliver,Garrick,Viv,Wincy,Karen;Leo,Feli,Eric,Anna|0;1
-Anna: -1.55, Eric: -6.62, Feli: 3.05, Freya: -4.10, Garrick: 11.80, Karen: -0.70, Leo: 5.88, Oliver: -1.70, Viv: 2.90, Wincy: -1.57
-01/13/2025|Codenames|Harsha,Feli,Oliver,Abhi,Leo;Mandy,Peter,Vittoria,Howard,Garrick|0;1
-Abhi: 1.20, Anna: -1.55, Eric: -6.62, Feli: 4.25, Freya: -4.10, Garrick: 10.50, Harsha: 1.20, Howard: -0.80, Karen: -0.70, Leo: 7.08, Mandy: -0.80, Oliver: 0.00, Peter: -0.80, Vittoria: -0.80, Viv: 2.90, Wincy: -1.57
-01/13/2025|Codenames|Mandy,Peter,Vittoria,Howard,Garrick,Anna;Harsha,Oliver,Abhi,Leo,Feli|0;1
-Abhi: -0.10, Anna: 0.15, Eric: -6.62, Feli: 2.95, Freya: -4.10, Garrick: 11.70, Harsha: -0.10, Howard: 0.90, Karen: -0.70, Leo: 5.78, Mandy: 0.90, Oliver: -1.30, Peter: 0.90, Vittoria: 0.90, Viv: 2.90, Wincy: -1.57
-01/13/2025|Secret Hitler|Oliver,Howard,Vittoria,Harsha,Abhi,Anna;Feli,Peter,Garrick,Mandy|0;1
-Abhi: 1.60, Anna: 1.85, Eric: -6.62, Feli: 1.15, Freya: -4.10, Garrick: 9.90, Harsha: 1.60, Howard: 2.60, Karen: -0.70, Leo: 5.78, Mandy: -0.90, Oliver: 0.40, Peter: -0.90, Vittoria: 2.60, Viv: 2.90, Wincy: -1.57
-01/13/2025|Secret Hitler|Garrick,Mandy,Anna,Oliver,Feli;Howard,Harsha,Leo|0;1
+12/01/2025|Codenames|Garrick,Jane,Allan,dummy120102;Wincy,Tara,Oliver,Summer|0;1
