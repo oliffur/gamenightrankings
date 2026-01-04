@@ -424,6 +424,7 @@ class RankingCalculator:
         
         print(f"Game history saved to {filename}")
 
+
 class ResultFormatter:
     """Formats and displays results in various views."""
 
