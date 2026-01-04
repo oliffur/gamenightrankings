@@ -1,210 +1,529 @@
-"""Parses results.txt into a markdown leaderboard"""
-
-import logging
-from typing import Dict, List, Tuple
-
-from inferent.ratings import TSRating
-from matplotlib import pyplot as plt
 import pandas as pd
+from collections import defaultdict
+from copy import deepcopy
+from typing import Dict, List, Tuple, Optional, Any
+from dataclasses import dataclass
+from enum import Enum
+import matplotlib.pyplot as plt
 
-logger = logging.getLogger("ratings")
-logger.setLevel(logging.INFO)
+# Type aliases for clarity
+PlayerStats = Dict[str, float | int]
+AllPlayerStats = Dict[str, PlayerStats]
+Team = List[str]
+Teams = List[Team]
+Ranks = List[int]
+GameHistory = List[Dict[str, Any]]  # Store full game details
 
-LUCK_FACTORS = {
-    "What do you Meme": 10.0,
-    "Incan Gold": 10.0,
-    "Exploding Kittens": 10.0,
-    "Love Letter": 10.0,
-    "No Thanks": 10.0,
-    "Shifty Eyed Spies": 10.0,
-    "Cash n Guns": 10.0,
-    "Bang": 1.0,
-    "Crabs": 5.0,
-    "Carcassone": 10.0,
-    "Coup": 10.0,
-    "Masquerade": 10.0,
-    "Camel Up": 10.0,
-    "Here to Slay": 10.0,
-    "Monopoly Deal": 10.0,
-    "Dixit": 10.0,
-    "Night of the Ninja": 10.0,
-    "Clank": 10.0,
-    "Uno": 15.0,
+
+class GameType(Enum):
+    """Enum for different game types."""
+    TEAM_UNBALANCED = "team uneven"
+    TEAM_BALANCED = "team even"
+    INDIVIDUAL_WINNER = "winner takes all"
+    INDIVIDUAL_RANKED = "ranked"
+
+
+GAME_CONFIG = {
+    "Bang": GameType.INDIVIDUAL_RANKED,
+    "Secret Hitler": GameType.TEAM_UNBALANCED,
+    "Codenames": GameType.TEAM_BALANCED,
+    "Winner Game Example": GameType.INDIVIDUAL_WINNER,
 }
 
 
-def parse_results(file_path: str = "results.txt"):
-    """Parses results.txt into a dataframe"""
+def parse_game_data(data_string: str) -> List['GameResult']:
+    """Parse the raw data string into a list of GameResult objects."""
     results = []
-    with open(file_path, encoding="ascii") as f:
-        for line in f:
-            if line.startswith("DATE"):
-                continue
-            date, game, teams, ranks = line.split("|")
-            teams = [team.split(",") for team in teams.split(";")]
-            ranks = list(map(int, ranks.split(";")))
-            results.append((date, game, teams, ranks))
+    for line in data_string.strip().split("\n"):
+        parts = line.split("|")
+        if len(parts) != 4:
+            raise ValueError("Bad input data")
 
-    return pd.DataFrame(results, columns=["date", "game", "teams", "ranks"])
+        date = parts[0]
+        game_name = parts[1]
+        teams = [t.split(",") for t in parts[2].split(";")]
+        ranks = [int(r) for r in parts[3].split(";")]
 
+        results.append(GameResult(date, game_name, teams, ranks))
 
-def get_ratings(results_df: pd.DataFrame):
-    """From the results dataframe, generates TSRating objects and a time series.
-
-    Returns:
-    - overall_df: results_df but enriched with `rating` column which contains
-                  a list of list of Player instances in the same shape as
-                  `teams`, for time series
-    - overall_ts: the final TSRating object, which contains the dictionary of
-                  final player ratings, for rankings
-    - ts_dict:    a dictionary of 'game' to a TSRating object for that specific
-                  game subset, for per-game rankings
-    """
-    ts_dict = {}  # TSRating classes with latest player information
-    for game in results_df["game"].unique():
-        ts_dict[game] = TSRating(
-                beta_adjustments=LUCK_FACTORS,
-                mu=100.0,
-                sigma=100.0,
-                beta=5.0,
-                tau=0.05)
-        _ = ts_dict[game].enrich_update(results_df.loc[results_df.game == game])
-    overall_ts = TSRating(
-            beta_adjustments=LUCK_FACTORS,
-            mu=100.0,
-            sigma=100.0,
-            beta=5.0,
-            tau=0.05)
-    overall_df = overall_ts.enrich_update(results_df)
-    return overall_df, overall_ts, ts_dict
+    return results
 
 
-def get_best_game_by_player(ts_dict: Dict[str, TSRating]) -> Dict[str, float]:
-    """From ts_dict (per-game rankings), finds the top ranked game per player"""
-    best_dict = {}  # Dictionary of player -> (game, min_rating)
-    for game, ts in ts_dict.items():
-        for player, p in ts.players.items():
-            min_rating = p.get_min_rating()
-            if player not in best_dict or min_rating > best_dict[player][1]:
-                best_dict[player] = (game, min_rating)
-    return best_dict
+@dataclass
+class GameResult:
+    """Represents a parsed game result from the data string."""
+
+    date: str
+    game_name: str
+    teams: Teams
+    ranks: Ranks
 
 
-def add_ranking_rows(
-    game: str,
-    overall_ts: TSRating,
-    markdown: str,
-    infrequent_threshold: int = -1,
-) -> Tuple[List, str]:
-    """Adds ranking row markdown strings to markdown (and returns it).
+def calc_base_bonus(
+    player: str,
+    game: GameResult
+) -> float:
+    """Calculate base score for a player in a game."""
+    game_type = GAME_CONFIG[game.game_name]
+    
+    # Find player's team index and rank
+    player_team_idx = -1
+    player_rank = -1
+    team_size = 0
+    
+    for i, team in enumerate(game.teams):
+        if player in team:
+            player_team_idx = i
+            player_rank = game.ranks[i]
+            team_size = len(team)
+            break
+    
+    if game_type == GameType.TEAM_UNBALANCED:
+        if player_rank == 0:
+            return 1.0
 
-    If infrequent_threshold is set to a reasonable value, also returns a list
-    of players who have played fewer than `infrequent_threshold` games.
-    """
-    # fmt: off
-    markdown +=\
-f"""
+        # Find the winning team size
+        winner_idx = game.ranks.index(0)
+        win_team_size = len(game.teams[winner_idx])
+        return -(1.0 * (win_team_size / team_size))
 
-### {game}
+    elif game_type == GameType.TEAM_BALANCED:
+        return 1.0 if player_rank == 0 else -1.0
 
-| Player | ELO | Wins | Losses | Win % |
-| --- | --- | --- | --- | --- |
-"""
-    # fmt: on
+    elif game_type == GameType.INDIVIDUAL_WINNER:
+        if player_rank == 0:
+            # Gain 1 * number of losers
+            win_idx = game.ranks.index(0)
+            num_losers = sum(
+                len(t) for j, t in enumerate(game.teams) if j != win_idx
+            )
+            return 1.0 * num_losers
+        return -1.0
 
-    infrequent_players = []  # players with <10 games
-    for player, p in sorted(
-        overall_ts.players.items(),
-        key=lambda item: item[1].get_min_rating(),
-        reverse=True,
-    ):
-        if player.startswith("dummy"):  # skip dummies
-            continue
-
-        # fmt: off
-        markdown +=\
-f"""\
-| {player} | {p.get_min_rating():.2f} | {p.wins} | {p.losses} | {p.wins / (p.wins + p.losses):.0%} |
-"""
-        # fmt: on
-
-        if p.wins + p.losses < infrequent_threshold:
-            infrequent_players.append(player)
-
-    return markdown, infrequent_players
-
-
-def flatten(xss):
-    """Flattens a list of lists into one single list, maintaining order"""
-    return [x for xs in xss for x in xs]
-
-
-def plot_rankings_over_time(df: pd.DataFrame, infrequent_players: List[str]):
-    """From a dataframe with enriched ratings, plot a time series of rankings.
-
-    TODO: make rankings.png a parameter I guess
-    """
-    plt.style.use("ggplot")
-    chart_df = pd.DataFrame()
-
-    for date, ps in zip(df["date"], df["ratings"]):
-        for p in flatten(ps):
-            if p.name.startswith("dummy"):
-                continue
-            chart_df.at[date, p.name] = p.get_min_rating()
-            logger.info("%s : %s : %s", p.name, p.get_min_rating(), p.rtg.sigma)
-
-    chart_df = chart_df.ffill().drop(columns=infrequent_players)
-    if not chart_df.empty:
-        ax = chart_df.plot.line()
-        ax.legend(
-            loc="lower center", ncol=5, bbox_to_anchor=(0.5, -0.3)
+    elif game_type == GameType.INDIVIDUAL_RANKED:
+        num_beaten = sum(
+            len(t) for j, t in enumerate(game.teams) if game.ranks[j] > player_rank
         )
-        ax.set_ylim(bottom=0.0)
-    plt.xticks(rotation="vertical")
-    plt.subplots_adjust(bottom=0.25)
-    plt.savefig("rankings.png")
+        num_lost_to = sum(
+            len(t) for j, t in enumerate(game.teams) if game.ranks[j] < player_rank
+        )
+        return num_beaten - num_lost_to
+
+    return 0.0
 
 
-def main():
-    """
-    Calls parse_results() and then updates README.md based on return value.
-    """
+def calc_upset_bonus(
+    player: str,
+    game: GameResult,
+    current_ratings: Dict[str, float]
+) -> float:
+    """Calculate skill gap bonus for a player in a game."""
+    game_type = GAME_CONFIG[game.game_name]
+    
+    # Find player's team index and rank
+    player_team_idx = -1
+    player_rank = -1
+    
+    for i, team in enumerate(game.teams):
+        if player in team:
+            player_team_idx = i
+            player_rank = game.ranks[i]
+            break
+    
+    if game_type in [GameType.TEAM_BALANCED, GameType.TEAM_UNBALANCED]:
+        player_rating = current_ratings.get(player, 0.0)
+        bonus = 0.0
+        
+        # Check all opposing teams
+        for i, team in enumerate(game.teams):
+            if i == player_team_idx:
+                continue  # Skip player's own team
+                
+            # Compute median rating of the opposing team
+            other_ratings = sorted([current_ratings.get(p, 0.0) for p in team])
+            median_opp = other_ratings[len(other_ratings) // 2]
+            
+            if player_rank == 0:  # Player's team won
+                if median_opp > player_rating:
+                    bonus += 0.5  # Win bonus for beating higher-rated team
+            else:  # Player's team lost
+                if median_opp < player_rating:
+                    bonus -= 0.5  # Penalty for losing to lower-rated team
+        
+        return bonus
 
-    results_df = parse_results()
-    overall_df, overall_ts, ts_dict = get_ratings(results_df)
+    elif game_type == GameType.INDIVIDUAL_WINNER:
+        if player_rank == 0:
+            # 0.5 * (number of losers higher than player)
+            win_idx = game.ranks.index(0)
+            losers = [p for j, t in enumerate(game.teams) if j != win_idx for p in t]
+            higher_count = sum(
+                1
+                for p_opp in losers
+                if current_ratings.get(p_opp, 0.0)
+                > current_ratings.get(player, 0.0)
+            )
+            return 0.5 * higher_count
 
-    # pylint: disable=line-too-long
-    # fmt: off
-    markdown =\
-"""
-![Image](https://media.architecturaldigest.com/photos/618036966ba9675f212cc805/16:9/w_2560%2Cc_limit/SquidGame_Season1_Episode1_00_44_44_16.jpg)
-"""
-    # fmt: on
-    # pylint: enable=line-too-long
+        # -0.5 if winner was lower rated
+        win_idx = game.ranks.index(0)
+        winner_team = game.teams[win_idx]
+        winner_p = winner_team[0]  # Assuming 1 winner in WTA
+        return (
+            -0.5
+            if current_ratings.get(winner_p, 0.0)
+            < current_ratings.get(player, 0.0)
+            else 0.0
+        )
 
-    best_dict = get_best_game_by_player(ts_dict)
-    logger.info(best_dict)
-    markdown, infrequent_players = add_ranking_rows(
-        "Overall Rankings", overall_ts, markdown, infrequent_threshold=10
-    )
-    plot_rankings_over_time(overall_df, infrequent_players)
+    elif game_type == GameType.INDIVIDUAL_RANKED:
+        # People ranked lower than you
+        worse_players = [
+            p for j, t in enumerate(game.teams) if game.ranks[j] > player_rank for p in t
+        ]
+        # People ranked higher than you
+        better_players = [
+            p for j, t in enumerate(game.teams) if game.ranks[j] < player_rank for p in t
+        ]
 
-    # fmt: off
-    markdown +=\
-"""
+        bonus_count = sum(
+            1
+            for p_opp in worse_players
+            if current_ratings.get(p_opp, 0.0)
+            > current_ratings.get(player, 0.0)
+        )
+        penalty_count = sum(
+            1
+            for p_opp in better_players
+            if current_ratings.get(p_opp, 0.0)
+            < current_ratings.get(player, 0.0)
+        )
 
-### Rankings over Time
-![Image](rankings.png)
+        return 0.5 * (bonus_count - penalty_count)
 
-"""
-    # fmt: on
-    for game, ts in ts_dict.items():
-        markdown, _ = add_ranking_rows(game, ts, markdown)
+    return 0.0
 
-    with open("README.md", "w", encoding="ascii") as f:
+
+class RankingCalculator:
+    """Main class for calculating player rankings."""
+
+    def __init__(self):
+        self.game_history: GameHistory = []  # Store all game details
+
+    def process_game(
+        self, game: GameResult, player_stats: AllPlayerStats
+    ) -> None:
+        """Process a single game and update player statistics."""
+        current_ratings = {p: player_stats[p]["score"] for p in player_stats}
+
+        # Process each player in the game
+        for i, team in enumerate(game.teams):
+            rank_i = game.ranks[i]
+
+            for player in team:
+                # Initialize player if not exists
+                if player not in player_stats:
+                    player_stats[player] = {
+                        "score": 0.0,
+                        "wins": 0,
+                        "losses": 0,
+                        "games": 0,
+                    }
+
+                # Base performance bonus
+                player_stats[player]["score"] += calc_base_bonus(player, game)
+
+                # Upset bonus
+                player_stats[player]["score"] += calc_upset_bonus(player, game, current_ratings)
+
+                # Participation Bonus (Capped at 10 total)
+                if player_stats[player]["games"] < 50:  # 50 * 0.2 = 10
+                    player_stats[player]["score"] += 0.2
+
+                player_stats[player]["games"] += 1
+
+                # Win/Loss tracking
+                if rank_i == 0:
+                    player_stats[player]["wins"] += 1
+                else:
+                    player_stats[player]["losses"] += 1
+
+    def calculate_rankings(
+        self, games: Tuple[GameResult]
+    ) -> AllPlayerStats:
+        """Calculate rankings from the provided data string."""
+        player_stats = defaultdict(
+            lambda: {"score": 0.0, "wins": 0, "losses": 0, "games": 0}
+        )
+
+        for game in games:
+            self.game_history.append((game.date, deepcopy(player_stats)))
+            self.process_game(game, player_stats)
+
+        return player_stats
+
+    def get_historical_ratings(self, player: str = None) -> Dict[str, List[Tuple[str, float]]]:
+        """Get historical ratings for all players or a specific player."""
+        historical_ratings = defaultdict(list)
+        
+        for game_record in self.game_history:
+            date, ratings = game_record
+            
+            for player_name, rating in ratings.items():
+                historical_ratings[player_name].append((date, rating))
+        
+        if player:
+            return {player: historical_ratings.get(player, [])}
+        return dict(historical_ratings)
+
+    def get_game_rankings(self, data_string: str = None, games: List[GameResult] = None) -> Dict[str, AllPlayerStats]:
+        """Calculate rankings per game type."""
+        if games is None and data_string is None:
+            raise ValueError("Either data_string or games must be provided")
+        
+        if games is None:
+            games = parse_game_data(data_string)
+        
+        unique_games = set(game.game_name for game in games)
+        game_rankings = {}
+
+        for game_name in unique_games:
+            # Filter games for this specific game type
+            game_data = [game for game in games if game.game_name == game_name]
+            calculator = RankingCalculator()
+            game_stats = calculator.calculate_rankings(game_data)
+            game_rankings[game_name] = game_stats
+
+        return game_rankings
+
+
+class ResultFormatter:
+    """Formats and displays results in various views."""
+
+    @staticmethod
+    def format_stats(stats_dict: AllPlayerStats) -> pd.DataFrame:
+        """Format player statistics into a DataFrame."""
+        df = pd.DataFrame.from_dict(stats_dict, orient="index")
+        if not df.empty:
+            df["win_pct"] = (df["wins"] / (df["wins"] + df["losses"]) * 100).round(
+                1
+            )
+        return df.sort_values(by="score", ascending=False)
+
+    @staticmethod
+    def get_history_dataframe(
+        calculator: RankingCalculator, top_players: List[str]
+    ) -> pd.DataFrame:
+        """Create a DataFrame of ranking history for top players."""
+        historical_ratings = calculator.get_historical_ratings()
+        
+        # Create date-indexed dataframe
+        all_dates = set()
+        for ratings in historical_ratings.values():
+            all_dates.update(date for date, _ in ratings)
+        all_dates = sorted(all_dates)
+        
+        # Initialize dataframe
+        history_data = []
+        for date in all_dates:
+            row = {"Date": date}
+            for player in top_players:
+                if player in historical_ratings:
+                    # Find the latest rating on or before this date
+                    player_ratings = historical_ratings[player]
+                    rating_at_date = None
+                    for rating_date, rating in player_ratings:
+                        if rating_date <= date:
+                            rating_at_date = rating
+                    if rating_at_date is not None:
+                        # Get the score from the rating dict
+                        row[player] = round(rating_at_date.get("score", 0.0), 2)
+            history_data.append(row)
+        
+        return pd.DataFrame(history_data)
+
+    @staticmethod
+    def generate_markdown(overall_stats: AllPlayerStats, game_rankings: Dict[str, AllPlayerStats]) -> str:
+        """Generate markdown output similar to parse_results_OLD.py."""
+        markdown_lines = []
+        
+        # Add header image
+        markdown_lines.append("![Image](https://media.architecturaldigest.com/photos/618036966ba9675f212cc805/16:9/w_2560%2Cc_limit/SquidGame_Season1_Episode1_00_44_44_16.jpg)")
+        markdown_lines.append("")
+        
+        # Add overall rankings
+        markdown_lines.append("### Overall Rankings")
+        markdown_lines.append("")
+        markdown_lines.append("| Player | Score | Wins | Losses | Win % |")
+        markdown_lines.append("| --- | --- | --- | --- | --- |")
+        
+        # Sort players by score
+        sorted_players = sorted(
+            overall_stats.items(),
+            key=lambda x: x[1]["score"],
+            reverse=True
+        )
+        
+        for player, stats in sorted_players:
+            total_games = stats["wins"] + stats["losses"]
+            win_pct = (stats["wins"] / max(1, total_games)) * 100
+            markdown_lines.append(
+                f"| {player} | {stats['score']:.2f} | {stats['wins']} | {stats['losses']} | {win_pct:.0%} |"
+            )
+        
+        markdown_lines.append("")
+        
+        # Add rankings over time
+        markdown_lines.append("### Rankings over Time")
+        markdown_lines.append("")
+        markdown_lines.append("![Image](rankings.png)")
+        markdown_lines.append("")
+        
+        # Add per-game rankings
+        for game_name, stats in game_rankings.items():
+            markdown_lines.append(f"### {game_name}")
+            markdown_lines.append("")
+            markdown_lines.append("| Player | Score | Wins | Losses | Win % |")
+            markdown_lines.append("| --- | --- | --- | --- | --- |")
+            
+            # Sort players by score for this game
+            game_sorted_players = sorted(
+                stats.items(),
+                key=lambda x: x[1]["score"],
+                reverse=True
+            )
+            
+            for player, row in game_sorted_players:
+                total_games = row["wins"] + row["losses"]
+                win_pct = (row["wins"] / max(1, total_games)) * 100
+                markdown_lines.append(
+                    f"| {player} | {row['score']:.2f} | {int(row['wins'])} | {int(row['losses'])} | {win_pct:.0%} |"
+                )
+            
+            markdown_lines.append("")
+        
+        return "\n".join(markdown_lines)
+
+    @staticmethod
+    def plot_rankings_over_time(calculator: RankingCalculator, overall_stats: AllPlayerStats, 
+                               infrequent_threshold: int = 10, output_file: str = "rankings.png"):
+        """Plot a time series of rankings over time."""
+        historical_ratings = calculator.get_historical_ratings()
+        
+        if not historical_ratings:
+            print("No historical data available for plotting.")
+            return
+        
+        # Prepare data for plotting
+        chart_data = {}
+        all_dates = set()
+        
+        # Collect all dates
+        for ratings in historical_ratings.values():
+            all_dates.update(date for date, _ in ratings)
+        
+        all_dates = sorted(all_dates)
+        
+        # Initialize chart data
+        for player in historical_ratings.keys():
+            chart_data[player] = []
+        
+        # Fill chart data with scores at each date
+        for date in all_dates:
+            for player in historical_ratings.keys():
+                player_ratings = historical_ratings[player]
+                score_at_date = None
+                
+                # Find the latest rating on or before this date
+                for rating_date, rating in player_ratings:
+                    if rating_date <= date:
+                        score_at_date = rating.get("score", 0.0)
+                
+                if score_at_date is not None:
+                    chart_data[player].append(score_at_date)
+                else:
+                    chart_data[player].append(None)
+        
+        # Create DataFrame for plotting
+        df = pd.DataFrame(chart_data, index=all_dates)
+        
+        # Forward fill missing values
+        df = df.ffill()
+        
+        # Filter out infrequent players (played fewer than threshold games)
+        filtered_players = []
+        for player in df.columns:
+            total_games = overall_stats.get(player, {}).get("games", 0)
+            if total_games >= infrequent_threshold:
+                filtered_players.append(player)
+        
+        df = df[filtered_players]
+        
+        if df.empty:
+            print("No players with enough games to plot.")
+            return
+        
+        # Create the plot
+        plt.style.use("ggplot")
+        plt.figure(figsize=(12, 8))
+        
+        # Plot each player's rating history
+        for player in df.columns:
+            plt.plot(df.index, df[player], marker='o', markersize=3, label=player)
+        
+        plt.title("Player Rankings Over Time")
+        plt.xlabel("Date")
+        plt.ylabel("Score")
+        plt.xticks(rotation=45)
+        plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
+        plt.tight_layout()
+        plt.grid(True, alpha=0.3)
+        
+        # Save the plot
+        plt.savefig(output_file, dpi=300, bbox_inches='tight')
+        plt.close()
+        
+        print(f"Rankings plot saved to {output_file}")
+
+
+def run() -> None:
+    """Main function to run the ranking calculation and display results."""
+    raw_data = """01/06/2025|Bang|Garrick,Leo,Oliver;Freya;Feli,Eric,Karen|0;1;1
+01/06/2025|Bang|Garrick,Leo,Feli;Freya,Eric,Karen;Wincy;Oliver|0;1;1;2
+01/06/2025|Secret Hitler|Oliver,Garrick,Viv,Feli,Karen;Wincy,Leo,Eric|0;1
+01/06/2025|Secret Hitler|Oliver,Garrick,Viv,Wincy,Karen;Leo,Feli,Eric,Anna|0;1
+01/13/2025|Codenames|Harsha,Feli,Oliver,Abhi,Leo;Mandy,Peter,Vittoria,Howard,Garrick|0;1
+01/13/2025|Codenames|Mandy,Peter,Vittoria,Howard,Garrick,Anna;Harsha,Oliver,Abhi,Leo,Feli|0;1
+01/13/2025|Secret Hitler|Oliver,Howard,Vittoria,Harsha,Abhi,Anna;Feli,Peter,Garrick,Mandy|0;1
+01/13/2025|Secret Hitler|Garrick,Mandy,Anna,Oliver,Feli;Howard,Harsha,Leo|0;1"""
+
+    calculator = RankingCalculator()
+    formatter = ResultFormatter()
+    results = parse_game_data(raw_data)
+
+    # (1) Calculate Overall Rankings
+    stats = calculator.calculate_rankings(results)
+    
+    # (2) Calculate per-game rankings using the calculator method
+    game_rankings = calculator.get_game_rankings(games=results)
+    
+    # (3) Generate and save the rankings plot
+    formatter.plot_rankings_over_time(calculator, stats, infrequent_threshold=10, output_file="rankings.png")
+    
+    # (4) Generate markdown
+    markdown = formatter.generate_markdown(stats, game_rankings)
+    
+    # (5) Write to README.md (similar to old code)
+    with open("README.md", "w", encoding="utf-8") as f:
         f.write(markdown)
+    
+    print("Markdown generated and written to README.md")
+    
+    # (6) Also print the overall rankings to console
+    print("\n--- OVERALL RANKINGS ---")
+    overall_df = formatter.format_stats(stats)
+    print(overall_df[["score", "wins", "losses"]])
 
 
 if __name__ == "__main__":
-    main()
+    run()
