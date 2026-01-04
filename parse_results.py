@@ -532,7 +532,7 @@ def run() -> None:
     game_rankings = calculator.get_game_rankings(games=results)
     
     # (4) Generate and save the rankings plot
-    formatter.plot_rankings_over_time(calculator, stats, infrequent_threshold=10, output_file="rankings.png")
+    formatter.plot_rankings_over_time(calculator, stats, output_file="rankings.png")
     
     # (5) Generate markdown
     markdown = formatter.generate_markdown(stats, game_rankings)
