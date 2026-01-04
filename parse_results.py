@@ -13,7 +13,7 @@ AllPlayerStats = Dict[str, PlayerStats]
 Team = List[str]
 Teams = List[Team]
 Ranks = List[int]
-GameHistory = List[Tuple[str, AllPlayerStats]  # Store all game details
+GameHistory = List[Tuple[str, AllPlayerStats]]
 
 
 class GameType(Enum):
