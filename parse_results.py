@@ -48,7 +48,7 @@ def parse_game_data(file_path: str = "results.txt") -> List['GameResult']:
             teams = [t.split(",") for t in parts[2].split(";")]
             ranks = [int(r) for r in parts[3].split(";")]
 
-        results.append(GameResult(date, game_name, teams, ranks))
+            results.append(GameResult(date, game_name, teams, ranks))
 
     return results
 
