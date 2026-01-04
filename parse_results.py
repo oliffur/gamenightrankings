@@ -1,18 +1,20 @@
 import pandas as pd
 from collections import defaultdict
 from copy import deepcopy
-from typing import Dict, List, Tuple, Optional, Any
+from typing import Dict, List, Tuple, Optional, Any, Union
 from dataclasses import dataclass
 from enum import Enum
 import matplotlib.pyplot as plt
+from datetime import datetime
 
-# Type aliases for clarity
-PlayerStats = Dict[str, float]
+
+# Type aliases for clarity - using Union for Python < 3.10 compatibility
+PlayerStats = Dict[str, Union[float, int]]
 AllPlayerStats = Dict[str, PlayerStats]
 Team = List[str]
 Teams = List[Team]
 Ranks = List[int]
-GameHistory = List[Dict[str, Any]]  # Store full game details
+GameHistory = List[Tuple[str, Dict[str, Dict[str, Union[float, int]]]]]  # Store all game details
 
 
 class GameType(Enum):
@@ -57,6 +59,12 @@ class GameResult:
     game_name: str
     teams: Teams
     ranks: Ranks
+    
+    def to_string(self) -> str:
+        """Convert GameResult back to the original string format."""
+        teams_str = ";".join([",".join(team) for team in self.teams])
+        ranks_str = ";".join([str(rank) for rank in self.ranks])
+        return f"{self.date}|{self.game_name}|{teams_str}|{ranks_str}"
 
 
 def calc_base_bonus(
@@ -209,6 +217,8 @@ class RankingCalculator:
 
     def __init__(self):
         self.game_history: GameHistory = []  # Store all game details
+        self.game_results: List[GameResult] = []  # Store all game results
+        self.processed_games: List[Tuple[GameResult, AllPlayerStats]] = []  # Store interleaved game and ratings
 
     def process_game(
         self, game: GameResult, player_stats: AllPlayerStats
@@ -249,7 +259,7 @@ class RankingCalculator:
                     player_stats[player]["losses"] += 1
 
     def calculate_rankings(
-        self, games: Tuple[GameResult]
+        self, games: Tuple[GameResult, ...]
     ) -> AllPlayerStats:
         """Calculate rankings from the provided data string."""
         player_stats = defaultdict(
@@ -257,12 +267,17 @@ class RankingCalculator:
         )
 
         for game in games:
-            self.game_history.append((game.date, deepcopy(player_stats)))
+            self.game_results.append(game)
+            # Store the ratings before processing this game
+            ratings_before = deepcopy(player_stats)
+            self.game_history.append((game.date, ratings_before))
+            self.processed_games.append((game, ratings_before))
+            
             self.process_game(game, player_stats)
 
         return player_stats
 
-    def get_historical_ratings(self, player: str = None) -> Dict[str, List[Tuple[str, float]]]:
+    def get_historical_ratings(self, player: str = None) -> Dict[str, List[Tuple[str, Dict[str, Union[float, int]]]]]:
         """Get historical ratings for all players or a specific player."""
         historical_ratings = defaultdict(list)
         
@@ -291,10 +306,67 @@ class RankingCalculator:
             # Filter games for this specific game type
             game_data = [game for game in games if game.game_name == game_name]
             calculator = RankingCalculator()
-            game_stats = calculator.calculate_rankings(game_data)
+            game_stats = calculator.calculate_rankings(tuple(game_data))
             game_rankings[game_name] = game_stats
 
         return game_rankings
+
+    def save_game_history(self, filename: str = "game_history.txt") -> None:
+        """Save the interleaved game history to a file."""
+        with open(filename, "w", encoding="utf-8") as f:
+            for game, ratings_before in self.processed_games:
+                # Get all unique players from all games for consistent ordering
+                all_players = set()
+                for g, _ in self.processed_games:
+                    for team in g.teams:
+                        all_players.update(team)
+                
+                # Sort players alphabetically for consistent output
+                sorted_players = sorted(all_players)
+                
+                # Format ratings line
+                rating_lines = []
+                for player in sorted_players:
+                    if player in ratings_before:
+                        score = ratings_before[player].get("score", 0.0)
+                        rating_lines.append(f"{player}: {score:.2f}")
+                
+                # Write ratings line
+                f.write(", ".join(rating_lines) + "\n")
+                
+                # Write game string
+                f.write(game.to_string() + "\n")
+        
+        print(f"Game history saved to {filename}")
+
+    def get_interleaved_history_string(self) -> str:
+        """Get the interleaved game history as a string."""
+        lines = []
+        
+        for game, ratings_before in self.processed_games:
+            # Get all unique players from all games for consistent ordering
+            all_players = set()
+            for g, _ in self.processed_games:
+                for team in g.teams:
+                    all_players.update(team)
+            
+            # Sort players alphabetically for consistent output
+            sorted_players = sorted(all_players)
+            
+            # Format ratings line
+            rating_lines = []
+            for player in sorted_players:
+                if player in ratings_before:
+                    score = ratings_before[player].get("score", 0.0)
+                    rating_lines.append(f"{player}: {score:.2f}")
+            
+            # Add ratings line
+            lines.append(", ".join(rating_lines))
+            
+            # Add game string
+            lines.append(game.to_string())
+        
+        return "\n".join(lines)
 
 
 class ResultFormatter:
@@ -304,7 +376,7 @@ class ResultFormatter:
     def format_stats(stats_dict: AllPlayerStats) -> pd.DataFrame:
         """Format player statistics into a DataFrame."""
         df = pd.DataFrame.from_dict(stats_dict, orient="index")
-        if not df.empty:
+        if not df.empty and 'wins' in df.columns and 'losses' in df.columns:
             df["win_pct"] = (df["wins"] / (df["wins"] + df["losses"]) * 100).round(
                 1
             )
@@ -502,27 +574,34 @@ def run() -> None:
     results = parse_game_data(raw_data)
 
     # (1) Calculate Overall Rankings
-    stats = calculator.calculate_rankings(results)
+    stats = calculator.calculate_rankings(tuple(results))
     
-    # (2) Calculate per-game rankings using the calculator method
+    # (2) Save the interleaved game history
+    calculator.save_game_history("game_history.txt")
+    
+    # (3) Calculate per-game rankings using the calculator method
     game_rankings = calculator.get_game_rankings(games=results)
     
-    # (3) Generate and save the rankings plot
+    # (4) Generate and save the rankings plot
     formatter.plot_rankings_over_time(calculator, stats, infrequent_threshold=10, output_file="rankings.png")
     
-    # (4) Generate markdown
+    # (5) Generate markdown
     markdown = formatter.generate_markdown(stats, game_rankings)
     
-    # (5) Write to README.md (similar to old code)
+    # (6) Write to README.md (similar to old code)
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(markdown)
     
     print("Markdown generated and written to README.md")
     
-    # (6) Also print the overall rankings to console
+    # (7) Also print the overall rankings to console
     print("\n--- OVERALL RANKINGS ---")
     overall_df = formatter.format_stats(stats)
     print(overall_df[["score", "wins", "losses"]])
+    
+    # (8) Print the interleaved history format
+    print("\n--- INTERLEAVED GAME HISTORY ---")
+    print(calculator.get_interleaved_history_string())
 
 
 if __name__ == "__main__":

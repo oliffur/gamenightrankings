@@ -25,22 +25,6 @@
 
 ![Image](rankings.png)
 
-### Codenames
-
-| Player | Score | Wins | Losses | Win % |
-| --- | --- | --- | --- | --- |
-| Anna | 1.70 | 1 | 0 | 10000% |
-| Mandy | 0.90 | 1 | 1 | 5000% |
-| Peter | 0.90 | 1 | 1 | 5000% |
-| Vittoria | 0.90 | 1 | 1 | 5000% |
-| Howard | 0.90 | 1 | 1 | 5000% |
-| Garrick | 0.90 | 1 | 1 | 5000% |
-| Harsha | -0.10 | 1 | 1 | 5000% |
-| Feli | -0.10 | 1 | 1 | 5000% |
-| Oliver | -0.10 | 1 | 1 | 5000% |
-| Abhi | -0.10 | 1 | 1 | 5000% |
-| Leo | -0.10 | 1 | 1 | 5000% |
-
 ### Secret Hitler
 
 | Player | Score | Wins | Losses | Win % |
@@ -60,6 +44,22 @@
 | Peter | -1.30 | 0 | 1 | 0% |
 | Eric | -2.52 | 0 | 2 | 0% |
 | Leo | -3.98 | 0 | 3 | 0% |
+
+### Codenames
+
+| Player | Score | Wins | Losses | Win % |
+| --- | --- | --- | --- | --- |
+| Anna | 1.70 | 1 | 0 | 10000% |
+| Mandy | 0.90 | 1 | 1 | 5000% |
+| Peter | 0.90 | 1 | 1 | 5000% |
+| Vittoria | 0.90 | 1 | 1 | 5000% |
+| Howard | 0.90 | 1 | 1 | 5000% |
+| Garrick | 0.90 | 1 | 1 | 5000% |
+| Harsha | -0.10 | 1 | 1 | 5000% |
+| Feli | -0.10 | 1 | 1 | 5000% |
+| Oliver | -0.10 | 1 | 1 | 5000% |
+| Abhi | -0.10 | 1 | 1 | 5000% |
+| Leo | -0.10 | 1 | 1 | 5000% |
 
 ### Bang
 
