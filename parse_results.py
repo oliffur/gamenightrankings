@@ -522,6 +522,8 @@ def run() -> None:
     formatter = ResultFormatter()
     results = parse_game_data()
 
+    print(results)
+
     # (1) Calculate Overall Rankings
     stats = calculator.calculate_rankings(tuple(results))
     
