@@ -41,6 +41,8 @@ GAME_CONFIG = {
     "Monopoly Deal": GameType.INDIVIDUAL_WINNER,
     "Night of the Ninja": GameType.INDIVIDUAL_WINNER,
     "Clank": GameType.INDIVIDUAL_WINNER,
+    "Avalon": GameType.TEAM_BALANCED,
+    "Quest": GameType.TEAM_BALANCED,
 }
 
 
