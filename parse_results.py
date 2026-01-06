@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 from collections import defaultdict
 from dataclasses import dataclass
 from enum import Enum
-from typing import Dict, List, Tuple, Any
-from copy import deepcopy
+from typing import Dict, List, Tuple
+import os
 
 # --- Configuration ---
 
@@ -47,7 +47,7 @@ def get_player_context(player: str, game: GameResult):
     return None, None, None
 
 def calc_base_bonus(player: str, game: GameResult) -> float:
-    g_type = GAME_CONFIG.get(game.game_name)
+    g_type = GAME_CONFIG.get(game.game_name, GameType.TEAM_BALANCED)
     idx, rank, size = get_player_context(player, game)
     if g_type == GameType.TEAM_UNBALANCED:
         if rank == 0: return 1.0
@@ -66,30 +66,19 @@ def calc_base_bonus(player: str, game: GameResult) -> float:
     return 0.0
 
 def calc_upset_bonus(player: str, game: GameResult, ratings: Dict[str, float]) -> float:
-    g_type = GAME_CONFIG.get(game.game_name)
+    g_type = GAME_CONFIG.get(game.game_name, GameType.TEAM_BALANCED)
     idx, rank, _ = get_player_context(player, game)
     p_rating = ratings.get(player, 100.0)
+    
     if g_type in [GameType.TEAM_BALANCED, GameType.TEAM_UNBALANCED]:
         bonus = 0.0
         for i, team in enumerate(game.teams):
             if i == idx: continue
             opp_ratings = sorted([ratings.get(p, 100.0) for p in team])
-            median_opp = opp_ratings[len(opp_ratings)//2]
+            median_opp = opp_ratings[len(opp_ratings)//2] if opp_ratings else 100.0
             if rank == 0 and median_opp > p_rating: bonus += 0.5
             elif rank != 0 and median_opp < p_rating: bonus -= 0.5
         return bonus
-    if g_type == GameType.INDIVIDUAL_WINNER:
-        if rank == 0:
-            losers = [p for j, t in enumerate(game.teams) if j != idx for p in t]
-            return 0.5 * sum(1 for lp in losers if ratings.get(lp, 100.0) > p_rating)
-        winner = game.teams[game.ranks.index(0)][0]
-        return -0.5 if ratings.get(winner, 100.0) < p_rating else 0.0
-    if g_type == GameType.INDIVIDUAL_RANKED:
-        worse = [p for j, t in enumerate(game.teams) if game.ranks[j] > rank for p in t]
-        better = [p for j, t in enumerate(game.teams) if game.ranks[j] < rank for p in t]
-        bonus = sum(1 for p_opp in worse if ratings.get(p_opp, 100.0) > p_rating)
-        penalty = sum(1 for p_opp in better if ratings.get(p_opp, 100.0) < p_rating)
-        return 0.5 * (bonus - penalty)
     return 0.0
 
 # --- Engine ---
@@ -97,79 +86,137 @@ def calc_upset_bonus(player: str, game: GameResult, ratings: Dict[str, float]) -
 class RankingCalculator:
     def __init__(self):
         self.stats = defaultdict(lambda: {"score": 100.0, "wins": 0, "losses": 0, "games": 0})
-        # Stores: (GameResult, RatingsBefore, RatingsAfter)
-        self.history_log = []
+        self.game_specific_stats = defaultdict(lambda: defaultdict(lambda: {"score": 0.0, "wins": 0, "games": 0}))
+        self.history_log = [] # List of (GameResult, deltas_dict)
+        self.score_history = defaultdict(list) # For plotting
 
     def calculate_rankings(self, games: List[GameResult]):
         for game in games:
-            # Snapshot before game
-            ratings_before = {p: d["score"] for p, d in self.stats.items()}
+            # Snapshot of ratings before this game
+            ratings_before = {p: self.stats[p]["score"] for p in self.stats}
+            deltas = {}
             
-            # Process participants
             game_players = [p for team in game.teams for p in team]
             for p in game_players:
                 idx, rank, _ = get_player_context(p, game)
                 
-                # Apply scoring
-                self.stats[p]["score"] += calc_base_bonus(p, game)
-                self.stats[p]["score"] += calc_upset_bonus(p, game, ratings_before)
-                
+                # Calculate changes
+                change = calc_base_bonus(p, game) + calc_upset_bonus(p, game, ratings_before)
                 if self.stats[p]["games"] < 50:
-                    self.stats[p]["score"] += 0.2
+                    change += 0.2
                 
+                # Update Global Stats
+                self.stats[p]["score"] += change
                 self.stats[p]["games"] += 1
                 if rank == 0: self.stats[p]["wins"] += 1
                 else: self.stats[p]["losses"] += 1
+                
+                # Update Game-Specific Stats
+                gs = self.game_specific_stats[game.game_name][p]
+                gs["score"] += change
+                gs["games"] += 1
+                if rank == 0: gs["wins"] += 1
+                
+                deltas[p] = change
+
+            # Record history for plotting (all players)
+            for p in set(list(self.stats.keys()) + game_players):
+                self.score_history[p].append(self.stats[p]["score"])
             
-            # Snapshot after game
-            ratings_after = {p: d["score"] for p, d in self.stats.items()}
-            self.history_log.append((game, ratings_before, ratings_after))
+            self.history_log.append((game, deltas))
 
     def save_game_history(self, filename: str = "game_history.txt"):
         with open(filename, "w", encoding="utf-8") as f:
-            for game, before, after in self.history_log:
-                # Write the game line
+            for game, deltas in self.history_log:
                 f.write(game.to_string() + "\n")
-                
-                # Calculate deltas for players in THIS game
-                game_players = sorted([p for team in game.teams for p in team])
-                delta_parts = []
-                for p in game_players:
-                    # If player was new, 'before' score is 100.0
-                    b_score = before.get(p, 100.0)
-                    a_score = after.get(p, 100.0)
-                    delta = a_score - b_score
-                    delta_parts.append(f"{p}: {'+' if delta >= 0 else ''}{delta:.2f}")
-                
-                # Write the delta line immediately after the game
-                f.write(", ".join(delta_parts) + "\n")
+                # Sort players alphabetically for the delta line
+                sorted_players = sorted(deltas.keys())
+                delta_str = ", ".join([f"{p}: {'+' if deltas[p] >= 0 else ''}{deltas[p]:.2f}" for p in sorted_players])
+                f.write(delta_str + "\n")
+
+    def save_markdown_report(self, filename: str = "rankings.md"):
+        with open(filename, "w", encoding="utf-8") as f:
+            f.write("# 🏆 Board Game Rankings\n\n")
+            
+            # Global Table
+            f.write("## Overall Leaderboard\n")
+            df = self.get_stats_df()
+            f.write(df.to_markdown() + "\n\n")
+            
+            # Game Specific Tables
+            f.write("## Rankings by Game\n")
+            for game_name in sorted(self.game_specific_stats.keys()):
+                f.write(f"### {game_name}\n")
+                g_data = []
+                for p, s in self.game_specific_stats[game_name].items():
+                    g_data.append({
+                        "Player": p,
+                        "Net Score": round(s["score"], 2),
+                        "Wins": s["wins"],
+                        "Games": s["games"],
+                        "Win %": f"{(s['wins']/s['games']*100):.1f}%"
+                    })
+                gdf = pd.DataFrame(g_data).sort_values("Net Score", ascending=False)
+                f.write(gdf.to_markdown(index=False) + "\n\n")
+
+    def generate_chart(self, filename: str = "player_stats.png"):
+        plt.figure(figsize=(12, 7))
+        for player, scores in self.score_history.items():
+            plt.plot(scores, label=player, marker='o', markersize=4)
+        
+        plt.title("Player Rating Progression")
+        plt.xlabel("Games Played")
+        plt.ylabel("Rating Score")
+        plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
+        plt.grid(True, linestyle='--', alpha=0.6)
+        plt.tight_layout()
+        plt.savefig(filename)
+        print(f"Chart saved as {filename}")
 
     def get_stats_df(self) -> pd.DataFrame:
-        df = pd.DataFrame.from_dict(self.stats, orient='index')
-        df['win_pct'] = (df['wins'] / df['games'] * 100).round(1)
-        return df.sort_values("score", ascending=False)
+        data = []
+        for p, s in self.stats.items():
+            data.append({
+                "Player": p,
+                "Rating": round(s["score"], 2),
+                "Wins": s["wins"],
+                "Losses": s["losses"],
+                "Total": s["games"],
+                "Win %": f"{(s['wins']/s['games']*100):.1f}%"
+            })
+        return pd.DataFrame(data).sort_values("Rating", ascending=False)
 
 # --- Main Execution ---
 
 def parse_game_data(file_path: str) -> List[GameResult]:
     results = []
-    try:
-        with open(file_path, "r") as f:
-            for line in f:
-                if line.startswith("DATE") or not line.strip(): continue
-                parts = line.strip().split("|")
+    if not os.path.exists(file_path):
+        print(f"Error: {file_path} not found.")
+        return []
+    with open(file_path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("DATE"): continue
+            try:
+                parts = line.split("|")
                 teams = [t.split(",") for t in parts[2].split(";")]
                 ranks = [int(r) for r in parts[3].split(";")]
                 results.append(GameResult(parts[0], parts[1], teams, ranks))
-    except FileNotFoundError:
-        print(f"Error: {file_path} not found.")
+            except Exception as e:
+                print(f"Skipping malformed line: {line} ({e})")
     return results
 
 if __name__ == "__main__":
     calc = RankingCalculator()
     games = parse_game_data("results.txt")
-    calc.calculate_rankings(games)
-    calc.save_game_history("game_history.txt")
     
-    print("--- Final Rankings ---")
-    print(calc.get_stats_df()[["score", "wins", "losses"]])
+    if games:
+        calc.calculate_rankings(games)
+        calc.save_game_history("game_history.txt")
+        calc.save_markdown_report("rankings.md")
+        calc.generate_chart("player_stats.png")
+        
+        print("\n--- Current Standings ---")
+        print(calc.get_stats_df().to_string(index=False))
+    else:
+        print("No game data found to process.")
