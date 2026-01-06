@@ -66,9 +66,13 @@ def calc_base_bonus(player: str, game: GameResult) -> float:
     return 0.0
 
 def calc_upset_bonus(player: str, game: GameResult, ratings: Dict[str, float]) -> float:
+    """
+    Calculates upset bonus based on ratings provided. 
+    'ratings' should be the snapshot of ratings at the start of the day.
+    """
     g_type = GAME_CONFIG.get(game.game_name, GameType.TEAM_BALANCED)
     idx, rank, _ = get_player_context(player, game)
-    # Default to 100.0 if player hasn't been seen in previous days
+    # Default to 100.0 if player is new
     p_rating = ratings.get(player, 100.0)
     
     if g_type in [GameType.TEAM_BALANCED, GameType.TEAM_UNBALANCED]:
@@ -103,6 +107,7 @@ class RankingCalculator:
             # Update the reference ratings only when the date changes
             if game.date != current_date:
                 current_date = game.date
+                # Take a snapshot of current scores to use for all games on this date
                 ratings_at_start_of_day = {p: data["score"] for p, data in self.stats.items()}
 
             deltas = {}
@@ -114,7 +119,7 @@ class RankingCalculator:
                 # Calculate change using the static daily ratings for upset bonus
                 change = calc_base_bonus(p, game) + calc_upset_bonus(p, game, ratings_at_start_of_day)
                 
-                # Experience bonus
+                # Experience bonus for newer players
                 total_games = self.stats[p]["wins"] + self.stats[p]["losses"]
                 if total_games < 50:
                     change += 0.2
@@ -146,7 +151,12 @@ class ResultFormatter:
     def get_history_dataframe(calculator: RankingCalculator, players: List[str]) -> pd.DataFrame:
         if not calculator.history:
             return pd.DataFrame()
+        
         df = pd.DataFrame(calculator.history)
+        
+        # Keep only the last game result for each date to avoid messy plots
+        df = df.drop_duplicates(subset="Date", keep="last")
+        
         df = df.set_index("Date")
         cols = [p for p in players if p in df.columns]
         return df[cols]
@@ -176,7 +186,7 @@ class ResultFormatter:
         markdown_lines.append("![Image](rankings.png)")
         markdown_lines.append("")
         
-        # 2. Per-Game Rankings (No Score column)
+        # 2. Per-Game Rankings (Wins, Losses, Win % only)
         for game_name in sorted(game_rankings.keys()):
             stats_dict = game_rankings[game_name]
             markdown_lines.append(f"### {game_name}")
@@ -184,7 +194,7 @@ class ResultFormatter:
             markdown_lines.append("| Player | Wins | Losses | Win % |")
             markdown_lines.append("| --- | --- | --- | --- |")
             
-            # Still sort by the internal game score to keep the leaderboard meaningful
+            # Sort by the internal game score to maintain ranking order
             game_sorted = sorted(stats_dict.items(), key=lambda x: x[1]["score"], reverse=True)
             
             for player, row in game_sorted:
@@ -199,6 +209,7 @@ class ResultFormatter:
     @staticmethod
     def plot_rankings_over_time(calculator: RankingCalculator, overall_stats: Dict[str, Any], output_file: str = "rankings.png"):
         sorted_players = sorted(overall_stats.items(), key=lambda x: x[1]["score"], reverse=True)
+        # Plot top 25 to keep the legend readable
         top_25_players = [player for player, _ in sorted_players[:25]]
         
         df = ResultFormatter.get_history_dataframe(calculator, top_25_players)
@@ -209,9 +220,9 @@ class ResultFormatter:
         
         for player in top_25_players:
             if player in df.columns:
-                plt.plot(df.index, df[player], marker='o', markersize=3, label=player)
+                plt.plot(df.index, df[player], marker='o', markersize=4, linewidth=2, label=player)
         
-        plt.title("Top 25 Player Rankings Over Time")
+        plt.title("Top 25 Player Rankings (End of Day)")
         plt.xlabel("Date")
         plt.ylabel("Score")
         plt.xticks(rotation=45)
@@ -232,6 +243,7 @@ def parse_game_data(file_path: str) -> List[GameResult]:
             if not line or line.startswith("DATE"): continue
             try:
                 parts = line.split("|")
+                # Format: DATE|GAME|TEAM1,TEAM2;TEAM3|RANK1;RANK2
                 teams = [t.split(",") for t in parts[2].split(";")]
                 ranks = [int(r) for r in parts[3].split(";")]
                 results.append(GameResult(parts[0], parts[1], teams, ranks))
@@ -243,9 +255,10 @@ if __name__ == "__main__":
     games = parse_game_data("results.txt")
     
     if games:
+        # Process all games
         calc.process_games(games)
         
-        # Save game_history.txt
+        # 1. Save detailed delta log
         with open("game_history.txt", "w", encoding="utf-8") as f:
             for game, deltas in calc.log:
                 f.write(game.to_string() + "\n")
@@ -253,14 +266,14 @@ if __name__ == "__main__":
                 delta_str = ", ".join([f"{p}: {'+' if deltas[p] >= 0 else ''}{deltas[p]:.2f}" for p in sorted_p])
                 f.write(delta_str + "\n")
 
-        # Generate Plot
+        # 2. Generate Plot (Deduplicated by Date)
         ResultFormatter.plot_rankings_over_time(calc, calc.stats)
 
-        # Save Markdown
+        # 3. Save Markdown Report
         md_content = ResultFormatter.generate_markdown(calc.stats, calc.game_rankings)
         with open("rankings.md", "w", encoding="utf-8") as f:
             f.write(md_content)
             
         print("Processing complete. Files generated: game_history.txt, rankings.md, rankings.png")
     else:
-        print("No data found in results.txt")
+        print("No data found in results.txt. Please ensure the file exists and follows the format.")
