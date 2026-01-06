@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from collections import defaultdict
 from dataclasses import dataclass
 from enum import Enum
-from typing import Dict, List, Tuple
+from typing import Dict, List, Any
 import os
 
 # --- Configuration ---
@@ -85,114 +85,167 @@ def calc_upset_bonus(player: str, game: GameResult, ratings: Dict[str, float]) -
 
 class RankingCalculator:
     def __init__(self):
-        self.stats = defaultdict(lambda: {"score": 100.0, "wins": 0, "losses": 0, "games": 0})
-        self.game_specific_stats = defaultdict(lambda: defaultdict(lambda: {"score": 0.0, "wins": 0, "games": 0}))
-        self.history_log = [] # List of (GameResult, deltas_dict)
-        self.score_history = defaultdict(list) # For plotting
+        # Global stats: {player: {score, wins, losses}}
+        self.stats = defaultdict(lambda: {"score": 100.0, "wins": 0, "losses": 0})
+        # Game stats: {game_name: {player: {score, wins, losses}}}
+        self.game_rankings = defaultdict(lambda: defaultdict(lambda: {"score": 0.0, "wins": 0, "losses": 0}))
+        # History for plotting: List of dicts {date, player1_score, player2_score...}
+        self.history = []
+        # History for game_history.txt: List of (GameResult, deltas)
+        self.log = []
 
-    def calculate_rankings(self, games: List[GameResult]):
+    def process_games(self, games: List[GameResult]):
         for game in games:
-            # Snapshot of ratings before this game
             ratings_before = {p: self.stats[p]["score"] for p in self.stats}
             deltas = {}
-            
             game_players = [p for team in game.teams for p in team]
+            
             for p in game_players:
                 idx, rank, _ = get_player_context(p, game)
                 
-                # Calculate changes
+                # Calculate change
                 change = calc_base_bonus(p, game) + calc_upset_bonus(p, game, ratings_before)
-                if self.stats[p]["games"] < 50:
+                # Experience bonus for new players
+                total_games = self.stats[p]["wins"] + self.stats[p]["losses"]
+                if total_games < 50:
                     change += 0.2
                 
-                # Update Global Stats
+                # Update Global
                 self.stats[p]["score"] += change
-                self.stats[p]["games"] += 1
                 if rank == 0: self.stats[p]["wins"] += 1
                 else: self.stats[p]["losses"] += 1
                 
-                # Update Game-Specific Stats
-                gs = self.game_specific_stats[game.game_name][p]
+                # Update Game Specific
+                gs = self.game_rankings[game.game_name][p]
                 gs["score"] += change
-                gs["games"] += 1
                 if rank == 0: gs["wins"] += 1
+                else: gs["losses"] += 1
                 
                 deltas[p] = change
 
-            # Record history for plotting (all players)
-            for p in set(list(self.stats.keys()) + game_players):
-                self.score_history[p].append(self.stats[p]["score"])
+            # Record history for plotting
+            snapshot = {"Date": game.date}
+            for p, s in self.stats.items():
+                snapshot[p] = s["score"]
+            self.history.append(snapshot)
             
-            self.history_log.append((game, deltas))
+            # Record log for text file
+            self.log.append((game, deltas))
 
-    def save_game_history(self, filename: str = "game_history.txt"):
-        with open(filename, "w", encoding="utf-8") as f:
-            for game, deltas in self.history_log:
-                f.write(game.to_string() + "\n")
-                # Sort players alphabetically for the delta line
-                sorted_players = sorted(deltas.keys())
-                delta_str = ", ".join([f"{p}: {'+' if deltas[p] >= 0 else ''}{deltas[p]:.2f}" for p in sorted_players])
-                f.write(delta_str + "\n")
+class ResultFormatter:
+    @staticmethod
+    def get_history_dataframe(calculator: RankingCalculator, players: List[str]) -> pd.DataFrame:
+        if not calculator.history:
+            return pd.DataFrame()
+        df = pd.DataFrame(calculator.history)
+        df = df.set_index("Date")
+        # Ensure only requested players are in columns
+        cols = [p for p in players if p in df.columns]
+        return df[cols]
 
-    def save_markdown_report(self, filename: str = "rankings.md"):
-        with open(filename, "w", encoding="utf-8") as f:
-            f.write("# 🏆 Board Game Rankings\n\n")
-            
-            # Global Table
-            f.write("## Overall Leaderboard\n")
-            df = self.get_stats_df()
-            f.write(df.to_markdown() + "\n\n")
-            
-            # Game Specific Tables
-            f.write("## Rankings by Game\n")
-            for game_name in sorted(self.game_specific_stats.keys()):
-                f.write(f"### {game_name}\n")
-                g_data = []
-                for p, s in self.game_specific_stats[game_name].items():
-                    g_data.append({
-                        "Player": p,
-                        "Net Score": round(s["score"], 2),
-                        "Wins": s["wins"],
-                        "Games": s["games"],
-                        "Win %": f"{(s['wins']/s['games']*100):.1f}%"
-                    })
-                gdf = pd.DataFrame(g_data).sort_values("Net Score", ascending=False)
-                f.write(gdf.to_markdown(index=False) + "\n\n")
-
-    def generate_chart(self, filename: str = "player_stats.png"):
-        plt.figure(figsize=(12, 7))
-        for player, scores in self.score_history.items():
-            plt.plot(scores, label=player, marker='o', markersize=4)
+    @staticmethod
+    def generate_markdown(overall_stats: Dict[str, Any], game_rankings: Dict[str, Any]) -> str:
+        """Generate markdown output exactly as requested."""
+        markdown_lines = []
         
-        plt.title("Player Rating Progression")
-        plt.xlabel("Games Played")
-        plt.ylabel("Rating Score")
-        plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
-        plt.grid(True, linestyle='--', alpha=0.6)
-        plt.tight_layout()
-        plt.savefig(filename)
-        print(f"Chart saved as {filename}")
+        # Add header image
+        markdown_lines.append("![Image]")
+        markdown_lines.append("")
+        
+        # Add overall rankings
+        markdown_lines.append("### Overall Rankings")
+        markdown_lines.append("")
+        markdown_lines.append("| Player | Score | Wins | Losses | Win % |")
+        markdown_lines.append("| --- | --- | --- | --- | --- |")
+        
+        # Sort players by score
+        sorted_players = sorted(
+            overall_stats.items(),
+            key=lambda x: x[1]["score"],
+            reverse=True
+        )
+        
+        for player, stats in sorted_players:
+            total_games = stats["wins"] + stats["losses"]
+            win_pct = (stats["wins"] / max(1, total_games))
+            markdown_lines.append(
+                f"| {player} | {stats['score']:.2f} | {stats['wins']} | {stats['losses']} | {win_pct:.0%} |"
+            )
+        
+        markdown_lines.append("")
+        
+        # Add rankings over time
+        markdown_lines.append("### Rankings over Time")
+        markdown_lines.append("")
+        markdown_lines.append("![Image](rankings.png)")
+        markdown_lines.append("")
+        
+        # Add per-game rankings
+        for game_name in sorted(game_rankings.keys()):
+            stats = game_rankings[game_name]
+            markdown_lines.append(f"### {game_name}")
+            markdown_lines.append("")
+            markdown_lines.append("| Player | Score | Wins | Losses | Win % |")
+            markdown_lines.append("| --- | --- | --- | --- | --- |")
+            
+            # Sort players by score for this game
+            game_sorted_players = sorted(
+                stats.items(),
+                key=lambda x: x[1]["score"],
+                reverse=True
+            )
+            
+            for player, row in game_sorted_players:
+                total_games = row["wins"] + row["losses"]
+                win_pct = (row["wins"] / max(1, total_games))
+                markdown_lines.append(
+                    f"| {player} | {row['score']:.2f} | {int(row['wins'])} | {int(row['losses'])} | {win_pct:.0%} |"
+                )
+            
+            markdown_lines.append("")
+        
+        return "\n".join(markdown_lines)
 
-    def get_stats_df(self) -> pd.DataFrame:
-        data = []
-        for p, s in self.stats.items():
-            data.append({
-                "Player": p,
-                "Rating": round(s["score"], 2),
-                "Wins": s["wins"],
-                "Losses": s["losses"],
-                "Total": s["games"],
-                "Win %": f"{(s['wins']/s['games']*100):.1f}%"
-            })
-        return pd.DataFrame(data).sort_values("Rating", ascending=False)
+    @staticmethod
+    def plot_rankings_over_time(calculator: RankingCalculator, overall_stats: Dict[str, Any], output_file: str = "rankings.png"):
+        """Plot a time series of rankings over time."""
+        sorted_players = sorted(
+            overall_stats.items(),
+            key=lambda x: x[1]["score"],
+            reverse=True
+        )
+        top_25_players = [player for player, _ in sorted_players[:25]]
+        
+        df = ResultFormatter.get_history_dataframe(calculator, top_25_players)
+        
+        if df.empty:
+            print("No historical data available for plotting.")
+            return
+        
+        plt.style.use("ggplot")
+        plt.figure(figsize=(14, 8))
+        
+        for player in top_25_players:
+            if player in df.columns:
+                plt.plot(df.index, df[player], marker='o', markersize=3, label=player)
+        
+        plt.title("Top 25 Player Rankings Over Time")
+        plt.xlabel("Date")
+        plt.ylabel("Score")
+        plt.xticks(rotation=45)
+        plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
+        plt.tight_layout()
+        plt.grid(True, alpha=0.3)
+        
+        plt.savefig(output_file, dpi=300, bbox_inches='tight')
+        plt.close()
+        print(f"Rankings plot saved to {output_file}")
 
 # --- Main Execution ---
 
 def parse_game_data(file_path: str) -> List[GameResult]:
     results = []
-    if not os.path.exists(file_path):
-        print(f"Error: {file_path} not found.")
-        return []
+    if not os.path.exists(file_path): return []
     with open(file_path, "r", encoding="utf-8") as f:
         for line in f:
             line = line.strip()
@@ -202,8 +255,7 @@ def parse_game_data(file_path: str) -> List[GameResult]:
                 teams = [t.split(",") for t in parts[2].split(";")]
                 ranks = [int(r) for r in parts[3].split(";")]
                 results.append(GameResult(parts[0], parts[1], teams, ranks))
-            except Exception as e:
-                print(f"Skipping malformed line: {line} ({e})")
+            except: continue
     return results
 
 if __name__ == "__main__":
@@ -211,12 +263,24 @@ if __name__ == "__main__":
     games = parse_game_data("results.txt")
     
     if games:
-        calc.calculate_rankings(games)
-        calc.save_game_history("game_history.txt")
-        calc.save_markdown_report("rankings.md")
-        calc.generate_chart("player_stats.png")
+        calc.process_games(games)
         
-        print("\n--- Current Standings ---")
-        print(calc.get_stats_df().to_string(index=False))
+        # 1. Save game_history.txt (Fixed format)
+        with open("game_history.txt", "w", encoding="utf-8") as f:
+            for game, deltas in calc.log:
+                f.write(game.to_string() + "\n")
+                sorted_p = sorted(deltas.keys())
+                delta_str = ", ".join([f"{p}: {'+' if deltas[p] >= 0 else ''}{deltas[p]:.2f}" for p in sorted_p])
+                f.write(delta_str + "\n")
+
+        # 2. Generate Plot
+        ResultFormatter.plot_rankings_over_time(calc, calc.stats)
+
+        # 3. Save Markdown
+        md_content = ResultFormatter.generate_markdown(calc.stats, calc.game_rankings)
+        with open("rankings.md", "w", encoding="utf-8") as f:
+            f.write(md_content)
+            
+        print("Processing complete. Files generated: game_history.txt, rankings.md, rankings.png")
     else:
-        print("No game data found to process.")
+        print("No data found in results.txt")
