@@ -165,7 +165,7 @@ class ResultFormatter:
     def generate_markdown(overall_stats: Dict[str, Any], game_rankings: Dict[str, Any]) -> str:
         markdown_lines = []
         
-        markdown_lines.append("![Image]")
+        markdown_lines.append("![Image](https://media.architecturaldigest.com/photos/618036966ba9675f212cc805/16:9/w_2560%2Cc_limit/SquidGame_Season1_Episode1_00_44_44_16.jpg)")
         markdown_lines.append("")
         
         # 1. Overall Rankings (Includes Score)
@@ -271,7 +271,7 @@ if __name__ == "__main__":
 
         # 3. Save Markdown Report
         md_content = ResultFormatter.generate_markdown(calc.stats, calc.game_rankings)
-        with open("rankings.md", "w", encoding="utf-8") as f:
+        with open("README.md", "w", encoding="utf-8") as f:
             f.write(md_content)
             
         print("Processing complete. Files generated: game_history.txt, rankings.md, rankings.png")
