@@ -27,6 +27,7 @@ class GameType(Enum):
 GAME_CONFIG = {
     "Bang": GameType.TEAM_UNBALANCED,
     "Secret Hitler": GameType.TEAM_BALANCED,
+    "Wavelength": GameType.TEAM_BALANCED,
     "Codenames": GameType.TEAM_BALANCED,
     "Incan Gold": GameType.INDIVIDUAL_RANKED,
     "Exploding Kittens": GameType.INDIVIDUAL_WINNER,
