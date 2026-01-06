@@ -68,14 +68,19 @@ def calc_base_bonus(player: str, game: GameResult) -> float:
 def calc_upset_bonus(player: str, game: GameResult, ratings: Dict[str, float]) -> float:
     g_type = GAME_CONFIG.get(game.game_name, GameType.TEAM_BALANCED)
     idx, rank, _ = get_player_context(player, game)
+    # Default to 100.0 if player hasn't been seen in previous days
     p_rating = ratings.get(player, 100.0)
     
     if g_type in [GameType.TEAM_BALANCED, GameType.TEAM_UNBALANCED]:
         bonus = 0.0
         for i, team in enumerate(game.teams):
             if i == idx: continue
-            opp_ratings = sorted([ratings.get(p, 100.0) for p in team])
-            median_opp = opp_ratings[len(opp_ratings)//2] if opp_ratings else 100.0
+            opp_ratings = [ratings.get(p, 100.0) for p in team]
+            if not opp_ratings: continue
+            
+            # Use median opponent rating for the upset check
+            median_opp = sorted(opp_ratings)[len(opp_ratings)//2]
+            
             if rank == 0 and median_opp > p_rating: bonus += 0.5
             elif rank != 0 and median_opp < p_rating: bonus -= 0.5
         return bonus
@@ -85,37 +90,41 @@ def calc_upset_bonus(player: str, game: GameResult, ratings: Dict[str, float]) -
 
 class RankingCalculator:
     def __init__(self):
-        # Global stats: {player: {score, wins, losses}}
         self.stats = defaultdict(lambda: {"score": 100.0, "wins": 0, "losses": 0})
-        # Game stats: {game_name: {player: {score, wins, losses}}}
         self.game_rankings = defaultdict(lambda: defaultdict(lambda: {"score": 0.0, "wins": 0, "losses": 0}))
-        # History for plotting: List of dicts {date, player1_score, player2_score...}
         self.history = []
-        # History for game_history.txt: List of (GameResult, deltas)
         self.log = []
 
     def process_games(self, games: List[GameResult]):
+        current_date = None
+        ratings_at_start_of_day = {}
+
         for game in games:
-            ratings_before = {p: self.stats[p]["score"] for p in self.stats}
+            # Update the reference ratings only when the date changes
+            if game.date != current_date:
+                current_date = game.date
+                ratings_at_start_of_day = {p: data["score"] for p, data in self.stats.items()}
+
             deltas = {}
             game_players = [p for team in game.teams for p in team]
             
             for p in game_players:
                 idx, rank, _ = get_player_context(p, game)
                 
-                # Calculate change
-                change = calc_base_bonus(p, game) + calc_upset_bonus(p, game, ratings_before)
-                # Experience bonus for new players
+                # Calculate change using the static daily ratings for upset bonus
+                change = calc_base_bonus(p, game) + calc_upset_bonus(p, game, ratings_at_start_of_day)
+                
+                # Experience bonus
                 total_games = self.stats[p]["wins"] + self.stats[p]["losses"]
                 if total_games < 50:
                     change += 0.2
                 
-                # Update Global
+                # Update Global Stats
                 self.stats[p]["score"] += change
                 if rank == 0: self.stats[p]["wins"] += 1
                 else: self.stats[p]["losses"] += 1
                 
-                # Update Game Specific
+                # Update Game Specific Stats
                 gs = self.game_rankings[game.game_name][p]
                 gs["score"] += change
                 if rank == 0: gs["wins"] += 1
@@ -129,7 +138,7 @@ class RankingCalculator:
                 snapshot[p] = s["score"]
             self.history.append(snapshot)
             
-            # Record log for text file
+            # Record log for game_history.txt
             self.log.append((game, deltas))
 
 class ResultFormatter:
@@ -139,68 +148,49 @@ class ResultFormatter:
             return pd.DataFrame()
         df = pd.DataFrame(calculator.history)
         df = df.set_index("Date")
-        # Ensure only requested players are in columns
         cols = [p for p in players if p in df.columns]
         return df[cols]
 
     @staticmethod
     def generate_markdown(overall_stats: Dict[str, Any], game_rankings: Dict[str, Any]) -> str:
-        """Generate markdown output exactly as requested."""
         markdown_lines = []
         
-        # Add header image
         markdown_lines.append("![Image]")
         markdown_lines.append("")
         
-        # Add overall rankings
+        # 1. Overall Rankings (Includes Score)
         markdown_lines.append("### Overall Rankings")
         markdown_lines.append("")
         markdown_lines.append("| Player | Score | Wins | Losses | Win % |")
         markdown_lines.append("| --- | --- | --- | --- | --- |")
         
-        # Sort players by score
-        sorted_players = sorted(
-            overall_stats.items(),
-            key=lambda x: x[1]["score"],
-            reverse=True
-        )
-        
+        sorted_players = sorted(overall_stats.items(), key=lambda x: x[1]["score"], reverse=True)
         for player, stats in sorted_players:
-            total_games = stats["wins"] + stats["losses"]
-            win_pct = (stats["wins"] / max(1, total_games))
-            markdown_lines.append(
-                f"| {player} | {stats['score']:.2f} | {stats['wins']} | {stats['losses']} | {win_pct:.0%} |"
-            )
+            total = stats["wins"] + stats["losses"]
+            win_pct = (stats["wins"] / max(1, total))
+            markdown_lines.append(f"| {player} | {stats['score']:.2f} | {stats['wins']} | {stats['losses']} | {win_pct:.0%} |")
         
         markdown_lines.append("")
-        
-        # Add rankings over time
         markdown_lines.append("### Rankings over Time")
         markdown_lines.append("")
         markdown_lines.append("![Image](rankings.png)")
         markdown_lines.append("")
         
-        # Add per-game rankings
+        # 2. Per-Game Rankings (No Score column)
         for game_name in sorted(game_rankings.keys()):
-            stats = game_rankings[game_name]
+            stats_dict = game_rankings[game_name]
             markdown_lines.append(f"### {game_name}")
             markdown_lines.append("")
-            markdown_lines.append("| Player | Score | Wins | Losses | Win % |")
-            markdown_lines.append("| --- | --- | --- | --- | --- |")
+            markdown_lines.append("| Player | Wins | Losses | Win % |")
+            markdown_lines.append("| --- | --- | --- | --- |")
             
-            # Sort players by score for this game
-            game_sorted_players = sorted(
-                stats.items(),
-                key=lambda x: x[1]["score"],
-                reverse=True
-            )
+            # Still sort by the internal game score to keep the leaderboard meaningful
+            game_sorted = sorted(stats_dict.items(), key=lambda x: x[1]["score"], reverse=True)
             
-            for player, row in game_sorted_players:
-                total_games = row["wins"] + row["losses"]
-                win_pct = (row["wins"] / max(1, total_games))
-                markdown_lines.append(
-                    f"| {player} | {row['score']:.2f} | {int(row['wins'])} | {int(row['losses'])} | {win_pct:.0%} |"
-                )
+            for player, row in game_sorted:
+                total = row["wins"] + row["losses"]
+                win_pct = (row["wins"] / max(1, total))
+                markdown_lines.append(f"| {player} | {int(row['wins'])} | {int(row['losses'])} | {win_pct:.0%} |")
             
             markdown_lines.append("")
         
@@ -208,19 +198,11 @@ class ResultFormatter:
 
     @staticmethod
     def plot_rankings_over_time(calculator: RankingCalculator, overall_stats: Dict[str, Any], output_file: str = "rankings.png"):
-        """Plot a time series of rankings over time."""
-        sorted_players = sorted(
-            overall_stats.items(),
-            key=lambda x: x[1]["score"],
-            reverse=True
-        )
+        sorted_players = sorted(overall_stats.items(), key=lambda x: x[1]["score"], reverse=True)
         top_25_players = [player for player, _ in sorted_players[:25]]
         
         df = ResultFormatter.get_history_dataframe(calculator, top_25_players)
-        
-        if df.empty:
-            print("No historical data available for plotting.")
-            return
+        if df.empty: return
         
         plt.style.use("ggplot")
         plt.figure(figsize=(14, 8))
@@ -236,10 +218,8 @@ class ResultFormatter:
         plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
         plt.tight_layout()
         plt.grid(True, alpha=0.3)
-        
         plt.savefig(output_file, dpi=300, bbox_inches='tight')
         plt.close()
-        print(f"Rankings plot saved to {output_file}")
 
 # --- Main Execution ---
 
@@ -265,7 +245,7 @@ if __name__ == "__main__":
     if games:
         calc.process_games(games)
         
-        # 1. Save game_history.txt (Fixed format)
+        # Save game_history.txt
         with open("game_history.txt", "w", encoding="utf-8") as f:
             for game, deltas in calc.log:
                 f.write(game.to_string() + "\n")
@@ -273,10 +253,10 @@ if __name__ == "__main__":
                 delta_str = ", ".join([f"{p}: {'+' if deltas[p] >= 0 else ''}{deltas[p]:.2f}" for p in sorted_p])
                 f.write(delta_str + "\n")
 
-        # 2. Generate Plot
+        # Generate Plot
         ResultFormatter.plot_rankings_over_time(calc, calc.stats)
 
-        # 3. Save Markdown
+        # Save Markdown
         md_content = ResultFormatter.generate_markdown(calc.stats, calc.game_rankings)
         with open("rankings.md", "w", encoding="utf-8") as f:
             f.write(md_content)
