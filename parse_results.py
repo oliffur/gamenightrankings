@@ -260,9 +260,5 @@ if __name__ == "__main__":
 
         # 3. Save Markdown Report
         md_content = ResultFormatter.generate_markdown(calc.stats, calc.game_rankings)
-        with open("rankings.md", "w", encoding="utf-8") as f:
+        with open("README.md", "w", encoding="utf-8") as f:
             f.write(md_content)
-            
-        print("Processing complete. Files generated: game_history.txt, rankings.md, rankings.png")
-    else:
-        print("No data found in results.txt.")
