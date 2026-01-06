@@ -1,8 +1,8 @@
 01/05/2025|Secret Hitler|Bosco(Vivian),Garrick,Jovan,Emma;Oliver,Harsh,Amy,Summer|0;1
 Amy: -0.80, Bosco(Vivian): +1.20, Emma: +1.20, Garrick: +1.20, Harsh: -0.80, Jovan: +1.20, Oliver: -0.80, Summer: -0.80
 01/05/2025|Secret Hitler|Oliver,Harsh,Amy,Vivian,Emma;Garrick,Jovan,Summer,Bosco(Vivian)|0;1
-Amy: +1.20, Bosco(Vivian): -0.80, Emma: +1.20, Garrick: -0.80, Harsh: +1.20, Jovan: -0.80, Oliver: +1.20, Summer: -0.80, Vivian: +1.20
+Amy: +1.70, Bosco(Vivian): -1.30, Emma: +1.20, Garrick: -1.30, Harsh: +1.70, Jovan: -1.30, Oliver: +1.70, Summer: -0.80, Vivian: +1.70
 01/05/2025|Codenames|Oliver,Bosco(Vivian),Emma,Amy;Garrick,Vivian,Harsh,Wincy,Jovan|0;1
-Amy: +1.20, Bosco(Vivian): +1.20, Emma: +1.20, Garrick: -0.80, Harsh: -0.80, Jovan: -0.80, Oliver: +1.20, Vivian: -0.80, Wincy: -0.80
+Amy: +1.20, Bosco(Vivian): +1.70, Emma: +1.20, Garrick: -0.80, Harsh: -0.80, Jovan: -0.80, Oliver: +1.20, Vivian: -1.30, Wincy: -0.80
 01/05/2025|Wavelength|Oliver,Bosco(Vivian),Wincy;Garrick,Vivian|0;1
-Bosco(Vivian): +1.20, Garrick: -0.80, Oliver: +1.20, Vivian: -0.80, Wincy: +1.20
+Bosco(Vivian): +1.20, Garrick: -0.80, Oliver: +1.20, Vivian: -0.80, Wincy: +1.70

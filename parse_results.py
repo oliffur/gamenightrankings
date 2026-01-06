@@ -65,21 +65,19 @@ def calc_base_bonus(player: str, game: GameResult) -> float:
         return float(beaten - lost_to)
     return 0.0
 
-def calc_upset_bonus(player: str, game: GameResult, ratings: Dict[str, float]) -> float:
+def calc_upset_bonus(player: str, game: GameResult, ratings_before: Dict[str, float]) -> float:
     """
-    Calculates upset bonus based on ratings provided. 
-    'ratings' should be the snapshot of ratings at the start of the day.
+    Calculates upset bonus based on ratings immediately before this game.
     """
     g_type = GAME_CONFIG.get(game.game_name, GameType.TEAM_BALANCED)
     idx, rank, _ = get_player_context(player, game)
-    # Default to 100.0 if player is new
-    p_rating = ratings.get(player, 100.0)
+    p_rating = ratings_before.get(player, 100.0)
     
     if g_type in [GameType.TEAM_BALANCED, GameType.TEAM_UNBALANCED]:
         bonus = 0.0
         for i, team in enumerate(game.teams):
             if i == idx: continue
-            opp_ratings = [ratings.get(p, 100.0) for p in team]
+            opp_ratings = [ratings_before.get(p, 100.0) for p in team]
             if not opp_ratings: continue
             
             # Use median opponent rating for the upset check
@@ -100,15 +98,9 @@ class RankingCalculator:
         self.log = []
 
     def process_games(self, games: List[GameResult]):
-        current_date = None
-        ratings_at_start_of_day = {}
-
         for game in games:
-            # Update the reference ratings only when the date changes
-            if game.date != current_date:
-                current_date = game.date
-                # Take a snapshot of current scores to use for all games on this date
-                ratings_at_start_of_day = {p: data["score"] for p, data in self.stats.items()}
+            # Take a snapshot of ratings BEFORE this specific game starts
+            ratings_before_game = {p: data["score"] for p, data in self.stats.items()}
 
             deltas = {}
             game_players = [p for team in game.teams for p in team]
@@ -116,8 +108,8 @@ class RankingCalculator:
             for p in game_players:
                 idx, rank, _ = get_player_context(p, game)
                 
-                # Calculate change using the static daily ratings for upset bonus
-                change = calc_base_bonus(p, game) + calc_upset_bonus(p, game, ratings_at_start_of_day)
+                # Calculate change using the ratings from just before this game
+                change = calc_base_bonus(p, game) + calc_upset_bonus(p, game, ratings_before_game)
                 
                 # Experience bonus for newer players
                 total_games = self.stats[p]["wins"] + self.stats[p]["losses"]
@@ -154,7 +146,8 @@ class ResultFormatter:
         
         df = pd.DataFrame(calculator.history)
         
-        # Keep only the last game result for each date to avoid messy plots
+        # Keep only the last game result for each date to ensure the plot 
+        # shows the final standing of that day.
         df = df.drop_duplicates(subset="Date", keep="last")
         
         df = df.set_index("Date")
@@ -164,11 +157,10 @@ class ResultFormatter:
     @staticmethod
     def generate_markdown(overall_stats: Dict[str, Any], game_rankings: Dict[str, Any]) -> str:
         markdown_lines = []
-        
-        markdown_lines.append("![Image](https://media.architecturaldigest.com/photos/618036966ba9675f212cc805/16:9/w_2560%2Cc_limit/SquidGame_Season1_Episode1_00_44_44_16.jpg)")
+        markdown_lines.append("![Image]")
         markdown_lines.append("")
         
-        # 1. Overall Rankings (Includes Score)
+        # 1. Overall Rankings
         markdown_lines.append("### Overall Rankings")
         markdown_lines.append("")
         markdown_lines.append("| Player | Score | Wins | Losses | Win % |")
@@ -186,7 +178,7 @@ class ResultFormatter:
         markdown_lines.append("![Image](rankings.png)")
         markdown_lines.append("")
         
-        # 2. Per-Game Rankings (Wins, Losses, Win % only)
+        # 2. Per-Game Rankings (No score column)
         for game_name in sorted(game_rankings.keys()):
             stats_dict = game_rankings[game_name]
             markdown_lines.append(f"### {game_name}")
@@ -209,7 +201,6 @@ class ResultFormatter:
     @staticmethod
     def plot_rankings_over_time(calculator: RankingCalculator, overall_stats: Dict[str, Any], output_file: str = "rankings.png"):
         sorted_players = sorted(overall_stats.items(), key=lambda x: x[1]["score"], reverse=True)
-        # Plot top 25 to keep the legend readable
         top_25_players = [player for player, _ in sorted_players[:25]]
         
         df = ResultFormatter.get_history_dataframe(calculator, top_25_players)
@@ -243,7 +234,6 @@ def parse_game_data(file_path: str) -> List[GameResult]:
             if not line or line.startswith("DATE"): continue
             try:
                 parts = line.split("|")
-                # Format: DATE|GAME|TEAM1,TEAM2;TEAM3|RANK1;RANK2
                 teams = [t.split(",") for t in parts[2].split(";")]
                 ranks = [int(r) for r in parts[3].split(";")]
                 results.append(GameResult(parts[0], parts[1], teams, ranks))
@@ -255,7 +245,6 @@ if __name__ == "__main__":
     games = parse_game_data("results.txt")
     
     if games:
-        # Process all games
         calc.process_games(games)
         
         # 1. Save detailed delta log
@@ -266,14 +255,14 @@ if __name__ == "__main__":
                 delta_str = ", ".join([f"{p}: {'+' if deltas[p] >= 0 else ''}{deltas[p]:.2f}" for p in sorted_p])
                 f.write(delta_str + "\n")
 
-        # 2. Generate Plot (Deduplicated by Date)
+        # 2. Generate Plot
         ResultFormatter.plot_rankings_over_time(calc, calc.stats)
 
         # 3. Save Markdown Report
         md_content = ResultFormatter.generate_markdown(calc.stats, calc.game_rankings)
-        with open("README.md", "w", encoding="utf-8") as f:
+        with open("rankings.md", "w", encoding="utf-8") as f:
             f.write(md_content)
             
         print("Processing complete. Files generated: game_history.txt, rankings.md, rankings.png")
     else:
-        print("No data found in results.txt. Please ensure the file exists and follows the format.")
+        print("No data found in results.txt.")
