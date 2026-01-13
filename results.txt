@@ -3,3 +3,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 01/05/2025|Secret Hitler|Oliver,Harsh,Amy,Vivian,Emma;Garrick,Jovan,Summer,Bosco(Vivian)|0;1
 01/05/2025|Codenames|Oliver,Bosco(Vivian),Emma,Amy;Garrick,Vivian,Harsh,Wincy,Jovan|0;1
 01/05/2025|Wavelength|Oliver,Bosco(Vivian),Wincy;Garrick,Vivian|0;1
+01/12/2025|Secret Hitler|Oliver,Kristy,Egor;Peter,Garrick,Howard,Elina(Egor),Phoebe|0;1
+01/12/2025|Quest|Oliver,Egor,Feli,Phoebe;Howard,Kristy,Garrick,NicoleHu|0;1
+01/12/2025|Quest|Oliver,Garrick,Kristy,Egor;Feli,Phoebe,Howard,NicoleHu|0;1
+01/12/2025|Exploding Kittens|Phoebe;Feli;Oliver;Garrick;Howard;NicoleHu;Egor|0;1;1;1;1;1;1

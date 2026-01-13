@@ -6,3 +6,11 @@ Amy: +1.70, Bosco(Vivian): -1.30, Emma: +1.20, Garrick: -1.30, Harsh: +1.70, Jov
 Amy: +1.20, Bosco(Vivian): +1.70, Emma: +1.20, Garrick: -0.80, Harsh: -0.80, Jovan: -0.80, Oliver: +1.20, Vivian: -1.30, Wincy: -0.80
 01/05/2025|Wavelength|Oliver,Bosco(Vivian),Wincy;Garrick,Vivian|0;1
 Bosco(Vivian): +1.20, Garrick: -0.80, Oliver: +1.20, Vivian: -0.80, Wincy: +1.70
+01/12/2025|Secret Hitler|Oliver,Kristy,Egor;Peter,Garrick,Howard,Elina(Egor),Phoebe|0;1
+Egor: +1.20, Elina(Egor): -0.80, Garrick: -0.80, Howard: -0.80, Kristy: +1.20, Oliver: +1.20, Peter: -0.80, Phoebe: -0.80
+01/12/2025|Quest|Oliver,Egor,Feli,Phoebe;Howard,Kristy,Garrick,NicoleHu|0;1
+Egor: +1.20, Feli: +1.20, Garrick: -0.80, Howard: -0.80, Kristy: -0.80, NicoleHu: -0.80, Oliver: +1.20, Phoebe: +1.70
+01/12/2025|Quest|Oliver,Garrick,Kristy,Egor;Feli,Phoebe,Howard,NicoleHu|0;1
+Egor: +1.20, Feli: -0.80, Garrick: +1.70, Howard: -0.80, Kristy: +1.70, NicoleHu: -0.80, Oliver: +1.20, Phoebe: -0.80
+01/12/2025|Exploding Kittens|Phoebe;Feli;Oliver;Garrick;Howard;NicoleHu;Egor|0;1;1;1;1;1;1
+Egor: -0.10, Feli: -0.10, Garrick: -0.10, Howard: -0.10, NicoleHu: -0.10, Oliver: -0.10, Phoebe: +2.00
