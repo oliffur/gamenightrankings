@@ -17,7 +17,6 @@ class GameType(Enum):
 
 # Updated CONFIG: Maps Name -> (GameType, Multiplier)
 GAME_CONFIG = {
-    "Bang": (GameType.INDIVIDUAL_WINNER, 1.0),
     "Incan Gold": (GameType.INDIVIDUAL_RANKED, 1.0),
     "Love Letter": (GameType.INDIVIDUAL_WINNER, 1.0),
     "Shifty Eyed Spies": (GameType.INDIVIDUAL_WINNER, 1.0),
@@ -30,6 +29,7 @@ GAME_CONFIG = {
     "Night of the Ninja": (GameType.INDIVIDUAL_WINNER, 1.0),
     "Clank": (GameType.INDIVIDUAL_WINNER, 1.0),
 
+    "Bang": (GameType.INDIVIDUAL_WINNER, 1.0),
     "Exploding Kittens": (GameType.INDIVIDUAL_WINNER, 0.30),
 
     "Secret Hitler": (GameType.TEAM_BALANCED, 1.0),
@@ -85,9 +85,14 @@ def calc_base_bonus(player: str, game: GameResult) -> float:
 
     elif g_type == GameType.INDIVIDUAL_WINNER:
         if rank == 0:
-            base_score = float(
-                sum(len(t) for j, t in enumerate(game.teams) if j != idx)
-            )
+            # Calculate total people who lost
+            total_beaten = sum(len(t) for j, t in enumerate(game.teams) if game.ranks[j] != 0)
+
+            # Count how many players share the winning rank (rank 0)
+            winner_count = sum(len(t) for j, t in enumerate(game.teams) if game.ranks[j] == 0)
+
+            # Divide total points available by the number of winners
+            base_score = float(total_beaten) / float(max(1, winner_count))
         else:
             base_score = -1.0
 

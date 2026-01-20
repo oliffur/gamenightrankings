@@ -17,10 +17,10 @@ Egor: -0.10, Feli: -0.10, Garrick: -0.10, Howard: -0.10, NicoleHu: -0.10, Oliver
 01/19/2025|Bang|Oliver;Jane;Garrick;Harsh;Tara;Summer|0;1;1;1;1;1
 Garrick: -0.80, Harsh: -0.80, Jane: -0.80, Oliver: +5.20, Summer: -0.80, Tara: -0.80
 01/19/2025|Bang|Feli;Garrick;Harsh;Oliver;Jane;Tara;Summer|0;0;0;1;1;1;1
-Feli: +6.20, Garrick: +6.20, Harsh: +6.20, Jane: -0.80, Oliver: -0.80, Summer: -0.80, Tara: -0.80
+Feli: +1.53, Garrick: +1.53, Harsh: +1.53, Jane: -0.80, Oliver: -0.80, Summer: -0.80, Tara: -0.80
 01/19/2025|Secret Hitler|Harsh,Summer,Tara,Oliver,Garrick,Gillian;Feli,Tyler,Alexandra,Jane|0;1
-Alexandra: -0.80, Feli: -1.30, Garrick: +1.20, Gillian: +1.20, Harsh: +1.20, Jane: -0.80, Oliver: +1.20, Summer: +1.70, Tara: +1.70, Tyler: -0.80
+Alexandra: -0.80, Feli: -1.30, Garrick: +1.70, Gillian: +1.20, Harsh: +1.20, Jane: -0.80, Oliver: +1.20, Summer: +1.70, Tara: +1.70, Tyler: -0.80
 01/19/2025|Secret Hitler|Oliver,Gillian,Summer,Tyler,Garrick;Tara,Jane,Alexandra|0;1
 Alexandra: -0.80, Garrick: +1.20, Gillian: +1.20, Jane: -0.80, Oliver: +1.20, Summer: +1.70, Tara: -0.80, Tyler: +1.20
 01/19/2025|Codenames|Garrick,Anna,Jane;Gillian,Oliver,Tara|0;1
-Anna: +1.70, Garrick: +1.20, Gillian: -1.30, Jane: +1.70, Oliver: -1.30, Tara: -0.80
+Anna: +1.70, Garrick: +1.70, Gillian: -1.30, Jane: +1.70, Oliver: -1.30, Tara: -0.80
