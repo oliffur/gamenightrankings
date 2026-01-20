@@ -17,7 +17,7 @@ class GameType(Enum):
 
 # Updated CONFIG: Maps Name -> (GameType, Multiplier)
 GAME_CONFIG = {
-    "Bang": (GameType.TEAM_UNBALANCED, 1.0),
+    "Bang": (GameType.INDIVIDUAL_WINNNER, 1.0),
     "Incan Gold": (GameType.INDIVIDUAL_RANKED, 1.0),
     "Love Letter": (GameType.INDIVIDUAL_WINNER, 1.0),
     "Shifty Eyed Spies": (GameType.INDIVIDUAL_WINNER, 1.0),
