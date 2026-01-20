@@ -29,7 +29,7 @@ GAME_CONFIG = {
     "Night of the Ninja": (GameType.INDIVIDUAL_WINNER, 1.0),
     "Clank": (GameType.INDIVIDUAL_WINNER, 1.0),
 
-    "Bang": (GameType.INDIVIDUAL_WINNER, 1.0),
+    "Bang": (GameType.INDIVIDUAL_WINNER, 0.60),
     "Exploding Kittens": (GameType.INDIVIDUAL_WINNER, 0.30),
 
     "Secret Hitler": (GameType.TEAM_BALANCED, 1.0),
