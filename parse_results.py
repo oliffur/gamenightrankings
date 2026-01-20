@@ -68,13 +68,21 @@ def calc_base_bonus(player: str, game: GameResult) -> float:
     base_score = 0.0
 
     if g_type == GameType.TEAM_UNBALANCED:
+        # Calculate total count of winners and losers for context
+        win_count = sum(len(t) for j, t in enumerate(game.teams) if game.ranks[j] == 0)
+        loss_count = sum(len(t) for j, t in enumerate(game.teams) if game.ranks[j] != 0)
+
         if rank == 0:
-            base_score = 1.0
+            # Reward is shared based on difficulty.
+            # If 3 beat 1, reward is small (1/3). If 1 beats 3, reward is big (3/1).
+            base_score = float(loss_count) / float(max(1, win_count))
         else:
-            win_size = len(game.teams[game.ranks.index(0)])
-            base_score = -(win_size / size)
+            # Fixed penalty. Prevents the "lose -3 points because opponent had 3 people" issue.
+            base_score = -1.0
+
     elif g_type == GameType.TEAM_BALANCED:
         base_score = 1.0 if rank == 0 else -1.0
+
     elif g_type == GameType.INDIVIDUAL_WINNER:
         if rank == 0:
             base_score = float(
@@ -82,6 +90,7 @@ def calc_base_bonus(player: str, game: GameResult) -> float:
             )
         else:
             base_score = -1.0
+
     elif g_type == GameType.INDIVIDUAL_RANKED:
         beaten = sum(
             len(t) for j, t in enumerate(game.teams) if game.ranks[j] > rank
@@ -89,7 +98,16 @@ def calc_base_bonus(player: str, game: GameResult) -> float:
         lost_to = sum(
             len(t) for j, t in enumerate(game.teams) if game.ranks[j] < rank
         )
-        base_score = float(beaten - lost_to)
+        
+        # Count how many players share this specific rank (including self)
+        tied_count = sum(
+            len(t) for j, t in enumerate(game.teams) if game.ranks[j] == rank
+        )
+        
+        # Original: base_score = float(beaten - lost_to)
+        # New: Divide by tied_count (e.g., if 3 winners beat 5 losers, score is 5/3)
+        base_score = float(beaten - lost_to) / float(max(1, tied_count))
+
     # Apply the multiplier
     return base_score * multiplier
 
