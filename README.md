@@ -4,30 +4,31 @@
 
 | Player | Score | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Oliver | 110.70 | 9 | 4 | 69% |
+| Oliver | 109.40 | 9 | 5 | 64% |
+| Garrick | 106.20 | 8 | 6 | 57% |
 | Emma | 103.60 | 3 | 0 | 100% |
-| Garrick | 103.50 | 6 | 7 | 46% |
-| Egor | 103.50 | 3 | 1 | 75% |
 | Bosco(Vivian) | 102.80 | 3 | 1 | 75% |
+| Kristy | 102.40 | 2 | 0 | 100% |
+| Feli | 102.20 | 3 | 3 | 50% |
 | Amy | 102.10 | 2 | 1 | 67% |
-| Kristy | 102.10 | 2 | 1 | 67% |
-| Phoebe | 102.10 | 2 | 2 | 50% |
 | Harsh | 101.90 | 3 | 3 | 50% |
+| Wincy | 101.80 | 2 | 2 | 50% |
+| Howard | 101.70 | 2 | 3 | 40% |
 | Anna | 101.70 | 1 | 0 | 100% |
 | Gillian | 101.10 | 2 | 1 | 67% |
-| Wincy | 100.90 | 1 | 1 | 50% |
 | Summer | 100.50 | 2 | 4 | 33% |
+| Phoebe | 100.40 | 1 | 2 | 33% |
 | Tyler | 100.40 | 1 | 1 | 50% |
-| Feli | 100.00 | 2 | 3 | 40% |
+| Egor | 100.20 | 2 | 3 | 40% |
 | Vivian | 99.60 | 1 | 2 | 33% |
 | Jane | 99.30 | 1 | 4 | 20% |
 | Peter | 99.20 | 0 | 1 | 0% |
 | Elina(Egor) | 99.20 | 0 | 1 | 0% |
 | Jovan | 99.10 | 1 | 2 | 33% |
+| NicoleHu | 99.10 | 0 | 2 | 0% |
 | Tara | 98.80 | 1 | 4 | 20% |
 | Alexandra | 98.40 | 0 | 2 | 0% |
-| NicoleHu | 98.30 | 0 | 3 | 0% |
-| Howard | 97.50 | 0 | 4 | 0% |
+| Alima | 98.40 | 0 | 2 | 0% |
 
 ### Rankings over Time
 
@@ -59,9 +60,9 @@
 | Harsh | 0 | 1 | 0% |
 | Wincy | 0 | 1 | 0% |
 | Jovan | 0 | 1 | 0% |
-| Tara | 0 | 1 | 0% |
 | Vivian | 0 | 1 | 0% |
 | Gillian | 0 | 1 | 0% |
+| Tara | 0 | 1 | 0% |
 
 ### Exploding Kittens
 
@@ -79,14 +80,16 @@
 
 | Player | Wins | Losses | Win % |
 | --- | --- | --- | --- |
-| Oliver | 2 | 0 | 100% |
-| Egor | 2 | 0 | 100% |
-| Phoebe | 1 | 1 | 50% |
-| Kristy | 1 | 1 | 50% |
-| Garrick | 1 | 1 | 50% |
-| Feli | 1 | 1 | 50% |
-| Howard | 0 | 2 | 0% |
-| NicoleHu | 0 | 2 | 0% |
+| Garrick | 3 | 0 | 100% |
+| Feli | 2 | 1 | 67% |
+| Howard | 2 | 1 | 67% |
+| Kristy | 1 | 0 | 100% |
+| Oliver | 2 | 1 | 67% |
+| Wincy | 1 | 1 | 50% |
+| Phoebe | 0 | 1 | 0% |
+| NicoleHu | 0 | 1 | 0% |
+| Egor | 1 | 2 | 33% |
+| Alima | 0 | 2 | 0% |
 
 ### Secret Hitler
 

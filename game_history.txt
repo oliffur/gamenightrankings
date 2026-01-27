@@ -8,10 +8,8 @@ Amy: +1.20, Bosco(Vivian): +1.70, Emma: +1.20, Garrick: -0.80, Harsh: -0.80, Jov
 Bosco(Vivian): +1.20, Garrick: -0.80, Oliver: +1.20, Vivian: -0.80, Wincy: +1.70
 01/12/2025|Secret Hitler|Oliver,Kristy,Egor;Peter,Garrick,Howard,Elina(Egor),Phoebe|0;1
 Egor: +1.20, Elina(Egor): -0.80, Garrick: -0.80, Howard: -0.80, Kristy: +1.20, Oliver: +1.20, Peter: -0.80, Phoebe: -0.80
-01/12/2025|Quest|Oliver,Egor,Feli,Phoebe;Howard,Kristy,Garrick,NicoleHu|0;1
-Egor: +1.20, Feli: +1.20, Garrick: -0.80, Howard: -0.80, Kristy: -0.80, NicoleHu: -0.80, Oliver: +1.20, Phoebe: +1.70
 01/12/2025|Quest|Oliver,Garrick,Kristy,Egor;Feli,Phoebe,Howard,NicoleHu|0;1
-Egor: +1.20, Feli: -0.80, Garrick: +1.70, Howard: -0.80, Kristy: +1.70, NicoleHu: -0.80, Oliver: +1.20, Phoebe: -0.80
+Egor: +1.20, Feli: -0.80, Garrick: +1.70, Howard: -0.80, Kristy: +1.20, NicoleHu: -0.80, Oliver: +1.20, Phoebe: -0.80
 01/12/2025|Exploding Kittens|Phoebe;Feli;Oliver;Garrick;Howard;NicoleHu;Egor|0;1;1;1;1;1;1
 Egor: -0.10, Feli: -0.10, Garrick: -0.10, Howard: -0.10, NicoleHu: -0.10, Oliver: -0.10, Phoebe: +2.00
 01/19/2025|Bang|Oliver;Jane;Garrick;Harsh;Tara;Summer|0;1;1;1;1;1
@@ -21,6 +19,10 @@ Feli: +1.00, Garrick: +1.00, Harsh: +1.00, Jane: -0.40, Oliver: -0.40, Summer: -
 01/19/2025|Secret Hitler|Harsh,Summer,Tara,Oliver,Garrick,Gillian;Feli,Tyler,Alexandra,Jane|0;1
 Alexandra: -0.80, Feli: -1.30, Garrick: +1.70, Gillian: +1.20, Harsh: +1.20, Jane: -0.80, Oliver: +1.20, Summer: +1.70, Tara: +1.70, Tyler: -0.80
 01/19/2025|Secret Hitler|Oliver,Gillian,Summer,Tyler,Garrick;Tara,Jane,Alexandra|0;1
-Alexandra: -0.80, Garrick: +1.20, Gillian: +1.20, Jane: -0.80, Oliver: +1.20, Summer: +1.20, Tara: -1.30, Tyler: +1.20
+Alexandra: -0.80, Garrick: +1.20, Gillian: +1.20, Jane: -0.80, Oliver: +1.20, Summer: +1.20, Tara: -0.80, Tyler: +1.20
 01/19/2025|Codenames|Garrick,Anna,Jane;Gillian,Oliver,Tara|0;1
-Anna: +1.70, Garrick: +1.70, Gillian: -1.30, Jane: +1.70, Oliver: -1.30, Tara: -0.80
+Anna: +1.70, Garrick: +1.20, Gillian: -1.30, Jane: +1.70, Oliver: -1.30, Tara: -1.30
+01/26/2025|Quest|Oliver,Feli,Garrick,Howard;Egor,Alima,Wincy|0;1
+Alima: -0.80, Egor: -0.80, Feli: +1.70, Garrick: +1.20, Howard: +1.70, Oliver: +1.20, Wincy: -0.80
+01/26/2025|Quest|Wincy,Garrick,Feli,Howard;Egor,Alima,Oliver|0;1
+Alima: -0.80, Egor: -1.30, Feli: +1.70, Garrick: +1.20, Howard: +1.70, Oliver: -1.30, Wincy: +1.70
