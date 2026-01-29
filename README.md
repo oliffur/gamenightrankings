@@ -1,4 +1,4 @@
-![Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTtNPDAP25nEt0xnLCVd3zb1TM6nUw87_Hhg&s)
+![Image](game_night.png)
 
 ### Overall Rankings
 

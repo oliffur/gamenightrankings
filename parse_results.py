@@ -233,7 +233,7 @@ class ResultFormatter:
         overall_stats: Dict[str, Any], game_rankings: Dict[str, Any]
     ) -> str:
         markdown_lines = []
-        markdown_lines.append("![Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTtNPDAP25nEt0xnLCVd3zb1TM6nUw87_Hhg&s)")
+        markdown_lines.append("![Image](game_night.png)")
         markdown_lines.append("")
 
         # 1. Overall Rankings
