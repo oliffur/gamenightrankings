@@ -26,3 +26,11 @@ Anna: +1.70, Garrick: +1.20, Gillian: -1.30, Jane: +1.70, Oliver: -1.30, Tara: -
 Alima: -0.80, Egor: -0.80, Feli: +1.70, Garrick: +1.20, Howard: +1.70, Oliver: +1.20, Wincy: -0.80
 01/26/2025|Quest|Wincy,Garrick,Feli,Howard;Egor,Alima,Oliver|0;1
 Alima: -0.80, Egor: -1.30, Feli: +1.70, Garrick: +1.20, Howard: +1.70, Oliver: -1.30, Wincy: +1.70
+02/02/2025|Bang|Oliver;Garrick;Mia;Harsh;Tara;Summer;Phoebe|0;0;0;1;1;1;1
+Garrick: +1.00, Harsh: -0.40, Mia: +1.00, Oliver: +1.00, Phoebe: -0.40, Summer: -0.40, Tara: -0.40
+02/02/2025|Secret Hitler|Mia,Summer,Phoebe,Garrick;Tara,Oliver,Harsh|0;1
+Garrick: +1.20, Harsh: -1.30, Mia: +1.70, Oliver: -1.30, Phoebe: +1.70, Summer: +1.70, Tara: -0.80
+02/02/2025|Incan Gold|Garrick;Tara;Oliver;Summer|0;1;2;3
+Garrick: +3.20, Oliver: -0.80, Summer: -2.80, Tara: +1.20
+02/02/2025|Incan Gold|Summer;Garrick;Tara;Oliver|0;1;2;3
+Garrick: +1.20, Oliver: -2.80, Summer: +3.20, Tara: -0.80

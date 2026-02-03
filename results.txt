@@ -13,3 +13,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 01/19/2025|Codenames|Garrick,Anna,Jane;Gillian,Oliver,Tara|0;1
 01/26/2025|Quest|Oliver,Feli,Garrick,Howard;Egor,Alima,Wincy|0;1
 01/26/2025|Quest|Wincy,Garrick,Feli,Howard;Egor,Alima,Oliver|0;1
+02/02/2025|Bang|Oliver;Garrick;Mia;Harsh;Tara;Summer;Phoebe|0;0;0;1;1;1;1
+02/02/2025|Secret Hitler|Mia,Summer,Phoebe,Garrick;Tara,Oliver,Harsh|0;1
+02/02/2025|Incan Gold|Garrick;Tara;Oliver;Summer|0;1;2;3
+02/02/2025|Incan Gold|Summer;Garrick;Tara;Oliver|0;1;2;3

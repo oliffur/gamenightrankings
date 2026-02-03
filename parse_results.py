@@ -17,7 +17,6 @@ class GameType(Enum):
 
 # Updated CONFIG: Maps Name -> (GameType, Multiplier)
 GAME_CONFIG = {
-    "Incan Gold": (GameType.INDIVIDUAL_RANKED, 1.0),
     "Love Letter": (GameType.INDIVIDUAL_WINNER, 1.0),
     "Shifty Eyed Spies": (GameType.INDIVIDUAL_WINNER, 1.0),
     "Cash n Guns": (GameType.INDIVIDUAL_WINNER, 1.0),
@@ -37,6 +36,8 @@ GAME_CONFIG = {
     "Quest": (GameType.TEAM_BALANCED, 1.0),
     "Wavelength": (GameType.TEAM_BALANCED, 1.0),
     "Codenames": (GameType.TEAM_BALANCED, 1.0),
+
+    "Incan Gold": (GameType.INDIVIDUAL_RANKED, 1.0),
 }
 
 @dataclass
