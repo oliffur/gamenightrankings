@@ -23,7 +23,6 @@ GAME_CONFIG = {
     "Carcassone": (GameType.INDIVIDUAL_RANKED, 1.0),
     "Coup": (GameType.INDIVIDUAL_WINNER, 1.0),
     "Masquerade": (GameType.INDIVIDUAL_WINNER, 1.0),
-    "Camel Up": (GameType.INDIVIDUAL_RANKED, 1.0),
     "Monopoly Deal": (GameType.INDIVIDUAL_WINNER, 1.0),
     "Night of the Ninja": (GameType.INDIVIDUAL_WINNER, 1.0),
     "Clank": (GameType.INDIVIDUAL_WINNER, 1.0),
@@ -38,6 +37,7 @@ GAME_CONFIG = {
     "Codenames": (GameType.TEAM_BALANCED, 1.0),
 
     "Incan Gold": (GameType.INDIVIDUAL_RANKED, 1.0),
+    "Camel Up": (GameType.INDIVIDUAL_RANKED, 1.0),
 }
 
 @dataclass

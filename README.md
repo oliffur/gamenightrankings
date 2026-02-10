@@ -4,21 +4,23 @@
 
 | Player | Score | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Garrick | 112.80 | 11 | 7 | 61% |
-| Oliver | 105.50 | 10 | 8 | 56% |
+| Garrick | 111.70 | 11 | 9 | 55% |
+| Feli | 107.60 | 4 | 4 | 50% |
+| Harsha | 104.90 | 1 | 1 | 50% |
 | Emma | 103.60 | 3 | 0 | 100% |
+| Oliver | 103.40 | 11 | 9 | 55% |
 | Bosco(Vivian) | 102.80 | 3 | 1 | 75% |
+| Gillian | 102.80 | 3 | 1 | 75% |
 | Mia | 102.70 | 2 | 0 | 100% |
 | Kristy | 102.40 | 2 | 0 | 100% |
-| Feli | 102.20 | 3 | 3 | 50% |
 | Summer | 102.20 | 4 | 6 | 40% |
+| Leo | 102.20 | 0 | 1 | 0% |
 | Amy | 102.10 | 2 | 1 | 67% |
 | Wincy | 101.80 | 2 | 2 | 50% |
 | Howard | 101.70 | 2 | 3 | 40% |
 | Phoebe | 101.70 | 2 | 3 | 40% |
-| Anna | 101.70 | 1 | 0 | 100% |
-| Gillian | 101.10 | 2 | 1 | 67% |
-| Tyler | 100.40 | 1 | 1 | 50% |
+| Allan | 101.70 | 1 | 0 | 100% |
+| Anna | 100.90 | 1 | 1 | 50% |
 | Egor | 100.20 | 2 | 3 | 40% |
 | Harsh | 100.20 | 3 | 5 | 38% |
 | Vivian | 99.60 | 1 | 2 | 33% |
@@ -27,9 +29,10 @@
 | Elina(Egor) | 99.20 | 0 | 1 | 0% |
 | Jovan | 99.10 | 1 | 2 | 33% |
 | NicoleHu | 99.10 | 0 | 2 | 0% |
-| Alexandra | 98.40 | 0 | 2 | 0% |
+| Tyler | 98.60 | 1 | 2 | 33% |
 | Alima | 98.40 | 0 | 2 | 0% |
 | Tara | 98.00 | 1 | 8 | 11% |
+| Alexandra | 92.60 | 0 | 3 | 0% |
 
 ### Rankings over Time
 
@@ -48,6 +51,18 @@
 | Jane | 0 | 2 | 0% |
 | Tara | 0 | 3 | 0% |
 | Summer | 0 | 3 | 0% |
+
+### Camel Up
+
+| Player | Wins | Losses | Win % |
+| --- | --- | --- | --- |
+| Harsha | 1 | 0 | 100% |
+| Feli | 0 | 1 | 0% |
+| Leo | 0 | 1 | 0% |
+| Garrick | 0 | 1 | 0% |
+| Tyler | 0 | 1 | 0% |
+| Oliver | 0 | 1 | 0% |
+| Alexandra | 0 | 1 | 0% |
 
 ### Codenames
 
@@ -107,13 +122,14 @@
 
 | Player | Wins | Losses | Win % |
 | --- | --- | --- | --- |
-| Oliver | 4 | 2 | 67% |
-| Garrick | 4 | 2 | 67% |
+| Oliver | 5 | 2 | 71% |
+| Gillian | 3 | 0 | 100% |
 | Summer | 3 | 2 | 60% |
 | Emma | 2 | 0 | 100% |
-| Gillian | 2 | 0 | 100% |
+| Garrick | 4 | 3 | 57% |
 | Vivian | 1 | 0 | 100% |
 | Mia | 1 | 0 | 100% |
+| Allan | 1 | 0 | 100% |
 | Kristy | 1 | 0 | 100% |
 | Egor | 1 | 0 | 100% |
 | Amy | 1 | 1 | 50% |
@@ -123,10 +139,12 @@
 | Tara | 1 | 2 | 33% |
 | Bosco(Vivian) | 1 | 1 | 50% |
 | Jovan | 1 | 1 | 50% |
+| Feli | 1 | 1 | 50% |
 | Peter | 0 | 1 | 0% |
 | Howard | 0 | 1 | 0% |
 | Elina(Egor) | 0 | 1 | 0% |
-| Feli | 0 | 1 | 0% |
+| Anna | 0 | 1 | 0% |
+| Harsha | 0 | 1 | 0% |
 | Alexandra | 0 | 2 | 0% |
 | Jane | 0 | 2 | 0% |
 

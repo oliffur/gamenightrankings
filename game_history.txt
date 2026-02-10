@@ -34,3 +34,7 @@ Garrick: +1.20, Harsh: -1.30, Mia: +1.70, Oliver: -1.30, Phoebe: +1.70, Summer: 
 Garrick: +3.20, Oliver: -0.80, Summer: -2.80, Tara: +1.20
 02/02/2025|Incan Gold|Summer;Garrick;Tara;Oliver|0;1;2;3
 Garrick: +1.20, Oliver: -2.80, Summer: +3.20, Tara: -0.80
+02/09/2025|Camel Up|Harsha;Feli;Leo;Garrick;Tyler;Oliver;Alexandra|0;1;2;3;4;5;6
+Alexandra: -5.80, Feli: +4.20, Garrick: +0.20, Harsha: +6.20, Leo: +2.20, Oliver: -3.80, Tyler: -1.80
+02/09/2025|Secret Hitler|Oliver,Feli,Allan,Gillian;Harsha,Garrick,Anna|0;1
+Allan: +1.70, Anna: -0.80, Feli: +1.20, Garrick: -1.30, Gillian: +1.70, Harsha: -1.30, Oliver: +1.70

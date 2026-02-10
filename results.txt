@@ -17,3 +17,5 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 02/02/2025|Secret Hitler|Mia,Summer,Phoebe,Garrick;Tara,Oliver,Harsh|0;1
 02/02/2025|Incan Gold|Garrick;Tara;Oliver;Summer|0;1;2;3
 02/02/2025|Incan Gold|Summer;Garrick;Tara;Oliver|0;1;2;3
+02/09/2025|Camel Up|Harsha;Feli;Leo;Garrick;Tyler;Oliver;Alexandra|0;1;2;3;4;5;6
+02/09/2025|Secret Hitler|Oliver,Feli,Allan,Gillian;Harsha,Garrick,Anna|0;1
