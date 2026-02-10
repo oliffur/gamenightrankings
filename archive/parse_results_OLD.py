@@ -63,18 +63,16 @@ def get_ratings(results_df: pd.DataFrame):
     ts_dict = {}  # TSRating classes with latest player information
     for game in results_df["game"].unique():
         ts_dict[game] = TSRating(
-                beta_adjustments=LUCK_FACTORS,
-                mu=100.0,
-                sigma=100.0,
-                beta=5.0,
-                tau=0.05)
-        _ = ts_dict[game].enrich_update(results_df.loc[results_df.game == game])
-    overall_ts = TSRating(
             beta_adjustments=LUCK_FACTORS,
             mu=100.0,
             sigma=100.0,
             beta=5.0,
-            tau=0.05)
+            tau=0.05,
+        )
+        _ = ts_dict[game].enrich_update(results_df.loc[results_df.game == game])
+    overall_ts = TSRating(
+        beta_adjustments=LUCK_FACTORS, mu=100.0, sigma=100.0, beta=5.0, tau=0.05
+    )
     overall_df = overall_ts.enrich_update(results_df)
     return overall_df, overall_ts, ts_dict
 
@@ -157,9 +155,7 @@ def plot_rankings_over_time(df: pd.DataFrame, infrequent_players: List[str]):
     chart_df = chart_df.ffill().drop(columns=infrequent_players)
     if not chart_df.empty:
         ax = chart_df.plot.line()
-        ax.legend(
-            loc="lower center", ncol=5, bbox_to_anchor=(0.5, -0.3)
-        )
+        ax.legend(loc="lower center", ncol=5, bbox_to_anchor=(0.5, -0.3))
         ax.set_ylim(bottom=0.0)
     plt.xticks(rotation="vertical")
     plt.subplots_adjust(bottom=0.25)

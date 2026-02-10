@@ -15,6 +15,7 @@ class GameType(Enum):
     INDIVIDUAL_WINNER = "winner takes all"
     INDIVIDUAL_RANKED = "ranked"
 
+
 # Updated CONFIG: Maps Name -> (GameType, Multiplier)
 GAME_CONFIG = {
     "Love Letter": (GameType.INDIVIDUAL_WINNER, 1.0),
@@ -26,19 +27,17 @@ GAME_CONFIG = {
     "Monopoly Deal": (GameType.INDIVIDUAL_WINNER, 1.0),
     "Night of the Ninja": (GameType.INDIVIDUAL_WINNER, 1.0),
     "Clank": (GameType.INDIVIDUAL_WINNER, 1.0),
-
     "Bang": (GameType.INDIVIDUAL_WINNER, 0.60),
     "Exploding Kittens": (GameType.INDIVIDUAL_WINNER, 0.30),
-
     "Secret Hitler": (GameType.TEAM_BALANCED, 1.0),
     "Avalon": (GameType.TEAM_BALANCED, 1.0),
     "Quest": (GameType.TEAM_BALANCED, 1.0),
     "Wavelength": (GameType.TEAM_BALANCED, 1.0),
     "Codenames": (GameType.TEAM_BALANCED, 1.0),
-
     "Incan Gold": (GameType.INDIVIDUAL_RANKED, 1.0),
     "Camel Up": (GameType.INDIVIDUAL_RANKED, 1.0),
 }
+
 
 @dataclass
 class GameResult:
@@ -62,6 +61,7 @@ def get_player_context(player: str, game: GameResult):
             return i, game.ranks[i], len(team)
     return None, None, None
 
+
 def calc_base_bonus(player: str, game: GameResult) -> float:
     # Unpack GameType and Multiplier (Default to 1.0 if not found)
     g_type, multiplier = GAME_CONFIG[game.game_name]
@@ -70,8 +70,12 @@ def calc_base_bonus(player: str, game: GameResult) -> float:
 
     if g_type == GameType.TEAM_UNBALANCED:
         # Calculate total count of winners and losers for context
-        win_count = sum(len(t) for j, t in enumerate(game.teams) if game.ranks[j] == 0)
-        loss_count = sum(len(t) for j, t in enumerate(game.teams) if game.ranks[j] != 0)
+        win_count = sum(
+            len(t) for j, t in enumerate(game.teams) if game.ranks[j] == 0
+        )
+        loss_count = sum(
+            len(t) for j, t in enumerate(game.teams) if game.ranks[j] != 0
+        )
 
         if rank == 0:
             # Reward is shared based on difficulty.
@@ -87,10 +91,14 @@ def calc_base_bonus(player: str, game: GameResult) -> float:
     elif g_type == GameType.INDIVIDUAL_WINNER:
         if rank == 0:
             # Calculate total people who lost
-            total_beaten = sum(len(t) for j, t in enumerate(game.teams) if game.ranks[j] != 0)
+            total_beaten = sum(
+                len(t) for j, t in enumerate(game.teams) if game.ranks[j] != 0
+            )
 
             # Count how many players share the winning rank (rank 0)
-            winner_count = sum(len(t) for j, t in enumerate(game.teams) if game.ranks[j] == 0)
+            winner_count = sum(
+                len(t) for j, t in enumerate(game.teams) if game.ranks[j] == 0
+            )
 
             # Divide total points available by the number of winners
             base_score = float(total_beaten) / float(max(1, winner_count))
@@ -104,18 +112,19 @@ def calc_base_bonus(player: str, game: GameResult) -> float:
         lost_to = sum(
             len(t) for j, t in enumerate(game.teams) if game.ranks[j] < rank
         )
-        
+
         # Count how many players share this specific rank (including self)
         tied_count = sum(
             len(t) for j, t in enumerate(game.teams) if game.ranks[j] == rank
         )
-        
+
         # Original: base_score = float(beaten - lost_to)
         # New: Divide by tied_count (e.g., if 3 winners beat 5 losers, score is 5/3)
         base_score = float(beaten - lost_to) / float(max(1, tied_count))
 
     # Apply the multiplier
     return base_score * multiplier
+
 
 def calc_upset_bonus(
     player: str, game: GameResult, ratings_before: Dict[str, float]
@@ -144,6 +153,61 @@ def calc_upset_bonus(
             elif rank != 0 and median_opp < p_rating:
                 bonus -= 0.5
         return bonus
+
+    elif g_type == GameType.INDIVIDUAL_WINNER:
+        # Get ratings for winners and losers
+        winner_ratings = [
+            ratings_before.get(p, 100.0)
+            for i, team in enumerate(game.teams)
+            for p in team
+            if game.ranks[i] == 0
+        ]
+        loser_ratings = [
+            ratings_before.get(p, 100.0)
+            for i, team in enumerate(game.teams)
+            for p in team
+            if game.ranks[i] != 0
+        ]
+
+        median_winners = sorted(winner_ratings)[len(winner_ratings) // 2]
+        median_losers = sorted(loser_ratings)[len(loser_ratings) // 2]
+
+        if rank == 0:
+            # Winner: add bonus if lower rated than median of losers
+            return 0.5 if p_rating < median_losers else 0.0
+        else:
+            # Loser: subtract bonus if higher rated than median of winners
+            return -0.5 if p_rating > median_winners else 0.0
+
+    elif g_type == GameType.INDIVIDUAL_RANKED:
+        # Get ratings of people this player beat (higher rank values)
+        beaten_ratings = [
+            ratings_before.get(p, 100.0)
+            for i, team in enumerate(game.teams)
+            for p in team
+            if game.ranks[i] > rank
+        ]
+        # Get ratings of people this player lost to (lower rank values)
+        lost_to_ratings = [
+            ratings_before.get(p, 100.0)
+            for i, team in enumerate(game.teams)
+            for p in team
+            if game.ranks[i] < rank
+        ]
+
+        bonus = 0.0
+        if beaten_ratings:
+            median_beaten = sorted(beaten_ratings)[len(beaten_ratings) // 2]
+            # Add bonus if lower rated than median of people beaten
+            if p_rating < median_beaten:
+                bonus += 0.5
+        if lost_to_ratings:
+            median_lost_to = sorted(lost_to_ratings)[len(lost_to_ratings) // 2]
+            # Subtract bonus if higher rated than median of people lost to
+            if p_rating > median_lost_to:
+                bonus -= 0.5
+        return bonus
+
     return 0.0
 
 
