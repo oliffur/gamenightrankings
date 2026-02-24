@@ -38,3 +38,11 @@ Garrick: +0.70, Oliver: -3.30, Summer: +3.70, Tara: -0.30
 Alexandra: -5.80, Feli: +3.70, Garrick: -0.30, Harsha: +6.70, Leo: +2.70, Oliver: -4.30, Tyler: -1.30
 02/09/2025|Secret Hitler|Oliver,Feli,Allan,Gillian;Harsha,Garrick,Anna|0;1
 Allan: +1.70, Anna: -1.30, Feli: +1.70, Garrick: -1.30, Gillian: +1.70, Harsha: -1.30, Oliver: +1.70
+02/16/2025|Incan Gold|Garrick;Summer;Amy;Allan;Oliver|0;1;1;3;3
+Allan: -1.30, Amy: +0.70, Garrick: +4.20, Oliver: -1.30, Summer: +0.70
+02/16/2025|Incan Gold|Amy;Allan;Oliver;Summer;Garrick;Tyler|0;1;2;3;4;5
+Allan: +3.70, Amy: +5.20, Garrick: -3.30, Oliver: +1.70, Summer: -0.80, Tyler: -4.80
+02/16/2025|Codenames|Garrick,Amy,Tyler;Allan,Summer,Oliver|0;1
+Allan: -0.80, Amy: +1.20, Garrick: +1.20, Oliver: -0.80, Summer: -0.80, Tyler: +1.70
+02/16/2025|Codenames|Wincy,Tyler,Allan;Garrick,Amy,Oliver|0;1
+Allan: +1.70, Amy: -1.30, Garrick: -1.30, Oliver: -0.80, Tyler: +1.70, Wincy: +1.70
