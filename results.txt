@@ -23,3 +23,6 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 02/16/2025|Incan Gold|Amy;Allan;Oliver;Summer;Garrick;Tyler|0;1;2;3;4;5
 02/16/2025|Codenames|Garrick,Amy,Tyler;Allan,Summer,Oliver|0;1
 02/16/2025|Codenames|Wincy,Tyler,Allan;Garrick,Amy,Oliver|0;1
+03/02/2025|Incan Gold|Serena;Kristy;Feli;Adam(Allan);Hayes(Allan);Allan;Oliver|0;1;2;3;4;5;5
+03/02/2025|Secret Hitler|Oliver,Allan,Anna,Mia;Hayes(Allan),Adam(Allan),Howard,Serena,Alex(Oliver)|0;1
+03/02/2025|Bang|Anna;Serena;Oliver;Howard|0;0;1;1

@@ -5,32 +5,36 @@
 | Player | Score | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Garrick | 111.50 | 13 | 11 | 54% |
+| Feli | 109.30 | 4 | 5 | 44% |
 | Amy | 107.90 | 4 | 3 | 57% |
-| Feli | 107.60 | 4 | 4 | 50% |
+| Serena | 106.20 | 2 | 1 | 67% |
+| Kristy | 106.10 | 2 | 1 | 67% |
 | Harsha | 105.40 | 1 | 1 | 50% |
-| Allan | 105.00 | 2 | 3 | 40% |
+| Mia | 103.90 | 3 | 0 | 100% |
 | Emma | 103.60 | 3 | 0 | 100% |
 | Wincy | 103.50 | 3 | 2 | 60% |
+| Allan | 103.40 | 3 | 4 | 43% |
+| Anna | 102.90 | 3 | 1 | 75% |
 | Bosco(Vivian) | 102.80 | 3 | 1 | 75% |
 | Gillian | 102.80 | 3 | 1 | 75% |
-| Mia | 102.70 | 2 | 0 | 100% |
 | Leo | 102.70 | 0 | 1 | 0% |
-| Kristy | 102.40 | 2 | 0 | 100% |
 | Phoebe | 102.20 | 2 | 3 | 40% |
 | Summer | 101.80 | 4 | 9 | 31% |
-| Howard | 101.70 | 2 | 3 | 40% |
 | Harsh | 100.70 | 3 | 5 | 38% |
-| Anna | 100.40 | 1 | 1 | 50% |
-| Oliver | 100.20 | 11 | 13 | 46% |
+| Howard | 100.50 | 2 | 5 | 29% |
+| Adam(Allan) | 99.90 | 0 | 2 | 0% |
 | Egor | 99.70 | 2 | 3 | 40% |
 | Vivian | 99.60 | 1 | 2 | 33% |
 | Peter | 99.20 | 0 | 1 | 0% |
 | Elina(Egor) | 99.20 | 0 | 1 | 0% |
+| Alex(Oliver) | 99.20 | 0 | 1 | 0% |
 | Jovan | 99.10 | 1 | 2 | 33% |
 | Tara | 99.00 | 1 | 8 | 11% |
 | Jane | 98.80 | 1 | 4 | 20% |
+| Oliver | 98.70 | 12 | 15 | 44% |
 | NicoleHu | 98.60 | 0 | 2 | 0% |
 | Alima | 98.40 | 0 | 2 | 0% |
+| Hayes(Allan) | 97.90 | 0 | 2 | 0% |
 | Tyler | 97.70 | 3 | 3 | 50% |
 | Alexandra | 92.60 | 0 | 3 | 0% |
 
@@ -42,12 +46,15 @@
 
 | Player | Wins | Losses | Win % |
 | --- | --- | --- | --- |
-| Oliver | 2 | 1 | 67% |
+| Oliver | 2 | 2 | 50% |
 | Garrick | 2 | 1 | 67% |
 | Feli | 1 | 0 | 100% |
 | Mia | 1 | 0 | 100% |
+| Anna | 1 | 0 | 100% |
+| Serena | 1 | 0 | 100% |
 | Harsh | 1 | 2 | 33% |
 | Phoebe | 0 | 1 | 0% |
+| Howard | 0 | 1 | 0% |
 | Summer | 0 | 3 | 0% |
 | Jane | 0 | 2 | 0% |
 | Tara | 0 | 3 | 0% |
@@ -101,13 +108,18 @@
 
 | Player | Wins | Losses | Win % |
 | --- | --- | --- | --- |
+| Serena | 1 | 0 | 100% |
 | Amy | 1 | 1 | 50% |
 | Garrick | 2 | 2 | 50% |
-| Allan | 0 | 2 | 0% |
+| Kristy | 0 | 1 | 0% |
+| Feli | 0 | 1 | 0% |
 | Tara | 0 | 2 | 0% |
 | Summer | 1 | 3 | 25% |
-| Oliver | 0 | 4 | 0% |
+| Adam(Allan) | 0 | 1 | 0% |
+| Allan | 0 | 3 | 0% |
+| Hayes(Allan) | 0 | 1 | 0% |
 | Tyler | 0 | 1 | 0% |
+| Oliver | 0 | 5 | 0% |
 
 ### Quest
 
@@ -128,29 +140,33 @@
 
 | Player | Wins | Losses | Win % |
 | --- | --- | --- | --- |
-| Oliver | 5 | 2 | 71% |
+| Oliver | 6 | 2 | 75% |
 | Gillian | 3 | 0 | 100% |
 | Summer | 3 | 2 | 60% |
+| Allan | 2 | 0 | 100% |
 | Emma | 2 | 0 | 100% |
+| Mia | 2 | 0 | 100% |
 | Garrick | 4 | 3 | 57% |
 | Vivian | 1 | 0 | 100% |
-| Allan | 1 | 0 | 100% |
 | Harsh | 2 | 2 | 50% |
 | Kristy | 1 | 0 | 100% |
 | Egor | 1 | 0 | 100% |
-| Mia | 1 | 0 | 100% |
 | Amy | 1 | 1 | 50% |
 | Phoebe | 1 | 1 | 50% |
 | Feli | 1 | 1 | 50% |
 | Tyler | 1 | 1 | 50% |
+| Anna | 1 | 1 | 50% |
 | Tara | 1 | 2 | 33% |
 | Bosco(Vivian) | 1 | 1 | 50% |
 | Jovan | 1 | 1 | 50% |
 | Peter | 0 | 1 | 0% |
-| Howard | 0 | 1 | 0% |
 | Elina(Egor) | 0 | 1 | 0% |
+| Hayes(Allan) | 0 | 1 | 0% |
+| Adam(Allan) | 0 | 1 | 0% |
+| Alex(Oliver) | 0 | 1 | 0% |
 | Harsha | 0 | 1 | 0% |
-| Anna | 0 | 1 | 0% |
+| Serena | 0 | 1 | 0% |
+| Howard | 0 | 2 | 0% |
 | Alexandra | 0 | 2 | 0% |
 | Jane | 0 | 2 | 0% |
 

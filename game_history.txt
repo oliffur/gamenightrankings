@@ -46,3 +46,9 @@ Allan: +3.70, Amy: +5.20, Garrick: -3.30, Oliver: +1.70, Summer: -0.80, Tyler: -
 Allan: -0.80, Amy: +1.20, Garrick: +1.20, Oliver: -0.80, Summer: -0.80, Tyler: +1.70
 02/16/2025|Codenames|Wincy,Tyler,Allan;Garrick,Amy,Oliver|0;1
 Allan: +1.70, Amy: -1.30, Garrick: -1.30, Oliver: -0.80, Tyler: +1.70, Wincy: +1.70
+03/02/2025|Incan Gold|Serena;Kristy;Feli;Adam(Allan);Hayes(Allan);Allan;Oliver|0;1;2;3;4;5;5
+Adam(Allan): +0.70, Allan: -2.80, Feli: +1.70, Hayes(Allan): -1.30, Kristy: +3.70, Oliver: -2.80, Serena: +6.70
+03/02/2025|Secret Hitler|Oliver,Allan,Anna,Mia;Hayes(Allan),Adam(Allan),Howard,Serena,Alex(Oliver)|0;1
+Adam(Allan): -0.80, Alex(Oliver): -0.80, Allan: +1.20, Anna: +1.70, Hayes(Allan): -0.80, Howard: -0.80, Mia: +1.20, Oliver: +1.70, Serena: -1.30
+03/02/2025|Bang|Anna;Serena;Oliver;Howard|0;0;1;1
+Anna: +0.80, Howard: -0.40, Oliver: -0.40, Serena: +0.80
