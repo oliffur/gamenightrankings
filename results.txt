@@ -26,3 +26,8 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 03/02/2025|Incan Gold|Serena;Kristy;Feli;Adam(Allan);Hayes(Allan);Allan;Oliver|0;1;2;3;4;5;5
 03/02/2025|Secret Hitler|Oliver,Allan,Anna,Mia;Hayes(Allan),Adam(Allan),Howard,Serena,Alex(Oliver)|0;1
 03/02/2025|Bang|Anna;Serena;Oliver;Howard|0;0;1;1
+03/09/2025|Uno|Allan;Oliver;Tara;NicoleHu|0;1;1;1
+03/09/2025|Shifty Eyed Spies|Oliver;Hayes;Allan;Nicole;Egor;Tara|0;0;1;1;1;1
+03/09/2025|Shifty Eyed Spies|Oliver;Egor;Allan;Nicole;Hayes;Tara|0;0;1;1;1;1
+03/09/2025|Bang|Hayes;Egor;Feli;Tara;Oliver;Nicole|0;0;0;1;1;1
+03/09/2025|Bang|Egor;Hayes;Feli;Tara;Oliver;Nicole|0;1;1;1;1;1

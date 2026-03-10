@@ -5,37 +5,39 @@
 | Player | Score | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
 | Garrick | 111.50 | 13 | 11 | 54% |
-| Feli | 109.30 | 4 | 5 | 44% |
+| Feli | 109.20 | 5 | 6 | 45% |
 | Amy | 107.90 | 4 | 3 | 57% |
 | Serena | 106.20 | 2 | 1 | 67% |
 | Kristy | 106.10 | 2 | 1 | 67% |
 | Harsha | 105.40 | 1 | 1 | 50% |
+| Egor | 105.20 | 5 | 4 | 56% |
 | Mia | 103.90 | 3 | 0 | 100% |
 | Emma | 103.60 | 3 | 0 | 100% |
 | Wincy | 103.50 | 3 | 2 | 60% |
-| Allan | 103.40 | 3 | 4 | 43% |
 | Anna | 102.90 | 3 | 1 | 75% |
 | Bosco(Vivian) | 102.80 | 3 | 1 | 75% |
 | Gillian | 102.80 | 3 | 1 | 75% |
 | Leo | 102.70 | 0 | 1 | 0% |
+| Allan | 102.70 | 4 | 6 | 40% |
 | Phoebe | 102.20 | 2 | 3 | 40% |
 | Summer | 101.80 | 4 | 9 | 31% |
+| Oliver | 101.10 | 14 | 18 | 44% |
+| Hayes | 100.90 | 2 | 2 | 50% |
 | Harsh | 100.70 | 3 | 5 | 38% |
 | Howard | 100.50 | 2 | 5 | 29% |
 | Adam(Allan) | 99.90 | 0 | 2 | 0% |
-| Egor | 99.70 | 2 | 3 | 40% |
 | Vivian | 99.60 | 1 | 2 | 33% |
 | Peter | 99.20 | 0 | 1 | 0% |
 | Elina(Egor) | 99.20 | 0 | 1 | 0% |
 | Alex(Oliver) | 99.20 | 0 | 1 | 0% |
 | Jovan | 99.10 | 1 | 2 | 33% |
-| Tara | 99.00 | 1 | 8 | 11% |
 | Jane | 98.80 | 1 | 4 | 20% |
-| Oliver | 98.70 | 12 | 15 | 44% |
-| NicoleHu | 98.60 | 0 | 2 | 0% |
+| NicoleHu | 98.50 | 0 | 3 | 0% |
 | Alima | 98.40 | 0 | 2 | 0% |
+| Nicole | 98.40 | 0 | 4 | 0% |
 | Hayes(Allan) | 97.90 | 0 | 2 | 0% |
 | Tyler | 97.70 | 3 | 3 | 50% |
+| Tara | 97.30 | 1 | 13 | 7% |
 | Alexandra | 92.60 | 0 | 3 | 0% |
 
 ### Rankings over Time
@@ -46,18 +48,21 @@
 
 | Player | Wins | Losses | Win % |
 | --- | --- | --- | --- |
-| Oliver | 2 | 2 | 50% |
+| Egor | 2 | 0 | 100% |
 | Garrick | 2 | 1 | 67% |
-| Feli | 1 | 0 | 100% |
+| Oliver | 2 | 4 | 33% |
 | Mia | 1 | 0 | 100% |
+| Feli | 2 | 1 | 67% |
 | Anna | 1 | 0 | 100% |
 | Serena | 1 | 0 | 100% |
+| Hayes | 1 | 1 | 50% |
 | Harsh | 1 | 2 | 33% |
 | Phoebe | 0 | 1 | 0% |
 | Howard | 0 | 1 | 0% |
+| Nicole | 0 | 2 | 0% |
 | Summer | 0 | 3 | 0% |
 | Jane | 0 | 2 | 0% |
-| Tara | 0 | 3 | 0% |
+| Tara | 0 | 5 | 0% |
 
 ### Camel Up
 
@@ -169,6 +174,26 @@
 | Howard | 0 | 2 | 0% |
 | Alexandra | 0 | 2 | 0% |
 | Jane | 0 | 2 | 0% |
+
+### Shifty Eyed Spies
+
+| Player | Wins | Losses | Win % |
+| --- | --- | --- | --- |
+| Oliver | 2 | 0 | 100% |
+| Egor | 1 | 1 | 50% |
+| Hayes | 1 | 1 | 50% |
+| Nicole | 0 | 2 | 0% |
+| Tara | 0 | 2 | 0% |
+| Allan | 0 | 2 | 0% |
+
+### Uno
+
+| Player | Wins | Losses | Win % |
+| --- | --- | --- | --- |
+| Allan | 1 | 0 | 100% |
+| Oliver | 0 | 1 | 0% |
+| Tara | 0 | 1 | 0% |
+| NicoleHu | 0 | 1 | 0% |
 
 ### Wavelength
 

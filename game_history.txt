@@ -52,3 +52,13 @@ Adam(Allan): +0.70, Allan: -2.80, Feli: +1.70, Hayes(Allan): -1.30, Kristy: +3.7
 Adam(Allan): -0.80, Alex(Oliver): -0.80, Allan: +1.20, Anna: +1.70, Hayes(Allan): -0.80, Howard: -0.80, Mia: +1.20, Oliver: +1.70, Serena: -1.30
 03/02/2025|Bang|Anna;Serena;Oliver;Howard|0;0;1;1
 Anna: +0.80, Howard: -0.40, Oliver: -0.40, Serena: +0.80
+03/09/2025|Uno|Allan;Oliver;Tara;NicoleHu|0;1;1;1
+Allan: +1.10, NicoleHu: -0.10, Oliver: -0.10, Tara: -0.10
+03/09/2025|Shifty Eyed Spies|Oliver;Hayes;Allan;Nicole;Egor;Tara|0;0;1;1;1;1
+Allan: -0.90, Egor: -0.40, Hayes: +1.40, Nicole: -0.40, Oliver: +1.90, Tara: -0.40
+03/09/2025|Shifty Eyed Spies|Oliver;Egor;Allan;Nicole;Hayes;Tara|0;0;1;1;1;1
+Allan: -0.90, Egor: +1.90, Hayes: -0.90, Nicole: -0.40, Oliver: +1.90, Tara: -0.40
+03/09/2025|Bang|Hayes;Egor;Feli;Tara;Oliver;Nicole|0;0;0;1;1;1
+Egor: +0.80, Feli: +0.80, Hayes: +0.80, Nicole: -0.40, Oliver: -0.90, Tara: -0.40
+03/09/2025|Bang|Egor;Hayes;Feli;Tara;Oliver;Nicole|0;1;1;1;1;1
+Egor: +3.20, Feli: -0.90, Hayes: -0.40, Nicole: -0.40, Oliver: -0.40, Tara: -0.40

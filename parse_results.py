@@ -19,14 +19,16 @@ class GameType(Enum):
 # Updated CONFIG: Maps Name -> (GameType, Multiplier)
 GAME_CONFIG = {
     "Love Letter": (GameType.INDIVIDUAL_WINNER, 1.0),
-    "Shifty Eyed Spies": (GameType.INDIVIDUAL_WINNER, 1.0),
     "Cash n Guns": (GameType.INDIVIDUAL_WINNER, 1.0),
     "Carcassone": (GameType.INDIVIDUAL_RANKED, 1.0),
-    "Coup": (GameType.INDIVIDUAL_WINNER, 1.0),
     "Masquerade": (GameType.INDIVIDUAL_WINNER, 1.0),
     "Monopoly Deal": (GameType.INDIVIDUAL_WINNER, 1.0),
     "Night of the Ninja": (GameType.INDIVIDUAL_WINNER, 1.0),
     "Clank": (GameType.INDIVIDUAL_WINNER, 1.0),
+
+    "Coup": (GameType.INDIVIDUAL_WINNER, 1.0),
+    "Shifty Eyed Spies": (GameType.INDIVIDUAL_WINNER, 0.60),
+    "Uno": (GameType.INDIVIDUAL_WINNER, 0.30),
     "Bang": (GameType.INDIVIDUAL_WINNER, 0.60),
     "Exploding Kittens": (GameType.INDIVIDUAL_WINNER, 0.30),
     "Secret Hitler": (GameType.TEAM_BALANCED, 1.0),
