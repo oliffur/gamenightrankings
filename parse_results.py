@@ -26,7 +26,7 @@ GAME_CONFIG = {
     "Night of the Ninja": (GameType.INDIVIDUAL_WINNER, 1.0),
     "Clank": (GameType.INDIVIDUAL_WINNER, 1.0),
 
-    "Coup": (GameType.INDIVIDUAL_WINNER, 1.0),
+    "Coup": (GameType.INDIVIDUAL_WINNER, 0.60),
     "Shifty Eyed Spies": (GameType.INDIVIDUAL_WINNER, 0.60),
     "Uno": (GameType.INDIVIDUAL_WINNER, 0.30),
     "Bang": (GameType.INDIVIDUAL_WINNER, 0.60),
@@ -247,8 +247,8 @@ class RankingCalculator:
 
                 # Experience bonus for newer players
                 total_games = self.stats[p]["wins"] + self.stats[p]["losses"]
-                if total_games < 50:
-                    change += 0.2
+                if total_games < 100:
+                    change += 0.3
 
                 # Update Global Stats
                 self.stats[p]["score"] += change

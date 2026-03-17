@@ -1,33 +1,39 @@
 DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;...;RANKM
-01/05/2025|Secret Hitler|Bosco(Vivian),Garrick,Jovan,Emma;Oliver,Harsh,Amy,Summer|0;1
-01/05/2025|Secret Hitler|Oliver,Harsh,Amy,Vivian,Emma;Garrick,Jovan,Summer,Bosco(Vivian)|0;1
-01/05/2025|Codenames|Oliver,Bosco(Vivian),Emma,Amy;Garrick,Vivian,Harsh,Wincy,Jovan|0;1
-01/05/2025|Wavelength|Oliver,Bosco(Vivian),Wincy;Garrick,Vivian|0;1
-01/12/2025|Secret Hitler|Oliver,Kristy,Egor;Peter,Garrick,Howard,Elina(Egor),Phoebe|0;1
-01/12/2025|Quest|Oliver,Garrick,Kristy,Egor;Feli,Phoebe,Howard,NicoleHu|0;1
-01/12/2025|Exploding Kittens|Phoebe;Feli;Oliver;Garrick;Howard;NicoleHu;Egor|0;1;1;1;1;1;1
-01/19/2025|Bang|Oliver;Jane;Garrick;Harsh;Tara;Summer|0;1;1;1;1;1
-01/19/2025|Bang|Feli;Garrick;Harsh;Oliver;Jane;Tara;Summer|0;0;0;1;1;1;1
-01/19/2025|Secret Hitler|Harsh,Summer,Tara,Oliver,Garrick,Gillian;Feli,Tyler,Alexandra,Jane|0;1
-01/19/2025|Secret Hitler|Oliver,Gillian,Summer,Tyler,Garrick;Tara,Jane,Alexandra|0;1
-01/19/2025|Codenames|Garrick,Anna,Jane;Gillian,Oliver,Tara|0;1
-01/26/2025|Quest|Oliver,Feli,Garrick,Howard;Egor,Alima,Wincy|0;1
-01/26/2025|Quest|Wincy,Garrick,Feli,Howard;Egor,Alima,Oliver|0;1
-02/02/2025|Bang|Oliver;Garrick;Mia;Harsh;Tara;Summer;Phoebe|0;0;0;1;1;1;1
-02/02/2025|Secret Hitler|Mia,Summer,Phoebe,Garrick;Tara,Oliver,Harsh|0;1
-02/02/2025|Incan Gold|Garrick;Tara;Oliver;Summer|0;1;2;3
-02/02/2025|Incan Gold|Summer;Garrick;Tara;Oliver|0;1;2;3
-02/09/2025|Camel Up|Harsha;Feli;Leo;Garrick;Tyler;Oliver;Alexandra|0;1;2;3;4;5;6
-02/09/2025|Secret Hitler|Oliver,Feli,Allan,Gillian;Harsha,Garrick,Anna|0;1
-02/16/2025|Incan Gold|Garrick;Summer;Amy;Allan;Oliver|0;1;1;3;3
-02/16/2025|Incan Gold|Amy;Allan;Oliver;Summer;Garrick;Tyler|0;1;2;3;4;5
-02/16/2025|Codenames|Garrick,Amy,Tyler;Allan,Summer,Oliver|0;1
-02/16/2025|Codenames|Wincy,Tyler,Allan;Garrick,Amy,Oliver|0;1
-03/02/2025|Incan Gold|Serena;Kristy;Feli;Adam(Allan);Hayes(Allan);Allan;Oliver|0;1;2;3;4;5;5
-03/02/2025|Secret Hitler|Oliver,Allan,Anna,Mia;Hayes(Allan),Adam(Allan),Howard,Serena,Alex(Oliver)|0;1
-03/02/2025|Bang|Anna;Serena;Oliver;Howard|0;0;1;1
-03/09/2025|Uno|Allan;Oliver;Tara;NicoleHu|0;1;1;1
-03/09/2025|Shifty Eyed Spies|Oliver;Hayes;Allan;Nicole;Egor;Tara|0;0;1;1;1;1
-03/09/2025|Shifty Eyed Spies|Oliver;Egor;Allan;Nicole;Hayes;Tara|0;0;1;1;1;1
-03/09/2025|Bang|Hayes;Egor;Feli;Tara;Oliver;Nicole|0;0;0;1;1;1
-03/09/2025|Bang|Egor;Hayes;Feli;Tara;Oliver;Nicole|0;1;1;1;1;1
+01/05/2026|Secret Hitler|Bosco(Vivian),Garrick,Jovan,Emma;Oliver,Harsh,Amy,Summer|0;1
+01/05/2026|Secret Hitler|Oliver,Harsh,Amy,Vivian,Emma;Garrick,Jovan,Summer,Bosco(Vivian)|0;1
+01/05/2026|Codenames|Oliver,Bosco(Vivian),Emma,Amy;Garrick,Vivian,Harsh,Wincy,Jovan|0;1
+01/05/2026|Wavelength|Oliver,Bosco(Vivian),Wincy;Garrick,Vivian|0;1
+01/12/2026|Secret Hitler|Oliver,Kristy,Egor;Peter,Garrick,Howard,Elina(Egor),Phoebe|0;1
+01/12/2026|Quest|Oliver,Garrick,Kristy,Egor;Feli,Phoebe,Howard,NicoleHu|0;1
+01/12/2026|Exploding Kittens|Phoebe;Feli;Oliver;Garrick;Howard;NicoleHu;Egor|0;1;1;1;1;1;1
+01/19/2026|Bang|Oliver;Jane;Garrick;Harsh;Tara;Summer|0;1;1;1;1;1
+01/19/2026|Bang|Feli;Garrick;Harsh;Oliver;Jane;Tara;Summer|0;0;0;1;1;1;1
+01/19/2026|Secret Hitler|Harsh,Summer,Tara,Oliver,Garrick,Gillian;Feli,Tyler,Alexandra,Jane|0;1
+01/19/2026|Secret Hitler|Oliver,Gillian,Summer,Tyler,Garrick;Tara,Jane,Alexandra|0;1
+01/19/2026|Codenames|Garrick,Anna,Jane;Gillian,Oliver,Tara|0;1
+01/26/2026|Quest|Oliver,Feli,Garrick,Howard;Egor,Alima,Wincy|0;1
+01/26/2026|Quest|Wincy,Garrick,Feli,Howard;Egor,Alima,Oliver|0;1
+02/02/2026|Bang|Oliver;Garrick;Mia;Harsh;Tara;Summer;Phoebe|0;0;0;1;1;1;1
+02/02/2026|Secret Hitler|Mia,Summer,Phoebe,Garrick;Tara,Oliver,Harsh|0;1
+02/02/2026|Incan Gold|Garrick;Tara;Oliver;Summer|0;1;2;3
+02/02/2026|Incan Gold|Summer;Garrick;Tara;Oliver|0;1;2;3
+02/09/2026|Camel Up|Harsha;Feli;Leo;Garrick;Tyler;Oliver;Alexandra|0;1;2;3;4;5;6
+02/09/2026|Secret Hitler|Oliver,Feli,Allan,Gillian;Harsha,Garrick,Anna|0;1
+02/16/2026|Incan Gold|Garrick;Summer;Amy;Allan;Oliver|0;1;1;3;3
+02/16/2026|Incan Gold|Amy;Allan;Oliver;Summer;Garrick;Tyler|0;1;2;3;4;5
+02/16/2026|Codenames|Garrick,Amy,Tyler;Allan,Summer,Oliver|0;1
+02/16/2026|Codenames|Wincy,Tyler,Allan;Garrick,Amy,Oliver|0;1
+03/02/2026|Incan Gold|Serena;Kristy;Feli;Adam(Allan);Hayes(Allan);Allan;Oliver|0;1;2;3;4;5;5
+03/02/2026|Secret Hitler|Oliver,Allan,Anna,Mia;Hayes(Allan),Adam(Allan),Howard,Serena,Alex(Oliver)|0;1
+03/02/2026|Bang|Anna;Serena;Oliver;Howard|0;0;1;1
+03/09/2026|Uno|Allan;Oliver;Tara;NicoleHu|0;1;1;1
+03/09/2026|Shifty Eyed Spies|Oliver;Hayes;Allan;Nicole;Egor;Tara|0;0;1;1;1;1
+03/09/2026|Shifty Eyed Spies|Oliver;Egor;Allan;Nicole;Hayes;Tara|0;0;1;1;1;1
+03/09/2026|Bang|Hayes;Egor;Feli;Tara;Oliver;Nicole|0;0;0;1;1;1
+03/09/2026|Bang|Egor;Hayes;Feli;Tara;Oliver;Nicole|0;1;1;1;1;1
+03/16/2026|Coup|Jovan;Oliver;Garrick;Allan;Summer|0;0;1;1;1
+03/16/2026|Coup|Allan;Summer;Serena;Oliver;Garrick;Jovan|0;0;1;1;1;1
+03/16/2026|Quest|Garrick,Summer,Serena;Oliver,Allan,Jovan|0;1
+03/16/2026|Quest|Oliver,Garrick,Jovan;Allan,Summer,Serena|0;1
+03/16/2026|Quest|Oliver,Jovan,Serena;Allan,Summer,Garrick|0;1
+03/16/2026|Codenames|Garrick,Oliver;Serena,Allan|0;1
