@@ -41,3 +41,9 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 03/23/2026|Codenames|Wincy,Egor,Garrick,Allan;Hayes,Oliver,Howard|0;1
 03/23/2026|Secret Hitler|Wincy,Garrick,Howard;Oliver,Hayes,Egor,Allan|0;1
 03/23/2026|Secret Hitler|Garrick,Oliver,Wincy,Hayes;Allan,Howard,Egor|0;1
+04/13/2026|Codenames|Garrick,Flo;Oliver,Tara|0;1
+04/13/2026|Codenames|Garrick,Flo,Jovan;Oliver,Tara,Egor|0;1
+04/13/2026|Quest|Flo,Tara,Jovan;Oliver,Garrick,Egor,Feli|0;1
+04/13/2026|Quest|Oliver,Feli,Garrick;Egor,Tara,Jovan,Flo|0;1
+04/13/2026|Quest|Egor,Feli,Flo;Oliver,Jovan,Garrick,Tara|0;1
+04/13/2026|Wavelength|Garrick,Feli,Jovan;Oliver,Tara,Egor,Flo|0;1
