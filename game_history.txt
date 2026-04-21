@@ -94,3 +94,11 @@ Egor: -0.70, Feli: +1.30, Flo: -0.70, Garrick: +1.30, Jovan: -0.70, Oliver: +2.0
 Egor: +2.00, Feli: +1.30, Flo: +2.00, Garrick: -1.40, Jovan: -1.40, Oliver: -0.70, Tara: -0.70
 04/13/2026|Wavelength|Garrick,Feli,Jovan;Oliver,Tara,Egor,Flo|0;1
 Egor: -0.70, Feli: +1.30, Flo: -0.70, Garrick: +1.30, Jovan: +1.30, Oliver: -0.70, Tara: -0.70
+04/20/2026|Coup|Allan;Summer;Oliver;Phoebe;Anna;Harsh|0;0;1;1;1;1
+Allan: +2.20, Anna: -1.00, Harsh: -0.30, Oliver: -0.30, Phoebe: -0.30, Summer: +1.50
+04/20/2026|Quest|Oliver,Garrick,Summer,Phoebe;Allan,Harsh,Wincy,Tyler|0;1
+Allan: -1.40, Garrick: +1.30, Harsh: -0.70, Oliver: +2.00, Phoebe: +2.00, Summer: +2.00, Tyler: -0.70, Wincy: -1.40
+04/20/2026|Quest|Summer,Garrick,Allan,Harsh;Oliver,Tyler,Wincy,Feli|0;1
+Allan: +2.00, Feli: -1.40, Garrick: +1.30, Harsh: +2.00, Oliver: -0.70, Summer: +2.00, Tyler: -0.70, Wincy: -1.40
+04/20/2026|Codenames|Garrick,Feli,Wincy;Oliver,Tyler,Summer,Allan|0;1
+Allan: -0.70, Feli: +1.30, Garrick: +1.30, Oliver: -0.70, Summer: -0.70, Tyler: -0.70, Wincy: +1.30

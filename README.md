@@ -4,28 +4,28 @@
 
 | Player | Score | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Garrick | 117.80 | 23 | 17 | 57% |
-| Feli | 112.60 | 8 | 7 | 53% |
-| Wincy | 110.50 | 7 | 2 | 78% |
+| Garrick | 121.70 | 26 | 17 | 60% |
+| Feli | 112.50 | 9 | 8 | 53% |
+| Wincy | 109.00 | 8 | 4 | 67% |
 | Amy | 108.60 | 4 | 3 | 57% |
+| Summer | 108.20 | 9 | 13 | 41% |
 | Jovan | 107.30 | 7 | 6 | 54% |
 | Flo | 106.60 | 4 | 2 | 67% |
 | Kristy | 106.20 | 2 | 1 | 67% |
 | Serena | 106.00 | 4 | 4 | 50% |
 | Harsha | 105.60 | 1 | 1 | 50% |
+| Allan | 105.40 | 9 | 15 | 38% |
 | Mia | 105.10 | 3 | 0 | 100% |
+| Phoebe | 104.80 | 3 | 4 | 43% |
 | Emma | 103.90 | 3 | 0 | 100% |
+| Oliver | 103.70 | 21 | 31 | 40% |
 | Egor | 103.60 | 7 | 11 | 39% |
-| Anna | 103.50 | 3 | 1 | 75% |
 | Hayes | 103.40 | 4 | 6 | 40% |
-| Summer | 103.40 | 6 | 12 | 33% |
-| Oliver | 103.40 | 20 | 28 | 42% |
-| Allan | 103.30 | 7 | 13 | 35% |
 | Bosco(Vivian) | 103.20 | 3 | 1 | 75% |
 | Gillian | 103.20 | 3 | 1 | 75% |
-| Phoebe | 103.10 | 2 | 3 | 40% |
 | Leo | 103.00 | 0 | 1 | 0% |
-| Harsh | 101.00 | 3 | 5 | 38% |
+| Anna | 102.50 | 3 | 2 | 60% |
+| Harsh | 102.00 | 4 | 7 | 36% |
 | Howard | 100.80 | 3 | 8 | 27% |
 | Adam(Allan) | 100.30 | 0 | 2 | 0% |
 | Vivian | 99.90 | 1 | 2 | 33% |
@@ -33,10 +33,10 @@
 | Elina(Egor) | 99.30 | 0 | 1 | 0% |
 | Jane | 99.30 | 1 | 4 | 20% |
 | Alex(Oliver) | 99.30 | 0 | 1 | 0% |
-| Tyler | 98.90 | 3 | 3 | 50% |
 | Alima | 98.60 | 0 | 2 | 0% |
 | Tara | 97.60 | 2 | 18 | 10% |
 | Nicole | 97.40 | 0 | 7 | 0% |
+| Tyler | 96.80 | 3 | 6 | 33% |
 | Alexandra | 92.90 | 0 | 3 | 0% |
 
 ### Rankings over Time
@@ -79,37 +79,41 @@
 
 | Player | Wins | Losses | Win % |
 | --- | --- | --- | --- |
-| Wincy | 3 | 1 | 75% |
-| Garrick | 6 | 3 | 67% |
-| Tyler | 2 | 0 | 100% |
+| Wincy | 4 | 1 | 80% |
+| Garrick | 7 | 3 | 70% |
 | Flo | 2 | 0 | 100% |
-| Allan | 3 | 2 | 60% |
+| Tyler | 2 | 1 | 67% |
+| Allan | 3 | 3 | 50% |
 | Bosco(Vivian) | 1 | 0 | 100% |
 | Anna | 1 | 0 | 100% |
 | Jane | 1 | 0 | 100% |
 | Emma | 1 | 0 | 100% |
 | Jovan | 1 | 1 | 50% |
 | Hayes | 1 | 1 | 50% |
+| Feli | 1 | 0 | 100% |
 | Amy | 2 | 1 | 67% |
 | Harsh | 0 | 1 | 0% |
-| Summer | 0 | 1 | 0% |
 | Serena | 0 | 1 | 0% |
 | Vivian | 0 | 1 | 0% |
 | Gillian | 0 | 1 | 0% |
+| Summer | 0 | 2 | 0% |
 | Egor | 1 | 2 | 33% |
 | Tara | 0 | 3 | 0% |
 | Howard | 0 | 2 | 0% |
-| Oliver | 2 | 7 | 22% |
+| Oliver | 2 | 8 | 20% |
 
 ### Coup
 
 | Player | Wins | Losses | Win % |
 | --- | --- | --- | --- |
+| Allan | 2 | 1 | 67% |
+| Summer | 2 | 1 | 67% |
 | Jovan | 1 | 1 | 50% |
-| Allan | 1 | 1 | 50% |
-| Summer | 1 | 1 | 50% |
-| Oliver | 1 | 1 | 50% |
+| Oliver | 1 | 2 | 33% |
+| Phoebe | 0 | 1 | 0% |
+| Harsh | 0 | 1 | 0% |
 | Serena | 0 | 1 | 0% |
+| Anna | 0 | 1 | 0% |
 | Garrick | 0 | 2 | 0% |
 
 ### Exploding Kittens
@@ -145,22 +149,24 @@
 
 | Player | Wins | Losses | Win % |
 | --- | --- | --- | --- |
-| Oliver | 5 | 4 | 56% |
-| Garrick | 6 | 3 | 67% |
-| Feli | 4 | 2 | 67% |
+| Garrick | 8 | 3 | 73% |
+| Oliver | 6 | 5 | 55% |
 | Howard | 2 | 1 | 67% |
 | Flo | 2 | 1 | 67% |
 | Jovan | 3 | 3 | 50% |
+| Summer | 3 | 2 | 60% |
+| Feli | 4 | 3 | 57% |
 | Kristy | 1 | 0 | 100% |
-| Wincy | 1 | 1 | 50% |
+| Phoebe | 1 | 1 | 50% |
+| Harsh | 1 | 1 | 50% |
 | Serena | 2 | 1 | 67% |
 | Tara | 1 | 2 | 33% |
 | Egor | 2 | 4 | 33% |
-| Phoebe | 0 | 1 | 0% |
 | Nicole | 0 | 1 | 0% |
 | Alima | 0 | 2 | 0% |
-| Summer | 1 | 2 | 33% |
-| Allan | 0 | 3 | 0% |
+| Tyler | 0 | 2 | 0% |
+| Wincy | 1 | 3 | 25% |
+| Allan | 1 | 4 | 20% |
 
 ### Secret Hitler
 

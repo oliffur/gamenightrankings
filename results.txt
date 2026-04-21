@@ -47,3 +47,7 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 04/13/2026|Quest|Oliver,Feli,Garrick;Egor,Tara,Jovan,Flo|0;1
 04/13/2026|Quest|Egor,Feli,Flo;Oliver,Jovan,Garrick,Tara|0;1
 04/13/2026|Wavelength|Garrick,Feli,Jovan;Oliver,Tara,Egor,Flo|0;1
+04/20/2026|Coup|Allan;Summer;Oliver;Phoebe;Anna;Harsh|0;0;1;1;1;1
+04/20/2026|Quest|Oliver,Garrick,Summer,Phoebe;Allan,Harsh,Wincy,Tyler|0;1
+04/20/2026|Quest|Summer,Garrick,Allan,Harsh;Oliver,Tyler,Wincy,Feli|0;1
+04/20/2026|Codenames|Garrick,Feli,Wincy;Oliver,Tyler,Summer,Allan|0;1
