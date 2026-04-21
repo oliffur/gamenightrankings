@@ -151,9 +151,9 @@ def calc_upset_bonus(
             median_opp = sorted(opp_ratings)[len(opp_ratings) // 2]
 
             if rank == 0 and median_opp > p_rating:
-                bonus += 0.7
+                bonus += 0.9
             elif rank != 0 and median_opp < p_rating:
-                bonus -= 0.7
+                bonus -= 0.9
         return bonus
 
     elif g_type == GameType.INDIVIDUAL_WINNER:
@@ -176,10 +176,10 @@ def calc_upset_bonus(
 
         if rank == 0:
             # Winner: add bonus if lower rated than median of losers
-            return 0.7 if p_rating < median_losers else 0.0
+            return 0.9 if p_rating < median_losers else 0.0
         else:
             # Loser: subtract bonus if higher rated than median of winners
-            return -0.7 if p_rating > median_winners else 0.0
+            return -0.9 if p_rating > median_winners else 0.0
 
     elif g_type == GameType.INDIVIDUAL_RANKED:
         # Get ratings of people this player beat (higher rank values)
@@ -202,12 +202,12 @@ def calc_upset_bonus(
             median_beaten = sorted(beaten_ratings)[len(beaten_ratings) // 2]
             # Add bonus if lower rated than median of people beaten
             if p_rating < median_beaten:
-                bonus += 0.7
+                bonus += 0.9
         if lost_to_ratings:
             median_lost_to = sorted(lost_to_ratings)[len(lost_to_ratings) // 2]
             # Subtract bonus if higher rated than median of people lost to
             if p_rating > median_lost_to:
-                bonus -= 0.7
+                bonus -= 0.9
         return bonus
 
     return 0.0

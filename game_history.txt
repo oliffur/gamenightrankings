@@ -1,104 +1,104 @@
 01/05/2026|Secret Hitler|Bosco(Vivian),Garrick,Jovan,Emma;Oliver,Harsh,Amy,Summer|0;1
 Amy: -0.70, Bosco(Vivian): +1.30, Emma: +1.30, Garrick: +1.30, Harsh: -0.70, Jovan: +1.30, Oliver: -0.70, Summer: -0.70
 01/05/2026|Secret Hitler|Oliver,Harsh,Amy,Vivian,Emma;Garrick,Jovan,Summer,Bosco(Vivian)|0;1
-Amy: +2.00, Bosco(Vivian): -1.40, Emma: +1.30, Garrick: -1.40, Harsh: +2.00, Jovan: -1.40, Oliver: +2.00, Summer: -0.70, Vivian: +2.00
+Amy: +2.20, Bosco(Vivian): -1.60, Emma: +1.30, Garrick: -1.60, Harsh: +2.20, Jovan: -1.60, Oliver: +2.20, Summer: -0.70, Vivian: +2.20
 01/05/2026|Codenames|Oliver,Bosco(Vivian),Emma,Amy;Garrick,Vivian,Harsh,Wincy,Jovan|0;1
-Amy: +1.30, Bosco(Vivian): +2.00, Emma: +1.30, Garrick: -0.70, Harsh: -0.70, Jovan: -0.70, Oliver: +1.30, Vivian: -1.40, Wincy: -0.70
+Amy: +1.30, Bosco(Vivian): +2.20, Emma: +1.30, Garrick: -0.70, Harsh: -0.70, Jovan: -0.70, Oliver: +1.30, Vivian: -1.60, Wincy: -0.70
 01/05/2026|Wavelength|Oliver,Bosco(Vivian),Wincy;Garrick,Vivian|0;1
-Bosco(Vivian): +1.30, Garrick: -0.70, Oliver: +1.30, Vivian: -0.70, Wincy: +2.00
+Bosco(Vivian): +1.30, Garrick: -0.70, Oliver: +1.30, Vivian: -0.70, Wincy: +2.20
 01/12/2026|Secret Hitler|Oliver,Kristy,Egor;Peter,Garrick,Howard,Elina(Egor),Phoebe|0;1
 Egor: +1.30, Elina(Egor): -0.70, Garrick: -0.70, Howard: -0.70, Kristy: +1.30, Oliver: +1.30, Peter: -0.70, Phoebe: -0.70
 01/12/2026|Quest|Oliver,Garrick,Kristy,Egor;Feli,Phoebe,Howard,Nicole|0;1
-Egor: +1.30, Feli: -0.70, Garrick: +2.00, Howard: -0.70, Kristy: +1.30, Nicole: -0.70, Oliver: +1.30, Phoebe: -0.70
+Egor: +1.30, Feli: -0.70, Garrick: +2.20, Howard: -0.70, Kristy: +1.30, Nicole: -0.70, Oliver: +1.30, Phoebe: -0.70
 01/12/2026|Exploding Kittens|Phoebe;Feli;Oliver;Garrick;Howard;Nicole;Egor|0;1;1;1;1;1;1
-Egor: -0.70, Feli: -0.70, Garrick: -0.70, Howard: +0.00, Nicole: -0.70, Oliver: -0.70, Phoebe: +2.80
+Egor: -0.90, Feli: -0.90, Garrick: -0.90, Howard: +0.00, Nicole: -0.90, Oliver: -0.90, Phoebe: +3.00
 01/19/2026|Bang|Oliver;Jane;Garrick;Harsh;Tara;Summer|0;1;1;1;1;1
 Garrick: -0.30, Harsh: -0.30, Jane: -0.30, Oliver: +3.30, Summer: -0.30, Tara: -0.30
 01/19/2026|Bang|Feli;Garrick;Harsh;Oliver;Jane;Tara;Summer|0;0;0;1;1;1;1
-Feli: +1.80, Garrick: +1.80, Harsh: +1.10, Jane: -1.00, Oliver: -1.00, Summer: -0.30, Tara: -1.00
+Feli: +2.00, Garrick: +2.00, Harsh: +1.10, Jane: -1.20, Oliver: -1.20, Summer: -0.30, Tara: -1.20
 01/19/2026|Secret Hitler|Harsh,Summer,Tara,Oliver,Garrick,Gillian;Feli,Tyler,Alexandra,Jane|0;1
-Alexandra: -0.70, Feli: -0.70, Garrick: +1.30, Gillian: +1.30, Harsh: +1.30, Jane: -0.70, Oliver: +1.30, Summer: +2.00, Tara: +2.00, Tyler: -0.70
+Alexandra: -0.70, Feli: -0.70, Garrick: +1.30, Gillian: +1.30, Harsh: +1.30, Jane: -0.70, Oliver: +1.30, Summer: +2.20, Tara: +2.20, Tyler: -0.70
 01/19/2026|Secret Hitler|Oliver,Gillian,Summer,Tyler,Garrick;Tara,Jane,Alexandra|0;1
 Alexandra: -0.70, Garrick: +1.30, Gillian: +1.30, Jane: -0.70, Oliver: +1.30, Summer: +1.30, Tara: -0.70, Tyler: +1.30
 01/19/2026|Codenames|Garrick,Anna,Jane;Gillian,Oliver,Tara|0;1
-Anna: +2.00, Garrick: +1.30, Gillian: -1.40, Jane: +2.00, Oliver: -1.40, Tara: -0.70
+Anna: +2.20, Garrick: +1.30, Gillian: -1.60, Jane: +2.20, Oliver: -1.60, Tara: -0.70
 01/26/2026|Quest|Oliver,Feli,Garrick,Howard;Egor,Alima,Wincy|0;1
-Alima: -0.70, Egor: -0.70, Feli: +2.00, Garrick: +1.30, Howard: +2.00, Oliver: +1.30, Wincy: -0.70
+Alima: -0.70, Egor: -0.70, Feli: +2.20, Garrick: +1.30, Howard: +2.20, Oliver: +1.30, Wincy: -0.70
 01/26/2026|Quest|Wincy,Garrick,Feli,Howard;Egor,Alima,Oliver|0;1
-Alima: -0.70, Egor: -0.70, Feli: +1.30, Garrick: +1.30, Howard: +2.00, Oliver: -1.40, Wincy: +2.00
+Alima: -0.70, Egor: -0.70, Feli: +1.30, Garrick: +1.30, Howard: +2.20, Oliver: -1.60, Wincy: +2.20
 02/02/2026|Bang|Oliver;Garrick;Mia;Harsh;Tara;Summer;Phoebe|0;0;0;1;1;1;1
-Garrick: +1.10, Harsh: -0.30, Mia: +1.80, Oliver: +1.10, Phoebe: -0.30, Summer: -0.30, Tara: -0.30
+Garrick: +1.10, Harsh: -0.30, Mia: +2.00, Oliver: +1.10, Phoebe: -0.30, Summer: -0.30, Tara: -0.30
 02/02/2026|Secret Hitler|Mia,Summer,Phoebe,Garrick;Tara,Oliver,Harsh|0;1
-Garrick: +1.30, Harsh: -1.40, Mia: +2.00, Oliver: -1.40, Phoebe: +2.00, Summer: +2.00, Tara: -0.70
+Garrick: +1.30, Harsh: -1.60, Mia: +2.20, Oliver: -1.60, Phoebe: +2.20, Summer: +2.20, Tara: -0.70
 02/02/2026|Incan Gold|Garrick;Tara;Oliver;Summer|0;1;2;3
-Garrick: +3.30, Oliver: -0.70, Summer: -2.70, Tara: +2.00
+Garrick: +3.30, Oliver: -0.70, Summer: -2.70, Tara: +2.20
 02/02/2026|Incan Gold|Summer;Garrick;Tara;Oliver|0;1;2;3
-Garrick: +0.60, Oliver: -3.40, Summer: +4.00, Tara: -0.00
+Garrick: +0.40, Oliver: -3.60, Summer: +4.20, Tara: +0.20
 02/09/2026|Camel Up|Harsha;Feli;Leo;Garrick;Tyler;Oliver;Alexandra|0;1;2;3;4;5;6
-Alexandra: -5.70, Feli: +3.60, Garrick: -0.40, Harsha: +7.00, Leo: +3.00, Oliver: -4.40, Tyler: -1.00
+Alexandra: -5.70, Feli: +3.40, Garrick: -0.60, Harsha: +7.20, Leo: +3.20, Oliver: -4.60, Tyler: -0.80
 02/09/2026|Secret Hitler|Oliver,Feli,Allan,Gillian;Harsha,Garrick,Anna|0;1
-Allan: +2.00, Anna: -1.40, Feli: +2.00, Garrick: -1.40, Gillian: +2.00, Harsha: -1.40, Oliver: +2.00
+Allan: +2.20, Anna: -1.60, Feli: +2.20, Garrick: -1.60, Gillian: +2.20, Harsha: -1.60, Oliver: +2.20
 02/16/2026|Incan Gold|Garrick;Summer;Amy;Allan;Oliver|0;1;1;3;3
 Allan: -1.20, Amy: +0.80, Garrick: +4.30, Oliver: -1.20, Summer: +0.80
 02/16/2026|Incan Gold|Amy;Allan;Oliver;Summer;Garrick;Tyler|0;1;2;3;4;5
-Allan: +4.00, Amy: +5.30, Garrick: -3.40, Oliver: +2.00, Summer: -0.70, Tyler: -4.70
+Allan: +4.20, Amy: +5.30, Garrick: -3.60, Oliver: +2.20, Summer: -0.70, Tyler: -4.70
 02/16/2026|Codenames|Garrick,Amy,Tyler;Allan,Summer,Oliver|0;1
-Allan: -0.70, Amy: +1.30, Garrick: +1.30, Oliver: -0.70, Summer: -0.70, Tyler: +2.00
+Allan: -0.70, Amy: +1.30, Garrick: +1.30, Oliver: -0.70, Summer: -0.70, Tyler: +2.20
 02/16/2026|Codenames|Wincy,Tyler,Allan;Garrick,Amy,Oliver|0;1
-Allan: +2.00, Amy: -1.40, Garrick: -1.40, Oliver: -0.70, Tyler: +2.00, Wincy: +2.00
+Allan: +2.20, Amy: -1.60, Garrick: -1.60, Oliver: -0.70, Tyler: +2.20, Wincy: +2.20
 03/02/2026|Incan Gold|Serena;Kristy;Feli;Adam(Allan);Hayes;Allan;Oliver|0;1;2;3;4;5;5
-Adam(Allan): +1.00, Allan: -2.90, Feli: +1.60, Hayes: -1.00, Kristy: +3.60, Oliver: -2.90, Serena: +7.00
+Adam(Allan): +1.20, Allan: -3.10, Feli: +1.40, Hayes: -0.80, Kristy: +3.40, Oliver: -3.10, Serena: +7.20
 03/02/2026|Secret Hitler|Oliver,Allan,Anna,Mia;Hayes,Adam(Allan),Howard,Serena,Alex(Oliver)|0;1
-Adam(Allan): -0.70, Alex(Oliver): -0.70, Allan: +1.30, Anna: +2.00, Hayes: -0.70, Howard: -0.70, Mia: +1.30, Oliver: +2.00, Serena: -1.40
+Adam(Allan): -0.70, Alex(Oliver): -0.70, Allan: +1.30, Anna: +2.20, Hayes: -0.70, Howard: -0.70, Mia: +1.30, Oliver: +2.20, Serena: -1.60
 03/02/2026|Bang|Anna;Serena;Oliver;Howard|0;0;1;1
 Anna: +0.90, Howard: -0.30, Oliver: -0.30, Serena: +0.90
 03/09/2026|Uno|Allan;Oliver;Tara;Nicole|0;1;1;1
 Allan: +1.20, Nicole: +0.00, Oliver: +0.00, Tara: +0.00
 03/09/2026|Shifty Eyed Spies|Oliver;Hayes;Allan;Nicole;Egor;Tara|0;0;1;1;1;1
-Allan: -1.00, Egor: -0.30, Hayes: +2.20, Nicole: -0.30, Oliver: +1.50, Tara: -0.30
+Allan: -1.20, Egor: -1.20, Hayes: +2.40, Nicole: -0.30, Oliver: +2.40, Tara: -1.20
 03/09/2026|Shifty Eyed Spies|Oliver;Egor;Allan;Nicole;Hayes;Tara|0;0;1;1;1;1
-Allan: -1.00, Egor: +2.20, Hayes: -0.30, Nicole: -0.30, Oliver: +1.50, Tara: -0.30
+Allan: -1.20, Egor: +2.40, Hayes: -0.30, Nicole: -0.30, Oliver: +1.50, Tara: -0.30
 03/09/2026|Bang|Hayes;Egor;Feli;Tara;Oliver;Nicole|0;0;0;1;1;1
-Egor: +0.90, Feli: +0.90, Hayes: +0.90, Nicole: -0.30, Oliver: -1.00, Tara: -0.30
+Egor: +0.90, Feli: +0.90, Hayes: +0.90, Nicole: -0.30, Oliver: -1.20, Tara: -0.30
 03/09/2026|Bang|Egor;Hayes;Feli;Tara;Oliver;Nicole|0;1;1;1;1;1
-Egor: +3.30, Feli: -1.00, Hayes: -0.30, Nicole: -0.30, Oliver: -0.30, Tara: -0.30
+Egor: +3.30, Feli: -1.20, Hayes: -0.30, Nicole: -0.30, Oliver: -1.20, Tara: -0.30
 03/16/2026|Coup|Jovan;Oliver;Garrick;Allan;Summer|0;0;1;1;1
-Allan: -1.00, Garrick: -1.00, Jovan: +1.90, Oliver: +1.90, Summer: -1.00
+Allan: -1.20, Garrick: -1.20, Jovan: +2.10, Oliver: +2.10, Summer: -1.20
 03/16/2026|Coup|Allan;Summer;Serena;Oliver;Garrick;Jovan|0;0;1;1;1;1
-Allan: +2.20, Garrick: -1.00, Jovan: -0.30, Oliver: -1.00, Serena: -1.00, Summer: +2.20
+Allan: +2.40, Garrick: -1.20, Jovan: -0.30, Oliver: -1.20, Serena: -1.20, Summer: +2.40
 03/16/2026|Quest|Garrick,Summer,Serena;Oliver,Allan,Jovan|0;1
 Allan: -0.70, Garrick: +1.30, Jovan: -0.70, Oliver: -0.70, Serena: +1.30, Summer: +1.30
 03/16/2026|Quest|Oliver,Garrick,Jovan;Allan,Summer,Serena|0;1
-Allan: -1.40, Garrick: +1.30, Jovan: +2.00, Oliver: +2.00, Serena: -1.40, Summer: -1.40
+Allan: -1.60, Garrick: +1.30, Jovan: +2.20, Oliver: +2.20, Serena: -1.60, Summer: -1.60
 03/16/2026|Quest|Oliver,Jovan,Serena;Allan,Summer,Garrick|0;1
-Allan: -0.70, Garrick: -1.40, Jovan: +2.00, Oliver: +2.00, Serena: +1.30, Summer: -1.40
+Allan: -0.70, Garrick: -1.60, Jovan: +2.20, Oliver: +2.20, Serena: +2.20, Summer: -1.60
 03/16/2026|Codenames|Garrick,Oliver;Serena,Allan|0;1
-Allan: -0.70, Garrick: +1.30, Oliver: +2.00, Serena: -0.70
+Allan: -0.70, Garrick: +1.30, Oliver: +2.20, Serena: -0.70
 03/23/2026|Codenames|Hayes,Wincy,Allan;Oliver,Garrick,Egor,Howard|0;1
-Allan: +2.00, Egor: -1.40, Garrick: -1.40, Hayes: +2.00, Howard: -1.40, Oliver: -1.40, Wincy: +2.00
+Allan: +2.20, Egor: -1.60, Garrick: -1.60, Hayes: +2.20, Howard: -1.60, Oliver: -1.60, Wincy: +2.20
 03/23/2026|Codenames|Wincy,Egor,Garrick,Allan;Hayes,Oliver,Howard|0;1
-Allan: +1.30, Egor: +1.30, Garrick: +1.30, Hayes: -0.70, Howard: -0.70, Oliver: -1.40, Wincy: +1.30
+Allan: +2.20, Egor: +1.30, Garrick: +1.30, Hayes: -0.70, Howard: -0.70, Oliver: -0.70, Wincy: +1.30
 03/23/2026|Secret Hitler|Wincy,Garrick,Howard;Oliver,Hayes,Egor,Allan|0;1
-Allan: -0.70, Egor: -0.70, Garrick: +1.30, Hayes: -0.70, Howard: +2.00, Oliver: -0.70, Wincy: +1.30
+Allan: -0.70, Egor: -0.70, Garrick: +1.30, Hayes: -0.70, Howard: +2.20, Oliver: -0.70, Wincy: +1.30
 03/23/2026|Secret Hitler|Garrick,Oliver,Wincy,Hayes;Allan,Howard,Egor|0;1
-Allan: -0.70, Egor: -0.70, Garrick: +1.30, Hayes: +2.00, Howard: -0.70, Oliver: +1.30, Wincy: +1.30
+Allan: -0.70, Egor: -0.70, Garrick: +1.30, Hayes: +2.20, Howard: -0.70, Oliver: +1.30, Wincy: +1.30
 04/13/2026|Codenames|Garrick,Flo;Oliver,Tara|0;1
-Flo: +2.00, Garrick: +1.30, Oliver: -0.70, Tara: -0.70
+Flo: +2.20, Garrick: +1.30, Oliver: -0.70, Tara: -0.70
 04/13/2026|Codenames|Garrick,Flo,Jovan;Oliver,Tara,Egor|0;1
-Egor: -1.40, Flo: +2.00, Garrick: +1.30, Jovan: +2.00, Oliver: -1.40, Tara: -0.70
+Egor: -0.70, Flo: +2.20, Garrick: +1.30, Jovan: +1.30, Oliver: -1.60, Tara: -0.70
 04/13/2026|Quest|Flo,Tara,Jovan;Oliver,Garrick,Egor,Feli|0;1
-Egor: -0.70, Feli: -1.40, Flo: +2.00, Garrick: -1.40, Jovan: +2.00, Oliver: -1.40, Tara: +2.00
+Egor: -0.70, Feli: -1.60, Flo: +2.20, Garrick: -1.60, Jovan: +2.20, Oliver: -0.70, Tara: +2.20
 04/13/2026|Quest|Oliver,Feli,Garrick;Egor,Tara,Jovan,Flo|0;1
-Egor: -0.70, Feli: +1.30, Flo: -0.70, Garrick: +1.30, Jovan: -0.70, Oliver: +2.00, Tara: -0.70
+Egor: -0.70, Feli: +1.30, Flo: -0.70, Garrick: +1.30, Jovan: -0.70, Oliver: +2.20, Tara: -0.70
 04/13/2026|Quest|Egor,Feli,Flo;Oliver,Jovan,Garrick,Tara|0;1
-Egor: +2.00, Feli: +1.30, Flo: +2.00, Garrick: -1.40, Jovan: -1.40, Oliver: -0.70, Tara: -0.70
+Egor: +2.20, Feli: +1.30, Flo: +2.20, Garrick: -1.60, Jovan: -1.60, Oliver: -0.70, Tara: -0.70
 04/13/2026|Wavelength|Garrick,Feli,Jovan;Oliver,Tara,Egor,Flo|0;1
 Egor: -0.70, Feli: +1.30, Flo: -0.70, Garrick: +1.30, Jovan: +1.30, Oliver: -0.70, Tara: -0.70
 04/20/2026|Coup|Allan;Summer;Oliver;Phoebe;Anna;Harsh|0;0;1;1;1;1
-Allan: +2.20, Anna: -1.00, Harsh: -0.30, Oliver: -0.30, Phoebe: -0.30, Summer: +1.50
+Allan: +1.50, Anna: -0.30, Harsh: -0.30, Oliver: -0.30, Phoebe: -0.30, Summer: +2.40
 04/20/2026|Quest|Oliver,Garrick,Summer,Phoebe;Allan,Harsh,Wincy,Tyler|0;1
-Allan: -1.40, Garrick: +1.30, Harsh: -0.70, Oliver: +2.00, Phoebe: +2.00, Summer: +2.00, Tyler: -0.70, Wincy: -1.40
+Allan: -0.70, Garrick: +1.30, Harsh: -0.70, Oliver: +2.20, Phoebe: +2.20, Summer: +1.30, Tyler: -0.70, Wincy: -1.60
 04/20/2026|Quest|Summer,Garrick,Allan,Harsh;Oliver,Tyler,Wincy,Feli|0;1
-Allan: +2.00, Feli: -1.40, Garrick: +1.30, Harsh: +2.00, Oliver: -0.70, Summer: +2.00, Tyler: -0.70, Wincy: -1.40
+Allan: +2.20, Feli: -1.60, Garrick: +1.30, Harsh: +2.20, Oliver: -0.70, Summer: +2.20, Tyler: -0.70, Wincy: -1.60
 04/20/2026|Codenames|Garrick,Feli,Wincy;Oliver,Tyler,Summer,Allan|0;1
 Allan: -0.70, Feli: +1.30, Garrick: +1.30, Oliver: -0.70, Summer: -0.70, Tyler: -0.70, Wincy: +1.30
