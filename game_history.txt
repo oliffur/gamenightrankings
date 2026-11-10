@@ -102,3 +102,9 @@ Allan: -0.70, Garrick: +1.30, Harsh: -0.70, Oliver: +2.20, Phoebe: +2.20, Summer
 Allan: +2.20, Feli: -1.60, Garrick: +1.30, Harsh: +2.20, Oliver: -0.70, Summer: +2.20, Tyler: -0.70, Wincy: -1.60
 04/20/2026|Codenames|Garrick,Feli,Wincy;Oliver,Tyler,Summer,Allan|0;1
 Allan: -0.70, Feli: +1.30, Garrick: +1.30, Oliver: -0.70, Summer: -0.70, Tyler: -0.70, Wincy: +1.30
+11/10/2026|Codenames|Oliver,Tara,Larissa(Joanne);Garrick,Harsh,Joanne|0;1
+Garrick: -1.60, Harsh: -1.60, Joanne: -0.70, Larissa(Joanne): +2.20, Oliver: +1.30, Tara: +2.20
+11/10/2026|Avalon|Oliver,Ming,Joanne,Tara;Garrick,Harsh|0;1
+Garrick: -1.60, Harsh: -1.60, Joanne: +2.20, Ming: +2.20, Oliver: +2.20, Tara: +2.20
+11/10/2026|Avalon|Garrick,Harsh;Oliver,Ming,Joanne,Tara|0;1
+Garrick: +1.30, Harsh: +2.20, Joanne: -0.70, Ming: -0.70, Oliver: -0.70, Tara: -0.70

@@ -51,6 +51,6 @@ DATE|GAME|TEAM1_MEMBER1,TEAM1_MEMBER2,...,TEAM1_MEMBERN;TEAM2_MEMBER1...|RANK1;.
 04/20/2026|Quest|Oliver,Garrick,Summer,Phoebe;Allan,Harsh,Wincy,Tyler|0;1
 04/20/2026|Quest|Summer,Garrick,Allan,Harsh;Oliver,Tyler,Wincy,Feli|0;1
 04/20/2026|Codenames|Garrick,Feli,Wincy;Oliver,Tyler,Summer,Allan|0;1
-11/10/2026|Codenames|Oliver,Tara,Larissa(Joanne);Garrick,Harsh,Joanne
-11/10/2026|Avalon|Oliver,Ming,Joanne,Tara;Garrick,Harsh
-11/10/2026|Avalon|Garrick,Harsh;Oliver,Ming,Joanne,Tara
+11/10/2026|Codenames|Oliver,Tara,Larissa(Joanne);Garrick,Harsh,Joanne|0;1
+11/10/2026|Avalon|Oliver,Ming,Joanne,Tara;Garrick,Harsh|0;1
+11/10/2026|Avalon|Garrick,Harsh;Oliver,Ming,Joanne,Tara|0;1
