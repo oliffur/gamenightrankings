@@ -9,8 +9,9 @@ A personal board-game-night leaderboard. `results.txt` is a hand-maintained log 
 ## Commands
 
 ```bash
-pipenv run python3 parse_results.py    # regenerate README.md, rankings.png, game_history.txt
-./update.command                       # run parser + git add/commit/push ("update rankings") — this is the deploy step
+pipenv run python3 parse_results.py     # regenerate README.md, rankings.png, game_history.txt (live pipeline)
+pipenv run python3 parse_results_v2.py  # regenerate README_v2.md, rankings_v2.png, game_history_v2.txt + old-vs-new comparison
+./update.command                        # run parser + git add/commit/push ("update rankings") — this is the deploy step
 pipenv run python -m unittest discover tests   # run tests (currently broken — see below)
 ```
 
@@ -41,6 +42,10 @@ All players start at 100.0. For each game (processed in file order), each player
 - `TEAM_UNBALANCED` — reward scales with opponent count beaten; loss is fixed −1.0
 - `INDIVIDUAL_WINNER` — winners split points equal to the number of losers; losers −1.0
 - `INDIVIDUAL_RANKED` — (players beaten − players lost to) / count of players sharing your rank
+
+### V2 engine (parallel, not yet live)
+
+`parse_results_v2.py` is a redesigned Elo-based engine kept alongside v1 for debugging/testing. It imports the parser and `ResultFormatter` from `parse_results.py` but has its own copy of `GAME_CONFIG` (game types/multipliers), so config edits for v2 experiments never touch the live v1 pipeline. It writes only `*_v2` artifacts. Differences: leaderboard score = `mu − sigma` (uncertainty decays with games played, so low-volume players can't top the table); team games use a sub-additive harmonic-mean team-quality model; individual games decompose into pairwise results (ties = 0.5); every game is zero-sum. Tunables are the constants block at the top of the file. The live pipeline (`update.command`) still runs v1; cutover is a pending owner decision.
 
 ## Conventions
 

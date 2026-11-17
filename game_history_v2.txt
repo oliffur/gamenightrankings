@@ -1,0 +1,709 @@
+columns: mu = rating before | g = games before | K = k-factor (8 if g < 30, else 6)
+         r = rank (0 = win) | A = actual | E = expected | x = A - E | f(x) = x*|2x|^1.0 | raw = K * mult * f(x)
+         delta = raw - renorm (zero-sum) | mu+ = rating after | disp = mu+ - sigma(g+1) = leaderboard score after
+
+01/05/2026|Secret Hitler|Bosco(Vivian),Garrick,Jovan,Emma;Oliver,Harsh,Amy,Summer|0;1
+  #  1  team even  mult 1.00
+    T0 W rank 0  rating  148.2  Bosco(Vivian) 100.0, Garrick 100.0, Jovan 100.0, Emma 100.0
+    T1 L rank 1  rating  148.2  Oliver 100.0, Harsh 100.0, Amy 100.0, Summer 100.0
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Bosco(Vivian)    100.0   0  8.0  0 1.000 0.431 0.569  0.647   5.18  +4.08  104.1   89.4  ████
+    Garrick          100.0   0  8.0  0 1.000 0.431 0.569  0.647   5.18  +4.08  104.1   89.4  ████
+    Jovan            100.0   0  8.0  0 1.000 0.431 0.569  0.647   5.18  +4.08  104.1   89.4  ████
+    Emma             100.0   0  8.0  0 1.000 0.431 0.569  0.647   5.18  +4.08  104.1   89.4  ████
+    Oliver           100.0   0  8.0  1 0.000 0.431-0.431 -0.372  -2.97  -4.08   95.9   81.3  ░░░░
+    Harsh            100.0   0  8.0  1 0.000 0.431-0.431 -0.372  -2.97  -4.08   95.9   81.3  ░░░░
+    Amy              100.0   0  8.0  1 0.000 0.431-0.431 -0.372  -2.97  -4.08   95.9   81.3  ░░░░
+    Summer           100.0   0  8.0  1 0.000 0.431-0.431 -0.372  -2.97  -4.08   95.9   81.3  ░░░░
+    sum(delta) -0.00   renorm +1.10/player (raw sum +8.82)
+
+01/05/2026|Secret Hitler|Oliver,Harsh,Amy,Vivian,Emma;Garrick,Jovan,Summer,Bosco(Vivian)|0;1
+  #  2  team even  mult 1.00
+    T0 W rank 0  rating  154.3  Oliver 95.9, Harsh 95.9, Amy 95.9, Vivian 100.0, Emma 104.1
+    T1 L rank 1  rating  150.2  Garrick 104.1, Jovan 104.1, Summer 95.9, Bosco(Vivian) 104.1
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Oliver            95.9   1  8.0  0 1.000 0.423 0.577  0.667   5.33  +3.69   99.6   86.2  ████
+    Harsh             95.9   1  8.0  0 1.000 0.423 0.577  0.667   5.33  +3.69   99.6   86.2  ████
+    Amy               95.9   1  8.0  0 1.000 0.423 0.577  0.667   5.33  +3.69   99.6   86.2  ████
+    Vivian           100.0   0  8.0  0 1.000 0.428 0.572  0.654   5.23  +3.59  103.6   88.9  ████
+    Emma             104.1   1  8.0  0 1.000 0.434 0.566  0.641   5.12  +3.48  107.6   94.1  ███
+    Garrick          104.1   1  8.0  1 0.000 0.428-0.428 -0.367  -2.93  -4.58   99.5   86.0  ░░░░░
+    Jovan            104.1   1  8.0  1 0.000 0.428-0.428 -0.367  -2.93  -4.58   99.5   86.0  ░░░░░
+    Summer            95.9   1  8.0  1 0.000 0.417-0.417 -0.347  -2.78  -4.42   91.5   78.0  ░░░░
+    Bosco(Vivian)    104.1   1  8.0  1 0.000 0.428-0.428 -0.367  -2.93  -4.58   99.5   86.0  ░░░░░
+    sum(delta) -0.00   renorm +1.64/player (raw sum +14.77)
+
+01/05/2026|Codenames|Oliver,Bosco(Vivian),Emma,Amy;Garrick,Vivian,Harsh,Wincy,Jovan|0;1
+  #  3  team even  mult 1.00
+    T0 W rank 0  rating  149.7  Oliver 99.6, Bosco(Vivian) 99.5, Emma 107.6, Amy 99.6
+    T1 L rank 1  rating  156.4  Garrick 99.5, Vivian 103.6, Harsh 99.6, Wincy 100.0, Jovan 99.5
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Oliver            99.6   2  8.0  0 1.000 0.419 0.581  0.675   5.40  +4.66  104.3   91.9  █████
+    Bosco(Vivian)     99.5   2  8.0  0 1.000 0.419 0.581  0.675   5.40  +4.67  104.2   91.8  █████
+    Emma             107.6   2  8.0  0 1.000 0.430 0.570  0.649   5.19  +4.46  112.0   99.6  ████
+    Amy               99.6   2  8.0  0 1.000 0.419 0.581  0.675   5.40  +4.66  104.3   91.9  █████
+    Garrick           99.5   2  8.0  1 0.000 0.428-0.428 -0.367  -2.93  -3.67   95.8   83.5  ░░░░
+    Vivian           103.6   1  8.0  1 0.000 0.434-0.434 -0.377  -3.01  -3.75   99.8   86.4  ░░░░
+    Harsh             99.6   2  8.0  1 0.000 0.428-0.428 -0.367  -2.94  -3.67   95.9   83.6  ░░░░
+    Wincy            100.0   0  8.0  1 0.000 0.429-0.429 -0.368  -2.94  -3.68   96.3   81.7  ░░░░
+    Jovan             99.5   2  8.0  1 0.000 0.428-0.428 -0.367  -2.93  -3.67   95.8   83.5  ░░░░
+    sum(delta) +0.00   renorm +0.74/player (raw sum +6.63)
+
+01/05/2026|Wavelength|Oliver,Bosco(Vivian),Wincy;Garrick,Vivian|0;1
+  #  4  team even  mult 1.00
+    T0 W rank 0  rating  139.7  Oliver 104.3, Bosco(Vivian) 104.2, Wincy 96.3
+    T1 L rank 1  rating  121.9  Garrick 95.8, Vivian 99.8
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Oliver           104.3   3  8.0  0 1.000 0.475 0.525  0.552   4.42  +2.97  107.2   95.9  ███
+    Bosco(Vivian)    104.2   3  8.0  0 1.000 0.474 0.526  0.552   4.42  +2.97  107.1   95.7  ███
+    Wincy             96.3   1  8.0  0 1.000 0.463 0.537  0.576   4.61  +3.16   99.5   86.0  ███
+    Garrick           95.8   3  8.0  1 0.000 0.437-0.437 -0.382  -3.06  -4.51   91.3   79.9  ░░░░░
+    Vivian            99.8   2  8.0  1 0.000 0.443-0.443 -0.392  -3.14  -4.59   95.2   82.9  ░░░░░
+    sum(delta) +0.00   renorm +1.45/player (raw sum +7.25)
+
+01/12/2026|Secret Hitler|Oliver,Kristy,Egor;Peter,Garrick,Howard,Elina(Egor),Phoebe|0;1
+  #  5  team even  mult 1.00
+    T0 W rank 0  rating  140.6  Oliver 107.2, Kristy 100.0, Egor 100.0
+    T1 L rank 1  rating  154.1  Peter 100.0, Garrick 91.3, Howard 100.0, Elina(Egor) 100.0, Phoebe 100.0
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Oliver           107.2   4  8.0  0 1.000 0.433 0.567  0.643   5.15  +5.10  112.3  101.9  █████
+    Kristy           100.0   0  8.0  0 1.000 0.423 0.577  0.667   5.33  +5.29  105.3   90.6  █████
+    Egor             100.0   0  8.0  0 1.000 0.423 0.577  0.667   5.33  +5.29  105.3   90.6  █████
+    Peter            100.0   0  8.0  1 0.000 0.442-0.442 -0.391  -3.12  -3.17   96.8   82.2  ░░░
+    Garrick           91.3   4  8.0  1 0.000 0.430-0.430 -0.369  -2.95  -3.00   88.3   77.8  ░░░
+    Howard           100.0   0  8.0  1 0.000 0.442-0.442 -0.391  -3.12  -3.17   96.8   82.2  ░░░
+    Elina(Egor)      100.0   0  8.0  1 0.000 0.442-0.442 -0.391  -3.12  -3.17   96.8   82.2  ░░░
+    Phoebe           100.0   0  8.0  1 0.000 0.442-0.442 -0.391  -3.12  -3.17   96.8   82.2  ░░░
+    sum(delta) +0.00   renorm +0.04/player (raw sum +0.36)
+
+01/12/2026|Quest|Oliver,Garrick,Kristy,Egor;Feli,Phoebe,Howard,Nicole|0;1
+  #  6  team even  mult 1.00
+    T0 W rank 0  rating  150.7  Oliver 112.3, Garrick 88.3, Kristy 105.3, Egor 105.3
+    T1 L rank 1  rating  146.6  Feli 100.0, Phoebe 96.8, Howard 96.8, Nicole 100.0
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Oliver           112.3   5  8.0  0 1.000 0.451 0.549  0.603   4.82  +3.74  116.1  106.4  ████
+    Garrick           88.3   5  8.0  0 1.000 0.417 0.583  0.680   5.44  +4.35   92.7   83.0  ████
+    Kristy           105.3   1  8.0  0 1.000 0.441 0.559  0.625   5.00  +3.92  109.2   95.7  ████
+    Egor             105.3   1  8.0  0 1.000 0.441 0.559  0.625   5.00  +3.92  109.2   95.7  ████
+    Feli             100.0   0  8.0  1 0.000 0.427-0.427 -0.365  -2.92  -4.01   96.0   81.3  ░░░░
+    Phoebe            96.8   1  8.0  1 0.000 0.423-0.423 -0.358  -2.86  -3.95   92.9   79.4  ░░░░
+    Howard            96.8   1  8.0  1 0.000 0.423-0.423 -0.358  -2.86  -3.95   92.9   79.4  ░░░░
+    Nicole           100.0   0  8.0  1 0.000 0.427-0.427 -0.365  -2.92  -4.01   96.0   81.3  ░░░░
+    sum(delta) +0.00   renorm +1.09/player (raw sum +8.69)
+
+01/12/2026|Exploding Kittens|Phoebe;Feli;Oliver;Garrick;Howard;Nicole;Egor|0;1;1;1;1;1;1
+  #  7  winner takes all  mult 1.00
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Phoebe            92.9   2  8.0  0 1.000 0.489 0.511  0.522   4.18  +3.68   96.6   84.2  ████
+    Feli              96.0   1  8.0  1 0.417 0.494-0.078 -0.012  -0.10  -0.59   95.4   81.9  ░
+    Oliver           116.1   6  8.0  1 0.417 0.528-0.111 -0.025  -0.20  -0.69  115.4  106.4  ░
+    Garrick           92.7   6  8.0  1 0.417 0.489-0.072 -0.010  -0.08  -0.58   92.1   83.1  ░
+    Howard            92.9   2  8.0  1 0.417 0.489-0.072 -0.010  -0.08  -0.58   92.3   79.9  ░
+    Nicole            96.0   1  8.0  1 0.417 0.494-0.078 -0.012  -0.10  -0.59   95.4   81.9  ░
+    Egor             109.2   2  8.0  1 0.417 0.516-0.100 -0.020  -0.16  -0.65  108.5   96.2  ░
+    sum(delta) +0.00   renorm +0.49/player (raw sum +3.46)
+
+01/19/2026|Bang|Oliver;Jane;Garrick;Harsh;Tara;Summer|0;1;1;1;1;1
+  #  8  winner takes all  mult 1.50
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Oliver           115.4   7  8.0  0 1.000 0.528 0.472  0.446   5.35  +4.63  120.0  111.7  █████
+    Jane             100.0   0  8.0  1 0.400 0.501-0.101 -0.021  -0.25  -0.96   99.0   84.4  ░
+    Garrick           92.1   7  8.0  1 0.400 0.488-0.088 -0.015  -0.19  -0.90   91.2   82.9  ░
+    Harsh             95.9   3  8.0  1 0.400 0.494-0.094 -0.018  -0.21  -0.93   95.0   83.6  ░
+    Tara             100.0   0  8.0  1 0.400 0.501-0.101 -0.021  -0.25  -0.96   99.0   84.4  ░
+    Summer            91.5   2  8.0  1 0.400 0.487-0.087 -0.015  -0.18  -0.89   90.6   78.2  ░
+    sum(delta) -0.00   renorm +0.71/player (raw sum +4.27)
+
+01/19/2026|Bang|Feli;Garrick;Harsh;Oliver;Jane;Tara;Summer|0;0;0;1;1;1;1
+  #  9  winner takes all  mult 1.50
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Feli              95.4   2  8.0  0 0.833 0.495 0.339  0.229   2.75  +2.46   97.9   85.5  ██
+    Garrick           91.2   8  8.0  0 0.833 0.488 0.346  0.239   2.87  +2.57   93.8   86.1  ███
+    Harsh             95.0   4  8.0  0 0.833 0.494 0.339  0.230   2.76  +2.47   97.5   87.0  ██
+    Oliver           120.0   8  8.0  1 0.250 0.536-0.286 -0.163  -1.96  -2.26  117.8  110.1  ░░
+    Jane              99.0   1  8.0  1 0.250 0.501-0.251 -0.126  -1.51  -1.80   97.2   83.8  ░░
+    Tara              99.0   1  8.0  1 0.250 0.501-0.251 -0.126  -1.51  -1.80   97.2   83.8  ░░
+    Summer            90.6   3  8.0  1 0.250 0.487-0.237 -0.112  -1.34  -1.64   89.0   77.6  ░░
+    sum(delta) -0.00   renorm +0.30/player (raw sum +2.07)
+
+01/19/2026|Secret Hitler|Harsh,Summer,Tara,Oliver,Garrick,Gillian;Feli,Tyler,Alexandra,Jane|0;1
+  # 10  team even  mult 1.00
+    T0 W rank 0  rating  161.2  Harsh 97.5, Summer 89.0, Tara 97.2, Oliver 117.8, Garrick 93.8, Gillian 100.0
+    T1 L rank 1  rating  146.9  Feli 97.9, Tyler 100.0, Alexandra 100.0, Jane 97.2
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Harsh             97.5   5  8.0  0 1.000 0.429 0.571  0.651   5.21  +3.19  100.7   91.0  ███
+    Summer            89.0   4  8.0  0 1.000 0.417 0.583  0.679   5.43  +3.41   92.4   81.9  ███
+    Tara              97.2   2  8.0  0 1.000 0.429 0.571  0.652   5.22  +3.20  100.4   88.1  ███
+    Oliver           117.8   9  8.0  0 1.000 0.458 0.542  0.587   4.70  +2.68  120.4  113.3  ███
+    Garrick           93.8   9  8.0  0 1.000 0.424 0.576  0.663   5.31  +3.29   97.1   89.9  ███
+    Gillian          100.0   0  8.0  0 1.000 0.433 0.567  0.643   5.15  +3.13  103.1   88.5  ███
+    Feli              97.9   3  8.0  1 0.000 0.410-0.410 -0.336  -2.69  -4.71   93.2   81.8  ░░░░░
+    Tyler            100.0   0  8.0  1 0.000 0.413-0.413 -0.341  -2.73  -4.75   95.3   80.6  ░░░░░
+    Alexandra        100.0   0  8.0  1 0.000 0.413-0.413 -0.341  -2.73  -4.75   95.3   80.6  ░░░░░
+    Jane              97.2   2  8.0  1 0.000 0.409-0.409 -0.334  -2.68  -4.70   92.5   80.2  ░░░░░
+    sum(delta) +0.00   renorm +2.02/player (raw sum +20.20)
+
+01/19/2026|Secret Hitler|Oliver,Gillian,Summer,Tyler,Garrick;Tara,Jane,Alexandra|0;1
+  # 11  team even  mult 1.00
+    T0 W rank 0  rating  157.3  Oliver 120.4, Gillian 103.1, Summer 92.4, Tyler 95.3, Garrick 97.1
+    T1 L rank 1  rating  134.2  Tara 100.4, Jane 92.5, Alexandra 95.3
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Oliver           120.4  10  8.0  0 1.000 0.480 0.520  0.540   4.32  +2.36  122.8  116.1  ██
+    Gillian          103.1   1  8.0  0 1.000 0.455 0.545  0.593   4.75  +2.78  105.9   92.4  ███
+    Summer            92.4   5  8.0  0 1.000 0.440 0.560  0.627   5.02  +3.05   95.4   85.7  ███
+    Tyler             95.3   1  8.0  0 1.000 0.444 0.556  0.618   4.94  +2.98   98.2   84.8  ███
+    Garrick           97.1  10  8.0  0 1.000 0.447 0.553  0.612   4.90  +2.93  100.0   93.3  ███
+    Tara             100.4   3  8.0  1 0.000 0.419-0.419 -0.351  -2.81  -4.78   95.7   84.3  ░░░░░
+    Jane              92.5   3  8.0  1 0.000 0.408-0.408 -0.333  -2.66  -4.63   87.9   76.5  ░░░░░
+    Alexandra         95.3   1  8.0  1 0.000 0.412-0.412 -0.339  -2.71  -4.68   90.6   77.1  ░░░░░
+    sum(delta) +0.00   renorm +1.97/player (raw sum +15.74)
+
+01/19/2026|Codenames|Garrick,Anna,Jane;Gillian,Oliver,Tara|0;1
+  # 12  team even  mult 1.00
+    T0 W rank 0  rating  134.0  Garrick 100.0, Anna 100.0, Jane 87.9
+    T1 L rank 1  rating  145.9  Gillian 105.9, Oliver 122.8, Tara 95.7
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Garrick          100.0  11  8.0  0 1.000 0.434 0.566  0.640   5.12  +4.22  104.2   98.0  ████
+    Anna             100.0   0  8.0  0 1.000 0.434 0.566  0.640   5.12  +4.22  104.2   89.6  ████
+    Jane              87.9   4  8.0  0 1.000 0.417 0.583  0.679   5.43  +4.54   92.4   82.0  █████
+    Gillian          105.9   2  8.0  1 0.000 0.460-0.460 -0.422  -3.38  -4.28  101.6   89.3  ░░░░
+    Oliver           122.8  11  8.0  1 0.000 0.484-0.484 -0.468  -3.75  -4.64  118.2  111.9  ░░░░░
+    Tara              95.7   4  8.0  1 0.000 0.445-0.445 -0.396  -3.17  -4.07   91.6   81.1  ░░░░
+    sum(delta) -0.00   renorm +0.90/player (raw sum +5.38)
+
+01/26/2026|Quest|Oliver,Feli,Garrick,Howard;Egor,Alima,Wincy|0;1
+  # 13  team even  mult 1.00
+    T0 W rank 0  rating  149.8  Oliver 118.2, Feli 93.2, Garrick 104.2, Howard 92.3
+    T1 L rank 1  rating  140.8  Egor 108.5, Alima 100.0, Wincy 99.5
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Oliver           118.2  12  8.0  0 1.000 0.467 0.533  0.567   4.54  +3.00  121.2  115.3  ███
+    Feli              93.2   4  8.0  0 1.000 0.432 0.568  0.646   5.16  +3.62   96.8   86.3  ████
+    Garrick          104.2  12  8.0  0 1.000 0.448 0.552  0.610   4.88  +3.34  107.6  101.7  ███
+    Howard            92.3   3  8.0  0 1.000 0.431 0.569  0.648   5.19  +3.65   95.9   84.6  ████
+    Egor             108.5   3  8.0  1 0.000 0.441-0.441 -0.389  -3.11  -4.65  103.9   92.5  ░░░░░
+    Alima            100.0   0  8.0  1 0.000 0.429-0.429 -0.368  -2.94  -4.48   95.5   80.8  ░░░░
+    Wincy             99.5   2  8.0  1 0.000 0.428-0.428 -0.366  -2.93  -4.47   95.0   82.6  ░░░░
+    sum(delta) +0.00   renorm +1.54/player (raw sum +10.79)
+
+01/26/2026|Quest|Wincy,Garrick,Feli,Howard;Egor,Alima,Oliver|0;1
+  # 14  team even  mult 1.00
+    T0 W rank 0  rating  146.9  Wincy 95.0, Garrick 107.6, Feli 96.8, Howard 95.9
+    T1 L rank 1  rating  144.7  Egor 103.9, Alima 95.5, Oliver 121.2
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Wincy             95.0   3  8.0  0 1.000 0.429 0.571  0.652   5.22  +3.64   98.6   87.3  ████
+    Garrick          107.6  13  8.0  0 1.000 0.447 0.553  0.612   4.90  +3.32  110.9  105.4  ███
+    Feli              96.8   5  8.0  0 1.000 0.431 0.569  0.646   5.17  +3.59  100.4   90.7  ████
+    Howard            95.9   4  8.0  0 1.000 0.430 0.570  0.649   5.19  +3.61   99.6   89.1  ████
+    Egor             103.9   4  8.0  1 0.000 0.438-0.438 -0.384  -3.08  -4.66   99.2   88.8  ░░░░░
+    Alima             95.5   1  8.0  1 0.000 0.427-0.427 -0.364  -2.91  -4.49   91.0   77.6  ░░░░
+    Oliver           121.2  13  8.0  1 0.000 0.463-0.463 -0.429  -3.43  -5.01  116.1  110.7  ░░░░░
+    sum(delta) +0.00   renorm +1.58/player (raw sum +11.06)
+
+02/02/2026|Bang|Oliver;Garrick;Mia;Harsh;Tara;Summer;Phoebe|0;0;0;1;1;1;1
+  # 15  winner takes all  mult 1.50
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Oliver           116.1  14  8.0  0 0.833 0.524 0.309  0.191   2.29  +2.03  118.2  113.0  ██
+    Garrick          110.9  14  8.0  0 0.833 0.516 0.318  0.202   2.42  +2.16  113.0  107.9  ██
+    Mia              100.0   0  8.0  0 0.833 0.497 0.336  0.226   2.71  +2.44  102.4   87.8  ██
+    Harsh            100.7   6  8.0  1 0.250 0.498-0.248 -0.123  -1.48  -1.75   98.9   90.0  ░░
+    Tara              91.6   5  8.0  1 0.250 0.483-0.233 -0.109  -1.31  -1.57   90.0   80.3  ░░
+    Summer            95.4   6  8.0  1 0.250 0.490-0.240 -0.115  -1.38  -1.64   93.8   84.8  ░░
+    Phoebe            96.6   3  8.0  1 0.250 0.492-0.242 -0.117  -1.40  -1.67   94.9   83.5  ░░
+    sum(delta) -0.00   renorm +0.27/player (raw sum +1.86)
+
+02/02/2026|Secret Hitler|Mia,Summer,Phoebe,Garrick;Tara,Oliver,Harsh|0;1
+  # 16  team even  mult 1.00
+    T0 W rank 0  rating  149.0  Mia 102.4, Summer 93.8, Phoebe 94.9, Garrick 113.0
+    T1 L rank 1  rating  140.2  Tara 90.0, Oliver 118.2, Harsh 98.9
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Mia              102.4   1  8.0  0 1.000 0.446 0.554  0.614   4.91  +3.37  105.8   92.4  ███
+    Summer            93.8   7  8.0  0 1.000 0.434 0.566  0.641   5.13  +3.59   97.4   89.1  ████
+    Phoebe            94.9   4  8.0  0 1.000 0.435 0.565  0.638   5.10  +3.57   98.5   88.0  ████
+    Garrick          113.0  15  8.0  0 1.000 0.461 0.539  0.581   4.65  +3.11  116.1  111.3  ███
+    Tara              90.0   6  8.0  1 0.000 0.416-0.416 -0.346  -2.77  -4.31   85.7   76.8  ░░░░
+    Oliver           118.2  15  8.0  1 0.000 0.456-0.456 -0.415  -3.32  -4.86  113.3  108.5  ░░░░░
+    Harsh             98.9   7  8.0  1 0.000 0.428-0.428 -0.367  -2.94  -4.47   94.5   86.2  ░░░░
+    sum(delta) -0.00   renorm +1.54/player (raw sum +10.77)
+
+02/02/2026|Incan Gold|Garrick;Tara;Oliver;Summer|0;1;2;3
+  # 17  ranked  mult 1.00
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Garrick          116.1  16  8.0  0 1.000 0.525 0.475  0.451   3.61  +3.64  119.8  115.2  ████
+    Tara              85.7   7  8.0  1 0.667 0.467 0.200  0.080   0.64  +0.67   86.4   78.1  █
+    Oliver           113.3  16  8.0  2 0.333 0.519-0.186 -0.069  -0.55  -0.52  112.8  108.2  ░
+    Summer            97.4   8  8.0  3 0.000 0.489-0.489 -0.478  -3.83  -3.79   93.6   85.9  ░░░░
+    sum(delta) +0.00   renorm -0.03/player (raw sum -0.13)
+
+02/02/2026|Incan Gold|Summer;Garrick;Tara;Oliver|0;1;2;3
+  # 18  ranked  mult 1.00
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Summer            93.6   9  8.0  0 1.000 0.482 0.518  0.537   4.30  +4.30   97.9   90.7  ████
+    Garrick          119.8  17  8.0  1 0.667 0.532 0.135  0.036   0.29  +0.29  120.1  115.8  
+    Tara              86.4   8  8.0  2 0.333 0.468-0.135 -0.036  -0.29  -0.29   86.1   78.4  
+    Oliver           112.8  17  8.0  3 0.000 0.518-0.518 -0.538  -4.30  -4.30  108.5  104.2  ░░░░
+    sum(delta) +0.00   renorm -0.00/player (raw sum -0.00)
+
+02/09/2026|Camel Up|Harsha;Feli;Leo;Garrick;Tyler;Oliver;Alexandra|0;1;2;3;4;5;6
+  # 19  ranked  mult 1.00
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Harsha           100.0   0  8.0  0 1.000 0.496 0.504  0.509   4.07  +4.02  104.0   89.3  ████
+    Feli             100.4   6  8.0  1 0.833 0.496 0.337  0.227   1.82  +1.77  102.1   93.2  ██
+    Leo              100.0   0  8.0  2 0.667 0.496 0.171  0.058   0.47  +0.42  100.4   85.7  
+    Garrick          120.1  18  8.0  3 0.500 0.529-0.029 -0.002  -0.01  -0.07  120.0  115.9  
+    Tyler             98.2   2  8.0  4 0.333 0.493-0.159 -0.051  -0.41  -0.46   97.8   85.4  
+    Oliver           108.5  18  8.0  5 0.167 0.510-0.343 -0.236  -1.89  -1.94  106.6  102.5  ░░
+    Alexandra         90.6   2  8.0  6 0.000 0.480-0.480 -0.461  -3.69  -3.74   86.8   74.5  ░░░░
+    sum(delta) -0.00   renorm +0.05/player (raw sum +0.36)
+
+02/09/2026|Secret Hitler|Oliver,Feli,Allan,Gillian;Harsha,Garrick,Anna|0;1
+  # 20  team even  mult 1.00
+    T0 W rank 0  rating  150.7  Oliver 106.6, Feli 102.1, Allan 100.0, Gillian 101.6
+    T1 L rank 1  rating  147.4  Harsha 104.0, Garrick 120.0, Anna 104.2
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Oliver           106.6  19  8.0  0 1.000 0.441 0.559  0.624   4.99  +3.41  110.0  106.1  ███
+    Feli             102.1   7  8.0  0 1.000 0.435 0.565  0.638   5.10  +3.53  105.7   97.4  ████
+    Allan            100.0   0  8.0  0 1.000 0.432 0.568  0.645   5.16  +3.58  103.6   88.9  ████
+    Gillian          101.6   3  8.0  0 1.000 0.434 0.566  0.640   5.12  +3.54  105.2   93.8  ████
+    Harsha           104.0   1  8.0  1 0.000 0.433-0.433 -0.375  -3.00  -4.58   99.4   86.0  ░░░░░
+    Garrick          120.0  19  8.0  1 0.000 0.456-0.456 -0.416  -3.33  -4.90  115.1  111.2  ░░░░░
+    Anna             104.2   1  8.0  1 0.000 0.433-0.433 -0.376  -3.01  -4.58   99.6   86.2  ░░░░░
+    sum(delta) -0.00   renorm +1.58/player (raw sum +11.04)
+
+02/16/2026|Incan Gold|Garrick;Summer;Amy;Allan;Oliver|0;1;1;3;3
+  # 21  ranked  mult 1.00
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Garrick          115.1  20  8.0  0 1.000 0.516 0.484  0.468   3.75  +3.79  118.9  115.2  ████
+    Summer            97.9  10  8.0  1 0.625 0.485 0.140  0.039   0.31  +0.35   98.2   91.6  
+    Amy              104.3   3  8.0  1 0.625 0.497 0.128  0.033   0.26  +0.30  104.6   93.2  
+    Allan            103.6   1  8.0  3 0.125 0.495-0.370 -0.274  -2.19  -2.15  101.4   88.0  ░░
+    Oliver           110.0  20  8.0  3 0.125 0.507-0.382 -0.292  -2.33  -2.29  107.7  104.0  ░░
+    sum(delta) -0.00   renorm -0.04/player (raw sum -0.20)
+
+02/16/2026|Incan Gold|Amy;Allan;Oliver;Summer;Garrick;Tyler|0;1;2;3;4;5
+  # 22  ranked  mult 1.00
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Amy              104.6   4  8.0  0 1.000 0.500 0.500  0.501   4.00  +4.00  108.6   98.1  ████
+    Allan            101.4   2  8.0  1 0.800 0.494 0.306  0.187   1.50  +1.49  102.9   90.5  █
+    Oliver           107.7  21  8.0  2 0.600 0.505 0.095  0.018   0.14  +0.14  107.8  104.3  
+    Summer            98.2  11  8.0  3 0.400 0.489-0.089 -0.016  -0.13  -0.13   98.1   91.9  
+    Garrick          118.9  21  8.0  4 0.200 0.524-0.324 -0.210  -1.68  -1.69  117.2  113.7  ░░
+    Tyler             97.8   3  8.0  5 0.000 0.488-0.488 -0.476  -3.81  -3.81   94.0   82.6  ░░░░
+    sum(delta) -0.00   renorm +0.00/player (raw sum +0.03)
+
+02/16/2026|Codenames|Garrick,Amy,Tyler;Allan,Summer,Oliver|0;1
+  # 23  team even  mult 1.00
+    T0 W rank 0  rating  144.5  Garrick 117.2, Amy 108.6, Tyler 94.0
+    T1 L rank 1  rating  141.1  Allan 102.9, Summer 98.1, Oliver 107.8
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Garrick          117.2  22  8.0  0 1.000 0.466 0.534  0.571   4.57  +3.70  120.9  117.5  ████
+    Amy              108.6   5  8.0  0 1.000 0.453 0.547  0.598   4.78  +3.92  112.5  102.8  ████
+    Tyler             94.0   4  8.0  0 1.000 0.433 0.567  0.644   5.15  +4.29   98.2   87.8  ████
+    Allan            102.9   3  8.0  1 0.000 0.440-0.440 -0.388  -3.10  -3.97   99.0   87.6  ░░░░
+    Summer            98.1  12  8.0  1 0.000 0.434-0.434 -0.376  -3.01  -3.87   94.2   88.4  ░░░░
+    Oliver           107.8  22  8.0  1 0.000 0.447-0.447 -0.400  -3.20  -4.07  103.7  100.3  ░░░░
+    sum(delta) +0.00   renorm +0.86/player (raw sum +5.18)
+
+02/16/2026|Codenames|Wincy,Tyler,Allan;Garrick,Amy,Oliver|0;1
+  # 24  team even  mult 1.00
+    T0 W rank 0  rating  136.8  Wincy 98.6, Tyler 98.2, Allan 99.0
+    T1 L rank 1  rating  150.4  Garrick 120.9, Amy 112.5, Oliver 103.7
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Wincy             98.6   4  8.0  0 1.000 0.426 0.574  0.659   5.27  +4.37  103.0   92.5  ████
+    Tyler             98.2   5  8.0  0 1.000 0.425 0.575  0.660   5.28  +4.38  102.6   92.9  ████
+    Allan             99.0   4  8.0  0 1.000 0.426 0.574  0.658   5.26  +4.36  103.3   92.8  ████
+    Garrick          120.9  23  8.0  1 0.000 0.477-0.477 -0.455  -3.64  -4.55  116.4  113.1  ░░░░░
+    Amy              112.5   6  8.0  1 0.000 0.465-0.465 -0.433  -3.46  -4.37  108.1   99.2  ░░░░
+    Oliver           103.7  23  8.0  1 0.000 0.453-0.453 -0.410  -3.28  -4.18   99.6   96.3  ░░░░
+    sum(delta) +0.00   renorm +0.91/player (raw sum +5.43)
+
+03/02/2026|Incan Gold|Serena;Kristy;Feli;Adam(Allan);Hayes;Allan;Oliver|0;1;2;3;4;5;5
+  # 25  ranked  mult 1.00
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Serena           100.0   0  8.0  0 1.000 0.496 0.504  0.509   4.07  +4.04  104.0   89.4  ████
+    Kristy           109.2   2  8.0  1 0.833 0.511 0.322  0.208   1.66  +1.63  110.8   98.5  ██
+    Feli             105.7   8  8.0  2 0.667 0.505 0.161  0.052   0.42  +0.39  106.0   98.4  
+    Adam(Allan)      100.0   0  8.0  3 0.500 0.496 0.004  0.000   0.00  -0.03  100.0   85.3  
+    Hayes            100.0   0  8.0  4 0.333 0.496-0.162 -0.053  -0.42  -0.45   99.5   84.9  
+    Allan            103.3   5  8.0  5 0.083 0.501-0.418 -0.349  -2.80  -2.83  100.5   90.8  ░░░
+    Oliver            99.6  24  8.0  5 0.083 0.495-0.412 -0.339  -2.71  -2.74   96.8   93.7  ░░░
+    sum(delta) +0.00   renorm +0.03/player (raw sum +0.22)
+
+03/02/2026|Secret Hitler|Oliver,Allan,Anna,Mia;Hayes,Adam(Allan),Howard,Serena,Alex(Oliver)|0;1
+  # 26  team even  mult 1.00
+    T0 W rank 0  rating  148.8  Oliver 96.8, Allan 100.5, Anna 99.6, Mia 105.8
+    T1 L rank 1  rating  156.5  Hayes 99.5, Adam(Allan) 100.0, Howard 99.6, Serena 104.0, Alex(Oliver) 100.0
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Oliver            96.8  25  8.0  0 1.000 0.415 0.585  0.685   5.48  +4.74  101.6   98.5  █████
+    Allan            100.5   6  8.0  0 1.000 0.420 0.580  0.673   5.38  +4.64  105.1   96.2  █████
+    Anna              99.6   2  8.0  0 1.000 0.419 0.581  0.675   5.40  +4.67  104.3   91.9  █████
+    Mia              105.8   2  8.0  0 1.000 0.428 0.572  0.655   5.24  +4.51  110.3   98.0  █████
+    Hayes             99.5   1  8.0  1 0.000 0.430-0.430 -0.369  -2.95  -3.69   95.9   82.4  ░░░░
+    Adam(Allan)      100.0   1  8.0  1 0.000 0.430-0.430 -0.370  -2.96  -3.70   96.3   82.8  ░░░░
+    Howard            99.6   5  8.0  1 0.000 0.430-0.430 -0.369  -2.95  -3.69   95.9   86.2  ░░░░
+    Serena           104.0   1  8.0  1 0.000 0.436-0.436 -0.380  -3.04  -3.78  100.3   86.8  ░░░░
+    Alex(Oliver)     100.0   0  8.0  1 0.000 0.430-0.430 -0.370  -2.96  -3.70   96.3   81.6  ░░░░
+    sum(delta) +0.00   renorm +0.74/player (raw sum +6.64)
+
+03/02/2026|Bang|Anna;Serena;Oliver;Howard|0;0;1;1
+  # 27  winner takes all  mult 1.50
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Anna             104.3   3  8.0  0 0.833 0.507 0.326  0.213   2.55  +2.55  106.9   95.5  ███
+    Serena           100.3   2  8.0  0 0.833 0.500 0.334  0.223   2.67  +2.67  102.9   90.6  ███
+    Oliver           101.6  26  8.0  1 0.167 0.502-0.335 -0.225  -2.70  -2.70   98.9   95.9  ░░░
+    Howard            95.9   6  8.0  1 0.167 0.491-0.324 -0.211  -2.53  -2.53   93.3   84.4  ░░░
+    sum(delta) +0.00   renorm -0.00/player (raw sum -0.00)
+
+03/09/2026|Uno|Allan;Oliver;Tara;Nicole|0;1;1;1
+  # 28  winner takes all  mult 1.00
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Allan            105.1   7  8.0  0 1.000 0.517 0.483  0.467   3.74  +3.11  108.2  100.0  ███
+    Oliver            98.9  27  8.0  1 0.333 0.505-0.171 -0.059  -0.47  -1.09   97.8   94.9  ░
+    Tara              86.1   9  8.0  1 0.333 0.480-0.147 -0.043  -0.35  -0.97   85.1   78.0  ░
+    Nicole            95.4   2  8.0  1 0.333 0.498-0.165 -0.054  -0.43  -1.06   94.3   82.0  ░
+    sum(delta) +0.00   renorm +0.62/player (raw sum +2.49)
+
+03/09/2026|Shifty Eyed Spies|Oliver;Hayes;Allan;Nicole;Egor;Tara|0;0;1;1;1;1
+  # 29  winner takes all  mult 1.50
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Oliver            97.8  28  8.0  0 0.900 0.502 0.398  0.317   3.81  +3.17  100.9   98.2  ███
+    Hayes             95.9   2  8.0  0 0.900 0.498 0.402  0.323   3.87  +3.23   99.1   86.7  ███
+    Allan            108.2   8  8.0  1 0.300 0.520-0.220 -0.097  -1.16  -1.80  106.4   98.8  ░░
+    Nicole            94.3   3  8.0  1 0.300 0.496-0.196 -0.077  -0.92  -1.56   92.8   81.4  ░░
+    Egor              99.2   5  8.0  1 0.300 0.504-0.204 -0.083  -1.00  -1.64   97.6   87.9  ░░
+    Tara              85.1  10  8.0  1 0.300 0.480-0.180 -0.065  -0.78  -1.41   83.7   77.1  ░
+    sum(delta) +0.00   renorm +0.64/player (raw sum +3.82)
+
+03/09/2026|Shifty Eyed Spies|Oliver;Egor;Allan;Nicole;Hayes;Tara|0;0;1;1;1;1
+  # 30  winner takes all  mult 1.50
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Oliver           100.9  29  8.0  0 0.900 0.507 0.393  0.309   3.70  +3.08  104.0  101.3  ███
+    Egor              97.6   6  8.0  0 0.900 0.501 0.399  0.318   3.81  +3.19  100.8   91.8  ███
+    Allan            106.4   9  8.0  1 0.300 0.517-0.217 -0.094  -1.13  -1.75  104.7   97.5  ░░
+    Nicole            92.8   4  8.0  1 0.300 0.493-0.193 -0.075  -0.90  -1.52   91.3   80.8  ░░
+    Hayes             99.1   3  8.0  1 0.300 0.504-0.204 -0.083  -1.00  -1.62   97.5   86.1  ░░
+    Tara              83.7  11  8.0  1 0.300 0.477-0.177 -0.063  -0.76  -1.38   82.3   76.1  ░
+    sum(delta) +0.00   renorm +0.62/player (raw sum +3.74)
+
+03/09/2026|Bang|Hayes;Egor;Feli;Tara;Oliver;Nicole|0;0;0;1;1;1
+  # 31  winner takes all  mult 1.50
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Hayes             97.5   4  8.0  0 0.800 0.501 0.299  0.179   2.15  +2.05   99.5   89.0  ██
+    Egor             100.8   7  8.0  0 0.800 0.507 0.293  0.172   2.07  +1.97  102.8   94.5  ██
+    Feli             106.0   9  8.0  0 0.800 0.516 0.284  0.162   1.94  +1.85  107.9  100.7  ██
+    Tara              82.3  12  8.0  1 0.200 0.475-0.275 -0.151  -1.81  -1.91   80.4   74.6  ░░
+    Oliver           104.0  30  6.0  1 0.200 0.512-0.312 -0.195  -1.75  -1.85  102.2   99.5  ░░
+    Nicole            91.3   5  8.0  1 0.200 0.490-0.290 -0.168  -2.02  -2.12   89.2   79.5  ░░
+    sum(delta) +0.00   renorm +0.10/player (raw sum +0.57)
+
+03/09/2026|Bang|Egor;Hayes;Feli;Tara;Oliver;Nicole|0;1;1;1;1;1
+  # 32  winner takes all  mult 1.50
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Egor             102.8   8  8.0  0 1.000 0.510 0.490  0.480   5.76  +4.99  107.8  100.1  █████
+    Hayes             99.5   5  8.0  1 0.400 0.504-0.104 -0.022  -0.26  -1.04   98.5   88.8  ░
+    Feli             107.9  10  8.0  1 0.400 0.519-0.119 -0.028  -0.34  -1.11  106.8  100.1  ░
+    Tara              80.4  13  8.0  1 0.400 0.471-0.071 -0.010  -0.12  -0.90   79.5   74.1  ░
+    Oliver           102.2  31  6.0  1 0.400 0.509-0.109 -0.024  -0.21  -0.99  101.2   98.6  ░
+    Nicole            89.2   6  8.0  1 0.400 0.486-0.086 -0.015  -0.18  -0.95   88.2   79.2  ░
+    sum(delta) +0.00   renorm +0.77/player (raw sum +4.65)
+
+03/16/2026|Coup|Jovan;Oliver;Garrick;Allan;Summer|0;0;1;1;1
+  # 33  winner takes all  mult 1.50
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Jovan             95.8   3  8.0  0 0.875 0.488 0.387  0.299   3.59  +3.30   99.1   87.7  ███
+    Oliver           101.2  32  6.0  0 0.875 0.498 0.377  0.285   2.56  +2.27  103.5  100.9  ██
+    Garrick          116.4  24  8.0  1 0.250 0.525-0.275 -0.151  -1.81  -2.11  114.3  111.1  ░░
+    Allan            104.7  10  8.0  1 0.250 0.504-0.254 -0.129  -1.55  -1.84  102.9   96.2  ░░
+    Summer            94.2  13  8.0  1 0.250 0.485-0.235 -0.111  -1.33  -1.62   92.6   87.2  ░░
+    sum(delta) +0.00   renorm +0.29/player (raw sum +1.46)
+
+03/16/2026|Coup|Allan;Summer;Serena;Oliver;Garrick;Jovan|0;0;1;1;1;1
+  # 34  winner takes all  mult 1.50
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Allan            102.9  11  8.0  0 0.900 0.501 0.399  0.319   3.83  +3.12  106.0   99.8  ███
+    Summer            92.6  14  8.0  0 0.900 0.483 0.417  0.348   4.18  +3.47   96.1   91.0  ███
+    Serena           102.9   3  8.0  1 0.300 0.501-0.201 -0.081  -0.97  -1.67  101.3   89.9  ░░
+    Oliver           103.5  33  6.0  1 0.300 0.502-0.202 -0.081  -0.73  -1.44  102.0   99.5  ░
+    Garrick          114.3  25  8.0  1 0.300 0.520-0.220 -0.097  -1.16  -1.87  112.4  109.3  ░░
+    Jovan             99.1   4  8.0  1 0.300 0.494-0.194 -0.075  -0.90  -1.61   97.5   87.0  ░░
+    sum(delta) -0.00   renorm +0.71/player (raw sum +4.24)
+
+03/16/2026|Quest|Garrick,Summer,Serena;Oliver,Allan,Jovan|0;1
+  # 35  team even  mult 1.00
+    T0 W rank 0  rating  141.3  Garrick 112.4, Summer 96.1, Serena 101.3
+    T1 L rank 1  rating  140.0  Oliver 102.0, Allan 106.0, Jovan 97.5
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Garrick          112.4  26  8.0  0 1.000 0.460 0.540  0.582   4.66  +3.66  116.0  113.1  ████
+    Summer            96.1  15  8.0  0 1.000 0.437 0.563  0.634   5.07  +4.07  100.2   95.3  ████
+    Serena           101.3   4  8.0  0 1.000 0.445 0.555  0.617   4.94  +3.94  105.2   94.7  ████
+    Oliver           102.0  34  6.0  1 0.000 0.444-0.444 -0.394  -2.36  -3.36   98.7   96.2  ░░░
+    Allan            106.0  12  8.0  1 0.000 0.449-0.449 -0.404  -3.23  -4.23  101.7   95.9  ░░░░
+    Jovan             97.5   5  8.0  1 0.000 0.437-0.437 -0.383  -3.06  -4.06   93.5   83.8  ░░░░
+    sum(delta) +0.00   renorm +1.00/player (raw sum +6.01)
+
+03/16/2026|Quest|Oliver,Garrick,Jovan;Allan,Summer,Serena|0;1
+  # 36  team even  mult 1.00
+    T0 W rank 0  rating  140.6  Oliver 98.7, Garrick 116.0, Jovan 93.5
+    T1 L rank 1  rating  140.5  Allan 101.7, Summer 100.2, Serena 105.2
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Oliver            98.7  35  6.0  0 1.000 0.440 0.560  0.627   3.76  +3.10  101.7   99.4  ███
+    Garrick          116.0  27  8.0  0 1.000 0.465 0.535  0.573   4.58  +3.92  120.0  117.1  ████
+    Jovan             93.5   6  8.0  0 1.000 0.433 0.567  0.644   5.15  +4.49   97.9   89.0  ████
+    Allan            101.7  13  8.0  1 0.000 0.444-0.444 -0.395  -3.16  -3.82   97.9   92.5  ░░░░
+    Summer           100.2  16  8.0  1 0.000 0.442-0.442 -0.391  -3.13  -3.79   96.4   91.8  ░░░░
+    Serena           105.2   5  8.0  1 0.000 0.449-0.449 -0.404  -3.23  -3.89  101.3   91.6  ░░░░
+    sum(delta) -0.00   renorm +0.66/player (raw sum +3.98)
+
+03/16/2026|Quest|Oliver,Jovan,Serena;Allan,Summer,Garrick|0;1
+  # 37  team even  mult 1.00
+    T0 W rank 0  rating  138.5  Oliver 101.7, Jovan 97.9, Serena 101.3
+    T1 L rank 1  rating  142.6  Allan 97.9, Summer 96.4, Garrick 120.0
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Oliver           101.7  36  6.0  0 1.000 0.441 0.559  0.624   3.74  +3.07  104.8  102.5  ███
+    Jovan             97.9   7  8.0  0 1.000 0.436 0.564  0.636   5.09  +4.42  102.4   94.1  ████
+    Serena           101.3   6  8.0  0 1.000 0.441 0.559  0.625   5.00  +4.33  105.6   96.7  ████
+    Allan             97.9  14  8.0  1 0.000 0.442-0.442 -0.391  -3.12  -3.80   94.1   89.0  ░░░░
+    Summer            96.4  17  8.0  1 0.000 0.440-0.440 -0.387  -3.09  -3.76   92.6   88.3  ░░░░
+    Garrick          120.0  28  8.0  1 0.000 0.473-0.473 -0.448  -3.59  -4.26  115.7  112.9  ░░░░
+    sum(delta) -0.00   renorm +0.67/player (raw sum +4.03)
+
+03/16/2026|Codenames|Garrick,Oliver;Serena,Allan|0;1
+  # 38  team even  mult 1.00
+    T0 W rank 0  rating  134.3  Garrick 115.7, Oliver 104.8
+    T1 L rank 1  rating  123.9  Serena 105.6, Allan 94.1
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Garrick          115.7  29  8.0  0 1.000 0.488 0.512  0.524   4.19  +3.93  119.6  116.9  ████
+    Oliver           104.8  37  6.0  0 1.000 0.473 0.527  0.556   3.34  +3.08  107.9  105.6  ███
+    Serena           105.6   7  8.0  1 0.000 0.459-0.459 -0.421  -3.37  -3.63  102.0   93.7  ░░░░
+    Allan             94.1  15  8.0  1 0.000 0.442-0.442 -0.392  -3.13  -3.39   90.7   85.9  ░░░
+    sum(delta) -0.00   renorm +0.26/player (raw sum +1.03)
+
+03/23/2026|Codenames|Hayes,Wincy,Allan;Oliver,Garrick,Egor,Howard|0;1
+  # 39  team even  mult 1.00
+    T0 W rank 0  rating  135.5  Hayes 98.5, Wincy 103.0, Allan 90.7
+    T1 L rank 1  rating  155.1  Oliver 107.9, Garrick 119.6, Egor 107.8, Howard 93.3
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Hayes             98.5   6  8.0  0 1.000 0.419 0.581  0.674   5.40  +4.75  103.2   94.3  █████
+    Wincy            103.0   5  8.0  0 1.000 0.426 0.574  0.660   5.28  +4.63  107.6   98.0  █████
+    Allan             90.7  16  8.0  0 1.000 0.408 0.592  0.700   5.60  +4.95   95.7   91.1  █████
+    Oliver           107.9  38  6.0  1 0.000 0.460-0.460 -0.424  -2.54  -3.19  104.7  102.4  ░░░
+    Garrick          119.6  30  6.0  1 0.000 0.477-0.477 -0.455  -2.73  -3.38  116.3  113.6  ░░░
+    Egor             107.8   9  8.0  1 0.000 0.460-0.460 -0.423  -3.39  -4.03  103.7   96.6  ░░░░
+    Howard            93.3   7  8.0  1 0.000 0.440-0.440 -0.387  -3.09  -3.74   89.6   81.3  ░░░░
+    sum(delta) -0.00   renorm +0.65/player (raw sum +4.52)
+
+03/23/2026|Codenames|Wincy,Egor,Garrick,Allan;Hayes,Oliver,Howard|0;1
+  # 40  team even  mult 1.00
+    T0 W rank 0  rating  153.8  Wincy 107.6, Egor 103.7, Garrick 116.3, Allan 95.7
+    T1 L rank 1  rating  137.2  Hayes 103.2, Oliver 104.7, Howard 89.6
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Wincy            107.6   6  8.0  0 1.000 0.458 0.542  0.589   4.71  +3.27  110.9  102.0  ███
+    Egor             103.7  10  8.0  0 1.000 0.452 0.548  0.601   4.81  +3.37  107.1  100.4  ███
+    Garrick          116.3  31  6.0  0 1.000 0.470 0.530  0.562   3.37  +1.93  118.2  115.6  ██
+    Allan             95.7  17  8.0  0 1.000 0.441 0.559  0.626   5.01  +3.57   99.3   94.9  ████
+    Hayes            103.2   7  8.0  1 0.000 0.428-0.428 -0.366  -2.93  -4.37   98.9   90.6  ░░░░
+    Oliver           104.7  39  6.0  1 0.000 0.430-0.430 -0.369  -2.22  -3.66  101.1   98.8  ░░░░
+    Howard            89.6   8  8.0  1 0.000 0.409-0.409 -0.334  -2.67  -4.11   85.5   77.8  ░░░░
+    sum(delta) -0.00   renorm +1.44/player (raw sum +10.08)
+
+03/23/2026|Secret Hitler|Wincy,Garrick,Howard;Oliver,Hayes,Egor,Allan|0;1
+  # 41  team even  mult 1.00
+    T0 W rank 0  rating  142.5  Wincy 110.9, Garrick 118.2, Howard 85.5
+    T1 L rank 1  rating  149.7  Oliver 101.1, Hayes 98.9, Egor 107.1, Allan 99.3
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Wincy            110.9   7  8.0  0 1.000 0.444 0.556  0.617   4.94  +4.60  115.5  107.2  █████
+    Garrick          118.2  32  6.0  0 1.000 0.455 0.545  0.595   3.57  +3.22  121.4  118.9  ███
+    Howard            85.5   9  8.0  0 1.000 0.409 0.591  0.699   5.60  +5.25   90.7   83.6  █████
+    Oliver           101.1  40  6.0  1 0.000 0.441-0.441 -0.388  -2.33  -2.67   98.4   96.2  ░░░
+    Hayes             98.9   8  8.0  1 0.000 0.438-0.438 -0.383  -3.06  -3.41   95.5   87.8  ░░░
+    Egor             107.1  11  8.0  1 0.000 0.449-0.449 -0.404  -3.23  -3.57  103.5   97.3  ░░░░
+    Allan             99.3  18  8.0  1 0.000 0.438-0.438 -0.384  -3.07  -3.42   95.8   91.7  ░░░
+    sum(delta) -0.00   renorm +0.34/player (raw sum +2.41)
+
+03/23/2026|Secret Hitler|Garrick,Oliver,Wincy,Hayes;Allan,Howard,Egor|0;1
+  # 42  team even  mult 1.00
+    T0 W rank 0  rating  155.5  Garrick 121.4, Oliver 98.4, Wincy 115.5, Hayes 95.5
+    T1 L rank 1  rating  134.8  Allan 95.8, Howard 90.7, Egor 103.5
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Garrick          121.4  33  6.0  0 1.000 0.481 0.519  0.539   3.24  +2.09  123.5  121.0  ██
+    Oliver            98.4  41  6.0  0 1.000 0.448 0.552  0.610   3.66  +2.52  100.9   98.7  ███
+    Wincy            115.5   8  8.0  0 1.000 0.472 0.528  0.557   4.46  +3.32  118.8  111.1  ███
+    Hayes             95.5   9  8.0  0 1.000 0.444 0.556  0.619   4.95  +3.81   99.3   92.1  ████
+    Allan             95.8  19  8.0  1 0.000 0.415-0.415 -0.344  -2.76  -3.90   91.9   88.1  ░░░░
+    Howard            90.7  10  8.0  1 0.000 0.408-0.408 -0.333  -2.66  -3.80   86.9   80.3  ░░░░
+    Egor             103.5  12  8.0  1 0.000 0.426-0.426 -0.362  -2.90  -4.04   99.5   93.7  ░░░░
+    sum(delta) +0.00   renorm +1.14/player (raw sum +7.99)
+
+04/13/2026|Codenames|Garrick,Flo;Oliver,Tara|0;1
+  # 43  team even  mult 1.00
+    T0 W rank 0  rating  135.4  Garrick 123.5, Flo 100.0
+    T1 L rank 1  rating  114.0  Oliver 100.9, Tara 79.5
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Garrick          123.5  34  6.0  0 1.000 0.514 0.486  0.473   2.84  +2.36  125.9  123.4  ██
+    Flo              100.0   0  8.0  0 1.000 0.480 0.520  0.541   4.33  +3.85  103.9   89.2  ████
+    Oliver           100.9  42  6.0  1 0.000 0.450-0.450 -0.406  -2.43  -2.91   98.0   95.8  ░░░
+    Tara              79.5  14  8.0  1 0.000 0.420-0.420 -0.353  -2.83  -3.30   76.2   71.1  ░░░
+    sum(delta) -0.00   renorm +0.48/player (raw sum +1.91)
+
+04/13/2026|Codenames|Garrick,Flo,Jovan;Oliver,Tara,Egor|0;1
+  # 44  team even  mult 1.00
+    T0 W rank 0  rating  148.5  Garrick 125.9, Flo 103.9, Jovan 102.4
+    T1 L rank 1  rating  129.1  Oliver 98.0, Tara 76.2, Egor 99.5
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Garrick          125.9  35  6.0  0 1.000 0.495 0.505  0.509   3.06  +2.29  128.2  125.8  ██
+    Flo              103.9   1  8.0  0 1.000 0.464 0.536  0.575   4.60  +3.83  107.7   94.2  ████
+    Jovan            102.4   8  8.0  0 1.000 0.462 0.538  0.580   4.64  +3.87  106.2   98.5  ████
+    Oliver            98.0  43  6.0  1 0.000 0.428-0.428 -0.366  -2.20  -2.96   95.0   92.9  ░░░
+    Tara              76.2  15  8.0  1 0.000 0.397-0.397 -0.316  -2.53  -3.30   72.9   68.1  ░░░
+    Egor              99.5  13  8.0  1 0.000 0.430-0.430 -0.370  -2.96  -3.73   95.7   90.3  ░░░░
+    sum(delta) -0.00   renorm +0.77/player (raw sum +4.61)
+
+04/13/2026|Quest|Flo,Tara,Jovan;Oliver,Garrick,Egor,Feli|0;1
+  # 45  team even  mult 1.00
+    T0 W rank 0  rating  133.0  Flo 107.7, Tara 72.9, Jovan 106.2
+    T1 L rank 1  rating  154.1  Oliver 95.0, Garrick 128.2, Egor 95.7, Feli 106.8
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Flo              107.7   2  8.0  0 1.000 0.434 0.566  0.642   5.13  +4.50  112.2   99.8  ████
+    Tara              72.9  16  8.0  0 1.000 0.385 0.615  0.756   6.05  +5.41   78.4   73.8  █████
+    Jovan            106.2   9  8.0  0 1.000 0.432 0.568  0.646   5.17  +4.54  110.8  103.6  █████
+    Oliver            95.0  44  6.0  1 0.000 0.446-0.446 -0.397  -2.38  -3.02   92.0   89.9  ░░░
+    Garrick          128.2  36  6.0  1 0.000 0.493-0.493 -0.486  -2.92  -3.55  124.6  122.3  ░░░░
+    Egor              95.7  14  8.0  1 0.000 0.447-0.447 -0.399  -3.19  -3.82   91.9   86.8  ░░░░
+    Feli             106.8  11  8.0  1 0.000 0.462-0.462 -0.427  -3.42  -4.05  102.7   96.5  ░░░░
+    sum(delta) -0.00   renorm +0.63/player (raw sum +4.44)
+
+04/13/2026|Quest|Oliver,Feli,Garrick;Egor,Tara,Jovan,Flo|0;1
+  # 46  team even  mult 1.00
+    T0 W rank 0  rating  144.1  Oliver 92.0, Feli 102.7, Garrick 124.6
+    T1 L rank 1  rating  145.9  Egor 91.9, Tara 78.4, Jovan 110.8, Flo 112.2
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Oliver            92.0  45  6.0  0 1.000 0.423 0.577  0.666   3.99  +3.95   96.0   93.8  ████
+    Feli             102.7  12  8.0  0 1.000 0.438 0.562  0.631   5.05  +5.01  107.7  101.9  █████
+    Garrick          124.6  37  6.0  0 1.000 0.469 0.531  0.563   3.38  +3.33  127.9  125.6  ███
+    Egor              91.9  15  8.0  1 0.000 0.425-0.425 -0.362  -2.90  -2.94   89.0   84.2  ░░░
+    Tara              78.4  17  8.0  1 0.000 0.407-0.407 -0.330  -2.64  -2.69   75.7   71.3  ░░░
+    Jovan            110.8  10  8.0  1 0.000 0.452-0.452 -0.409  -3.27  -3.32  107.4  100.8  ░░░
+    Flo              112.2   3  8.0  1 0.000 0.454-0.454 -0.413  -3.30  -3.35  108.8   97.5  ░░░
+    sum(delta) -0.00   renorm +0.04/player (raw sum +0.31)
+
+04/13/2026|Quest|Egor,Feli,Flo;Oliver,Jovan,Garrick,Tara|0;1
+  # 47  team even  mult 1.00
+    T0 W rank 0  rating  139.8  Egor 89.0, Feli 107.7, Flo 108.8
+    T1 L rank 1  rating  148.9  Oliver 96.0, Jovan 107.4, Garrick 127.9, Tara 75.7
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Egor              89.0  16  8.0  0 1.000 0.415 0.585  0.685   5.48  +4.85   93.8   89.3  █████
+    Feli             107.7  13  8.0  0 1.000 0.441 0.559  0.625   5.00  +4.37  112.1  106.6  ████
+    Flo              108.8   4  8.0  0 1.000 0.443 0.557  0.621   4.97  +4.34  113.2  102.7  ████
+    Oliver            96.0  46  6.0  1 0.000 0.437-0.437 -0.382  -2.29  -2.92   93.0   90.9  ░░░
+    Jovan            107.4  11  8.0  1 0.000 0.454-0.454 -0.412  -3.29  -3.92  103.5   97.3  ░░░░
+    Garrick          127.9  38  6.0  1 0.000 0.483-0.483 -0.467  -2.80  -3.43  124.5  122.2  ░░░
+    Tara              75.7  18  8.0  1 0.000 0.409-0.409 -0.334  -2.67  -3.30   72.4   68.3  ░░░
+    sum(delta) -0.00   renorm +0.63/player (raw sum +4.39)
+
+04/13/2026|Wavelength|Garrick,Feli,Jovan;Oliver,Tara,Egor,Flo|0;1
+  # 48  team even  mult 1.00
+    T0 W rank 0  rating  151.3  Garrick 124.5, Feli 112.1, Jovan 103.5
+    T1 L rank 1  rating  140.7  Oliver 93.0, Tara 72.4, Egor 93.8, Flo 113.2
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Garrick          124.5  39  6.0  0 1.000 0.477 0.523  0.548   3.29  +2.94  127.5  125.2  ███
+    Feli             112.1  14  8.0  0 1.000 0.459 0.541  0.585   4.68  +4.34  116.4  111.3  ████
+    Jovan            103.5  12  8.0  0 1.000 0.447 0.553  0.612   4.90  +4.55  108.1  102.3  █████
+    Oliver            93.0  47  6.0  1 0.000 0.417-0.417 -0.348  -2.09  -2.43   90.6   88.5  ░░
+    Tara              72.4  19  8.0  1 0.000 0.388-0.388 -0.301  -2.41  -2.75   69.6   65.7  ░░░
+    Egor              93.8  17  8.0  1 0.000 0.418-0.418 -0.349  -2.80  -3.14   90.7   86.4  ░░░
+    Flo              113.2   5  8.0  1 0.000 0.445-0.445 -0.397  -3.17  -3.52  109.7  100.0  ░░░░
+    sum(delta) -0.00   renorm +0.34/player (raw sum +2.40)
+
+04/20/2026|Coup|Allan;Summer;Oliver;Phoebe;Anna;Harsh|0;0;1;1;1;1
+  # 49  winner takes all  mult 1.50
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Allan             91.9  20  8.0  0 0.900 0.493 0.407  0.331   3.97  +3.27   95.2   91.5  ███
+    Summer            92.6  18  8.0  0 0.900 0.494 0.406  0.329   3.95  +3.25   95.9   91.8  ███
+    Oliver            90.6  48  6.0  1 0.300 0.491-0.191 -0.073  -0.66  -1.35   89.3   87.2  ░
+    Phoebe            98.5   5  8.0  1 0.300 0.505-0.205 -0.084  -1.00  -1.70   96.8   87.1  ░░
+    Anna             106.9   4  8.0  1 0.300 0.519-0.219 -0.096  -1.15  -1.85  105.0   94.5  ░░
+    Harsh             94.5   8  8.0  1 0.300 0.498-0.198 -0.078  -0.94  -1.63   92.8   85.1  ░░
+    sum(delta) +0.00   renorm +0.69/player (raw sum +4.17)
+
+04/20/2026|Quest|Oliver,Garrick,Summer,Phoebe;Allan,Harsh,Wincy,Tyler|0;1
+  # 50  team even  mult 1.00
+    T0 W rank 0  rating  149.9  Oliver 89.3, Garrick 127.5, Summer 95.9, Phoebe 96.8
+    T1 L rank 1  rating  150.2  Allan 95.2, Harsh 92.8, Wincy 118.8, Tyler 102.6
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Oliver            89.3  49  6.0  0 1.000 0.413 0.587  0.689   4.13  +3.35   92.6   90.5  ███
+    Garrick          127.5  40  6.0  0 1.000 0.467 0.533  0.568   3.41  +2.63  130.1  127.9  ███
+    Summer            95.9  19  8.0  0 1.000 0.422 0.578  0.667   5.34  +4.56  100.4   96.5  █████
+    Phoebe            96.8   6  8.0  0 1.000 0.424 0.576  0.664   5.32  +4.54  101.3   92.3  █████
+    Allan             95.2  21  8.0  1 0.000 0.422-0.422 -0.356  -2.85  -3.63   91.6   88.0  ░░░░
+    Harsh             92.8   9  8.0  1 0.000 0.419-0.419 -0.350  -2.80  -3.58   89.2   82.1  ░░░░
+    Wincy            118.8   9  8.0  1 0.000 0.455-0.455 -0.415  -3.32  -4.10  114.7  107.6  ░░░░
+    Tyler            102.6   6  8.0  1 0.000 0.432-0.432 -0.374  -2.99  -3.77   98.9   89.9  ░░░░
+    sum(delta) -0.00   renorm +0.78/player (raw sum +6.23)
+
+04/20/2026|Quest|Summer,Garrick,Allan,Harsh;Oliver,Tyler,Wincy,Feli|0;1
+  # 51  team even  mult 1.00
+    T0 W rank 0  rating  150.3  Summer 100.4, Garrick 130.1, Allan 91.6, Harsh 89.2
+    T1 L rank 1  rating  153.5  Oliver 92.6, Tyler 98.9, Wincy 114.7, Feli 116.4
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Summer           100.4  20  8.0  0 1.000 0.424 0.576  0.663   5.31  +4.26  104.7  101.0  ████
+    Garrick          130.1  41  6.0  0 1.000 0.466 0.534  0.570   3.42  +2.37  132.5  130.2  ██
+    Allan             91.6  22  8.0  0 1.000 0.412 0.588  0.692   5.54  +4.49   96.1   92.7  ████
+    Harsh             89.2  10  8.0  0 1.000 0.409 0.591  0.700   5.60  +4.55   93.8   87.1  █████
+    Oliver            92.6  50  6.0  1 0.000 0.418-0.418 -0.349  -2.09  -3.14   89.5   87.4  ░░░
+    Tyler             98.9   7  8.0  1 0.000 0.427-0.427 -0.364  -2.91  -3.96   94.9   86.6  ░░░░
+    Wincy            114.7  10  8.0  1 0.000 0.449-0.449 -0.403  -3.23  -4.27  110.5  103.8  ░░░░
+    Feli             116.4  15  8.0  1 0.000 0.451-0.451 -0.408  -3.26  -4.31  112.1  107.3  ░░░░
+    sum(delta) -0.00   renorm +1.05/player (raw sum +8.36)
+
+04/20/2026|Codenames|Garrick,Feli,Wincy;Oliver,Tyler,Summer,Allan|0;1
+  # 52  team even  mult 1.00
+    T0 W rank 0  rating  156.2  Garrick 132.5, Feli 112.1, Wincy 110.5
+    T1 L rank 1  rating  144.4  Oliver 89.5, Tyler 94.9, Summer 104.7, Allan 96.1
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Garrick          132.5  42  6.0  0 1.000 0.483 0.517  0.535   3.21  +2.86  135.3  133.1  ███
+    Feli             112.1  16  8.0  0 1.000 0.454 0.546  0.597   4.77  +4.42  116.6  112.0  ████
+    Wincy            110.5  11  8.0  0 1.000 0.451 0.549  0.602   4.82  +4.47  114.9  108.7  ████
+    Oliver            89.5  51  6.0  1 0.000 0.405-0.405 -0.328  -1.97  -2.32   87.2   85.1  ░░
+    Tyler             94.9   8  8.0  1 0.000 0.413-0.413 -0.341  -2.72  -3.07   91.8   84.1  ░░░
+    Summer           104.7  21  8.0  1 0.000 0.426-0.426 -0.364  -2.91  -3.26  101.4   97.9  ░░░
+    Allan             96.1  23  8.0  1 0.000 0.414-0.414 -0.343  -2.75  -3.10   93.0   89.7  ░░░
+    sum(delta) -0.00   renorm +0.35/player (raw sum +2.45)
+
+11/10/2026|Codenames|Oliver,Tara,Larissa(Joanne);Garrick,Harsh,Joanne|0;1
+  # 53  team even  mult 1.00
+    T0 W rank 0  rating  123.3  Oliver 87.2, Tara 69.6, Larissa(Joanne) 100.0
+    T1 L rank 1  rating  146.9  Garrick 135.3, Harsh 93.8, Joanne 100.0
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Oliver            87.2  52  6.0  0 1.000 0.415 0.585  0.685   4.11  +3.25   90.4   88.3  ███
+    Tara              69.6  20  8.0  0 1.000 0.391 0.609  0.743   5.94  +5.08   74.7   71.0  █████
+    Larissa(Joanne)  100.0   0  8.0  0 1.000 0.433 0.567  0.643   5.15  +4.29  104.3   89.6  ████
+    Garrick          135.3  43  6.0  1 0.000 0.517-0.517 -0.535  -3.21  -4.07  131.2  129.1  ░░░░
+    Harsh             93.8  11  8.0  1 0.000 0.458-0.458 -0.419  -3.35  -4.21   89.6   83.4  ░░░░
+    Joanne           100.0   0  8.0  1 0.000 0.467-0.467 -0.435  -3.48  -4.34   95.7   81.0  ░░░░
+    sum(delta) -0.00   renorm +0.86/player (raw sum +5.16)
+
+11/10/2026|Avalon|Oliver,Ming,Joanne,Tara;Garrick,Harsh|0;1
+  # 54  team even  mult 1.00
+    T0 W rank 0  rating  138.1  Oliver 90.4, Ming 100.0, Joanne 95.7, Tara 74.7
+    T1 L rank 1  rating  133.3  Garrick 131.2, Harsh 89.6
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Oliver            90.4  53  6.0  0 1.000 0.439 0.561  0.630   3.78  +1.60   92.0   89.9  ██
+    Ming             100.0   0  8.0  0 1.000 0.452 0.548  0.600   4.80  +2.62  102.6   88.0  ███
+    Joanne            95.7   1  8.0  0 1.000 0.446 0.554  0.614   4.91  +2.73   98.4   84.9  ███
+    Tara              74.7  21  8.0  0 1.000 0.417 0.583  0.681   5.45  +3.27   78.0   74.4  ███
+    Garrick          131.2  44  6.0  1 0.000 0.490-0.490 -0.481  -2.88  -5.06  126.2  124.0  ░░░░░
+    Harsh             89.6  12  8.0  1 0.000 0.431-0.431 -0.371  -2.97  -5.15   84.4   78.6  ░░░░░
+    sum(delta) -0.00   renorm +2.18/player (raw sum +13.09)
+
+11/10/2026|Avalon|Garrick,Harsh;Oliver,Ming,Joanne,Tara|0;1
+  # 55  team even  mult 1.00
+    T0 W rank 0  rating  128.1  Garrick 126.2, Harsh 84.4
+    T1 L rank 1  rating  140.7  Oliver 92.0, Ming 102.6, Joanne 98.4, Tara 78.0
+    player              mu   g    K  r     A     E     x   f(x)    raw  delta    mu+   disp
+    Garrick          126.2  45  6.0  0 1.000 0.479 0.521  0.542   3.25  +3.84  130.0  127.9  ████
+    Harsh             84.4  13  8.0  0 1.000 0.420 0.580  0.673   5.39  +5.97   90.4   84.9  ██████
+    Oliver            92.0  54  6.0  1 0.000 0.448-0.448 -0.402  -2.41  -1.83   90.2   88.1  ░░
+    Ming             102.6   1  8.0  1 0.000 0.463-0.463 -0.429  -3.43  -2.85   99.8   86.3  ░░░
+    Joanne            98.4   2  8.0  1 0.000 0.457-0.457 -0.418  -3.35  -2.76   95.6   83.2  ░░░
+    Tara              78.0  22  8.0  1 0.000 0.428-0.428 -0.367  -2.93  -2.35   75.6   72.2  ░░
+    sum(delta) -0.00   renorm -0.58/player (raw sum -3.48)
+

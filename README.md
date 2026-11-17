@@ -4,43 +4,45 @@
 
 | Player | Score | Wins | Losses | Win % |
 | --- | --- | --- | --- | --- |
-| Garrick | 117.60 | 27 | 19 | 59% |
-| Feli | 111.90 | 9 | 8 | 53% |
+| Garrick | 119.00 | 29 | 20 | 59% |
+| Oliver | 111.20 | 26 | 32 | 45% |
+| Feli | 110.30 | 9 | 9 | 50% |
 | Wincy | 109.40 | 8 | 4 | 67% |
-| Summer | 108.80 | 9 | 13 | 41% |
 | Amy | 108.60 | 4 | 3 | 57% |
-| Oliver | 107.50 | 23 | 32 | 42% |
 | Flo | 107.40 | 4 | 2 | 67% |
+| Summer | 107.20 | 9 | 14 | 39% |
 | Jovan | 107.00 | 7 | 6 | 54% |
 | Serena | 106.50 | 4 | 4 | 50% |
 | Allan | 106.50 | 9 | 15 | 38% |
 | Kristy | 106.00 | 2 | 1 | 67% |
+| Anna | 105.80 | 5 | 2 | 71% |
 | Harsha | 105.60 | 1 | 1 | 50% |
 | Mia | 105.50 | 3 | 0 | 100% |
+| Leo | 105.50 | 2 | 2 | 50% |
 | Phoebe | 105.40 | 3 | 4 | 43% |
 | Hayes | 104.20 | 4 | 6 | 40% |
 | Emma | 103.90 | 3 | 0 | 100% |
-| Anna | 103.40 | 3 | 2 | 60% |
-| Egor | 103.40 | 7 | 11 | 39% |
 | Bosco(Vivian) | 103.20 | 3 | 1 | 75% |
 | Gillian | 103.20 | 3 | 1 | 75% |
-| Leo | 103.20 | 0 | 1 | 0% |
 | Larissa(Joanne) | 102.20 | 1 | 0 | 100% |
+| Egor | 102.00 | 7 | 13 | 35% |
 | Ming | 101.50 | 1 | 1 | 50% |
 | Harsh | 101.20 | 5 | 9 | 36% |
 | Howard | 101.20 | 3 | 8 | 27% |
 | Tara | 101.00 | 4 | 19 | 17% |
 | Joanne | 100.80 | 1 | 2 | 33% |
+| Akash | 100.60 | 1 | 2 | 33% |
 | Adam(Allan) | 100.50 | 0 | 2 | 0% |
 | Vivian | 99.90 | 1 | 2 | 33% |
-| Peter | 99.30 | 0 | 1 | 0% |
+| Tyler | 99.60 | 4 | 6 | 40% |
 | Elina(Egor) | 99.30 | 0 | 1 | 0% |
 | Jane | 99.30 | 1 | 4 | 20% |
 | Alex(Oliver) | 99.30 | 0 | 1 | 0% |
+| Dev | 99.00 | 0 | 2 | 0% |
 | Alima | 98.60 | 0 | 2 | 0% |
-| Tyler | 97.40 | 3 | 6 | 33% |
+| Peter | 98.30 | 0 | 3 | 0% |
 | Nicole | 97.20 | 0 | 7 | 0% |
-| Alexandra | 92.90 | 0 | 3 | 0% |
+| Alexandra | 92.20 | 0 | 4 | 0% |
 
 ### Rankings over Time
 
@@ -62,16 +64,20 @@
 | Player | Wins | Losses | Win % |
 | --- | --- | --- | --- |
 | Egor | 2 | 0 | 100% |
-| Garrick | 2 | 1 | 67% |
 | Mia | 1 | 0 | 100% |
+| Akash | 1 | 0 | 100% |
+| Anna | 2 | 0 | 100% |
 | Feli | 2 | 1 | 67% |
-| Anna | 1 | 0 | 100% |
+| Garrick | 2 | 2 | 50% |
+| Oliver | 3 | 4 | 43% |
 | Serena | 1 | 0 | 100% |
 | Hayes | 1 | 1 | 50% |
 | Harsh | 1 | 2 | 33% |
-| Oliver | 2 | 4 | 33% |
 | Phoebe | 0 | 1 | 0% |
 | Howard | 0 | 1 | 0% |
+| Peter | 0 | 1 | 0% |
+| Dev | 0 | 1 | 0% |
+| Leo | 0 | 1 | 0% |
 | Nicole | 0 | 2 | 0% |
 | Summer | 0 | 3 | 0% |
 | Jane | 0 | 2 | 0% |
@@ -165,22 +171,25 @@
 
 | Player | Wins | Losses | Win % |
 | --- | --- | --- | --- |
-| Oliver | 6 | 5 | 55% |
-| Garrick | 8 | 3 | 73% |
+| Oliver | 7 | 5 | 58% |
+| Garrick | 9 | 3 | 75% |
 | Howard | 2 | 1 | 67% |
 | Flo | 2 | 1 | 67% |
 | Jovan | 3 | 3 | 50% |
-| Feli | 4 | 3 | 57% |
 | Serena | 2 | 1 | 67% |
 | Summer | 3 | 2 | 60% |
 | Phoebe | 1 | 1 | 50% |
 | Harsh | 1 | 1 | 50% |
 | Kristy | 1 | 0 | 100% |
+| Leo | 1 | 0 | 100% |
 | Tara | 1 | 2 | 33% |
-| Egor | 2 | 4 | 33% |
+| Tyler | 1 | 2 | 33% |
+| Feli | 4 | 4 | 50% |
+| Egor | 2 | 5 | 29% |
 | Nicole | 0 | 1 | 0% |
+| Dev | 0 | 1 | 0% |
+| Akash | 0 | 1 | 0% |
 | Alima | 0 | 2 | 0% |
-| Tyler | 0 | 2 | 0% |
 | Allan | 1 | 4 | 20% |
 | Wincy | 1 | 3 | 25% |
 
@@ -188,36 +197,38 @@
 
 | Player | Wins | Losses | Win % |
 | --- | --- | --- | --- |
-| Oliver | 7 | 3 | 70% |
+| Oliver | 8 | 3 | 73% |
+| Garrick | 7 | 3 | 70% |
 | Gillian | 3 | 0 | 100% |
-| Summer | 3 | 2 | 60% |
-| Garrick | 6 | 3 | 67% |
 | Mia | 2 | 0 | 100% |
+| Summer | 3 | 3 | 50% |
 | Emma | 2 | 0 | 100% |
 | Wincy | 2 | 0 | 100% |
 | Vivian | 1 | 0 | 100% |
 | Allan | 2 | 2 | 50% |
+| Anna | 2 | 1 | 67% |
 | Amy | 1 | 1 | 50% |
 | Phoebe | 1 | 1 | 50% |
 | Feli | 1 | 1 | 50% |
 | Kristy | 1 | 0 | 100% |
+| Leo | 1 | 0 | 100% |
 | Harsh | 2 | 2 | 50% |
 | Tara | 1 | 2 | 33% |
 | Hayes | 1 | 2 | 33% |
 | Tyler | 1 | 1 | 50% |
-| Anna | 1 | 1 | 50% |
 | Howard | 1 | 3 | 25% |
-| Egor | 1 | 2 | 33% |
 | Bosco(Vivian) | 1 | 1 | 50% |
 | Jovan | 1 | 1 | 50% |
-| Peter | 0 | 1 | 0% |
 | Elina(Egor) | 0 | 1 | 0% |
 | Adam(Allan) | 0 | 1 | 0% |
 | Alex(Oliver) | 0 | 1 | 0% |
-| Alexandra | 0 | 2 | 0% |
+| Akash | 0 | 1 | 0% |
+| Egor | 1 | 3 | 25% |
+| Peter | 0 | 2 | 0% |
 | Jane | 0 | 2 | 0% |
 | Harsha | 0 | 1 | 0% |
 | Serena | 0 | 1 | 0% |
+| Alexandra | 0 | 3 | 0% |
 
 ### Shifty Eyed Spies
 
